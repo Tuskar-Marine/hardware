@@ -295,7 +295,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.7.0"
+      "sch_revision": "1.8.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -544,7 +544,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main Control Unit.kicad_pro",
+    "filename": "helm-controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1768,8 +1768,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Main Control Unit.kicad_sch",
-        "name": "Main Control Unit",
+        "filename": "helm-controller.kicad_sch",
+        "name": "helm-controller",
         "uuid": "66b9b57f-ad5a-4774-9c04-72011a45113c"
       }
     ],
@@ -1779,7 +1779,7 @@
   "sheets": [
     [
       "66b9b57f-ad5a-4774-9c04-72011a45113c",
-      "Main Control Unit"
+      "helm-controller"
     ]
   ],
   "text_variables": {},

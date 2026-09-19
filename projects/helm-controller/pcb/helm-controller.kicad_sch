@@ -5,10 +5,10 @@
 	(uuid "66b9b57f-ad5a-4774-9c04-72011a45113c")
 	(paper "User" 560 540)
 	(title_block
-		(title "Main Control Unit")
-		(date "2026-08-27")
-		(rev "1.7.0")
-		(company "The Digital Mermaid")
+		(title "Helm Controller")
+		(date "2026-09-19")
+		(rev "1.8.0")
+		(company "Tuskar Marine")
 	)
 	(lib_symbols
 		(symbol "C_1"
@@ -56531,7 +56531,7 @@
 			(uuid "02329991-31bd-493e-ac7c-b52ea847b767")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R67")
 					(unit 1)
@@ -56623,7 +56623,7 @@
 			(uuid "1a545172-d7bc-40ee-9603-813584ffc3ad")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C83")
 					(unit 1)
@@ -56715,7 +56715,7 @@
 			(uuid "140da309-f26e-4c50-92f9-77140ad120b7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R91")
 					(unit 1)
@@ -56792,7 +56792,7 @@
 			(uuid "2c01ee1d-589e-4627-899c-0ae124b0b4dd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0258")
 					(unit 1)
@@ -56978,7 +56978,7 @@
 			(uuid "68ff9a8e-3f12-49f5-9faa-fc320d1a33a6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DA2")
 					(unit 1)
@@ -57055,7 +57055,7 @@
 			(uuid "f010c382-5f41-4cb1-922f-73a959e1f6f8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0114")
 					(unit 1)
@@ -57132,7 +57132,7 @@
 			(uuid "f7e8a512-7563-4693-bd3c-0df73480013a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0256")
 					(unit 1)
@@ -57209,7 +57209,7 @@
 			(uuid "8c6ba86a-70d5-4993-8174-5e286acbbd29")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0291")
 					(unit 1)
@@ -57286,7 +57286,7 @@
 			(uuid "d6ac8c28-200e-412f-9234-d2f1bf60da7c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR090")
 					(unit 1)
@@ -57363,7 +57363,7 @@
 			(uuid "e0029f59-293a-4a44-9ff9-4d6d4b12ce75")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0278")
 					(unit 1)
@@ -57455,7 +57455,7 @@
 			(uuid "e0bba7d0-d7e8-42f0-8114-6820872c2dc3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C19")
 					(unit 1)
@@ -57532,7 +57532,7 @@
 			(uuid "1e54a4ca-a8ba-4498-b77d-cd3024ca3244")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR09")
 					(unit 1)
@@ -57609,7 +57609,7 @@
 			(uuid "db211746-4701-4f7f-8ce3-fc18a11fae43")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0308")
 					(unit 1)
@@ -57707,7 +57707,7 @@
 			(uuid "ea506105-c2ce-43c5-96c4-32459b8259d0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI7")
 					(unit 1)
@@ -57821,7 +57821,7 @@
 			(uuid "514a31f6-855b-4108-a4a2-4c8d75f0859e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD6")
 					(unit 1)
@@ -57913,7 +57913,7 @@
 			(uuid "330c7b8e-2b8a-4c42-82fd-6dc0514159c1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C58")
 					(unit 1)
@@ -58005,7 +58005,7 @@
 			(uuid "9d437dd4-52f5-452d-a081-ffbe0d0627bf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R75")
 					(unit 1)
@@ -58173,7 +58173,7 @@
 			(uuid "6b700e3f-5694-4ab8-80ee-0b62a523a51b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "CPD1")
 					(unit 1)
@@ -58250,7 +58250,7 @@
 			(uuid "796d82c0-ac14-4eaf-ad5f-e69762d8876c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0302")
 					(unit 1)
@@ -58342,7 +58342,7 @@
 			(uuid "edc5e235-4f14-4d0c-888c-177ac46b219f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C41")
 					(unit 1)
@@ -58419,7 +58419,7 @@
 			(uuid "d03a3c7e-d812-4848-b594-239e28aab763")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0163")
 					(unit 1)
@@ -58515,7 +58515,7 @@
 			(uuid "f3491f35-3893-4e80-898e-d14a063ee391")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q10")
 					(unit 1)
@@ -58592,7 +58592,7 @@
 			(uuid "edc85d1d-6ee0-40ca-b86e-141e13c37848")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0225")
 					(unit 1)
@@ -58669,7 +58669,7 @@
 			(uuid "638b662d-4d55-4479-9aa8-55ff5ce44701")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0136")
 					(unit 1)
@@ -58746,7 +58746,7 @@
 			(uuid "c3e10a23-436e-4c11-8e87-bb62717e9e21")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR014")
 					(unit 1)
@@ -58838,7 +58838,7 @@
 			(uuid "5676e054-87c3-46f1-abf4-69a5c5c068f7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C31")
 					(unit 1)
@@ -58915,7 +58915,7 @@
 			(uuid "58ce4af3-de2b-4749-9bdc-3a1d16f86d23")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR053")
 					(unit 1)
@@ -58991,7 +58991,7 @@
 			)
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "FID2")
 					(unit 1)
@@ -59068,7 +59068,7 @@
 			(uuid "23ad738d-0c3b-4fd7-a7bd-bb17cbafb163")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0274")
 					(unit 1)
@@ -59160,7 +59160,7 @@
 			(uuid "e189e424-f4e9-43b9-a727-a1c8dc377943")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R57")
 					(unit 1)
@@ -59250,7 +59250,7 @@
 			(uuid "266254d5-af48-472e-893e-d5e37a010a0a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS17")
 					(unit 1)
@@ -59343,7 +59343,7 @@
 			(uuid "5861cf7d-ae5b-423f-a16f-ee78a78cdd19")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED5")
 					(unit 1)
@@ -59435,7 +59435,7 @@
 			(uuid "ededef20-b2ce-4b54-ae49-0ae4136d8c04")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C21")
 					(unit 1)
@@ -59512,7 +59512,7 @@
 			(uuid "c9cf1fd3-f0aa-4022-ae9e-d91958d7aa01")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0305")
 					(unit 1)
@@ -59605,7 +59605,7 @@
 			(uuid "ba029204-ebf4-4815-9cbb-2936de43da76")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED23")
 					(unit 1)
@@ -59719,7 +59719,7 @@
 			(uuid "a4d1cd12-f9bb-460b-95cd-eacb23af6b16")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "D1")
 					(unit 1)
@@ -59812,7 +59812,7 @@
 			(uuid "ca91371d-4928-4d37-b7c6-d92c394b65bb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED21")
 					(unit 1)
@@ -59889,7 +59889,7 @@
 			(uuid "f4ab9126-094c-4d2d-8d81-5e3dc411be49")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0234")
 					(unit 1)
@@ -59966,7 +59966,7 @@
 			(uuid "a32c2be1-aed7-4f9e-ad00-a816b4765d51")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0217")
 					(unit 1)
@@ -60058,7 +60058,7 @@
 			(uuid "a0b21677-bb43-4be9-8f88-8b123257b9a5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS9")
 					(unit 1)
@@ -60150,7 +60150,7 @@
 			(uuid "06825472-c7e2-4b36-a48f-404522bf0271")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R32")
 					(unit 1)
@@ -60254,7 +60254,7 @@
 			(uuid "7cb6ad80-a3e5-48c2-9d5d-3f249c17cddd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "RL2")
 					(unit 1)
@@ -60344,7 +60344,7 @@
 			(uuid "d54f42f2-e709-47c5-9cfc-61894e6a7d54")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS22")
 					(unit 1)
@@ -60421,7 +60421,7 @@
 			(uuid "13207dba-0341-435f-be32-ab66b0cc50c4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0294")
 					(unit 1)
@@ -60513,7 +60513,7 @@
 			(uuid "5ba46016-ffc1-496e-8fdc-7914a3ec11c1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R21")
 					(unit 1)
@@ -60605,7 +60605,7 @@
 			(uuid "1daece64-d3b5-460e-b090-9b4436e47c89")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R81")
 					(unit 1)
@@ -60702,7 +60702,7 @@
 			(uuid "57fbe296-8414-4728-b829-2313c483a6be")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "CMC1")
 					(unit 1)
@@ -60779,7 +60779,7 @@
 			(uuid "0fd22ddc-ee25-41c6-bb91-8b6202af61b9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0239")
 					(unit 1)
@@ -60871,7 +60871,7 @@
 			(uuid "ea6aac43-3a91-475d-b962-0839a33d8ded")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C62")
 					(unit 1)
@@ -60961,7 +60961,7 @@
 			(uuid "e6a90b41-6753-4ddf-96c1-4aad383fd092")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "L1")
 					(unit 1)
@@ -61054,7 +61054,7 @@
 			(uuid "7d06d726-8114-46af-895b-a4a8b69fe216")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED20")
 					(unit 1)
@@ -61147,7 +61147,7 @@
 			(uuid "18c589c4-a936-469d-bd21-36c4a3069881")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED13")
 					(unit 1)
@@ -61224,7 +61224,7 @@
 			(uuid "95691918-0ea9-4e8a-9c8a-547c122942e2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0276")
 					(unit 1)
@@ -61301,7 +61301,7 @@
 			(uuid "8e5dfb60-e3f0-4fea-a345-0434d25ff81c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR097")
 					(unit 1)
@@ -61378,7 +61378,7 @@
 			(uuid "28755d8b-e33e-4caf-9f15-3ed292321638")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR02")
 					(unit 1)
@@ -61455,7 +61455,7 @@
 			(uuid "9a015633-eaaf-45f3-bf64-446d836ad8cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR05")
 					(unit 1)
@@ -61547,7 +61547,7 @@
 			(uuid "dce5944f-efcf-4c28-8607-be2c64b73963")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R113")
 					(unit 1)
@@ -61639,7 +61639,7 @@
 			(uuid "d0e38135-5302-45b6-aa70-bf22deb682ad")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R24")
 					(unit 1)
@@ -61731,7 +61731,7 @@
 			(uuid "06c274cf-14b4-4c5c-8448-50c4ee0b8903")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R85")
 					(unit 1)
@@ -61823,7 +61823,7 @@
 			(uuid "d450d7ba-b619-4927-8a48-39835ed41b64")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R99")
 					(unit 1)
@@ -61900,7 +61900,7 @@
 			(uuid "54ac7516-5265-4767-8c33-5f00bb3d4c66")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR038")
 					(unit 1)
@@ -61976,7 +61976,7 @@
 			)
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "FID1")
 					(unit 1)
@@ -62073,7 +62073,7 @@
 			(uuid "fe8a83c1-52dd-4cf1-8656-ac864613fe2f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "CMC3")
 					(unit 1)
@@ -62165,7 +62165,7 @@
 			(uuid "90ed6e4b-2bab-4a6f-a5bd-7f4c8de23e76")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R63")
 					(unit 1)
@@ -62260,7 +62260,7 @@
 			(uuid "4e0165c8-d60f-497d-b52a-622d212a159b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LVR2")
 					(unit 1)
@@ -62354,7 +62354,7 @@
 			(uuid "f719a6d7-5807-4494-a7e1-8f5cf626bacb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q4")
 					(unit 1)
@@ -62447,7 +62447,7 @@
 			(uuid "5eeded92-2bf1-4c72-94e0-7a93da0141e1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED44")
 					(unit 1)
@@ -62524,7 +62524,7 @@
 			(uuid "9de4b0f6-3f9e-40be-93e1-0acf2ce478d5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0190")
 					(unit 1)
@@ -62617,7 +62617,7 @@
 			(uuid "687d9f87-954b-4bc9-95b0-7d3a8a424a76")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED26")
 					(unit 1)
@@ -62694,7 +62694,7 @@
 			(uuid "4de8415e-c692-432b-9382-5cf450cee213")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0283")
 					(unit 1)
@@ -62786,7 +62786,7 @@
 			(uuid "6d80b7f5-b6c2-4604-ac27-9b17e23645f5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C47")
 					(unit 1)
@@ -62863,7 +62863,7 @@
 			(uuid "94ce9aa6-1b46-4889-8d8c-199f992afec9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0168")
 					(unit 1)
@@ -62940,7 +62940,7 @@
 			(uuid "bd3d3e1e-ba08-43f2-9ad4-3553a7fd13fc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR032")
 					(unit 1)
@@ -63017,7 +63017,7 @@
 			(uuid "c2681e68-24f5-49c9-ba8d-73519753dd87")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR026")
 					(unit 1)
@@ -63094,7 +63094,7 @@
 			(uuid "830bc7ee-abf0-4578-89ba-f3ff97ea295f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0214")
 					(unit 1)
@@ -63186,7 +63186,7 @@
 			(uuid "bf0a541f-82f9-4fb4-98af-cef775b4f99f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R80")
 					(unit 1)
@@ -63263,7 +63263,7 @@
 			(uuid "04423bf9-5077-4496-a74f-fce855e5d811")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0219")
 					(unit 1)
@@ -63355,7 +63355,7 @@
 			(uuid "525369be-7a81-4191-b6cb-d934e8c553da")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C73")
 					(unit 1)
@@ -63447,7 +63447,7 @@
 			(uuid "d357034b-fc68-4b66-856c-ea2a7473b99d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R10")
 					(unit 1)
@@ -63537,7 +63537,7 @@
 			(uuid "e0b8d0e7-70d1-4e51-8698-745855e96508")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB2")
 					(unit 1)
@@ -63651,7 +63651,7 @@
 			(uuid "581fe7dc-d758-4648-baab-ca77ffb9c704")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD5")
 					(unit 1)
@@ -63728,7 +63728,7 @@
 			(uuid "408d7ae8-2e00-4301-954d-c4fd478d7bbe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0223")
 					(unit 1)
@@ -63805,7 +63805,7 @@
 			(uuid "e6d0c8a3-f2c6-43f7-ba74-b41aab5967ea")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0226")
 					(unit 1)
@@ -63882,7 +63882,7 @@
 			(uuid "eb0429bd-1b71-4e63-9f35-87f187fbdea2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0222")
 					(unit 1)
@@ -63959,7 +63959,7 @@
 			(uuid "8d9720fd-9143-4185-be68-15dcd1788807")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG03")
 					(unit 1)
@@ -64036,7 +64036,7 @@
 			(uuid "092f1570-c94d-408b-8a9a-0ec8e785dc0b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR084")
 					(unit 1)
@@ -64113,7 +64113,7 @@
 			(uuid "775c12ff-e4d3-4a29-aee9-ea69d02513f1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0220")
 					(unit 1)
@@ -64206,7 +64206,7 @@
 			(uuid "afd8a913-6718-49e3-b0cc-fbbbc58f05e9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS32")
 					(unit 1)
@@ -64283,7 +64283,7 @@
 			(uuid "7266ec0e-a31d-471c-b49a-19a742e89ffc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0241")
 					(unit 1)
@@ -64375,7 +64375,7 @@
 			(uuid "7a0b8a8a-5d7d-4f40-b8c3-8674df406919")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C84")
 					(unit 1)
@@ -64452,7 +64452,7 @@
 			(uuid "0e4a4572-3f2e-44e2-b286-aea395a69754")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0183")
 					(unit 1)
@@ -64550,7 +64550,7 @@
 			(uuid "3cad94da-f498-4716-be29-9ddc3cbaa899")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI8")
 					(unit 1)
@@ -64641,7 +64641,7 @@
 			(uuid "bdabb762-2edb-45a8-9dae-7ff7cfaebc36")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD4")
 					(unit 1)
@@ -64718,7 +64718,7 @@
 			(uuid "1ae0fbe5-5a41-4a2b-b1c4-80902e45eb23")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR046")
 					(unit 1)
@@ -64811,7 +64811,7 @@
 			(uuid "ad89c782-28e3-43a6-ad81-9990a573e47b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R111")
 					(unit 1)
@@ -64888,7 +64888,7 @@
 			(uuid "5da4d4b7-5d41-40ae-8216-73d59c539fcc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0132")
 					(unit 1)
@@ -65134,7 +65134,7 @@
 			(uuid "f285001e-0a18-4723-a2c6-a69693535729")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DB1")
 					(unit 1)
@@ -65211,7 +65211,7 @@
 			(uuid "ed3ba5ac-bfd7-426f-8270-b99a3942a62e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0166")
 					(unit 1)
@@ -65303,7 +65303,7 @@
 			(uuid "3e614c8a-fa61-497e-bd68-4f140cf4ac65")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C30")
 					(unit 1)
@@ -65380,7 +65380,7 @@
 			(uuid "3078c133-f269-485e-9c10-f4c69d985a89")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0212")
 					(unit 1)
@@ -65472,7 +65472,7 @@
 			(uuid "b30b2748-bdff-4106-a3a0-3e0e39d28ac0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R22")
 					(unit 1)
@@ -65549,7 +65549,7 @@
 			(uuid "fcb8377d-abd5-471b-a85f-578eee0f60dd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0249")
 					(unit 1)
@@ -65629,7 +65629,7 @@
 			(uuid "dba86331-ba29-434b-875a-77ac60f2537c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "NT2")
 					(unit 1)
@@ -65706,7 +65706,7 @@
 			(uuid "b84f2d9a-d73b-4dab-8850-6181bd117765")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR086")
 					(unit 1)
@@ -65810,7 +65810,7 @@
 			(uuid "3a032f75-0925-4f54-9148-9d5f3a5c0fb5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DAC1")
 					(unit 1)
@@ -65887,7 +65887,7 @@
 			(uuid "3a1d51da-f130-42c9-b45a-1cf2a48479c0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0233")
 					(unit 1)
@@ -65964,7 +65964,7 @@
 			(uuid "d8cfe56a-c463-45d1-874c-a4d6c9e92dd4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR040")
 					(unit 1)
@@ -66056,7 +66056,7 @@
 			(uuid "0828119d-a9fe-46ab-b9a3-f6959e0adbdc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R43")
 					(unit 1)
@@ -66133,7 +66133,7 @@
 			(uuid "0f1d3c6e-400a-4675-8800-58149647b3e2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0211")
 					(unit 1)
@@ -66229,7 +66229,7 @@
 			(uuid "0136e6c7-24d0-42c3-b694-805ada56ca2a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SW1")
 					(unit 1)
@@ -66306,7 +66306,7 @@
 			(uuid "b57b1aa6-5be6-4eb9-ba39-8aa7e7f82701")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR041")
 					(unit 1)
@@ -66398,7 +66398,7 @@
 			(uuid "a27690db-c847-4627-8e86-f03f1dd22c38")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C86")
 					(unit 1)
@@ -66475,7 +66475,7 @@
 			(uuid "897977e9-902d-40f6-95d4-77a93197d602")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR011")
 					(unit 1)
@@ -66570,7 +66570,7 @@
 			(uuid "6aecdb17-1454-4a26-8ebd-b9b12171603a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q2")
 					(unit 1)
@@ -66662,7 +66662,7 @@
 			(uuid "20a0ab33-d5d1-4b3c-9934-3952203cf1f3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C36")
 					(unit 1)
@@ -66754,7 +66754,7 @@
 			(uuid "e48df12a-9970-4cf5-96c1-bf0fc1744a64")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R50")
 					(unit 1)
@@ -66831,7 +66831,7 @@
 			(uuid "61f854b1-09b2-4c9b-a00a-ac690a55180c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0140")
 					(unit 1)
@@ -66908,7 +66908,7 @@
 			(uuid "ec6ebf56-993c-4d23-ac82-bd9e537f610d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0100")
 					(unit 1)
@@ -67002,7 +67002,7 @@
 			(uuid "206e0aec-77ba-4374-acc5-b8a45a88d96e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q11")
 					(unit 1)
@@ -67079,7 +67079,7 @@
 			(uuid "5634a867-944c-4d2f-837a-5998dc61c33e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR080")
 					(unit 1)
@@ -67193,7 +67193,7 @@
 			(uuid "9c04881c-81ba-481b-a1c2-c3f69ad6e013")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD2")
 					(unit 1)
@@ -67285,7 +67285,7 @@
 			(uuid "edb56cce-7aa4-47d0-9f4b-e5e32b39b959")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C44")
 					(unit 1)
@@ -67377,7 +67377,7 @@
 			(uuid "5d92267b-ba6c-42dc-a159-9019f9c1f3f2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R104")
 					(unit 1)
@@ -67456,7 +67456,7 @@
 			(uuid "53cb29e5-3fff-46be-9c1e-403094858458")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H9")
 					(unit 1)
@@ -67548,7 +67548,7 @@
 			(uuid "21bc032c-1e6c-4f5a-9cc0-96a4618ce342")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C69")
 					(unit 1)
@@ -67652,7 +67652,7 @@
 			(uuid "7655c653-3c8c-4018-9ef2-89dfb0ff05bd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DAC4")
 					(unit 1)
@@ -67744,7 +67744,7 @@
 			(uuid "d01030a3-e296-40f6-9e45-4e60b0f3a501")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R12")
 					(unit 1)
@@ -67821,7 +67821,7 @@
 			(uuid "97856b9e-04f4-4fe4-851d-cf055951e09a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0181")
 					(unit 1)
@@ -67920,7 +67920,7 @@
 			(uuid "653cfc1a-8504-48bb-91dd-e3c0860e6efc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP4")
 					(unit 1)
@@ -68017,7 +68017,7 @@
 			(uuid "e81dce24-bcc1-45d4-b974-56d283fa7856")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q6")
 					(unit 1)
@@ -68109,7 +68109,7 @@
 			(uuid "d4040949-07ed-40a5-8500-a28876603d74")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C26")
 					(unit 1)
@@ -68205,7 +68205,7 @@
 			(uuid "7f30c7b0-e0a6-46d4-8807-f6c275688e6a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q12")
 					(unit 1)
@@ -68282,7 +68282,7 @@
 			(uuid "62da7506-67db-4a90-b0cb-ccc66d1eb6a4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR054")
 					(unit 1)
@@ -68359,7 +68359,7 @@
 			(uuid "eff7ed4c-e361-4d07-85eb-397e0c39661d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0267")
 					(unit 1)
@@ -68451,7 +68451,7 @@
 			(uuid "7114c903-f571-4024-a17b-8e9b880278fe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C37")
 					(unit 1)
@@ -68543,7 +68543,7 @@
 			(uuid "0333b09d-edcc-4219-9808-7d626bb925a0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R58")
 					(unit 1)
@@ -68633,7 +68633,7 @@
 			(uuid "a0556daf-899b-4f82-a5a4-e0282bf60b2a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS27")
 					(unit 1)
@@ -68726,7 +68726,7 @@
 			(uuid "82faa600-c70f-4314-ab29-278bd6ee246b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED15")
 					(unit 1)
@@ -68819,7 +68819,7 @@
 			(uuid "a58ab955-d645-4a19-b0d6-8d82e23169a7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED14")
 					(unit 1)
@@ -68896,7 +68896,7 @@
 			(uuid "d3e4aba8-a55c-406f-aaf8-41be3644471e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0282")
 					(unit 1)
@@ -68988,7 +68988,7 @@
 			(uuid "072b7704-fa2f-4b41-9bbd-7d7cbd4e6cf4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C82")
 					(unit 1)
@@ -69065,7 +69065,7 @@
 			(uuid "f0ac0a0c-3d8d-4103-a491-b4dd908a5b57")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0254")
 					(unit 1)
@@ -69142,7 +69142,7 @@
 			(uuid "c483ab1f-a1e7-495a-a9b5-bc4de6f9454f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0231")
 					(unit 1)
@@ -69219,7 +69219,7 @@
 			(uuid "e0d18c3b-a824-420b-a276-c9866ecfd5fe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR082")
 					(unit 1)
@@ -69311,7 +69311,7 @@
 			(uuid "9ffd3a6c-0383-43c6-852d-38ddc26d75e3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R8")
 					(unit 1)
@@ -69405,7 +69405,7 @@
 			(uuid "d2a2134c-fb06-40a0-b425-799a63bedbfb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD1")
 					(unit 1)
@@ -69482,7 +69482,7 @@
 			(uuid "bcfb9130-b40c-4cbe-bbe6-8e966a19c0db")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0141")
 					(unit 1)
@@ -69574,7 +69574,7 @@
 			(uuid "c8b7e9d9-3671-4f73-aee2-a890ae2a6fef")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R93")
 					(unit 1)
@@ -69688,7 +69688,7 @@
 			(uuid "82467cf5-a2bb-40ff-8a49-a70912647c32")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD3")
 					(unit 1)
@@ -69765,7 +69765,7 @@
 			(uuid "cb3837e7-bf84-457d-8905-66c7177218d8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0172")
 					(unit 1)
@@ -69858,7 +69858,7 @@
 			(uuid "e7f7d0da-48c5-4c67-bce5-ab7df793881f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED17")
 					(unit 1)
@@ -69935,7 +69935,7 @@
 			(uuid "e749f06f-7a38-4d2d-95fc-dfd01aaae5bb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0192")
 					(unit 1)
@@ -70012,7 +70012,7 @@
 			(uuid "12ae4e7d-741a-4256-bd28-7917f98292c7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0187")
 					(unit 1)
@@ -70121,7 +70121,7 @@
 			(uuid "a02eb8b0-791f-4eae-932e-c43a591e46c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ICT3")
 					(unit 1)
@@ -70211,7 +70211,7 @@
 			(uuid "4ce06ff8-c14a-4d41-a5b6-20d63babe2b8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R20")
 					(unit 1)
@@ -70304,7 +70304,7 @@
 			(uuid "fef042d9-2af2-4a15-9e65-aeda21da74ac")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED2")
 					(unit 1)
@@ -70396,7 +70396,7 @@
 			(uuid "d72c13ad-6380-459d-83e0-07e04eec03aa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R77")
 					(unit 1)
@@ -70488,7 +70488,7 @@
 			(uuid "d0d1ad35-5665-409f-a5a9-b23fe511902c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C15")
 					(unit 1)
@@ -70580,7 +70580,7 @@
 			(uuid "dcc09998-c5f0-4f05-85e2-5012be7d38f7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R94")
 					(unit 1)
@@ -70659,7 +70659,7 @@
 			(uuid "6a950e81-6aea-4974-82cc-9d81e3c7cf56")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H7")
 					(unit 1)
@@ -70736,7 +70736,7 @@
 			(uuid "816dced3-6252-4b5e-96ef-78d4600d2de9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0262")
 					(unit 1)
@@ -70813,7 +70813,7 @@
 			(uuid "8d41d6e5-359f-4e59-977c-facddb20e814")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR03")
 					(unit 1)
@@ -70905,7 +70905,7 @@
 			(uuid "3c20acdb-ccb7-45f4-a213-c75953db4572")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C56")
 					(unit 1)
@@ -70999,7 +70999,7 @@
 			(uuid "e0f6575c-f0c6-4fbf-9d88-adfb165104bd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS6")
 					(unit 1)
@@ -71089,7 +71089,7 @@
 			(uuid "11875da7-f11c-42d6-a4f1-ad9fbe604bb3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS18")
 					(unit 1)
@@ -71166,7 +71166,7 @@
 			(uuid "d57c5e25-a55a-4533-94cb-c8465660ccfe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0309")
 					(unit 1)
@@ -71262,7 +71262,7 @@
 			(uuid "356b1d42-97a2-4789-97c6-7d2098b0273b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q7")
 					(unit 1)
@@ -71339,7 +71339,7 @@
 			(uuid "b71531b4-4bd1-4b6f-b0ef-255b39597d4e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0105")
 					(unit 1)
@@ -71416,7 +71416,7 @@
 			(uuid "23165593-6545-4bd4-b05f-f4f093b5aae3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0197")
 					(unit 1)
@@ -71493,7 +71493,7 @@
 			(uuid "e6e7363c-13ca-4d51-8058-88d337f0e604")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0213")
 					(unit 1)
@@ -71570,7 +71570,7 @@
 			(uuid "22b28ae3-2f8f-4158-9973-169b2463438f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0113")
 					(unit 1)
@@ -71662,7 +71662,7 @@
 			(uuid "edd4c8b2-9507-4e5a-92e8-9636991b7ca4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R79")
 					(unit 1)
@@ -71739,7 +71739,7 @@
 			(uuid "0a0260dd-4465-46ff-8091-ee520ad5d8ea")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0230")
 					(unit 1)
@@ -71816,7 +71816,7 @@
 			(uuid "2b60b3c1-1e46-474b-bc8b-2729a9784e82")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG018")
 					(unit 1)
@@ -71912,7 +71912,7 @@
 			(uuid "18ddb2c4-0686-4566-a604-4ed0779a1d4b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS11")
 					(unit 1)
@@ -72004,7 +72004,7 @@
 			(uuid "1b996446-cc15-48bf-93eb-12912b645189")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS10")
 					(unit 1)
@@ -72096,7 +72096,7 @@
 			(uuid "00173ede-cf2a-4adb-9bde-c86cfbd21553")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R40")
 					(unit 1)
@@ -72173,7 +72173,7 @@
 			(uuid "6b2279ac-bc3c-4973-954f-ef333f31a5bf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0235")
 					(unit 1)
@@ -72265,7 +72265,7 @@
 			(uuid "d8d89f55-f9fe-4ba4-8761-3b7ee9d15150")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C80")
 					(unit 1)
@@ -72342,7 +72342,7 @@
 			(uuid "27075ab7-6719-4d6b-a3e3-b5280359f565")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0260")
 					(unit 1)
@@ -72419,7 +72419,7 @@
 			(uuid "f6b6aeb3-7be9-4c40-b2a7-f9c7a8dbe58a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR057")
 					(unit 1)
@@ -72496,7 +72496,7 @@
 			(uuid "5d897313-7649-4856-85ab-3077e87c41ae")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0118")
 					(unit 1)
@@ -72573,7 +72573,7 @@
 			(uuid "2d8c6dc2-7c9e-4a0f-a0c7-49d1e41d0247")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0109")
 					(unit 1)
@@ -72650,7 +72650,7 @@
 			(uuid "fe2a0834-e50d-459c-b1ee-75f0c3442e27")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR062")
 					(unit 1)
@@ -72727,7 +72727,7 @@
 			(uuid "cfe6f035-a688-4256-b2e0-906341c0a5ec")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR06")
 					(unit 1)
@@ -72817,7 +72817,7 @@
 			(uuid "880c3f72-5ffc-4716-853b-bf6969e25ad2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD8")
 					(unit 1)
@@ -72894,7 +72894,7 @@
 			(uuid "ea40cbdb-3d0a-445f-b0be-d8b28f585b78")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0252")
 					(unit 1)
@@ -72971,7 +72971,7 @@
 			(uuid "658f60e3-66ea-4ec9-ad22-6a6d3a3ff960")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0106")
 					(unit 1)
@@ -73063,7 +73063,7 @@
 			(uuid "8a34b135-886b-4b3c-9c1a-0f1d29289ffc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C17")
 					(unit 1)
@@ -73140,7 +73140,7 @@
 			(uuid "31367a41-d9b3-4c72-9ff6-0d7f4f9ba645")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0207")
 					(unit 1)
@@ -73232,7 +73232,7 @@
 			(uuid "1b139cdb-3ad9-45da-b7f6-df1863936d3f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R107")
 					(unit 1)
@@ -73309,7 +73309,7 @@
 			(uuid "85756447-4f30-4ba2-a6c6-c3a2d4f3748e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0157")
 					(unit 1)
@@ -73403,7 +73403,7 @@
 			(uuid "c7b1120a-5200-4da6-8b67-24c8ebe652dd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS4")
 					(unit 1)
@@ -73497,7 +73497,7 @@
 			(uuid "6f51ffc2-144f-4904-af7f-b82f76fbfbd2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q9")
 					(unit 1)
@@ -73574,7 +73574,7 @@
 			(uuid "8f04893e-7399-4a7f-9623-bce2a747aaa0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR065")
 					(unit 1)
@@ -73666,7 +73666,7 @@
 			(uuid "509ac3f9-1638-4936-9644-2d3ab14828b6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R29")
 					(unit 1)
@@ -73758,7 +73758,7 @@
 			(uuid "49c6d2b7-4d11-46de-8b84-7e3afedddc30")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R1")
 					(unit 1)
@@ -73850,7 +73850,7 @@
 			(uuid "5df517a8-091c-4820-875b-41e925b5ca71")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C81")
 					(unit 1)
@@ -73942,7 +73942,7 @@
 			(uuid "28f0f9fb-d7bb-47fb-b30a-507d984b2ebe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C49")
 					(unit 1)
@@ -74019,7 +74019,7 @@
 			(uuid "415be12d-3b2e-4a73-b3f6-84e78c91cc52")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR098")
 					(unit 1)
@@ -74111,7 +74111,7 @@
 			(uuid "f83d61b4-8fe1-411c-8a87-65b0cee6b954")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R68")
 					(unit 1)
@@ -74188,7 +74188,7 @@
 			(uuid "ec725be9-f7b3-4292-8850-f73ce4e011aa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR049")
 					(unit 1)
@@ -74278,7 +74278,7 @@
 			(uuid "f729b776-86b8-42b5-88a5-dd723d90300e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS23")
 					(unit 1)
@@ -74387,7 +74387,7 @@
 			(uuid "634068a0-ba68-42b0-a56c-8ea4f9ab912a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ICT1")
 					(unit 1)
@@ -74479,7 +74479,7 @@
 			(uuid "e46a2fa6-89e1-4ac1-9573-8810de7a993e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R59")
 					(unit 1)
@@ -74577,7 +74577,7 @@
 			(uuid "af5ece13-1c4e-48da-bf47-a59423d5b652")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI4")
 					(unit 1)
@@ -74654,7 +74654,7 @@
 			(uuid "0a2442ba-3b70-4404-ad8d-c570bb928411")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0257")
 					(unit 1)
@@ -74731,7 +74731,7 @@
 			(uuid "c4ac343f-1b96-4c29-959c-1f046472f5c1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0137")
 					(unit 1)
@@ -74827,7 +74827,7 @@
 			(uuid "3663b6e6-c10a-4164-ab5e-bdb0d7736e8e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS2")
 					(unit 1)
@@ -74919,7 +74919,7 @@
 			(uuid "fa1c2c4d-c4c9-48ad-a52b-f893249000b3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R97")
 					(unit 1)
@@ -75011,7 +75011,7 @@
 			(uuid "f0dcf107-5134-4025-8e9f-a8eae9995bfc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R108")
 					(unit 1)
@@ -75115,7 +75115,7 @@
 			(uuid "bb80d34e-3033-4ef7-942c-763119284ef4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DAC2")
 					(unit 1)
@@ -75207,7 +75207,7 @@
 			(uuid "a5e3eabf-202f-4b54-8b4d-c94eb76f3da7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C66")
 					(unit 1)
@@ -75284,7 +75284,7 @@
 			(uuid "322358c6-11de-4212-afa2-83de3223a4da")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0285")
 					(unit 1)
@@ -75376,7 +75376,7 @@
 			(uuid "585b96a0-56c8-40f4-a820-17a4cacb24fc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C63")
 					(unit 1)
@@ -75472,7 +75472,7 @@
 			(uuid "a1ab215e-a0f1-4d2d-a84d-a63e10417bbe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q1")
 					(unit 1)
@@ -75565,7 +75565,7 @@
 			(uuid "50e4a11a-d12f-43ad-a75d-f51fab2d610d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED27")
 					(unit 1)
@@ -75642,7 +75642,7 @@
 			(uuid "6f217254-5b2a-4809-936f-6412fe2f6618")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0237")
 					(unit 1)
@@ -75740,7 +75740,7 @@
 			(uuid "92c82054-8225-4693-b08b-d4b34019afe1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI3")
 					(unit 1)
@@ -75817,7 +75817,7 @@
 			(uuid "7979d434-abd3-467a-bc9b-9983c1e8a941")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0240")
 					(unit 1)
@@ -75894,7 +75894,7 @@
 			(uuid "5f4bb040-77f4-4f61-a0d6-5597699f3f05")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR037")
 					(unit 1)
@@ -75986,7 +75986,7 @@
 			(uuid "704441f3-4c83-4983-a12b-f9fd6c5153df")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R36")
 					(unit 1)
@@ -76065,7 +76065,7 @@
 			(uuid "661fe4dc-ec97-4e60-8e95-27f8b60231a1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H5")
 					(unit 1)
@@ -76142,7 +76142,7 @@
 			(uuid "4d6f8018-ca8b-4974-a15b-30ca3e626273")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR044")
 					(unit 1)
@@ -76219,7 +76219,7 @@
 			(uuid "cecf9656-5999-4f4d-9b14-c6fd00cdcafa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR021")
 					(unit 1)
@@ -76296,7 +76296,7 @@
 			(uuid "7e794d7b-e368-448f-b672-5b58e40260b1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0218")
 					(unit 1)
@@ -76389,7 +76389,7 @@
 			(uuid "1d0e4195-b19e-4c7d-83cb-93469ff5387f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED39")
 					(unit 1)
@@ -76466,7 +76466,7 @@
 			(uuid "b2069578-5d2c-44da-a6e3-bbd4d5cd2475")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR067")
 					(unit 1)
@@ -76543,7 +76543,7 @@
 			(uuid "92e71b53-2be0-4e67-a20f-9382f4b87979")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0263")
 					(unit 1)
@@ -76620,7 +76620,7 @@
 			(uuid "78c75649-9040-40e6-abe5-3a0f223e3b9d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0266")
 					(unit 1)
@@ -76754,7 +76754,7 @@
 			(uuid "70b56994-42b1-45b4-8853-3135d7ef95e8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "BII2")
 					(unit 1)
@@ -76831,7 +76831,7 @@
 			(uuid "193610d8-ab22-4dbc-8191-403667184c13")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0102")
 					(unit 1)
@@ -76908,7 +76908,7 @@
 			(uuid "00c9d262-1ab5-4106-bcc4-38e2beb23e68")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0196")
 					(unit 1)
@@ -77001,7 +77001,7 @@
 			(uuid "fe109649-1536-46e2-9dfa-bc657961d3cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q13")
 					(unit 1)
@@ -77078,7 +77078,7 @@
 			(uuid "de149e8e-b6a8-4ef7-b655-a4b837ada752")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0134")
 					(unit 1)
@@ -77171,7 +77171,7 @@
 			(uuid "ddfbcc3c-3315-4e57-9da0-7844ed6fe264")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED29")
 					(unit 1)
@@ -77263,7 +77263,7 @@
 			(uuid "55ac163a-3f6e-4b92-91bd-199f990e6872")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R56")
 					(unit 1)
@@ -77353,7 +77353,7 @@
 			(uuid "57b073a7-2441-4b37-b9e7-e774ab388c11")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS20")
 					(unit 1)
@@ -77445,7 +77445,7 @@
 			(uuid "cd81a4ab-a2e8-4095-9d9f-1f9dd4236b58")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R96")
 					(unit 1)
@@ -77537,7 +77537,7 @@
 			(uuid "f59f1e05-2135-492f-8646-8a0a5a6f8e89")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C48")
 					(unit 1)
@@ -77614,7 +77614,7 @@
 			(uuid "d92e9805-2eb7-4924-8d50-3a7478a00872")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0199")
 					(unit 1)
@@ -77707,7 +77707,7 @@
 			(uuid "e1d7af80-22b6-40e7-bfd0-95f485b53d48")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED1")
 					(unit 1)
@@ -77797,7 +77797,7 @@
 			(uuid "e4243b18-aad1-4685-992a-e1e553a1f89d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS28")
 					(unit 1)
@@ -77889,7 +77889,7 @@
 			(uuid "0d6375f5-8beb-4f10-bf44-fadcbbc7a37f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R87")
 					(unit 1)
@@ -77966,7 +77966,7 @@
 			(uuid "3fbc2f96-b07b-418c-b14f-3aecbb1511e2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0250")
 					(unit 1)
@@ -78058,7 +78058,7 @@
 			(uuid "d41d1b89-15c2-4070-b036-69c461252a82")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R38")
 					(unit 1)
@@ -78151,7 +78151,7 @@
 			(uuid "b295d4f5-cbf2-4150-8a7b-d3e12c66737f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED43")
 					(unit 1)
@@ -78244,7 +78244,7 @@
 			(uuid "2f0b38b4-4aa3-4b3c-9841-9d9f688a0012")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED12")
 					(unit 1)
@@ -78336,7 +78336,7 @@
 			(uuid "5867521b-f51f-439e-b990-50ddec4fecc9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R7")
 					(unit 1)
@@ -78413,7 +78413,7 @@
 			(uuid "b121265d-11c1-4ba8-860b-f2019a2c66ae")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0120")
 					(unit 1)
@@ -78490,7 +78490,7 @@
 			(uuid "457ea782-45b4-423d-97ec-223bbb13eb2d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR047")
 					(unit 1)
@@ -78583,7 +78583,7 @@
 			(uuid "4bc6a7e4-c128-4ed2-a79d-feca8852e8fd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED33")
 					(unit 1)
@@ -78679,7 +78679,7 @@
 			(uuid "09d87d6e-22af-45f5-852f-3fbf89cd3d5d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP8")
 					(unit 1)
@@ -78756,7 +78756,7 @@
 			(uuid "930a1cbf-7de7-475c-9e24-0ec13ee170c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG017")
 					(unit 1)
@@ -78848,7 +78848,7 @@
 			(uuid "e06a5efb-32a8-4a32-a199-149b95d1f132")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C72")
 					(unit 1)
@@ -78925,7 +78925,7 @@
 			(uuid "13ed84dd-e222-410c-8b0d-35fdf58c5b43")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG02")
 					(unit 1)
@@ -79002,7 +79002,7 @@
 			(uuid "9739e53c-fe03-482a-bfec-1943d83849dd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR034")
 					(unit 1)
@@ -79094,7 +79094,7 @@
 			(uuid "160db840-cf51-4dfb-b0a3-9d92060132a6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R82")
 					(unit 1)
@@ -79171,7 +79171,7 @@
 			(uuid "499c9096-95ed-4d87-9837-64ca8c7ea681")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0176")
 					(unit 1)
@@ -79264,7 +79264,7 @@
 			(uuid "470cd376-fd3c-4e8e-907a-f5d195776382")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C89")
 					(unit 1)
@@ -79369,7 +79369,7 @@
 			(uuid "9924b49f-2585-430e-b770-470abc2cce50")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "T2")
 					(unit 1)
@@ -79446,7 +79446,7 @@
 			(uuid "a6ef206e-57cf-4052-b2f9-e0d637e4a37d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0151")
 					(unit 1)
@@ -79525,7 +79525,7 @@
 			(uuid "8d178b3b-06d0-4cf5-96db-9cac05031ac2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H1")
 					(unit 1)
@@ -79619,7 +79619,7 @@
 			(uuid "e55d2f38-d9af-40fa-8216-7a09ccf24c11")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS8")
 					(unit 1)
@@ -79698,7 +79698,7 @@
 			(uuid "af057bd9-4e40-4deb-ba20-64367c5b493b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H6")
 					(unit 1)
@@ -79775,7 +79775,7 @@
 			(uuid "1de728dc-5e4b-48af-a4c9-0c5dfd8824a8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0198")
 					(unit 1)
@@ -79873,7 +79873,7 @@
 			(uuid "f58feb5d-e680-4ef9-b10c-ebe339f60666")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "CMC2")
 					(unit 1)
@@ -79966,7 +79966,7 @@
 			(uuid "76145457-dcc1-47cf-835a-4f571115aa05")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED16")
 					(unit 1)
@@ -80058,7 +80058,7 @@
 			(uuid "d01dec49-756b-45ad-ac2d-12ede34580d4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C55")
 					(unit 1)
@@ -80135,7 +80135,7 @@
 			(uuid "ba6e9f88-2845-466a-816f-1189b2de3d1e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0107")
 					(unit 1)
@@ -80227,7 +80227,7 @@
 			(uuid "f3dd0a41-7e2e-45aa-8b00-b367038bcad3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R66")
 					(unit 1)
@@ -80304,7 +80304,7 @@
 			(uuid "1cf2a6bf-ac2d-46f5-9fa1-c79b873d24db")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0243")
 					(unit 1)
@@ -80381,7 +80381,7 @@
 			(uuid "d6c9445d-d175-4d5e-9602-16abea5b24ef")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0182")
 					(unit 1)
@@ -80458,7 +80458,7 @@
 			(uuid "08df30fc-9961-4602-8bee-4b02e526a1d2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0174")
 					(unit 1)
@@ -80535,7 +80535,7 @@
 			(uuid "a72033bb-a5e5-414e-b232-1d0ad1c25052")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR030")
 					(unit 1)
@@ -80612,7 +80612,7 @@
 			(uuid "0cfad5d1-2a7c-4801-9c11-c3864503873a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0111")
 					(unit 1)
@@ -80689,7 +80689,7 @@
 			(uuid "1454fa8f-f06a-44c3-86c6-1f47447f9fe1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0292")
 					(unit 1)
@@ -80785,7 +80785,7 @@
 			(uuid "7901e6a9-f6eb-4299-af81-a4d1708cb72d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q3")
 					(unit 1)
@@ -80878,7 +80878,7 @@
 			(uuid "b18b5330-5550-471b-b3b1-b38959f2dfad")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED42")
 					(unit 1)
@@ -80968,7 +80968,7 @@
 			(uuid "61f28811-fd51-4c67-bc33-1735f4bb6351")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R17")
 					(unit 1)
@@ -81060,7 +81060,7 @@
 			(uuid "142dd6b2-17b1-4549-9ca2-675a7d81fcfc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R65")
 					(unit 1)
@@ -81152,7 +81152,7 @@
 			(uuid "422bace9-c319-4985-99e3-094f8d0a20fb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C52")
 					(unit 1)
@@ -81244,7 +81244,7 @@
 			(uuid "53466999-69a3-4f89-8701-e41ae2543e44")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C10")
 					(unit 1)
@@ -81336,7 +81336,7 @@
 			(uuid "9a1d4801-f779-4859-a34a-0daf2b232fa1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R54")
 					(unit 1)
@@ -81428,7 +81428,7 @@
 			(uuid "261591c4-e79a-437f-9051-15edd1647660")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R100")
 					(unit 1)
@@ -81520,7 +81520,7 @@
 			(uuid "37e4ecf6-aefe-42db-a105-201f381971cc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R52")
 					(unit 1)
@@ -81612,7 +81612,7 @@
 			(uuid "0dd94bf1-b27f-4c5c-bd83-16541a40f022")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C27")
 					(unit 1)
@@ -81689,7 +81689,7 @@
 			(uuid "c789b5f7-3c2c-47d4-b2ef-880dea1f0eaf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0227")
 					(unit 1)
@@ -81782,7 +81782,7 @@
 			(uuid "8bdae0de-3c2a-475b-abce-0272b395c3f8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED34")
 					(unit 1)
@@ -81859,7 +81859,7 @@
 			(uuid "9c0062a4-dba1-43fe-8b89-9e5335e8ecd8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR095")
 					(unit 1)
@@ -81936,7 +81936,7 @@
 			(uuid "3542a94e-d7a0-4943-b504-ba41afcbe086")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0162")
 					(unit 1)
@@ -82013,7 +82013,7 @@
 			(uuid "86ebdd55-093e-4595-be40-9949d98fc785")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0122")
 					(unit 1)
@@ -82090,7 +82090,7 @@
 			(uuid "eedfdff7-120a-41f0-b93c-aad4f827906a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0271")
 					(unit 1)
@@ -82167,7 +82167,7 @@
 			(uuid "1ebf21d9-f0bf-4f89-bc4c-0b33775f0ca5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0131")
 					(unit 1)
@@ -82244,7 +82244,7 @@
 			(uuid "2481123b-1d35-4af5-b7bd-573397ec80b4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0108")
 					(unit 1)
@@ -82361,7 +82361,7 @@
 			(uuid "fd5c1121-c902-4bf6-ad4b-a7a0a4d9aa68")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DE2")
 					(unit 1)
@@ -82453,7 +82453,7 @@
 			(uuid "0142e144-26e2-4ebb-94b9-3bda166d8167")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C22")
 					(unit 1)
@@ -82545,7 +82545,7 @@
 			(uuid "4815c40f-db7b-4b79-9d0b-eeb94366cba4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C77")
 					(unit 1)
@@ -82637,7 +82637,7 @@
 			(uuid "ebbe62ab-934a-405c-8fd9-f5dc5cc493a8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R92")
 					(unit 1)
@@ -82714,7 +82714,7 @@
 			(uuid "29c7aa9e-8eaf-4c63-a2c5-e425fe32eb45")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR01")
 					(unit 1)
@@ -82806,7 +82806,7 @@
 			(uuid "7fb908b1-d5fe-4da3-b78f-13d2380040fd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R72")
 					(unit 1)
@@ -82883,7 +82883,7 @@
 			(uuid "afbcd54e-635d-4cac-b3e3-2ced40474b34")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0195")
 					(unit 1)
@@ -82992,7 +82992,7 @@
 			(uuid "7fe4f507-3a93-4047-9855-473dbd99b70c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ROM1")
 					(unit 1)
@@ -83084,7 +83084,7 @@
 			(uuid "f4ae7759-ec8a-4059-94c8-19a83da71a3b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C70")
 					(unit 1)
@@ -83176,7 +83176,7 @@
 			(uuid "1baf73d5-442f-4855-800d-8e8b93e83b87")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R105")
 					(unit 1)
@@ -83266,7 +83266,7 @@
 			(uuid "5f41f57d-afa6-48b6-8ac8-75287a2df791")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS26")
 					(unit 1)
@@ -83358,7 +83358,7 @@
 			(uuid "8885f2db-aba6-472b-9efd-d19463ae3d97")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C85")
 					(unit 1)
@@ -83435,7 +83435,7 @@
 			(uuid "614621e0-4d5f-448d-aa63-b35dbe74d3ef")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR031")
 					(unit 1)
@@ -83527,7 +83527,7 @@
 			(uuid "4885b296-8704-4d9b-8ce2-8aac9b1b261e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R15")
 					(unit 1)
@@ -83604,7 +83604,7 @@
 			(uuid "7c8538bc-556c-41a9-92d2-7a1915f30856")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0112")
 					(unit 1)
@@ -83697,7 +83697,7 @@
 			(uuid "8304c923-059c-4a88-9627-b89a4f540bb7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R110")
 					(unit 1)
@@ -83790,7 +83790,7 @@
 			(uuid "91444c39-f277-4387-aab4-1345ffd4c3c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "J3")
 					(unit 1)
@@ -83867,7 +83867,7 @@
 			(uuid "94188e5c-2ec0-47b9-b82d-230775f490b3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR015")
 					(unit 1)
@@ -83944,7 +83944,7 @@
 			(uuid "214f1db8-05be-4d90-998f-59333d11810b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0307")
 					(unit 1)
@@ -84037,7 +84037,7 @@
 			(uuid "24107b9e-6df6-43c5-a2ca-a2ef6607cc77")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP5")
 					(unit 1)
@@ -84130,7 +84130,7 @@
 			(uuid "70a69ca3-5f60-41f1-a4e9-fc1f5514def6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP13")
 					(unit 1)
@@ -84207,7 +84207,7 @@
 			(uuid "1084a273-be04-48af-af96-21913ff99986")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0125")
 					(unit 1)
@@ -84297,7 +84297,7 @@
 			(uuid "bae60af5-ceec-4ed3-8464-1c57f5cde3b7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SD4")
 					(unit 1)
@@ -84420,7 +84420,7 @@
 			(uuid "01f443ec-a493-496d-936c-a91aff69c911")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LCD1")
 					(unit 1)
@@ -84497,7 +84497,7 @@
 			(uuid "476dc193-30c3-4909-8f1a-97d71f047f89")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG014")
 					(unit 1)
@@ -84574,7 +84574,7 @@
 			(uuid "f23f7e20-aebd-4c85-b6df-c5df9e87ccea")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR025")
 					(unit 1)
@@ -84666,7 +84666,7 @@
 			(uuid "6957ac01-5a6f-4c66-b16e-63f208980866")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C12")
 					(unit 1)
@@ -84743,7 +84743,7 @@
 			(uuid "40c37f89-a1e4-4857-be6c-52332377d829")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0229")
 					(unit 1)
@@ -84820,7 +84820,7 @@
 			(uuid "0cde239f-de62-4433-8191-63dec62e1df8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0142")
 					(unit 1)
@@ -84897,7 +84897,7 @@
 			(uuid "7b3827a5-f26d-4233-83bd-9741e48ae280")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0273")
 					(unit 1)
@@ -84987,7 +84987,7 @@
 			(uuid "da92321f-f59e-4d42-b0cb-683918432529")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS21")
 					(unit 1)
@@ -85064,7 +85064,7 @@
 			(uuid "3ca50286-c379-4e3e-b649-5d0ec771070c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR017")
 					(unit 1)
@@ -85141,7 +85141,7 @@
 			(uuid "90faebb0-d269-4fe3-9025-33ea85cc625d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0165")
 					(unit 1)
@@ -85233,7 +85233,7 @@
 			(uuid "39b01138-6118-4cc0-ac29-3b62c40ef3b2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R23")
 					(unit 1)
@@ -85323,7 +85323,7 @@
 			(uuid "196dcd4f-b2c0-4eb1-aa86-484ba3e2a71c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS25")
 					(unit 1)
@@ -85400,7 +85400,7 @@
 			(uuid "02990236-13e1-4fa3-95e6-e51de4e7dee4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0191")
 					(unit 1)
@@ -85477,7 +85477,7 @@
 			(uuid "32df9f88-0fa1-43db-8869-70f503fecfe0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0184")
 					(unit 1)
@@ -85590,7 +85590,7 @@
 			(uuid "f48f381b-5d9c-4453-a768-ec718ff94e15")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LVR3")
 					(unit 1)
@@ -85666,7 +85666,7 @@
 			)
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "FID3")
 					(unit 1)
@@ -85765,7 +85765,7 @@
 			(uuid "b556f362-857d-4c14-989d-85692cfdf23b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP3")
 					(unit 1)
@@ -85842,7 +85842,7 @@
 			(uuid "8df9a7c4-0d16-4e80-bc50-605ed78ecfeb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR068")
 					(unit 1)
@@ -85934,7 +85934,7 @@
 			(uuid "17ec60b7-f98c-48ab-b662-924766afa9fe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R60")
 					(unit 1)
@@ -86026,7 +86026,7 @@
 			(uuid "6d530cf3-d9be-46f6-9cbb-7d419bf760cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R101")
 					(unit 1)
@@ -86103,7 +86103,7 @@
 			(uuid "b698da79-e4cb-473b-bc82-cfa3968feb64")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0206")
 					(unit 1)
@@ -86180,7 +86180,7 @@
 			(uuid "dcec232b-cf78-4667-aff2-96470e3d8e9e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0144")
 					(unit 1)
@@ -86259,7 +86259,7 @@
 			(uuid "4f98e033-6d56-443d-b967-84b0f4071f56")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H4")
 					(unit 1)
@@ -86351,7 +86351,7 @@
 			(uuid "8cb51956-1c8f-4051-9a43-4c483d7e8796")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C24")
 					(unit 1)
@@ -86428,7 +86428,7 @@
 			(uuid "11ef55d6-77c3-46c3-8d34-3b7792fe7631")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0248")
 					(unit 1)
@@ -86541,7 +86541,7 @@
 			(uuid "8b5f420b-83f6-442c-a965-e7402aecd2b1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "D2")
 					(unit 1)
@@ -86618,7 +86618,7 @@
 			(uuid "3f6eb35d-ba03-48be-9029-a7237860e2fc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0161")
 					(unit 1)
@@ -86714,7 +86714,7 @@
 			(uuid "d3c3235c-a4c9-4be0-b266-0360147f085e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q15")
 					(unit 1)
@@ -86791,7 +86791,7 @@
 			(uuid "2fdc3082-2c43-4107-a022-ad5958c4373d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0224")
 					(unit 1)
@@ -86883,7 +86883,7 @@
 			(uuid "d0353001-f9a6-4716-97b5-75ff132042c2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C61")
 					(unit 1)
@@ -86960,7 +86960,7 @@
 			(uuid "64a131a8-10dd-4f30-b6cc-aa537c49047c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0253")
 					(unit 1)
@@ -87053,7 +87053,7 @@
 			(uuid "dced3f6f-c406-4a98-b52b-e58e076d4209")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED24")
 					(unit 1)
@@ -87130,7 +87130,7 @@
 			(uuid "57a4a449-9dbc-4fa2-9d34-36db2afdc636")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0156")
 					(unit 1)
@@ -87207,7 +87207,7 @@
 			(uuid "43cb3637-095e-44eb-b947-42c08c6b592c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0154")
 					(unit 1)
@@ -87299,7 +87299,7 @@
 			(uuid "cc0736c1-889a-4231-965d-2e3229a9aae4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R13")
 					(unit 1)
@@ -87395,7 +87395,7 @@
 			(uuid "f9cff79e-31f3-4a79-97f8-f5fcd8e606e8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "J2")
 					(unit 1)
@@ -87485,7 +87485,7 @@
 			(uuid "a6bed3f3-9724-4432-a77b-fc7e41763610")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS16")
 					(unit 1)
@@ -87577,7 +87577,7 @@
 			(uuid "c1c87715-f9c4-4624-a865-9e8f5c331c94")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R114")
 					(unit 1)
@@ -87670,7 +87670,7 @@
 			(uuid "16621bed-9e84-46f4-a435-765f654ad49d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP6")
 					(unit 1)
@@ -87762,7 +87762,7 @@
 			(uuid "dafd9664-577f-475b-a04b-62f7684568b6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R26")
 					(unit 1)
@@ -87859,7 +87859,7 @@
 			(uuid "3cc95b89-f2fa-4583-bd52-499ca3be2928")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q5")
 					(unit 1)
@@ -87951,7 +87951,7 @@
 			(uuid "344129d4-cdc6-49ce-91ed-63d9755914f8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C45")
 					(unit 1)
@@ -88028,7 +88028,7 @@
 			(uuid "2445e61f-4dd7-4ea3-854b-d1f6d621596a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG010")
 					(unit 1)
@@ -88105,7 +88105,7 @@
 			(uuid "58dbfa5b-fd3d-4e58-89d2-ca71e6570831")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR024")
 					(unit 1)
@@ -88209,7 +88209,7 @@
 			(uuid "13d502e4-1a4b-4565-b8db-a6a9a49350f2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DAC3")
 					(unit 1)
@@ -88286,7 +88286,7 @@
 			(uuid "47988d8b-8bba-4b6e-8587-6e6695e40ade")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0160")
 					(unit 1)
@@ -88400,7 +88400,7 @@
 			(uuid "5560bb3d-d650-45d8-b838-b0c602057a05")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB1")
 					(unit 1)
@@ -88495,7 +88495,7 @@
 			(uuid "dcc2f6c2-f64b-4e9f-827d-25b5e6ef485f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LVR1")
 					(unit 1)
@@ -88587,7 +88587,7 @@
 			(uuid "2b4857f4-a280-49bf-953a-e58a52ed09ee")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R30")
 					(unit 1)
@@ -88685,7 +88685,7 @@
 			(uuid "5263025f-7387-4a42-9f79-36ba3e5e1a45")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB7")
 					(unit 1)
@@ -88762,7 +88762,7 @@
 			(uuid "0edf3b2e-57a4-4932-9258-5fb95954322d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0186")
 					(unit 1)
@@ -88839,7 +88839,7 @@
 			(uuid "ff92b640-618b-40b5-aeb2-ba7f97ef6550")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0188")
 					(unit 1)
@@ -88931,7 +88931,7 @@
 			(uuid "4c994dcb-c403-4410-948d-520146c4b118")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R69")
 					(unit 1)
@@ -89008,7 +89008,7 @@
 			(uuid "31a33673-8cdc-445f-933d-a755cc016826")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0281")
 					(unit 1)
@@ -89100,7 +89100,7 @@
 			(uuid "a0aad8cd-8a97-4ed9-a9c8-b0d493adf7f3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C88")
 					(unit 1)
@@ -89177,7 +89177,7 @@
 			(uuid "f4f0cefc-7a69-4ebd-a842-0ab7fa0625e7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR093")
 					(unit 1)
@@ -89254,7 +89254,7 @@
 			(uuid "e1d17cf4-b307-464d-9daa-ff8fa138c6b9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0297")
 					(unit 1)
@@ -89331,7 +89331,7 @@
 			(uuid "8b574a82-8d32-4868-b980-6cac40dde9c4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0247")
 					(unit 1)
@@ -89421,7 +89421,7 @@
 			(uuid "403f21a8-3d35-4007-a2a2-17305f7354a4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS14")
 					(unit 1)
@@ -89519,7 +89519,7 @@
 			(uuid "e5ba51ff-1156-46a4-8acb-ce1684411a86")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB8")
 					(unit 1)
@@ -89611,7 +89611,7 @@
 			(uuid "684a8c68-4989-4ad4-9b5f-3fd4f8f292c2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C53")
 					(unit 1)
@@ -89703,7 +89703,7 @@
 			(uuid "78f14fc6-064e-402d-aa11-fe922b9acd95")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C87")
 					(unit 1)
@@ -89796,7 +89796,7 @@
 			(uuid "67ffa873-0b3c-4d4b-92e7-a5ff4a054fc7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED8")
 					(unit 1)
@@ -89888,7 +89888,7 @@
 			(uuid "05784b60-c96d-45b2-a03a-acf6b74d6d69")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R5")
 					(unit 1)
@@ -89965,7 +89965,7 @@
 			(uuid "1b379bab-07c0-4b2a-a0b7-b1ec2334e1d0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0149")
 					(unit 1)
@@ -90042,7 +90042,7 @@
 			(uuid "bd1a7da6-65d6-4b11-899b-ad6f3fe7e028")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0288")
 					(unit 1)
@@ -90119,7 +90119,7 @@
 			(uuid "0da666b2-aec9-42c7-9461-53d8c1b2f763")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG015")
 					(unit 1)
@@ -90211,7 +90211,7 @@
 			(uuid "c8141297-a5f8-4875-865a-81feb5402226")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R89")
 					(unit 1)
@@ -90303,7 +90303,7 @@
 			(uuid "cbe956b1-d563-40fc-88cc-6c87c3b1727e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C50")
 					(unit 1)
@@ -90395,7 +90395,7 @@
 			(uuid "9cdaefac-2260-4958-a8b3-2439f684b6fc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R62")
 					(unit 1)
@@ -90487,7 +90487,7 @@
 			(uuid "66cd70c9-5d95-4ad9-82f1-7f9dbf792c4c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R47")
 					(unit 1)
@@ -90579,7 +90579,7 @@
 			(uuid "c1f23e07-7e9c-4999-bc6f-16da96700856")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C32")
 					(unit 1)
@@ -90669,7 +90669,7 @@
 			(uuid "79f83dd2-9939-411e-9a61-8b54948b0508")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD11")
 					(unit 1)
@@ -90761,7 +90761,7 @@
 			(uuid "a87e6d44-dd91-4d8b-bbab-f22084993f50")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R74")
 					(unit 1)
@@ -90838,7 +90838,7 @@
 			(uuid "f7bf3be0-38d3-4257-a15b-40ae7c1c8e79")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR089")
 					(unit 1)
@@ -90972,7 +90972,7 @@
 			(uuid "ba99e86b-f9cc-4b24-b432-b5da20031b96")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "BII1")
 					(unit 1)
@@ -91049,7 +91049,7 @@
 			(uuid "1f9bd381-bf81-436e-94ec-f6653cfd26a6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0238")
 					(unit 1)
@@ -91142,7 +91142,7 @@
 			(uuid "1067dba3-6628-479d-9620-3a404a937a33")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD2")
 					(unit 1)
@@ -91219,7 +91219,7 @@
 			(uuid "3475a7f3-2e0a-4ca1-9fe4-f5aa1d38ca69")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0209")
 					(unit 1)
@@ -91311,7 +91311,7 @@
 			(uuid "33ee4642-32e8-49bf-84bf-6087cc236d45")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R90")
 					(unit 1)
@@ -91404,7 +91404,7 @@
 			(uuid "b4e28bfe-a038-4e66-b83e-1df2032f54a1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED40")
 					(unit 1)
@@ -91481,7 +91481,7 @@
 			(uuid "72f1732f-59fd-4782-8e7b-ca731e869e3b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0269")
 					(unit 1)
@@ -91558,7 +91558,7 @@
 			(uuid "c5d1b263-5a9a-4ea3-9bd3-a4ba7dc2a43d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0244")
 					(unit 1)
@@ -91635,7 +91635,7 @@
 			(uuid "3636504d-be3a-4cd5-b7e9-8b90e0241a80")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR094")
 					(unit 1)
@@ -91727,7 +91727,7 @@
 			(uuid "6b3b01eb-e5b1-45f3-9f0d-e65ab77c43c8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C25")
 					(unit 1)
@@ -91804,7 +91804,7 @@
 			(uuid "13a41c88-dcf7-4511-bc32-19f6552358a1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0200")
 					(unit 1)
@@ -91896,7 +91896,7 @@
 			(uuid "75817ecb-1ee8-4636-9b05-cde264f48e95")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C42")
 					(unit 1)
@@ -91973,7 +91973,7 @@
 			(uuid "1309d09a-48f0-49da-8cbf-d4c59962c164")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0242")
 					(unit 1)
@@ -92065,7 +92065,7 @@
 			(uuid "5ae8542b-6232-4345-b067-b0294038b31b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R55")
 					(unit 1)
@@ -92164,7 +92164,7 @@
 			(uuid "f7e8d4f8-79d3-4cc5-bf52-aa90c59a0160")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP1")
 					(unit 1)
@@ -92256,7 +92256,7 @@
 			(uuid "dd039974-e36b-4fb7-933a-a593f7b32582")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R86")
 					(unit 1)
@@ -92333,7 +92333,7 @@
 			(uuid "434622f0-50c7-4f28-b44a-3d2fb67b6578")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0126")
 					(unit 1)
@@ -92425,7 +92425,7 @@
 			(uuid "51103bef-2dc8-455c-8330-d9c40ccb8e91")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C29")
 					(unit 1)
@@ -92502,7 +92502,7 @@
 			(uuid "9a1f5ef4-a372-480c-b90e-c4652a00b02b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR052")
 					(unit 1)
@@ -92579,7 +92579,7 @@
 			(uuid "8bfa99b6-d36e-4e3d-8390-15c8f8a0b663")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0167")
 					(unit 1)
@@ -92656,7 +92656,7 @@
 			(uuid "99a312e0-6094-4533-bfd8-3ab2d38cecab")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR087")
 					(unit 1)
@@ -92748,7 +92748,7 @@
 			(uuid "24754d74-2c0c-45cf-a896-41f21b49fcec")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C13")
 					(unit 1)
@@ -92840,7 +92840,7 @@
 			(uuid "2aea180a-5b11-4c47-b2e6-da5eb8b66670")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R84")
 					(unit 1)
@@ -92932,7 +92932,7 @@
 			(uuid "0c8758e9-f6d7-416e-8e6b-5eaedb1e64bd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R27")
 					(unit 1)
@@ -93009,7 +93009,7 @@
 			(uuid "7dd43009-b350-4c1d-bddf-09096f6c3c10")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0143")
 					(unit 1)
@@ -93102,7 +93102,7 @@
 			(uuid "b90ca873-ae75-4fc7-8029-cf625bf490b1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED36")
 					(unit 1)
@@ -93181,7 +93181,7 @@
 			(uuid "873df299-30d9-49b9-bdca-6f1474830025")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H2")
 					(unit 1)
@@ -93274,7 +93274,7 @@
 			(uuid "cac7838a-8205-41f4-b158-00869568f7a2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED35")
 					(unit 1)
@@ -93351,7 +93351,7 @@
 			(uuid "ceceba42-d84f-473f-8f94-fd783fbc0950")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0130")
 					(unit 1)
@@ -93428,7 +93428,7 @@
 			(uuid "13894818-3850-4830-a252-66c054626d91")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG012")
 					(unit 1)
@@ -93520,7 +93520,7 @@
 			(uuid "9dcc313a-8056-4557-9cb7-10dd66a3e639")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C59")
 					(unit 1)
@@ -93612,7 +93612,7 @@
 			(uuid "d53775f8-1713-45a9-82a7-cc402a473e33")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C40")
 					(unit 1)
@@ -93689,7 +93689,7 @@
 			(uuid "594e910a-b6e9-4d95-a497-60921afe440f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0185")
 					(unit 1)
@@ -93766,7 +93766,7 @@
 			(uuid "4a5165ad-c26f-4d7b-aa71-fe6828d4d914")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR091")
 					(unit 1)
@@ -93843,7 +93843,7 @@
 			(uuid "2981a0a3-17b5-4a75-adf8-497dd7a0977b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR063")
 					(unit 1)
@@ -93936,7 +93936,7 @@
 			(uuid "2c4c03a7-2960-4970-a5ca-2cb813fef0a2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED9")
 					(unit 1)
@@ -94032,7 +94032,7 @@
 			(uuid "b1f26a4f-8695-4e79-8be0-6d28cbd1846e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SW2")
 					(unit 1)
@@ -94109,7 +94109,7 @@
 			(uuid "8efcf3f7-0516-4357-979b-f76abb24813c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0259")
 					(unit 1)
@@ -94186,7 +94186,7 @@
 			(uuid "26524ffc-2779-493a-8ae0-04972a5bcdee")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0101")
 					(unit 1)
@@ -94263,7 +94263,7 @@
 			(uuid "c89b441a-a318-4e6e-9dce-ebfd86c48a47")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0164")
 					(unit 1)
@@ -94340,7 +94340,7 @@
 			(uuid "80fc92aa-c81b-4464-86da-1a4749c59be6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR099")
 					(unit 1)
@@ -94432,7 +94432,7 @@
 			(uuid "17aaf5f6-cfdf-4539-8381-1a2e3eaaf6ef")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R2")
 					(unit 1)
@@ -94509,7 +94509,7 @@
 			(uuid "237c6174-9272-4aab-8d88-e689d5b27a46")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR020")
 					(unit 1)
@@ -94602,7 +94602,7 @@
 			(uuid "b7587f99-aa45-4433-8cd4-a23e36459c2e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED30")
 					(unit 1)
@@ -94694,7 +94694,7 @@
 			(uuid "66306b3b-b916-4fcc-b312-39363406a101")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R95")
 					(unit 1)
@@ -94786,7 +94786,7 @@
 			(uuid "9ac22c95-8ebf-4e1a-98c4-d8d50d5edc92")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C23")
 					(unit 1)
@@ -94878,7 +94878,7 @@
 			(uuid "a52632f7-0f6d-4073-b4c2-12cbed89a07f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C3")
 					(unit 1)
@@ -94955,7 +94955,7 @@
 			(uuid "03aa479c-9094-4375-ac23-36220d1abe76")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0193")
 					(unit 1)
@@ -95032,7 +95032,7 @@
 			(uuid "3621f1b2-d4e4-4227-a57c-648dce805f40")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0171")
 					(unit 1)
@@ -95109,7 +95109,7 @@
 			(uuid "d52f229d-8655-4232-b632-61c45b8ca152")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR061")
 					(unit 1)
@@ -95205,7 +95205,7 @@
 			(uuid "630acd8a-d2d3-403b-896f-cfcb95b089b0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q8")
 					(unit 1)
@@ -95314,7 +95314,7 @@
 			(uuid "472c91b9-9d12-4d50-b6cd-5d946e71571c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ICT2")
 					(unit 1)
@@ -95410,7 +95410,7 @@
 			(uuid "21f72ade-5f10-42e8-ba85-e3c579cccd5e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP10")
 					(unit 1)
@@ -95487,7 +95487,7 @@
 			(uuid "c42bc1bd-e10a-4427-899f-e139da8199ae")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR028")
 					(unit 1)
@@ -95580,7 +95580,7 @@
 			(uuid "df4b991e-87a2-4e4d-8552-bcbce01f60fd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED38")
 					(unit 1)
@@ -95676,7 +95676,7 @@
 			(uuid "5143c396-befb-4e2b-90c0-e3f2efab98b6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS12")
 					(unit 1)
@@ -95786,7 +95786,7 @@
 			(uuid "391219d8-aba2-43de-a319-a501b096872c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LS1")
 					(unit 1)
@@ -95863,7 +95863,7 @@
 			(uuid "0fbb375a-edb4-4648-bb4f-51e6349611d7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0236")
 					(unit 1)
@@ -95953,7 +95953,7 @@
 			(uuid "afe8e229-b0cc-4b52-9184-c6b9c4592a12")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "J1")
 					(unit 1)
@@ -96045,7 +96045,7 @@
 			(uuid "80b34c01-cfd3-4654-bcc8-d9e85833ef3a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C54")
 					(unit 1)
@@ -96137,7 +96137,7 @@
 			(uuid "f9b9b9b5-7562-4545-b7a5-dcb1db07cc8e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C60")
 					(unit 1)
@@ -96227,7 +96227,7 @@
 			(uuid "5d4714f5-4b7d-434e-9430-0c6392f4cd2e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS19")
 					(unit 1)
@@ -96321,7 +96321,7 @@
 			(uuid "10b81ee7-7c97-48bd-ae79-211b4a746979")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS5")
 					(unit 1)
@@ -96413,7 +96413,7 @@
 			(uuid "edda90da-a11b-4742-bea5-8fbdb4a5c6d5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R41")
 					(unit 1)
@@ -96506,7 +96506,7 @@
 			(uuid "a99c56f1-bcd3-46cb-9872-2e5bfb2c46f6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED45")
 					(unit 1)
@@ -96611,7 +96611,7 @@
 			(uuid "5a4c55a6-68a7-459f-9681-1072660933bb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "T1")
 					(unit 1)
@@ -96688,7 +96688,7 @@
 			(uuid "3c454c37-8908-49bc-8aca-a0133f134ee6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0289")
 					(unit 1)
@@ -96765,7 +96765,7 @@
 			(uuid "676e41b1-903e-4919-a384-730b849f3c5e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0153")
 					(unit 1)
@@ -96858,7 +96858,7 @@
 			(uuid "158fb638-7abe-4e5c-af3e-2ab2240ab402")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED11")
 					(unit 1)
@@ -96951,7 +96951,7 @@
 			(uuid "2a5a168a-d85d-4102-9ffa-d3cc37036bd1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED3")
 					(unit 1)
@@ -97043,7 +97043,7 @@
 			(uuid "feb834ae-dcb9-4144-bd82-cfab483fdc55")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R3")
 					(unit 1)
@@ -97120,7 +97120,7 @@
 			(uuid "92e66e08-a343-4c96-a96d-f80d82cee3c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0189")
 					(unit 1)
@@ -97197,7 +97197,7 @@
 			(uuid "eb40e7e1-99f4-4556-b6c7-a8733d29563b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR079")
 					(unit 1)
@@ -97274,7 +97274,7 @@
 			(uuid "54e75840-c34e-4600-831e-cdcee7d09c62")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG01")
 					(unit 1)
@@ -97366,7 +97366,7 @@
 			(uuid "0ec52318-48eb-4e11-bf6c-613250282d8e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C33")
 					(unit 1)
@@ -97458,7 +97458,7 @@
 			(uuid "13056e2e-fa13-43f8-948d-1a2e12ee3c52")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C6")
 					(unit 1)
@@ -97535,7 +97535,7 @@
 			(uuid "8e5ed720-1093-489d-944c-4cc30efc6444")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR069")
 					(unit 1)
@@ -97628,7 +97628,7 @@
 			(uuid "e7a00e1f-b2c0-4e48-a852-f376eb4c9b97")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED18")
 					(unit 1)
@@ -97720,7 +97720,7 @@
 			(uuid "332e66c7-26a0-4b92-a218-404ebe801d18")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C14")
 					(unit 1)
@@ -97797,7 +97797,7 @@
 			(uuid "d8bc16c1-68cf-465a-96be-4cf82031b083")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR013")
 					(unit 1)
@@ -97890,7 +97890,7 @@
 			(uuid "2bf17a33-e88a-44aa-a3e1-9ada476aaf09")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED7")
 					(unit 1)
@@ -97983,7 +97983,7 @@
 			(uuid "6a9f5fd5-e2fa-4a8c-b162-ad6964b19c50")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS33")
 					(unit 1)
@@ -98077,7 +98077,7 @@
 			(uuid "11a91f97-eaef-4763-828b-f901f11cea35")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS34")
 					(unit 1)
@@ -98170,7 +98170,7 @@
 			(uuid "0a04b141-4b69-4e7b-bb38-d2e546f0f8a8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C92")
 					(unit 1)
@@ -98262,7 +98262,7 @@
 			(uuid "87f2cd5e-085f-4dfa-82e1-32936c80d681")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C16")
 					(unit 1)
@@ -98354,7 +98354,7 @@
 			(uuid "a1f8ea64-7f9c-4341-83c3-2e3dd3f506b0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C28")
 					(unit 1)
@@ -98446,7 +98446,7 @@
 			(uuid "3c459c6c-b9c9-42cb-827a-157eceafdfa8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R88")
 					(unit 1)
@@ -98523,7 +98523,7 @@
 			(uuid "d3033a95-181e-4069-94a6-4deff8afeef8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR051")
 					(unit 1)
@@ -98615,7 +98615,7 @@
 			(uuid "3d2d39e0-9a95-4a86-9252-7c2e0e360e0e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R78")
 					(unit 1)
@@ -98707,7 +98707,7 @@
 			(uuid "275c4a95-292a-48cd-9369-ba79726d6cc0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C71")
 					(unit 1)
@@ -98853,7 +98853,7 @@
 			(uuid "a7ba9b7d-ae11-410a-be70-dfe922761719")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "IOX1")
 					(unit 1)
@@ -98930,7 +98930,7 @@
 			(uuid "829d42c1-6239-429d-a48c-448de1d0ebec")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0293")
 					(unit 1)
@@ -99022,7 +99022,7 @@
 			(uuid "8cb18d16-a9a8-4391-b45f-525e56160022")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C75")
 					(unit 1)
@@ -99099,7 +99099,7 @@
 			(uuid "861efd99-8e52-4544-9188-a2c60dac4e08")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0127")
 					(unit 1)
@@ -99176,7 +99176,7 @@
 			(uuid "5aa83f49-c19b-4ce1-bfc5-867c4b9b3a58")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG020")
 					(unit 1)
@@ -99268,7 +99268,7 @@
 			(uuid "ca092405-1742-472c-a9b1-4bae7f24b999")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R19")
 					(unit 1)
@@ -99345,7 +99345,7 @@
 			(uuid "e4a3b108-a4da-4d30-b716-ceed9482487c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0150")
 					(unit 1)
@@ -99422,7 +99422,7 @@
 			(uuid "843f4057-354a-4294-86a8-30f905e82072")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR035")
 					(unit 1)
@@ -99500,7 +99500,7 @@
 			(uuid "58ec79aa-4e85-4750-93db-ba413855026e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0275")
 					(unit 1)
@@ -99615,7 +99615,7 @@
 			(uuid "49dabcf0-6688-4545-b27a-1dd14e6d08d7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SWD1")
 					(unit 1)
@@ -99692,7 +99692,7 @@
 			(uuid "012a78c1-a6af-4608-b2d6-dc4d388c6e51")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0178")
 					(unit 1)
@@ -99784,7 +99784,7 @@
 			(uuid "ebf4c6b1-c5cf-48a9-814a-b2fcaf0ef7b5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R83")
 					(unit 1)
@@ -99864,7 +99864,7 @@
 			(uuid "2f7e09b7-cb8e-46fc-ae23-35abb3cd5eb4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "NT1")
 					(unit 1)
@@ -99956,7 +99956,7 @@
 			(uuid "49de571d-af62-4a49-a80e-c5dccc226363")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R45")
 					(unit 1)
@@ -100033,7 +100033,7 @@
 			(uuid "2344f23e-a991-473a-97b2-263d8203f0c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG019")
 					(unit 1)
@@ -100110,7 +100110,7 @@
 			(uuid "23684be9-667e-4e97-b2d8-34dcbfbecf0d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0110")
 					(unit 1)
@@ -100187,7 +100187,7 @@
 			(uuid "c5a7dd67-db85-4aa8-8f02-5c0fb8eb08cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR078")
 					(unit 1)
@@ -100264,7 +100264,7 @@
 			(uuid "c8de0ce8-6a48-4f07-b5b0-25053b75f9c2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG022")
 					(unit 1)
@@ -100356,7 +100356,7 @@
 			(uuid "3834cff3-1de4-4bf5-be56-df4af05b8bdd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C34")
 					(unit 1)
@@ -100433,7 +100433,7 @@
 			(uuid "7e84268d-5e5e-4f1d-8622-4e1be7886a98")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0221")
 					(unit 1)
@@ -100525,7 +100525,7 @@
 			(uuid "578ecf54-bb80-4780-ae3c-a918f1197c67")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R49")
 					(unit 1)
@@ -100617,7 +100617,7 @@
 			(uuid "318cf656-e8e0-442a-8d09-b5fbf3836cf1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C39")
 					(unit 1)
@@ -100715,7 +100715,7 @@
 			(uuid "ebaa172c-56cf-40c5-bed5-19e4ac1876cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB6")
 					(unit 1)
@@ -100792,7 +100792,7 @@
 			(uuid "565553ff-4339-428a-b139-57593d748836")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0280")
 					(unit 1)
@@ -100869,7 +100869,7 @@
 			(uuid "f432930a-5ca8-48bc-8b95-7df8edd0b9f3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR043")
 					(unit 1)
@@ -100946,7 +100946,7 @@
 			(uuid "da2c45b9-e005-473c-bf1d-52ff38729979")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0124")
 					(unit 1)
@@ -101038,7 +101038,7 @@
 			(uuid "eaf6d24e-9ddf-41a4-a30e-7cd4fed192fe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R112")
 					(unit 1)
@@ -101130,7 +101130,7 @@
 			(uuid "8f4c5e61-af5a-4347-ac91-98619bb2ce03")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R46")
 					(unit 1)
@@ -101207,7 +101207,7 @@
 			(uuid "6a77c884-b9e7-4982-981c-5fd74131eb8e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0279")
 					(unit 1)
@@ -101284,7 +101284,7 @@
 			(uuid "2f5eba03-c7df-4d18-8929-dff569506194")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR019")
 					(unit 1)
@@ -101361,7 +101361,7 @@
 			(uuid "62bb2f71-4749-42fc-82d3-3d22104e9119")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0203")
 					(unit 1)
@@ -101438,7 +101438,7 @@
 			(uuid "2369f9e4-6e13-47bb-b149-0044286f3daa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR055")
 					(unit 1)
@@ -101527,7 +101527,7 @@
 			(uuid "3bf61f03-87bb-4e13-b063-1353a32db3c0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB3")
 					(unit 1)
@@ -101620,7 +101620,7 @@
 			(uuid "3f93c7dc-dee4-4bd9-8932-d4c2121a769d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED22")
 					(unit 1)
@@ -101697,7 +101697,7 @@
 			(uuid "430df137-71f6-4f0f-bcbd-73944ee3500e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0121")
 					(unit 1)
@@ -101789,7 +101789,7 @@
 			(uuid "a5b06baa-7755-47c7-9b64-783174c9c1d1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R6")
 					(unit 1)
@@ -101866,7 +101866,7 @@
 			(uuid "5ec33e37-d6fd-4570-a722-687731a38737")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0299")
 					(unit 1)
@@ -101956,7 +101956,7 @@
 			(uuid "83398203-bdea-42ba-8e0a-1eec3be3662f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SD2")
 					(unit 1)
@@ -102033,7 +102033,7 @@
 			(uuid "7e36bd69-4520-4da8-982d-84c91cfa5389")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0210")
 					(unit 1)
@@ -102312,7 +102312,7 @@
 			(uuid "e379bc84-2325-4bfb-8fb7-c14d8152062b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "MCU1")
 					(unit 1)
@@ -102389,7 +102389,7 @@
 			(uuid "7855f4b6-702a-4d2f-8a8a-8abe01c781ca")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0205")
 					(unit 1)
@@ -102466,7 +102466,7 @@
 			(uuid "aed11f92-7272-49bb-9523-bfb7553a2cc7")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0194")
 					(unit 1)
@@ -102543,7 +102543,7 @@
 			(uuid "853be8bd-863d-4cff-989f-6a9b12a770b8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR056")
 					(unit 1)
@@ -102633,7 +102633,7 @@
 			(uuid "ae0d0bc8-7114-45ab-abb6-9e4dca1e333f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SD1")
 					(unit 1)
@@ -102725,7 +102725,7 @@
 			(uuid "259aaa6d-9a21-460a-88a7-aa3b6ea9ca20")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R106")
 					(unit 1)
@@ -102802,7 +102802,7 @@
 			(uuid "046be537-a376-4eff-91af-31ffcdc7dc00")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0296")
 					(unit 1)
@@ -102879,7 +102879,7 @@
 			(uuid "288b1cdb-71a4-4b6e-b950-72807757bea1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR012")
 					(unit 1)
@@ -102956,7 +102956,7 @@
 			(uuid "1ad79c48-b108-4eaf-abe5-ba7e8a1bb9bf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0228")
 					(unit 1)
@@ -103033,7 +103033,7 @@
 			(uuid "7e69ee19-f92c-434e-95e7-ba7cf1f92a8f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0170")
 					(unit 1)
@@ -103110,7 +103110,7 @@
 			(uuid "f04c1a37-9c82-4446-bedc-02e9bc2b4de6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG05")
 					(unit 1)
@@ -103187,7 +103187,7 @@
 			(uuid "726f707f-d3bf-4c91-b0ac-c80ecf18f377")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0261")
 					(unit 1)
@@ -103264,7 +103264,7 @@
 			(uuid "2d4f9200-d9da-4d6b-af48-bc64946678b8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0148")
 					(unit 1)
@@ -103360,7 +103360,7 @@
 			(uuid "22003e99-0c3c-4024-be4d-be380db8e544")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP9")
 					(unit 1)
@@ -103437,7 +103437,7 @@
 			(uuid "b3a1fda4-c576-4e67-8f72-dce3a7e6d691")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0123")
 					(unit 1)
@@ -103527,7 +103527,7 @@
 			(uuid "acb9a19b-f235-4fe0-b774-d829b00754df")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SD3")
 					(unit 1)
@@ -103604,7 +103604,7 @@
 			(uuid "6b7a7ea1-17ba-4968-88f4-a6770c04ed22")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0159")
 					(unit 1)
@@ -103697,7 +103697,7 @@
 			(uuid "8fbc0296-5ec1-4dec-9633-00ea24476b72")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED32")
 					(unit 1)
@@ -103774,7 +103774,7 @@
 			(uuid "6462da29-9c88-44ad-af7f-3f2eeac8e6fc")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0173")
 					(unit 1)
@@ -103868,7 +103868,7 @@
 			(uuid "41b428be-b81d-45b4-b069-871eb9074d22")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS7")
 					(unit 1)
@@ -103945,7 +103945,7 @@
 			(uuid "75e0548c-749e-4abc-b774-70683ed29a58")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0139")
 					(unit 1)
@@ -104022,7 +104022,7 @@
 			(uuid "0d1b1b58-940f-431e-bbcb-315e06d71c1a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0201")
 					(unit 1)
@@ -104114,7 +104114,7 @@
 			(uuid "8eb0297c-551e-4eb1-bde3-3bfbec0949e5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C35")
 					(unit 1)
@@ -104206,7 +104206,7 @@
 			(uuid "6b695ec6-5974-4bd8-98bc-78177042bf3c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C51")
 					(unit 1)
@@ -104283,7 +104283,7 @@
 			(uuid "1237c5ce-e889-435f-aa83-fd3ab8f48e24")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0104")
 					(unit 1)
@@ -104360,7 +104360,7 @@
 			(uuid "aec3f164-b520-456c-9418-365335e8023f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR085")
 					(unit 1)
@@ -104452,7 +104452,7 @@
 			(uuid "fee06ef9-9d78-488e-b85e-016debc55c4a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C67")
 					(unit 1)
@@ -104529,7 +104529,7 @@
 			(uuid "f19c5fcc-4464-497a-b2c9-ec711f918da1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR039")
 					(unit 1)
@@ -104621,7 +104621,7 @@
 			(uuid "df152a26-0093-4440-9e21-4cded2806d9f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R76")
 					(unit 1)
@@ -104698,7 +104698,7 @@
 			(uuid "6672a7bf-4134-4a68-b2b2-2a5eb1498a60")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG06")
 					(unit 1)
@@ -104791,7 +104791,7 @@
 			(uuid "2f7d3b94-19e5-4750-8037-80e997daeca5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP14")
 					(unit 1)
@@ -104868,7 +104868,7 @@
 			(uuid "b043c528-1a44-479b-b6b5-a7a4364a6bb3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0202")
 					(unit 1)
@@ -104960,7 +104960,7 @@
 			(uuid "ee6ff793-3cb0-442a-ae41-091737f3da0d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R53")
 					(unit 1)
@@ -105052,7 +105052,7 @@
 			(uuid "46a6da8e-ff76-40a8-b242-f32edaddf854")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R73")
 					(unit 1)
@@ -105144,7 +105144,7 @@
 			(uuid "22346b49-17f2-47db-9cfd-f6935d6a94f4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R61")
 					(unit 1)
@@ -105221,7 +105221,7 @@
 			(uuid "7cd5a2bc-b32b-419b-9359-a91b51908179")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR045")
 					(unit 1)
@@ -105313,7 +105313,7 @@
 			(uuid "8ed16f9f-da7b-4ef9-8d0b-a0338fbdcfde")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R25")
 					(unit 1)
@@ -105390,7 +105390,7 @@
 			(uuid "53bda39a-682f-4c2f-891e-ca7f95aa2963")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0265")
 					(unit 1)
@@ -105467,7 +105467,7 @@
 			(uuid "087c47a1-324d-4933-9b87-c59cc7c7e73a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0246")
 					(unit 1)
@@ -105559,7 +105559,7 @@
 			(uuid "2768825a-7376-406b-acac-94d2e34bdb20")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R103")
 					(unit 1)
@@ -105636,7 +105636,7 @@
 			(uuid "9a516407-9cbd-4c21-833f-f4e70b1f9318")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0169")
 					(unit 1)
@@ -105713,7 +105713,7 @@
 			(uuid "fd38c55a-356d-4ae7-9e4e-d4d495db822c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0295")
 					(unit 1)
@@ -105790,7 +105790,7 @@
 			(uuid "168410f1-0aa8-4c04-bebf-5deb68b26c72")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0287")
 					(unit 1)
@@ -105867,7 +105867,7 @@
 			(uuid "70c8573c-9d6d-42dd-9702-da14cf89ec46")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG023")
 					(unit 1)
@@ -105959,7 +105959,7 @@
 			(uuid "475db516-e6c6-4e3a-b737-8ce13f810b8a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R102")
 					(unit 1)
@@ -106036,7 +106036,7 @@
 			(uuid "6ab63e85-c03c-4602-9f83-23c3dcf7391b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR022")
 					(unit 1)
@@ -106113,7 +106113,7 @@
 			(uuid "d1c64cc2-5b9d-4773-84b1-65f1c2ec9fcf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0204")
 					(unit 1)
@@ -106205,7 +106205,7 @@
 			(uuid "8dbf5db8-dcaa-47fb-8c6e-c8c7921e9d43")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C2")
 					(unit 1)
@@ -106282,7 +106282,7 @@
 			(uuid "057019c5-30ca-4688-ac80-d1f5826b431a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0129")
 					(unit 1)
@@ -106359,7 +106359,7 @@
 			(uuid "c59e91c2-dc53-4e53-a6cb-0bb9753d564a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR092")
 					(unit 1)
@@ -106493,7 +106493,7 @@
 			(uuid "e582df61-49cf-4be0-845d-fe2e860e813c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "RST1")
 					(unit 1)
@@ -106585,7 +106585,7 @@
 			(uuid "8b9e9610-4186-4723-ac61-22aeeae43433")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R35")
 					(unit 1)
@@ -106680,7 +106680,7 @@
 			(uuid "e3b7f61a-4231-4b83-a0bb-546ec24f698c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SBD2")
 					(unit 1)
@@ -106757,7 +106757,7 @@
 			(uuid "021f2a27-7d4a-41fa-ae18-e98766da9242")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR016")
 					(unit 1)
@@ -106834,7 +106834,7 @@
 			(uuid "b5228441-658a-426b-a6c1-67f5a0fc5257")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0128")
 					(unit 1)
@@ -106926,7 +106926,7 @@
 			(uuid "df6b36b3-069e-4772-9789-64d25a76fbb9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C7")
 					(unit 1)
@@ -107039,7 +107039,7 @@
 			(uuid "b496c26c-d4ac-40f2-b5e9-76da459dbf63")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LVR4")
 					(unit 1)
@@ -107153,7 +107153,7 @@
 			(uuid "8e3643b6-35ad-4734-aada-0b45d10f727e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD1")
 					(unit 1)
@@ -107251,7 +107251,7 @@
 			(uuid "97931de5-d684-4de9-bbad-ae550a166f89")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI1")
 					(unit 1)
@@ -107341,7 +107341,7 @@
 			(uuid "70c5c241-74d3-4d15-a367-f77508950882")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS29")
 					(unit 1)
@@ -107434,7 +107434,7 @@
 			(uuid "9b368211-0e93-4aff-ad7f-bb544d7ecd9a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED37")
 					(unit 1)
@@ -107526,7 +107526,7 @@
 			(uuid "3e4b57b8-aa7e-412c-abf9-ff101d00860d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R28")
 					(unit 1)
@@ -107603,7 +107603,7 @@
 			(uuid "639d6de6-b6a9-4434-b73c-117a2e0bb73c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR088")
 					(unit 1)
@@ -107695,7 +107695,7 @@
 			(uuid "d7da043b-da97-4bf2-b73e-24bb9184ea54")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C68")
 					(unit 1)
@@ -107772,7 +107772,7 @@
 			(uuid "63ad3c6e-4af5-4164-a225-2c2f453685e8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0146")
 					(unit 1)
@@ -107849,7 +107849,7 @@
 			(uuid "a97c1aac-fc5a-4bdb-a3fc-367721a07dca")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0119")
 					(unit 1)
@@ -107926,7 +107926,7 @@
 			(uuid "a55e50d6-62c8-4b55-86c7-81898d6f373a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0215")
 					(unit 1)
@@ -108003,7 +108003,7 @@
 			(uuid "0fc12fea-8b1b-43d4-bb29-7394c02fff26")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0155")
 					(unit 1)
@@ -108095,7 +108095,7 @@
 			(uuid "9c3e9b76-77e8-41dd-8994-4735bef697da")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R4")
 					(unit 1)
@@ -108185,7 +108185,7 @@
 			(uuid "f291d372-fda8-4835-a601-f728aaa42faa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS31")
 					(unit 1)
@@ -108277,7 +108277,7 @@
 			(uuid "a750c076-0074-4d6c-83f4-97b26de2c3f6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C79")
 					(unit 1)
@@ -108373,7 +108373,7 @@
 			(uuid "ff4e3a3d-d7bb-4f32-86cd-0bf81103ad7b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OX1")
 					(unit 1)
@@ -108471,7 +108471,7 @@
 			(uuid "39a35c52-7cf2-4cbd-97ec-90467b3cc2c0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI5")
 					(unit 1)
@@ -108548,7 +108548,7 @@
 			(uuid "ce4a3597-c7de-4383-8ec8-8f3f9ea575d0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0133")
 					(unit 1)
@@ -108640,7 +108640,7 @@
 			(uuid "7d131c5c-dc21-43f1-89ac-85db4cb687fd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R44")
 					(unit 1)
@@ -108732,7 +108732,7 @@
 			(uuid "d5a9dd97-d0c3-4d57-adb1-61254bf5ddd0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R39")
 					(unit 1)
@@ -108809,7 +108809,7 @@
 			(uuid "980f4b15-a837-4ba1-bc37-51a4395592fe")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR083")
 					(unit 1)
@@ -108886,7 +108886,7 @@
 			(uuid "52ddb858-9609-41a0-a1ab-add9364eb6e4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0286")
 					(unit 1)
@@ -108963,7 +108963,7 @@
 			(uuid "bf31883d-c9e8-4d29-b384-ba9598bdd64a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR08")
 					(unit 1)
@@ -109040,7 +109040,7 @@
 			(uuid "d664916e-5fbe-46db-90f1-5fef2a8d87f9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR042")
 					(unit 1)
@@ -109132,7 +109132,7 @@
 			(uuid "68a7afab-fb62-4330-bb04-cc1d786c78f2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R71")
 					(unit 1)
@@ -109209,7 +109209,7 @@
 			(uuid "985fe443-0fe0-4143-a139-279ddcb324fa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0138")
 					(unit 1)
@@ -109301,7 +109301,7 @@
 			(uuid "9302e4de-62b6-4b89-bef7-8cc05a117cda")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R48")
 					(unit 1)
@@ -109393,7 +109393,7 @@
 			(uuid "2ba92684-f4e9-4a78-adec-18371c54b377")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R34")
 					(unit 1)
@@ -109470,7 +109470,7 @@
 			(uuid "7fe93170-39ee-441a-be3d-40f6322a4601")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG011")
 					(unit 1)
@@ -109562,7 +109562,7 @@
 			(uuid "b9eadf7a-6785-494e-8dfa-d05e9ca08789")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C78")
 					(unit 1)
@@ -109639,7 +109639,7 @@
 			(uuid "336bb0db-905e-45b0-bf0f-73b023c14b38")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0208")
 					(unit 1)
@@ -109728,7 +109728,7 @@
 			(uuid "fa22c306-3397-4ced-a176-edaa1d5ab6ac")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB5")
 					(unit 1)
@@ -109821,7 +109821,7 @@
 			(uuid "e0b26794-5159-4eb5-9107-0eeff7debe21")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C18")
 					(unit 1)
@@ -109913,7 +109913,7 @@
 			(uuid "e9752420-fb8f-4ef9-a9fd-3a57d6fb49a8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C43")
 					(unit 1)
@@ -109990,7 +109990,7 @@
 			(uuid "55e5c70c-f31d-44e8-a18c-7aa97981f467")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR023")
 					(unit 1)
@@ -110080,7 +110080,7 @@
 			(uuid "27924e4f-2cab-45c1-9a8b-388741eccada")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TB4")
 					(unit 1)
@@ -110157,7 +110157,7 @@
 			(uuid "e2a1785c-40c4-4fd6-973e-02c567a963d6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0145")
 					(unit 1)
@@ -110234,7 +110234,7 @@
 			(uuid "54ca3155-79c7-4882-b3ff-e01388794579")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR04")
 					(unit 1)
@@ -110326,7 +110326,7 @@
 			(uuid "cc2c8796-b6ec-4d03-9c4f-73bee32345bd")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R16")
 					(unit 1)
@@ -110418,7 +110418,7 @@
 			(uuid "7623a6bd-7bf3-4bb6-8a65-ceec937a1e44")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R9")
 					(unit 1)
@@ -110510,7 +110510,7 @@
 			(uuid "f8bb3db2-03ad-4d0b-af64-0d4c01e734ee")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C65")
 					(unit 1)
@@ -110600,7 +110600,7 @@
 			(uuid "f124854a-c993-4d4a-9f48-450ffc3d5fd0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS15")
 					(unit 1)
@@ -110677,7 +110677,7 @@
 			(uuid "3b561cf5-d61a-4d37-8350-a66e4bb45cc9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0290")
 					(unit 1)
@@ -110777,7 +110777,7 @@
 			(uuid "07a50477-9b1d-4e7f-a262-b281e5070b70")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TD1")
 					(unit 1)
@@ -110854,7 +110854,7 @@
 			(uuid "9f29ef0a-bd5c-4421-a5e6-92c5b668116d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0152")
 					(unit 1)
@@ -110946,7 +110946,7 @@
 			(uuid "bbdbdda7-ee7a-4e6a-a3df-a07370251f68")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C11")
 					(unit 1)
@@ -111040,7 +111040,7 @@
 			(uuid "09fcb587-41df-47f1-b00b-d1163575c31f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS3")
 					(unit 1)
@@ -111117,7 +111117,7 @@
 			(uuid "e1086007-64b9-4a57-b1da-5a10adacd736")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0245")
 					(unit 1)
@@ -111194,7 +111194,7 @@
 			(uuid "e2128501-e8aa-4666-ba30-d48aceac329a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0116")
 					(unit 1)
@@ -111284,7 +111284,7 @@
 			(uuid "22d915f2-f944-497f-8681-13de23760ef5")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "PTC1")
 					(unit 1)
@@ -111376,7 +111376,7 @@
 			(uuid "26d6c244-732f-434f-b4d3-16adb1574bd9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C74")
 					(unit 1)
@@ -111453,7 +111453,7 @@
 			(uuid "bb133fd3-dce5-4672-8106-a72c2c5ad901")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0298")
 					(unit 1)
@@ -111545,7 +111545,7 @@
 			(uuid "d436a748-d828-4b78-8916-540c86d161c6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C38")
 					(unit 1)
@@ -111622,7 +111622,7 @@
 			(uuid "82f49f8e-c242-4f32-857d-cae96c8eab3c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR010")
 					(unit 1)
@@ -111699,7 +111699,7 @@
 			(uuid "ffdc72be-f028-42cd-82e9-c030da9a9ee4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR027")
 					(unit 1)
@@ -111797,7 +111797,7 @@
 			(uuid "3a083dcf-c01e-4397-bef1-49f2cb23f12e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI2")
 					(unit 1)
@@ -111874,7 +111874,7 @@
 			(uuid "e1e9248d-1251-43cc-92ea-01f79bd38a70")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG021")
 					(unit 1)
@@ -111951,7 +111951,7 @@
 			(uuid "2f896541-12f2-48c8-8969-3c8397b165e0")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0251")
 					(unit 1)
@@ -112068,7 +112068,7 @@
 			(uuid "c7c38b3b-d5ce-4bf3-a503-5014d2d84b45")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DE1")
 					(unit 1)
@@ -112163,7 +112163,7 @@
 			(uuid "a9e4190b-4e4f-47b5-9ee5-711f2cafef55")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SBD1")
 					(unit 1)
@@ -112253,7 +112253,7 @@
 			(uuid "d4a7d774-0cb0-4ad6-9d2c-6b35d948f658")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS24")
 					(unit 1)
@@ -112345,7 +112345,7 @@
 			(uuid "d5773b35-867f-4320-8e27-eb8f5f44a977")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R51")
 					(unit 1)
@@ -112437,7 +112437,7 @@
 			(uuid "70afaace-bfe3-4684-95b4-2950f4cc075c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R64")
 					(unit 1)
@@ -112516,7 +112516,7 @@
 			(uuid "235d7f9f-3b0d-48c5-bda2-6e1ac496e79e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H3")
 					(unit 1)
@@ -112606,7 +112606,7 @@
 			(uuid "4586fb55-9120-4bf2-b772-dabc88ee25b3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R37")
 					(unit 1)
@@ -112683,7 +112683,7 @@
 			(uuid "3fea872f-32d7-4006-8d49-e81adf2a28f8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0158")
 					(unit 1)
@@ -112775,7 +112775,7 @@
 			(uuid "93169acf-e3d1-42ca-8bf7-aecd1402e5d6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R98")
 					(unit 1)
@@ -112867,7 +112867,7 @@
 			(uuid "4854beed-53af-4264-aa9e-7a767f6efba4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C20")
 					(unit 1)
@@ -112957,7 +112957,7 @@
 			(uuid "6dcb028b-ed62-432f-94da-7489a94bf4fa")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "FB1")
 					(unit 1)
@@ -113049,7 +113049,7 @@
 			(uuid "3cdd96d1-d758-4fe9-8455-cdc5dde3802c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C4")
 					(unit 1)
@@ -113141,7 +113141,7 @@
 			(uuid "0e3dd011-40d5-48b6-bbc1-4451148314d2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R33")
 					(unit 1)
@@ -113218,7 +113218,7 @@
 			(uuid "e62bb65f-16b1-4ad3-aa8c-dde52ee7fee4")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0270")
 					(unit 1)
@@ -113311,7 +113311,7 @@
 			(uuid "5cecb3f5-0829-4ca8-80ee-e468f904c5f2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED41")
 					(unit 1)
@@ -113401,7 +113401,7 @@
 			(uuid "1c3c636e-fedb-4d58-bc42-49f887140316")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS30")
 					(unit 1)
@@ -113478,7 +113478,7 @@
 			(uuid "fcf4f689-5b87-4b86-a8f6-90123374104a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0272")
 					(unit 1)
@@ -113555,7 +113555,7 @@
 			(uuid "ce8e8167-9d9d-490e-994e-c8439433a04b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0284")
 					(unit 1)
@@ -113647,7 +113647,7 @@
 			(uuid "537eb668-16ce-461a-85ba-09b63c6aa09c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C46")
 					(unit 1)
@@ -113740,7 +113740,7 @@
 			(uuid "0a547c29-e8bb-46fd-bfde-c00c92070c12")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C9")
 					(unit 1)
@@ -113832,7 +113832,7 @@
 			(uuid "dcbe0e06-4adb-416a-8946-bdc8f39e8c6e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C91")
 					(unit 1)
@@ -113925,7 +113925,7 @@
 			(uuid "80695bbe-29f7-4dca-a575-2e30d1da5297")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED4")
 					(unit 1)
@@ -114030,7 +114030,7 @@
 			(uuid "5628e174-0591-482f-a0da-36903ed0b0ee")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "RL1")
 					(unit 1)
@@ -114122,7 +114122,7 @@
 			(uuid "acc87290-a4e2-4b20-993f-c912dd21f2b2")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R70")
 					(unit 1)
@@ -114214,7 +114214,7 @@
 			(uuid "a8d5371a-4c76-4450-bf8e-1ee1b5bbc72f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C76")
 					(unit 1)
@@ -114293,7 +114293,7 @@
 			(uuid "1d93e86d-7cd3-4521-aed5-c559bae02967")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "H8")
 					(unit 1)
@@ -114386,7 +114386,7 @@
 			(uuid "15f87d29-f8a5-4c7e-9ac7-5d58a47d2927")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED25")
 					(unit 1)
@@ -114478,7 +114478,7 @@
 			(uuid "7265be72-cf8b-42d1-a04a-13ecf722bc0c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C64")
 					(unit 1)
@@ -114555,7 +114555,7 @@
 			(uuid "b2ff9942-dc67-44d4-8f8c-031e22db453e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR081")
 					(unit 1)
@@ -114664,7 +114664,7 @@
 			(uuid "0c44a6d6-c754-47a2-8504-3056c2b0004a")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "IDCB1")
 					(unit 1)
@@ -114741,7 +114741,7 @@
 			(uuid "16ca746f-8ec6-48ee-9f96-1128906dcbe3")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR048")
 					(unit 1)
@@ -114818,7 +114818,7 @@
 			(uuid "d1d142f2-7034-4100-9e25-7d4f585562a6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0179")
 					(unit 1)
@@ -114895,7 +114895,7 @@
 			(uuid "4d4d4a04-b5a5-4e12-a96b-24183a837380")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0177")
 					(unit 1)
@@ -114987,7 +114987,7 @@
 			(uuid "56dc4dfc-2a34-47d7-ade8-2f68a271bbc1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R109")
 					(unit 1)
@@ -115083,7 +115083,7 @@
 			(uuid "03a08e1e-6ae0-4075-bafb-7501fe887a88")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "Q14")
 					(unit 1)
@@ -115160,7 +115160,7 @@
 			(uuid "38bd06aa-5e72-4add-86a7-7f4bf432e559")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0180")
 					(unit 1)
@@ -115252,7 +115252,7 @@
 			(uuid "19908d5b-3fef-4daa-a7be-40273486b21e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C5")
 					(unit 1)
@@ -115344,7 +115344,7 @@
 			(uuid "41e2bb7a-02c6-4079-b257-40c796782f1d")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C1")
 					(unit 1)
@@ -115421,7 +115421,7 @@
 			(uuid "522d54e4-6567-4eb1-940f-9b5f2fba358c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0216")
 					(unit 1)
@@ -115498,7 +115498,7 @@
 			(uuid "56cf3d4f-b474-455d-988a-2b364dde72cf")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0304")
 					(unit 1)
@@ -115575,7 +115575,7 @@
 			(uuid "7dd17bf2-2716-4682-ab45-1efeede0ebc1")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR033")
 					(unit 1)
@@ -115667,7 +115667,7 @@
 			(uuid "f2639cd3-f4ee-44b2-bf25-e5c099522419")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R11")
 					(unit 1)
@@ -115744,7 +115744,7 @@
 			(uuid "58dec4c0-4114-43a7-90e4-2f22bd0374ae")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0175")
 					(unit 1)
@@ -115821,7 +115821,7 @@
 			(uuid "5d670fff-a2bf-4a39-9f11-553f7d489b69")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0301")
 					(unit 1)
@@ -115898,7 +115898,7 @@
 			(uuid "86e77b15-e41e-4ca6-8cd3-6ad06b505a92")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#FLG04")
 					(unit 1)
@@ -115990,7 +115990,7 @@
 			(uuid "f6d6668a-b427-4aae-b36a-3053a2e8f9b8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R31")
 					(unit 1)
@@ -116067,7 +116067,7 @@
 			(uuid "8c30c098-a77a-45d0-9e00-aa535d01b487")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR096")
 					(unit 1)
@@ -116144,7 +116144,7 @@
 			(uuid "17777a61-c252-4f43-b1a3-d5d0a6cb6294")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0232")
 					(unit 1)
@@ -116244,7 +116244,7 @@
 			(uuid "b7a93a35-b741-44de-8471-01b1d7b5f745")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TD2")
 					(unit 1)
@@ -116321,7 +116321,7 @@
 			(uuid "3b6890e1-c824-47e2-b1a2-ea42a3e49941")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0115")
 					(unit 1)
@@ -116398,7 +116398,7 @@
 			(uuid "00efba88-f9b8-4759-8e6b-9fa76454e83c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0117")
 					(unit 1)
@@ -116492,7 +116492,7 @@
 			(uuid "98c5902c-d699-4d6c-81c6-eb7b5ee9a86b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS1")
 					(unit 1)
@@ -116569,7 +116569,7 @@
 			(uuid "3cba3935-d092-4fba-91f7-29c8e9df6a90")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR07")
 					(unit 1)
@@ -116683,7 +116683,7 @@
 			(uuid "0984b26a-4ba1-478b-8f49-c224b5d0a5d6")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "SSD4")
 					(unit 1)
@@ -116775,7 +116775,7 @@
 			(uuid "f0386ebc-9e57-4ac3-a793-e6fa78490944")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R14")
 					(unit 1)
@@ -116852,7 +116852,7 @@
 			(uuid "bcfb0958-4c9e-4627-aa3b-f26ecbd95fac")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR050")
 					(unit 1)
@@ -116929,7 +116929,7 @@
 			(uuid "011b88c8-cf58-4a58-922b-82892e046d38")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0255")
 					(unit 1)
@@ -117115,7 +117115,7 @@
 			(uuid "f1430588-6ad7-447e-b48d-8a816366497b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "DA1")
 					(unit 1)
@@ -117209,7 +117209,7 @@
 			(uuid "e8777109-68a9-44aa-8fa1-95fc912d1485")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS35")
 					(unit 1)
@@ -117306,7 +117306,7 @@
 			(uuid "5d0073d5-05a7-4cd7-a31f-83f4a2fb0499")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "OI6")
 					(unit 1)
@@ -117399,7 +117399,7 @@
 			(uuid "2ba5a82b-eb02-4493-93eb-2a913a38cd7b")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED19")
 					(unit 1)
@@ -117492,7 +117492,7 @@
 			(uuid "9fc232b4-bdef-4422-a273-50c6542afd9c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C90")
 					(unit 1)
@@ -117585,7 +117585,7 @@
 			(uuid "5066e2fa-3d1d-43d4-a8e0-7d3b65e31e71")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED6")
 					(unit 1)
@@ -117677,7 +117677,7 @@
 			(uuid "939385a3-c9c7-43e9-aabf-aa1ac9984c3f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C57")
 					(unit 1)
@@ -117770,7 +117770,7 @@
 			(uuid "c8bfba06-9994-4c9e-a4c2-ee5e642e3e96")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED28")
 					(unit 1)
@@ -117863,7 +117863,7 @@
 			(uuid "cea216e8-edcc-4864-856f-b5f32a30eb7c")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED31")
 					(unit 1)
@@ -117955,7 +117955,7 @@
 			(uuid "60dc2d7f-7f27-446e-ab09-b21b2dcc951e")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R18")
 					(unit 1)
@@ -118045,7 +118045,7 @@
 			(uuid "1018dcf2-3148-45e8-be11-c07191ecb119")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ZD13")
 					(unit 1)
@@ -118122,7 +118122,7 @@
 			(uuid "fca64b02-6d76-44ac-ace1-123cd8d1ad54")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR036")
 					(unit 1)
@@ -118231,7 +118231,7 @@
 			(uuid "6f71ae88-ed8d-4f45-8887-6de350436445")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "ROM2")
 					(unit 1)
@@ -118308,7 +118308,7 @@
 			(uuid "a8e6b9d5-d006-431a-bee3-a5fa7b9b5f23")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR029")
 					(unit 1)
@@ -118385,7 +118385,7 @@
 			(uuid "5fce6fde-e427-4201-aefa-ebaeaee6a999")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0103")
 					(unit 1)
@@ -118477,7 +118477,7 @@
 			(uuid "32cffa7e-31dc-4d4c-bc37-54336ae236ff")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "C8")
 					(unit 1)
@@ -118576,7 +118576,7 @@
 			(uuid "fa43a634-9319-4532-8661-071aa2d3bfcb")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TP2")
 					(unit 1)
@@ -118653,7 +118653,7 @@
 			(uuid "f63a1b6e-90c6-48b1-b043-dbaa8cc5abf8")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0277")
 					(unit 1)
@@ -118745,7 +118745,7 @@
 			(uuid "43879bc2-41f8-4566-a500-0f66e30b7227")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "R42")
 					(unit 1)
@@ -118835,7 +118835,7 @@
 			(uuid "e048f124-e916-48ad-8b32-3b393978eb11")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "TVS13")
 					(unit 1)
@@ -118912,7 +118912,7 @@
 			(uuid "f4c29de3-20b3-4802-b768-6e6e0ab9f243")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0268")
 					(unit 1)
@@ -119005,7 +119005,7 @@
 			(uuid "b18e697a-d8b2-480f-bfd6-23843e10ae4f")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "LED10")
 					(unit 1)
@@ -119082,7 +119082,7 @@
 			(uuid "ef49b3fe-56fd-4078-8050-9e0238f6fc23")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR0306")
 					(unit 1)
@@ -119159,7 +119159,7 @@
 			(uuid "bfb7069c-9fbb-48bc-9858-d40ecdfd8ed9")
 		)
 		(instances
-			(project "Main Control Unit"
+			(project "helm-controller"
 				(path "/66b9b57f-ad5a-4774-9c04-72011a45113c"
 					(reference "#PWR018")
 					(unit 1)
