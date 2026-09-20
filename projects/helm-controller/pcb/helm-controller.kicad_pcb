@@ -8,10 +8,10 @@
 	)
 	(paper "A2")
 	(title_block
-		(title "Muirgen Main Control Unit")
-		(date "2026-08-27")
-		(rev "1.7.0")
-		(company "The Digital Mermaid")
+		(title "Helm Controller")
+		(date "2026-09-19")
+		(rev "1.8.0")
+		(company "Tuskar Marine")
 	)
 	(layers
 		(0 "F.Cu" signal)
