@@ -42733,7 +42733,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2")
+				(pins "2" "1")
 			)
 		)
 		(attr smd)
@@ -42756,7 +42756,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "9e8041e4-9e23-49a2-80e5-b5afc702d1b5")
 		)
 		(fp_line
@@ -42767,7 +42766,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "3b7d7467-ce3d-4fa8-afd0-bfc19ad5a166")
 		)
 		(fp_line
@@ -42778,7 +42776,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "1c731e22-2d65-4535-9155-685f159e3f96")
 		)
 		(fp_line
@@ -42789,7 +42786,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "b0732dcf-1a64-4ced-9a73-b7207e9eae56")
 		)
 		(fp_line
@@ -42800,7 +42796,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "bdf38c15-a29f-437b-be15-e3998493456c")
 		)
 		(fp_line
@@ -42811,7 +42806,6 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(net "")
 			(uuid "58ef6b34-fc2a-4f79-bec1-6b8d36d7c4b5")
 		)
 		(fp_line
@@ -42833,7 +42827,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net "")
 			(uuid "786241cc-3938-427f-8812-fd7ce971948a")
 		)
 		(fp_line
