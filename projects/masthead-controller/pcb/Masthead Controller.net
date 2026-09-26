@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/digimer/github/hardware/projects/masthead-controller/pcb/Masthead Controller.kicad_sch")
-		(date "2026-09-26T01:33:39")
+		(date "2026-09-26T01:53:11")
 		(tool "Eeschema 10.0.1")
 		(sheet
 			(number "1")
@@ -9001,7 +9001,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "646de626-e025-41a2-81e7-7b2ba3b56571")
+			(tstamps "cde859d0-b79b-413f-98f3-43e6ca798b0d")
 			(units
 				(unit
 					(name "A")
@@ -9061,7 +9061,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "26560d94-e771-4c62-9981-5920743e19ca")
+			(tstamps "d1995f80-5c5f-44d6-8179-6e78e5b711cc")
 			(units
 				(unit
 					(name "A")
@@ -12662,6 +12662,126 @@
 				(tstamps "/")
 			)
 			(tstamps "595e6bee-d732-4c3c-b4d0-ad21daaccd1d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R72")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
+				(field
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
+				(field
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+				(field
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Part")
+				(value "Stackpole RMCA0805FT4K70-HP")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Masthead Controller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c48189fa-7827-4e91-bd01-1773081d6165")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R73")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
+				(field
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
+				(field
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+				(field
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Part")
+				(value "Stackpole RMCA0805FT4K70-HP")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Masthead Controller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abba3a47-16f7-4f9c-96e8-001f78ab527e")
 			(units
 				(unit
 					(name "A")
@@ -17296,7 +17416,7 @@
 			)
 			(node
 				(ref "R11")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -17361,6 +17481,16 @@
 			)
 			(node
 				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R72")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R73")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -18163,7 +18293,7 @@
 			)
 			(node
 				(ref "R11")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -18398,6 +18528,11 @@
 				(pintype "bidirectional")
 			)
 			(node
+				(ref "R72")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "ROM1")
 				(pin "6")
 				(pinfunction "SCL_6")
@@ -18431,6 +18566,11 @@
 				(pin "5")
 				(pinfunction "IO5_5")
 				(pintype "bidirectional")
+			)
+			(node
+				(ref "R73")
+				(pin "2")
+				(pintype "passive")
 			)
 			(node
 				(ref "ROM1")

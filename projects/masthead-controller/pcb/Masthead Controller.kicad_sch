@@ -16609,6 +16609,18 @@
 		(uuid "827dce6d-046f-4f88-8c04-43db8be284b7")
 	)
 	(rectangle
+		(start 269.875 224.155)
+		(end 295.275 247.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8688e580-50f2-4dc5-9130-2506cd384b50")
+	)
+	(rectangle
 		(start 13.335 309.88)
 		(end 52.705 332.74)
 		(stroke
@@ -17046,7 +17058,7 @@
 	)
 	(text "I2C Devices"
 		(exclude_from_sim no)
-		(at 198.882 181.864 0)
+		(at 198.628 182.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17198,6 +17210,16 @@
 			(justify left top)
 		)
 		(uuid "b8bd2840-0f62-422e-bba9-89c64ccfe99e")
+	)
+	(text "I2C Pull-Ups"
+		(exclude_from_sim no)
+		(at 276.606 223.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb32cb54-5579-4a81-bde1-3b49e9573cc4")
 	)
 	(text "Tricolour Starboard Light (Green, 83.5 mA Max)"
 		(exclude_from_sim no)
@@ -17465,12 +17487,6 @@
 		(uuid "0addec63-a311-4c5e-a022-efd3489b48c9")
 	)
 	(junction
-		(at 36.83 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0baa5acf-5337-4425-b71d-8efa44c06626")
-	)
-	(junction
 		(at 427.99 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17517,6 +17533,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "139abf30-b8ec-4925-b9c4-1995a20a484c")
+	)
+	(junction
+		(at 273.05 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "140d3fba-80e9-4df9-b362-9b25543a630f")
 	)
 	(junction
 		(at 233.68 52.07)
@@ -18065,6 +18087,12 @@
 		(uuid "68f75540-abfe-408e-9599-70e9d1c190eb")
 	)
 	(junction
+		(at 273.05 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691fa7c2-50ee-4a18-98ac-1121ed8fe8cf")
+	)
+	(junction
 		(at 494.03 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18081,12 +18109,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cfd811c-56cd-4cf2-a7d7-8e35fd5be926")
-	)
-	(junction
-		(at 30.48 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "703a7bd4-2ca5-48ae-bf74-f069be2d6976")
 	)
 	(junction
 		(at 455.93 115.57)
@@ -18159,6 +18181,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f475ff5-187e-42e3-a902-27808a6c68de")
+	)
+	(junction
+		(at 273.05 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ab0a1d-bd72-404a-ad5b-556fb5647a17")
 	)
 	(junction
 		(at 99.06 99.06)
@@ -19249,16 +19277,6 @@
 			(type default)
 		)
 		(uuid "05e79e96-e609-4457-b14d-2648fe6fed4e")
-	)
-	(wire
-		(pts
-			(xy 35.56 227.33) (xy 30.48 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f52cb7-a2a8-411d-a502-73533ad94e29")
 	)
 	(wire
 		(pts
@@ -20462,6 +20480,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 229.87) (xy 275.59 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f32cac4-2a62-4952-ad40-e31a9704cf67")
+	)
+	(wire
+		(pts
 			(xy 45.72 119.38) (xy 48.26 119.38)
 		)
 		(stroke
@@ -21632,16 +21660,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 212.09) (xy 30.48 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad1ff40-e75d-4198-a642-c9ffc257e08c")
-	)
-	(wire
-		(pts
 			(xy 17.78 163.83) (xy 17.78 171.45)
 		)
 		(stroke
@@ -22072,7 +22090,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 209.55) (xy 57.15 209.55)
+			(xy 54.61 209.55) (xy 57.15 209.55)
 		)
 		(stroke
 			(width 0)
@@ -22092,7 +22110,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 212.09) (xy 57.15 212.09)
+			(xy 54.61 212.09) (xy 57.15 212.09)
 		)
 		(stroke
 			(width 0)
@@ -22952,16 +22970,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 212.09) (xy 30.48 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b5db05-2f9d-4c2f-b535-97d054a36893")
-	)
-	(wire
-		(pts
 			(xy 233.68 31.75) (xy 236.22 31.75)
 		)
 		(stroke
@@ -23189,16 +23197,6 @@
 			(type default)
 		)
 		(uuid "5a9b7bf5-6605-42a9-8d9a-26990c12ad04")
-	)
-	(wire
-		(pts
-			(xy 36.83 204.47) (xy 35.56 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b233433-ebd6-404d-b22a-2a4f8c2cf7fe")
 	)
 	(wire
 		(pts
@@ -23752,6 +23750,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 245.11) (xy 273.05 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f1053f-fb39-4956-b5f7-e402927bc290")
+	)
+	(wire
+		(pts
 			(xy 408.94 74.93) (xy 412.75 74.93)
 		)
 		(stroke
@@ -24282,16 +24290,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 227.33) (xy 30.48 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71dd3a13-6ec3-4963-ae9e-9fc59a43bb2b")
-	)
-	(wire
-		(pts
 			(xy 384.81 152.4) (xy 388.62 152.4)
 		)
 		(stroke
@@ -24749,6 +24747,16 @@
 			(type default)
 		)
 		(uuid "7c714b9c-7793-4ec2-ad4c-d80d124ed4be")
+	)
+	(wire
+		(pts
+			(xy 273.05 240.03) (xy 273.05 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdc0e27-67cc-4924-b55c-d3e82d5ccba3")
 	)
 	(wire
 		(pts
@@ -25572,16 +25580,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 209.55) (xy 36.83 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f5a6f7-d393-421a-badd-101633384776")
-	)
-	(wire
-		(pts
 			(xy 240.03 209.55) (xy 243.84 209.55)
 		)
 		(stroke
@@ -25749,6 +25747,16 @@
 			(type default)
 		)
 		(uuid "947ab63f-137a-4218-ae99-e8e017df8f72")
+	)
+	(wire
+		(pts
+			(xy 283.21 229.87) (xy 285.75 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950e2bc0-c1d2-4483-8d2a-7ff99b3d6506")
 	)
 	(wire
 		(pts
@@ -26152,6 +26160,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 245.11) (xy 273.05 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9144d4-2076-451f-9353-6aec2f2baa8c")
+	)
+	(wire
+		(pts
 			(xy 563.88 33.02) (xy 565.15 33.02)
 		)
 		(stroke
@@ -26189,6 +26207,16 @@
 			(type default)
 		)
 		(uuid "9fa56a53-f8f5-40e5-8b92-6981869d5f28")
+	)
+	(wire
+		(pts
+			(xy 273.05 234.95) (xy 273.05 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa5e6bb-86c5-4ea2-832a-2b0fe42a5540")
 	)
 	(wire
 		(pts
@@ -26629,6 +26657,16 @@
 			(type default)
 		)
 		(uuid "a84cc9ae-d7c7-4bd3-b5b7-499158bf9473")
+	)
+	(wire
+		(pts
+			(xy 275.59 234.95) (xy 273.05 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d4d95b-b7d7-47b5-99fc-b4f63dbfbfbb")
 	)
 	(wire
 		(pts
@@ -27229,16 +27267,6 @@
 			(type default)
 		)
 		(uuid "b6d2ddfe-cd5e-47c5-a285-2177edddbfed")
-	)
-	(wire
-		(pts
-			(xy 36.83 204.47) (xy 36.83 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b718b538-cfca-4766-a432-3e0fe2fe9f01")
 	)
 	(wire
 		(pts
@@ -27879,6 +27907,16 @@
 			(type default)
 		)
 		(uuid "c490617b-7d4f-4f8c-a522-686416edb00a")
+	)
+	(wire
+		(pts
+			(xy 275.59 240.03) (xy 273.05 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b7e18b-7eca-4bc4-b870-b3d835ef814c")
 	)
 	(wire
 		(pts
@@ -28882,6 +28920,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 245.11) (xy 285.75 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da141d54-aad1-4980-9e8b-6558f46395bd")
+	)
+	(wire
+		(pts
 			(xy 30.48 153.67) (xy 30.48 154.94)
 		)
 		(stroke
@@ -28999,6 +29047,16 @@
 			(type default)
 		)
 		(uuid "dcc4abe0-0ed7-4f41-962a-6a24d707f111")
+	)
+	(wire
+		(pts
+			(xy 283.21 240.03) (xy 285.75 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd1cb0b-1b33-48e2-b843-ad17f7d7d4fb")
 	)
 	(wire
 		(pts
@@ -30132,16 +30190,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 204.47) (xy 26.67 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa7db434-8ea7-4ef1-b1ae-6ac9d23eef11")
-	)
-	(wire
-		(pts
 			(xy 209.55 243.84) (xy 212.09 243.84)
 		)
 		(stroke
@@ -30259,6 +30307,16 @@
 			(type default)
 		)
 		(uuid "fd31b9a1-9273-48e8-aff4-97947a80377e")
+	)
+	(wire
+		(pts
+			(xy 283.21 234.95) (xy 285.75 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd321367-4441-4008-986b-af2ccb15e29a")
 	)
 	(wire
 		(pts
@@ -30479,6 +30537,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e1905bf-6342-4edb-befb-7ad2b0b56ae1")
+	)
+	(label "I2C_SDA"
+		(at 285.75 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f6d4833-7265-4b9b-972a-1494420993b6")
 	)
 	(label "STEAMING_SEC_VSET"
 		(at 242.57 241.3 0)
@@ -30721,7 +30789,7 @@
 		(uuid "4b72ffa1-1590-496b-a2a3-6fbb3f5ae048")
 	)
 	(label "DAC_SCL"
-		(at 34.29 209.55 180)
+		(at 54.61 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30990,6 +31058,16 @@
 		)
 		(uuid "7d7a7922-231f-49f9-b1e8-4457421f1be3")
 	)
+	(label "I2C_SCL"
+		(at 285.75 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fd51832-a040-4739-928d-4cee286b452c")
+	)
 	(label "VBUS"
 		(at 168.91 215.9 270)
 		(effects
@@ -31060,6 +31138,16 @@
 		)
 		(uuid "83f92ba7-1ec0-4e4c-acf4-f50f7c9570cc")
 	)
+	(label "DAC_SDA"
+		(at 285.75 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85bd03c5-4116-4986-91ff-77e574dad40d")
+	)
 	(label "TC_STERN_SEC_JPR"
 		(at 280.67 160.02 180)
 		(effects
@@ -31101,7 +31189,7 @@
 		(uuid "89b6bfdd-7f13-44c0-ba1e-91761299b604")
 	)
 	(label "DAC_SDA"
-		(at 27.94 212.09 270)
+		(at 54.61 212.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31279,6 +31367,16 @@
 			(justify right bottom)
 		)
 		(uuid "b97d19b0-794d-4745-98e0-c36d7e817e70")
+	)
+	(label "DAC_SCL"
+		(at 285.75 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd04ece9-59c7-4911-b03a-bb2660c6834f")
 	)
 	(label "TC_STERN_PRI_JPR"
 		(at 33.02 271.78 180)
@@ -37071,96 +37169,6 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 30.48 218.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26560d94-e771-4c62-9981-5920743e19ca")
-		(property "Reference" "R11"
-			(at 30.48 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7kR"
-			(at 32.512 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 39.878 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 42.164 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 37.592 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 35.306 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "706a2563-c6cf-47b5-800e-55396515ee95")
-		)
-		(pin "1"
-			(uuid "e988aa12-3588-4449-9d28-849f92d7b92d")
-		)
-		(instances
-			(project "Masthead Controller"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -45146,83 +45154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 26.67 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ec5acd8-b3ec-42e0-a06d-4c6fbe6eab51")
-		(property "Reference" "#PWR069"
-			(at 26.67 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 26.67 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "273def88-7533-4238-8b04-b42d3155f473")
-		)
-		(instances
-			(project "Masthead Controller"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mr-parts:Stackpole RNCP0805FTD3K92")
 		(at 147.32 114.3 270)
 		(unit 1)
@@ -45734,96 +45665,6 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 31.75 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "646de626-e025-41a2-81e7-7b2ba3b56571")
-		(property "Reference" "R10"
-			(at 31.75 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7kR"
-			(at 31.75 202.438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 31.75 213.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 31.75 216.154 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 31.75 211.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 31.75 209.296 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "daae1bcb-ee00-456d-b916-9ece4ed7390f")
-		)
-		(pin "1"
-			(uuid "414e5fd7-81cd-4929-af10-8bdd181ec628")
-		)
-		(instances
-			(project "Masthead Controller"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -46830,83 +46671,6 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c9c77b1-9b49-4392-8493-20d4ad374245")
-		(property "Reference" "#PWR071"
-			(at 35.56 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 35.56 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edd8551f-62f1-4eaa-91f4-117a7e737678")
-		)
-		(instances
-			(project "Masthead Controller"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -55523,6 +55287,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
+		(at 279.4 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abba3a47-16f7-4f9c-96e8-001f78ab527e")
+		(property "Reference" "R73"
+			(at 279.4 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kR"
+			(at 279.4 232.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 279.4 244.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 279.4 246.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 279.4 242.062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT4K70-HP"
+			(at 279.4 239.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bfdeebc-da74-41a4-a990-e95a60cdc180")
+		)
+		(pin "1"
+			(uuid "46bd4e6d-7492-46ac-84a4-b8ad4b5eb1e3")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 210.82 309.88 0)
 		(unit 1)
@@ -58645,6 +58499,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
+		(at 279.4 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c48189fa-7827-4e91-bd01-1773081d6165")
+		(property "Reference" "R72"
+			(at 279.4 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kR"
+			(at 279.4 227.838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 279.4 239.268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 279.4 241.554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 279.4 236.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT4K70-HP"
+			(at 279.4 234.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fd1df30-d271-46d1-bba2-1c6280b2d224")
+		)
+		(pin "1"
+			(uuid "12a3a3b6-38ee-49f9-ab8a-4d55820ca9e7")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 16.51 323.85 0)
 		(unit 1)
@@ -59946,6 +59890,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
+		(at 279.4 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cde859d0-b79b-413f-98f3-43e6ca798b0d")
+		(property "Reference" "R10"
+			(at 279.4 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kR"
+			(at 279.4 237.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 279.4 249.428 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 279.4 251.714 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 279.4 247.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT4K70-HP"
+			(at 279.4 244.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "584e0e6e-6d19-4cab-b8f8-9ec16bea07fa")
+		)
+		(pin "1"
+			(uuid "10a21856-7cf5-440c-9ea0-ac7c46f6672e")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Panasonic ERJ-UP6F1R20V")
 		(at 384.81 147.32 90)
 		(unit 1)
@@ -60290,6 +60324,96 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
+		(at 279.4 245.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1995f80-5c5f-44d6-8179-6e78e5b711cc")
+		(property "Reference" "R11"
+			(at 279.4 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7kR"
+			(at 279.4 243.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 279.4 235.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 279.4 233.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 279.4 237.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT4K70-HP"
+			(at 279.4 240.284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3d23939-e988-4aaf-b13c-9eddecb242c8")
+		)
+		(pin "1"
+			(uuid "2cba8e7d-c725-4a6e-9cf8-3fd2a69c1f50")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -61759,6 +61883,83 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcaae038-7ae3-49e4-abb8-47c8321080a6")
+		(property "Reference" "#PWR086"
+			(at 273.05 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a47c601d-1c41-4c75-a516-6b1b21e42a14")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
