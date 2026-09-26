@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/digimer/github/hardware/projects/masthead-controller/pcb/Masthead Controller.kicad_sch")
-		(date "2026-09-26T15:03:09")
+		(date "2026-09-26T18:32:37")
 		(tool "Eeschema 10.0.1")
 		(sheet
 			(number "1")
@@ -7826,19 +7826,19 @@
 		)
 		(comp
 			(ref "LED1")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -7847,7 +7847,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -7869,16 +7869,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "55ad9924-c239-4112-88fa-0e53c22457c1")
+			(tstamps "b26be566-d19c-41b6-b3a5-38c0a226740d")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -12857,6 +12857,66 @@
 			)
 		)
 		(comp
+			(ref "R74")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
+				(field
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
+				(field
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+				(field
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Part")
+				(value "Stackpole RMCA0805FT4K70-HP")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Masthead Controller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "09d6b355-ed38-48aa-9861-6b21baf7676d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "R75")
 			(value "475R")
 			(footprint "mr-stuff:Stackpole RNCP0805")
@@ -12902,6 +12962,66 @@
 				(tstamps "/")
 			)
 			(tstamps "9f54ad82-9db3-46e9-9f91-281748f43f02")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R76")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(fields
+				(field
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
+				(field
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
+				(field
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+				(field
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(libsource
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			)
+			(property
+				(name "Part")
+				(value "Stackpole RMCA0805FT4K70-HP")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Masthead Controller.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "df51a5e3-1123-459d-a01c-c150031cd2b8")
 			(units
 				(unit
 					(name "A")
@@ -17259,7 +17379,7 @@
 			)
 			(fields
 				(field
-					(name "Reference") "D")
+					(name "Reference") "LED")
 				(field
 					(name "Value") "TLMS1101-GS15")
 				(field
@@ -18480,6 +18600,11 @@
 				(pin "2")
 				(pintype "passive")
 			)
+			(node
+				(ref "R76")
+				(pin "1")
+				(pintype "passive")
+			)
 		)
 		(net
 			(code "18")
@@ -18516,6 +18641,11 @@
 			(node
 				(ref "R22")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
@@ -20065,6 +20195,16 @@
 			)
 			(node
 				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R74")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R76")
 				(pin "2")
 				(pintype "passive")
 			)
