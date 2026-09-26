@@ -15028,6 +15028,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Vishay TLMS1101-GS15"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLMS1101-GS15"
+				(at -0.508 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Vishay TLMS1101"
+				(at 0 -13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/83173/tlmx1100.pdf"
+				(at 0 -6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Vishay TLMS1101-GS15"
+				(at 0 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Vishay TLMS1101-GS15_0_1"
+				(polyline
+					(pts
+						(xy -3.683 -0.762) (xy -5.207 -2.286) (xy -4.445 -2.286) (xy -5.207 -2.286) (xy -5.207 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -0.762) (xy -3.937 -2.286) (xy -3.175 -2.286) (xy -3.937 -2.286) (xy -3.937 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vishay TLMS1101-GS15_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mr-parts:Vishay VCAN33A2-03SHE3A08"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16538,7 +16739,7 @@
 	)
 	(rectangle
 		(start 269.875 183.515)
-		(end 317.5 220.345)
+		(end 318.135 231.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -16609,8 +16810,8 @@
 		(uuid "827dce6d-046f-4f88-8c04-43db8be284b7")
 	)
 	(rectangle
-		(start 269.875 224.155)
-		(end 295.275 247.65)
+		(start 269.875 235.585)
+		(end 295.275 259.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -17213,7 +17414,7 @@
 	)
 	(text "I2C Pull-Ups"
 		(exclude_from_sim no)
-		(at 276.606 223.266 0)
+		(at 276.606 234.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17324,7 +17525,7 @@
 	)
 	(text "Configuration tasks, like DAC address changes,\noccur only if SW3 is closed during power up."
 		(exclude_from_sim no)
-		(at 270.51 216.154 0)
+		(at 270.764 226.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17535,7 +17736,7 @@
 		(uuid "139abf30-b8ec-4925-b9c4-1995a20a484c")
 	)
 	(junction
-		(at 273.05 240.03)
+		(at 273.05 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "140d3fba-80e9-4df9-b362-9b25543a630f")
@@ -18087,7 +18288,7 @@
 		(uuid "68f75540-abfe-408e-9599-70e9d1c190eb")
 	)
 	(junction
-		(at 273.05 234.95)
+		(at 273.05 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "691fa7c2-50ee-4a18-98ac-1121ed8fe8cf")
@@ -18183,7 +18384,7 @@
 		(uuid "7f475ff5-187e-42e3-a902-27808a6c68de")
 	)
 	(junction
-		(at 273.05 229.87)
+		(at 273.05 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ab0a1d-bd72-404a-ad5b-556fb5647a17")
@@ -18997,10 +19198,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff145fca-c28a-41a3-b91c-4bd3959b3f3b")
-	)
-	(no_connect
-		(at 87.63 196.85)
-		(uuid "362d610f-1618-426c-89f4-aeb5d040cbe2")
 	)
 	(no_connect
 		(at 87.63 214.63)
@@ -20480,7 +20677,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 229.87) (xy 275.59 229.87)
+			(xy 273.05 241.3) (xy 275.59 241.3)
 		)
 		(stroke
 			(width 0)
@@ -20657,6 +20854,16 @@
 			(type default)
 		)
 		(uuid "234d808d-8442-4722-a155-792d43b9960c")
+	)
+	(wire
+		(pts
+			(xy 293.37 219.71) (xy 295.91 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c42abc-6aa4-4c47-ab43-a594232c755c")
 	)
 	(wire
 		(pts
@@ -23040,6 +23247,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 219.71) (xy 306.07 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568cdc94-f5d4-45b3-b0b5-0f5a37c2a8cb")
+	)
+	(wire
+		(pts
 			(xy 455.93 120.65) (xy 457.2 120.65)
 		)
 		(stroke
@@ -23750,7 +23967,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 245.11) (xy 273.05 240.03)
+			(xy 273.05 256.54) (xy 273.05 251.46)
 		)
 		(stroke
 			(width 0)
@@ -24750,7 +24967,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 240.03) (xy 273.05 234.95)
+			(xy 273.05 251.46) (xy 273.05 246.38)
 		)
 		(stroke
 			(width 0)
@@ -25750,7 +25967,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 229.87) (xy 285.75 229.87)
+			(xy 283.21 241.3) (xy 285.75 241.3)
 		)
 		(stroke
 			(width 0)
@@ -26160,7 +26377,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 245.11) (xy 273.05 245.11)
+			(xy 275.59 256.54) (xy 273.05 256.54)
 		)
 		(stroke
 			(width 0)
@@ -26210,7 +26427,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 234.95) (xy 273.05 229.87)
+			(xy 273.05 246.38) (xy 273.05 241.3)
 		)
 		(stroke
 			(width 0)
@@ -26660,7 +26877,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 234.95) (xy 273.05 234.95)
+			(xy 275.59 246.38) (xy 273.05 246.38)
 		)
 		(stroke
 			(width 0)
@@ -27177,6 +27394,16 @@
 			(type default)
 		)
 		(uuid "b5379b67-822d-4944-8704-1dac73cbbf04")
+	)
+	(wire
+		(pts
+			(xy 87.63 196.85) (xy 90.17 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58297ca-93d9-4ec9-ad92-b639b49a357c")
 	)
 	(wire
 		(pts
@@ -27910,7 +28137,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 240.03) (xy 273.05 240.03)
+			(xy 275.59 251.46) (xy 273.05 251.46)
 		)
 		(stroke
 			(width 0)
@@ -28920,7 +29147,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 245.11) (xy 285.75 245.11)
+			(xy 283.21 256.54) (xy 285.75 256.54)
 		)
 		(stroke
 			(width 0)
@@ -29050,7 +29277,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 240.03) (xy 285.75 240.03)
+			(xy 283.21 251.46) (xy 285.75 251.46)
 		)
 		(stroke
 			(width 0)
@@ -29237,6 +29464,16 @@
 			(type default)
 		)
 		(uuid "e33f360b-a9dc-4bd2-a120-5847d5fd0357")
+	)
+	(wire
+		(pts
+			(xy 283.21 219.71) (xy 285.75 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3808449-6e7d-41d1-b8a7-e0b1ffe19c6e")
 	)
 	(wire
 		(pts
@@ -30310,7 +30547,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 234.95) (xy 285.75 234.95)
+			(xy 283.21 246.38) (xy 285.75 246.38)
 		)
 		(stroke
 			(width 0)
@@ -30539,7 +30776,7 @@
 		(uuid "0e1905bf-6342-4edb-befb-7ad2b0b56ae1")
 	)
 	(label "I2C_SDA"
-		(at 285.75 234.95 0)
+		(at 285.75 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30928,6 +31165,16 @@
 		)
 		(uuid "65bb9c64-ea12-47aa-b99a-261a2948d3ab")
 	)
+	(label "STATUS_LED"
+		(at 90.17 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "667abd0f-99be-4d82-a801-ff3ad6e5f1d1")
+	)
 	(label "ANCHOR_SEC_JPR"
 		(at 33.02 269.24 180)
 		(effects
@@ -30967,6 +31214,16 @@
 			(justify right bottom)
 		)
 		(uuid "6d3eed46-89fd-4b73-b189-636094602dd8")
+	)
+	(label "STATUS_LED"
+		(at 283.21 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f678e95-db1c-4e80-a1b3-6ec076072775")
 	)
 	(label "TC_PORT_PRI_JPR"
 		(at 388.62 40.64 180)
@@ -31059,7 +31316,7 @@
 		(uuid "7d7a7922-231f-49f9-b1e8-4457421f1be3")
 	)
 	(label "I2C_SCL"
-		(at 285.75 229.87 0)
+		(at 285.75 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31139,7 +31396,7 @@
 		(uuid "83f92ba7-1ec0-4e4c-acf4-f50f7c9570cc")
 	)
 	(label "DAC_SDA"
-		(at 285.75 245.11 0)
+		(at 285.75 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31369,7 +31626,7 @@
 		(uuid "b97d19b0-794d-4745-98e0-c36d7e817e70")
 	)
 	(label "DAC_SCL"
-		(at 285.75 240.03 0)
+		(at 285.75 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52709,6 +52966,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(at 289.56 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f54ad82-9db3-46e9-9f91-281748f43f02")
+		(property "Reference" "R75"
+			(at 289.56 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "475R"
+			(at 289.56 217.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+			(at 289.56 229.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+			(at 289.56 231.394 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+			(at 289.56 226.822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RNCP0805FTD475R"
+			(at 289.56 224.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f76345ed-85b8-4abf-87ce-fc71a7e4e776")
+		)
+		(pin "1"
+			(uuid "3a61d288-4d49-41ce-a4b2-40d73ae05d01")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Bourns SRN6045TA-680M")
 		(at 546.1 160.02 0)
 		(unit 1)
@@ -55288,7 +55635,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 279.4 234.95 0)
+		(at 279.4 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55298,7 +55645,7 @@
 		(dnp no)
 		(uuid "abba3a47-16f7-4f9c-96e8-001f78ab527e")
 		(property "Reference" "R73"
-			(at 279.4 234.95 0)
+			(at 279.4 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55308,7 +55655,7 @@
 			)
 		)
 		(property "Value" "4.7kR"
-			(at 279.4 232.918 0)
+			(at 279.4 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55318,7 +55665,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 279.4 244.348 0)
+			(at 279.4 255.778 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55329,7 +55676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 279.4 246.634 0)
+			(at 279.4 258.064 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55340,7 +55687,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 279.4 242.062 0)
+			(at 279.4 253.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55351,7 +55698,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 279.4 239.776 0)
+			(at 279.4 251.206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56222,6 +56569,97 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Vishay TLMS1101-GS15")
+		(at 299.72 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b26be566-d19c-41b6-b3a5-38c0a226740d")
+		(property "Reference" "LED1"
+			(at 299.466 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLMS1101-GS15"
+			(at 301.625 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Vishay TLMS1101"
+			(at 299.72 206.502 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/83173/tlmx1100.pdf"
+			(at 299.72 213.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 299.72 208.788 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Vishay TLMS1101-GS15"
+			(at 299.72 211.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d53e3487-6b68-40d4-ab73-db7342b01d11")
+		)
+		(pin "2"
+			(uuid "5c158558-6206-4e23-85c1-572e894c2d30")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:TDK CGA5L1X7R1H106K160AE")
 		(at 528.32 142.24 270)
 		(unit 1)
@@ -56462,6 +56900,83 @@
 			(project "Masthead Controller"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 306.07 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7a23d46-50ab-43dd-9dca-fd04bb63db01")
+		(property "Reference" "#PWR0180"
+			(at 306.07 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 223.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c703ee8-e87c-414e-9b16-5a28672d5f37")
+		)
+		(instances
+			(project "Masthead Controller"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -58500,7 +59015,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 279.4 229.87 0)
+		(at 279.4 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -58510,7 +59025,7 @@
 		(dnp no)
 		(uuid "c48189fa-7827-4e91-bd01-1773081d6165")
 		(property "Reference" "R72"
-			(at 279.4 229.87 0)
+			(at 279.4 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58520,7 +59035,7 @@
 			)
 		)
 		(property "Value" "4.7kR"
-			(at 279.4 227.838 0)
+			(at 279.4 239.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58530,7 +59045,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 279.4 239.268 0)
+			(at 279.4 250.698 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58541,7 +59056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 279.4 241.554 0)
+			(at 279.4 252.984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58552,7 +59067,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 279.4 236.982 0)
+			(at 279.4 248.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58563,7 +59078,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 279.4 234.696 0)
+			(at 279.4 246.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59891,7 +60406,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 279.4 240.03 0)
+		(at 279.4 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -59901,7 +60416,7 @@
 		(dnp no)
 		(uuid "cde859d0-b79b-413f-98f3-43e6ca798b0d")
 		(property "Reference" "R10"
-			(at 279.4 240.03 0)
+			(at 279.4 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59911,7 +60426,7 @@
 			)
 		)
 		(property "Value" "4.7kR"
-			(at 279.4 237.998 0)
+			(at 279.4 249.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59921,7 +60436,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 279.4 249.428 0)
+			(at 279.4 260.858 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59932,7 +60447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 279.4 251.714 0)
+			(at 279.4 263.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59943,7 +60458,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 279.4 247.142 0)
+			(at 279.4 258.572 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59954,7 +60469,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 279.4 244.856 0)
+			(at 279.4 256.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60331,7 +60846,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT4K70-HP")
-		(at 279.4 245.11 180)
+		(at 279.4 256.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -60341,7 +60856,7 @@
 		(dnp no)
 		(uuid "d1995f80-5c5f-44d6-8179-6e78e5b711cc")
 		(property "Reference" "R11"
-			(at 279.4 245.11 0)
+			(at 279.4 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60351,7 +60866,7 @@
 			)
 		)
 		(property "Value" "4.7kR"
-			(at 279.4 243.078 0)
+			(at 279.4 254.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -60361,7 +60876,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 279.4 235.712 0)
+			(at 279.4 247.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60372,7 +60887,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 279.4 233.426 0)
+			(at 279.4 244.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60383,7 +60898,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 279.4 237.998 0)
+			(at 279.4 249.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60394,7 +60909,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT4K70-HP"
-			(at 279.4 240.284 0)
+			(at 279.4 251.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61890,7 +62405,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 273.05 229.87 0)
+		(at 273.05 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61900,7 +62415,7 @@
 		(dnp no)
 		(uuid "dcaae038-7ae3-49e4-abb8-47c8321080a6")
 		(property "Reference" "#PWR086"
-			(at 273.05 233.68 0)
+			(at 273.05 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61911,7 +62426,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 273.05 226.06 0)
+			(at 273.05 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61921,7 +62436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 229.87 0)
+			(at 273.05 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61932,7 +62447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 229.87 0)
+			(at 273.05 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61943,7 +62458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 273.05 229.87 0)
+			(at 273.05 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
