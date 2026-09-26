@@ -8080,7 +8080,7 @@
 	)
 	(rectangle
 		(start 102.87 166.37)
-		(end 158.115 194.31)
+		(end 161.925 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -8113,9 +8113,9 @@
 		)
 		(uuid "0d15ac4c-f905-486e-8882-a08b512b1326")
 	)
-	(text "Test Point"
+	(text "Control Switches"
 		(exclude_from_sim no)
-		(at 107.95 165.608 0)
+		(at 111.252 165.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8219,7 +8219,7 @@
 	)
 	(text "Config"
 		(exclude_from_sim no)
-		(at 137.16 189.992 0)
+		(at 151.13 189.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8239,7 +8239,7 @@
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
-		(at 137.16 176.022 0)
+		(at 151.13 176.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8428,6 +8428,12 @@
 		(uuid "4af7fd29-2942-4dec-810a-c795d0fb915e")
 	)
 	(junction
+		(at 129.54 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bbfc737-6faa-40c9-b11b-898eb7aa9bfc")
+	)
+	(junction
 		(at 176.53 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8524,10 +8530,22 @@
 		(uuid "85ecfd7e-1192-49b8-999c-a864d2857efe")
 	)
 	(junction
+		(at 137.16 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7fd725-9d98-43cb-90dc-8fb1f75954b7")
+	)
+	(junction
 		(at 175.26 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ea57250-b3f0-47d6-808d-89466e162375")
+	)
+	(junction
+		(at 137.16 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ec00b0d-ef08-4d6f-9cdd-a370fb0af8f3")
 	)
 	(junction
 		(at 17.78 100.33)
@@ -8558,12 +8576,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "996aab95-c6c8-4f3c-85af-e9ea2f35cc0d")
-	)
-	(junction
-		(at 129.54 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d6cf200-8ab3-4d6f-a8f0-fc82f70ef011")
 	)
 	(junction
 		(at 200.66 55.88)
@@ -8704,6 +8716,12 @@
 		(uuid "df5db1a8-5e29-4b9d-b69d-055517f549d4")
 	)
 	(junction
+		(at 129.54 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e92c431a-09f5-4f00-8e28-41c6e7115926")
+	)
+	(junction
 		(at 58.42 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8732,12 +8750,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb58468d-77ac-4a0c-ad89-decbdd50e778")
-	)
-	(junction
-		(at 129.54 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff8ef721-0fb3-4415-ab7a-d4a3a40af9e6")
 	)
 	(no_connect
 		(at 57.15 142.24)
@@ -9029,7 +9041,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 177.8) (xy 129.54 173.99)
+			(xy 129.54 170.18) (xy 129.54 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9146,16 +9158,6 @@
 			(type default)
 		)
 		(uuid "19d8a8dd-ade4-457c-85d1-c435d79309e1")
-	)
-	(wire
-		(pts
-			(xy 154.94 173.99) (xy 152.4 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a2495c9-40d1-415b-a7c4-2d456e156009")
 	)
 	(wire
 		(pts
@@ -9359,6 +9361,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 177.8) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256be8e3-394d-45d7-b7c7-933afbe418a3")
+	)
+	(wire
+		(pts
 			(xy 163.83 154.94) (xy 163.83 143.51)
 		)
 		(stroke
@@ -9559,7 +9571,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 184.15) (xy 129.54 187.96)
+			(xy 146.05 184.15) (xy 137.16 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3297ca57-929e-45cf-837a-43b62083e9c1")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 129.54 191.77)
 		)
 		(stroke
 			(width 0)
@@ -9919,6 +9941,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 191.77) (xy 140.97 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a05e428-51eb-4e2d-ac06-1969a884d517")
+	)
+	(wire
+		(pts
 			(xy 163.83 36.83) (xy 163.83 38.1)
 		)
 		(stroke
@@ -9966,6 +9998,16 @@
 			(type default)
 		)
 		(uuid "4c70ab1f-6b9a-469f-bb47-09a692fef447")
+	)
+	(wire
+		(pts
+			(xy 137.16 170.18) (xy 129.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da4cbfa-7869-4816-b4ae-5d5b62bb8ef6")
 	)
 	(wire
 		(pts
@@ -10169,16 +10211,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 187.96) (xy 132.08 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7502e6-3d97-4aea-9864-3fec963a00a8")
-	)
-	(wire
-		(pts
 			(xy 88.9 176.53) (xy 88.9 179.07)
 		)
 		(stroke
@@ -10356,6 +10388,16 @@
 			(type default)
 		)
 		(uuid "6316e604-ef4f-418b-ac8c-ae7b10cefea5")
+	)
+	(wire
+		(pts
+			(xy 137.16 184.15) (xy 129.54 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647bef90-9438-44c7-873d-a3a981cbb9a8")
 	)
 	(wire
 		(pts
@@ -10556,6 +10598,16 @@
 			(type default)
 		)
 		(uuid "6e131c44-4671-45f6-a426-c3b0eb29af57")
+	)
+	(wire
+		(pts
+			(xy 156.21 187.96) (xy 158.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70635122-3dc2-4baf-a13a-84f34bf03adc")
 	)
 	(wire
 		(pts
@@ -10779,16 +10831,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 173.99) (xy 132.08 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800c9b71-85cd-4d77-b786-1a19c5a77016")
-	)
-	(wire
-		(pts
 			(xy 115.57 26.67) (xy 115.57 25.4)
 		)
 		(stroke
@@ -10856,6 +10898,16 @@
 			(type default)
 		)
 		(uuid "842c4b1c-c57b-43de-8fa5-a4731f4cc90d")
+	)
+	(wire
+		(pts
+			(xy 140.97 189.23) (xy 143.51 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846b376b-b8eb-4e7e-9d56-a14d40104ded")
 	)
 	(wire
 		(pts
@@ -11029,6 +11081,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 187.96) (xy 146.05 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9183ebde-31b8-4bc7-bf21-654c7aaad8ed")
+	)
+	(wire
+		(pts
 			(xy 69.85 58.42) (xy 72.39 58.42)
 		)
 		(stroke
@@ -11106,6 +11168,16 @@
 			(type default)
 		)
 		(uuid "95d78f8b-3b26-481c-9260-289718432846")
+	)
+	(wire
+		(pts
+			(xy 146.05 173.99) (xy 146.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dfd018-6b8f-4872-bd34-3f9d491f23ad")
 	)
 	(wire
 		(pts
@@ -11199,16 +11271,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 187.96) (xy 154.94 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbbedba-d75f-4d1c-9c1d-af8c7f6081cb")
-	)
-	(wire
-		(pts
 			(xy 101.6 66.04) (xy 133.35 66.04)
 		)
 		(stroke
@@ -11226,16 +11288,6 @@
 			(type default)
 		)
 		(uuid "9d9d5c5b-5b45-47f1-aba3-d4572426e690")
-	)
-	(wire
-		(pts
-			(xy 129.54 187.96) (xy 129.54 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eae92c2-25f4-405f-9759-34be49d5909d")
 	)
 	(wire
 		(pts
@@ -11346,6 +11398,16 @@
 			(type default)
 		)
 		(uuid "a7790b36-2ab7-4d23-8b82-34f4b825d44b")
+	)
+	(wire
+		(pts
+			(xy 137.16 191.77) (xy 140.97 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c302a2-16a7-46e7-9710-6769c8f580e9")
 	)
 	(wire
 		(pts
@@ -11809,6 +11871,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 170.18) (xy 137.16 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb7be42-b8b0-41d0-b300-a97648ef873b")
+	)
+	(wire
+		(pts
 			(xy 163.83 46.99) (xy 163.83 48.26)
 		)
 		(stroke
@@ -11999,16 +12071,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 170.18) (xy 129.54 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79aefe7-9187-454a-b91b-dff0a91eb591")
-	)
-	(wire
-		(pts
 			(xy 215.9 64.77) (xy 215.9 66.04)
 		)
 		(stroke
@@ -12119,6 +12181,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 173.99) (xy 158.75 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcac20b2-9f29-474b-b9d9-a52c5321447a")
+	)
+	(wire
+		(pts
 			(xy 44.45 97.79) (xy 46.99 97.79)
 		)
 		(stroke
@@ -12186,6 +12258,16 @@
 			(type default)
 		)
 		(uuid "e0af599f-b7f2-4ac2-a82b-31666a92cbbc")
+	)
+	(wire
+		(pts
+			(xy 137.16 177.8) (xy 140.97 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b4a834-90f3-4325-b828-55a6deb5a46d")
 	)
 	(wire
 		(pts
@@ -12529,16 +12611,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 144.78 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd71a5b6-4333-4370-96c5-2c91df9805d3")
-	)
-	(wire
-		(pts
 			(xy 17.78 119.38) (xy 19.05 119.38)
 		)
 		(stroke
@@ -12579,13 +12651,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 173.99) (xy 144.78 173.99)
+			(xy 140.97 175.26) (xy 143.51 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff5ee6bc-8bbd-4e38-9805-c51488d97819")
+		(uuid "ff55ca2f-0c8f-45ed-bd95-4cbbb7c3fe38")
 	)
 	(label "RXD0"
 		(at 90.17 106.68 0)
@@ -15155,6 +15227,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f227d3a-71f7-484b-8a78-36fe2d929ecc")
+		(property "Reference" "#PWR0182"
+			(at 143.51 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3346bc5-e86d-4b99-b073-1030e4b06dc0")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Vishay TLMS1101-GS15")
 		(at 219.71 147.32 0)
 		(unit 1)
@@ -16498,7 +16647,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 148.59 187.96 90)
+		(at 137.16 187.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16508,7 +16657,7 @@
 		(dnp no)
 		(uuid "46c4e68f-a9ce-40fd-920e-f095d10c9716")
 		(property "Reference" "C65"
-			(at 147.066 186.436 90)
+			(at 136.652 185.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16519,7 +16668,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 147.066 189.484 90)
+			(at 136.398 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16530,7 +16679,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 162.306 187.96 0)
+			(at 137.16 174.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16541,7 +16690,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 166.37 187.96 0)
+			(at 137.16 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16552,7 +16701,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 164.338 187.96 0)
+			(at 137.16 172.212 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16563,7 +16712,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 160.02 187.96 0)
+			(at 137.16 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18691,7 +18840,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 137.16 173.99 0)
+		(at 151.13 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18701,7 +18850,7 @@
 		(dnp no)
 		(uuid "856f61e6-d599-4542-b591-af1663203595")
 		(property "Reference" "SW3"
-			(at 137.16 169.672 0)
+			(at 151.13 169.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18711,7 +18860,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 137.16 168.91 0)
+			(at 151.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18722,7 +18871,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:SW_TS03-66-50-BK-160-LCR-D-67"
-			(at 137.16 168.91 0)
+			(at 151.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18733,7 +18882,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/digikeypdf/ts03.pdf"
-			(at 137.16 168.91 0)
+			(at 151.13 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18744,7 +18893,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 137.16 173.99 0)
+			(at 151.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18755,7 +18904,7 @@
 			)
 		)
 		(property "Part" "Same Sky TS03-66-50-BK-160-LCR-D-67"
-			(at 137.16 173.99 0)
+			(at 151.13 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20857,6 +21006,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afc17b32-65ad-47f7-9f25-99d7a5d164ef")
+		(property "Reference" "#PWR0183"
+			(at 143.51 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a319a1f7-e419-4277-b936-2f3f63f032a3")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 240.03 107.95 0)
 		(unit 1)
@@ -21628,7 +21854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 187.96 0)
+		(at 158.75 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21638,7 +21864,7 @@
 		(dnp no)
 		(uuid "bfd73cb5-4451-426a-9016-3622797a1f85")
 		(property "Reference" "#PWR0181"
-			(at 154.94 194.31 0)
+			(at 158.75 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21649,7 +21875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 192.024 0)
+			(at 158.75 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21659,7 +21885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 187.96 0)
+			(at 158.75 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21670,7 +21896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 187.96 0)
+			(at 158.75 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21681,7 +21907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 187.96 0)
+			(at 158.75 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21782,7 +22008,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 148.59 173.99 90)
+		(at 137.16 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21792,7 +22018,7 @@
 		(dnp no)
 		(uuid "c11cb2f0-2e12-49ea-b5cb-2e8036b7603b")
 		(property "Reference" "C64"
-			(at 147.066 172.72 90)
+			(at 136.906 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21803,7 +22029,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 147.066 175.26 90)
+			(at 136.652 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21814,7 +22040,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 162.306 173.99 0)
+			(at 137.16 160.274 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21825,7 +22051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 166.37 173.99 0)
+			(at 137.16 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21836,7 +22062,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 164.338 173.99 0)
+			(at 137.16 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21847,7 +22073,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 160.02 173.99 0)
+			(at 137.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24398,7 +24624,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5G")
-		(at 137.16 187.96 0)
+		(at 151.13 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24408,7 +24634,7 @@
 		(dnp no)
 		(uuid "f539250a-0178-4d19-8a65-638e924aaf7e")
 		(property "Reference" "SW4"
-			(at 137.16 183.642 0)
+			(at 151.13 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24418,7 +24644,7 @@
 			)
 		)
 		(property "Value" "SW_MEC_5G"
-			(at 137.16 182.88 0)
+			(at 151.13 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24429,7 +24655,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:SW_TS03-66-50-BK-160-LCR-D-67"
-			(at 137.16 182.88 0)
+			(at 151.13 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24440,7 +24666,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/digikeypdf/ts03.pdf"
-			(at 137.16 182.88 0)
+			(at 151.13 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24451,7 +24677,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 137.16 187.96 0)
+			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24462,7 +24688,7 @@
 			)
 		)
 		(property "Part" "Same Sky TS03-66-50-BK-160-LCR-D-67"
-			(at 137.16 187.96 0)
+			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24858,7 +25084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 173.99 0)
+		(at 158.75 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24868,7 +25094,7 @@
 		(dnp no)
 		(uuid "fa3fb8f3-461f-45f9-bf12-2d9717f829a7")
 		(property "Reference" "#PWR0180"
-			(at 154.94 180.34 0)
+			(at 158.75 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24879,7 +25105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 178.054 0)
+			(at 158.75 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24889,7 +25115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 173.99 0)
+			(at 158.75 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24900,7 +25126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 173.99 0)
+			(at 158.75 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24911,7 +25137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 173.99 0)
+			(at 158.75 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
