@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/digimer/github/hardware/projects/n2k-transceiver/N2K Transceiver.kicad_sch")
-		(date "2026-09-26T14:38:54")
+		(date "2026-09-26T22:39:32")
 		(tool "Eeschema 10.0.1")
 		(sheet
 			(number "1")
@@ -1709,19 +1709,19 @@
 		)
 		(comp
 			(ref "LED1")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -1730,7 +1730,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -1758,10 +1758,10 @@
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -1769,19 +1769,19 @@
 		)
 		(comp
 			(ref "LED2")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -1790,7 +1790,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -1812,16 +1812,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4b3fc421-b76f-41ae-b8c5-2aab8c47d9e8")
+			(tstamps "56032ab0-1369-4d55-b326-496846f4a13e")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -1829,19 +1829,19 @@
 		)
 		(comp
 			(ref "LED3")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -1850,7 +1850,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -1872,16 +1872,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "829c6655-b605-4639-a481-2074ba82f37d")
+			(tstamps "2f6a6033-e760-4a54-85d5-37fd1f6daeee")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -1889,19 +1889,19 @@
 		)
 		(comp
 			(ref "LED4")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -1910,7 +1910,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -1932,16 +1932,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0ea30df0-3555-4d2c-97e6-f37c3e7aca47")
+			(tstamps "2ff5b65d-36ad-4e17-be1e-83a7d984dbda")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -1949,19 +1949,19 @@
 		)
 		(comp
 			(ref "LED5")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -1970,7 +1970,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -1992,16 +1992,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d1863855-7bcc-4224-bf0b-1a6cd9c98689")
+			(tstamps "8e17b092-5f01-440a-9dad-b609a6a79163")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -2009,19 +2009,19 @@
 		)
 		(comp
 			(ref "LED6")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -2030,7 +2030,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -2052,16 +2052,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3e489060-d5cf-45e5-bb7b-d5bc9c117be1")
+			(tstamps "5433bb0e-bd0a-4a56-9c4b-1398b64d00b7")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -2069,19 +2069,19 @@
 		)
 		(comp
 			(ref "LED7")
-			(value "LED")
-			(footprint "mr-stuff:ams OSRAM LS Q976.01")
-			(datasheet "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
-			(description "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+			(value "TLMS1101-GS15")
+			(footprint "mr-stuff:Vishay TLMS1101")
+			(datasheet "https://www.vishay.com/docs/83173/tlmx1100.pdf")
+			(description "Light emitting diode")
 			(fields
 				(field
-					(name "Part") "ams OSRAM LS Q976.01-N1Q2-1")
+					(name "Part") "Vishay TLMS1101-GS15")
 				(field
-					(name "Footprint") "mr-stuff:ams OSRAM LS Q976.01")
+					(name "Footprint") "mr-stuff:Vishay TLMS1101")
 				(field
-					(name "Datasheet") "https://look.ams-osram.com/m/1a7835c3b65b6351/original/LS-Q976-01.pdf")
+					(name "Datasheet") "https://www.vishay.com/docs/83173/tlmx1100.pdf")
 				(field
-					(name "Description") "Red 633nm LED Indication - Discrete 2V 0603 (1608 Metric)")
+					(name "Description") "Light emitting diode")
 			)
 			(libsource
 				(lib "mr-parts")
@@ -2090,7 +2090,7 @@
 			)
 			(property
 				(name "Part")
-				(value "ams OSRAM LS Q976.01-N1Q2-1")
+				(value "Vishay TLMS1101-GS15")
 			)
 			(property
 				(name "Sheetname")
@@ -2112,16 +2112,16 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "650b33c4-7cce-4196-9eb7-26a8a18bd016")
+			(tstamps "e4beded6-ebf1-429e-a2b3-cbe8f588f6ea")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "1")
 						)
 					)
 				)
@@ -2497,8 +2497,8 @@
 					(name "Description") "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "mr-parts")
-				(part "Vishay RCA08050000ZSEASR")
+				(lib "")
+				(part "Vishay RCA08050000ZSEASR_2")
 				(description "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(property
@@ -2569,8 +2569,8 @@
 					(name "Description") "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "mr-parts")
-				(part "Vishay RCA08050000ZSEASR")
+				(lib "")
+				(part "Vishay RCA08050000ZSEASR_1")
 				(description "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(property
@@ -3480,28 +3480,28 @@
 		)
 		(comp
 			(ref "R19")
-			(value "10kR")
-			(footprint "mr-stuff:Stackpole_RNCP1206")
-			(datasheet "https://www.seielect.com/catalog/SEI-RNCP.pdf")
-			(description "10 kOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Anti-Sulfur Thin Film")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			(fields
 				(field
-					(name "Part") "Stackpole RNCP1206FTD10K0")
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
 				(field
-					(name "Footprint") "mr-stuff:Stackpole_RNCP1206")
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
 				(field
-					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RNCP.pdf")
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
 				(field
-					(name "Description") "10 kOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Anti-Sulfur Thin Film")
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(property
 				(name "Part")
-				(value "Stackpole RNCP1206FTD10K0")
+				(value "Stackpole RMCA0805FT4K70-HP")
 			)
 			(property
 				(name "Sheetname")
@@ -3523,7 +3523,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "9d563fff-4ee7-45de-abc0-d089e3a45402")
+			(tstamps "13326ea9-f94e-4681-8373-974e3d51f9d2")
 			(units
 				(unit
 					(name "A")
@@ -3540,28 +3540,28 @@
 		)
 		(comp
 			(ref "R20")
-			(value "10kR")
-			(footprint "mr-stuff:Stackpole_RNCP1206")
-			(datasheet "https://www.seielect.com/catalog/SEI-RNCP.pdf")
-			(description "10 kOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Anti-Sulfur Thin Film")
+			(value "4.7kR")
+			(footprint "mr-stuff:Stackpole RMCA0805")
+			(datasheet "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			(fields
 				(field
-					(name "Part") "Stackpole RNCP1206FTD10K0")
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
 				(field
-					(name "Footprint") "mr-stuff:Stackpole_RNCP1206")
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
 				(field
-					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RNCP.pdf")
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
 				(field
-					(name "Description") "10 kOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Anti-Sulfur Thin Film")
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
+				(lib "mr-parts")
+				(part "Stackpole RMCA0805FT4K70-HP")
+				(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
 			)
 			(property
 				(name "Part")
-				(value "Stackpole RNCP1206FTD10K0")
+				(value "Stackpole RMCA0805FT4K70-HP")
 			)
 			(property
 				(name "Sheetname")
@@ -3583,7 +3583,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7ba0e4be-69f1-4bea-a336-40aec66aed9f")
+			(tstamps "df4df810-afc7-4202-b0a6-559a4bb92e46")
 			(units
 				(unit
 					(name "A")
@@ -5266,6 +5266,41 @@
 			)
 		)
 		(libpart
+			(lib "")
+			(part "Vishay RCA08050000ZSEASR_2")
+			(description "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(docs "https://www.vishay.com/docs/20132/rca-sre3.pdf")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "RCA08050000ZSEASR")
+				(field
+					(name "Footprint") "mr-stuff:Vishay RCA-SR e3")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20132/rca-sre3.pdf")
+				(field
+					(name "Description") "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+				(field
+					(name "Part") "Vishay RCA08050000ZSEASR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Connector")
 			(part "Conn_01x05_Pin")
 			(description "Generic connector, single row, 01x05, script generated")
@@ -6164,6 +6199,41 @@
 		)
 		(libpart
 			(lib "mr-parts")
+			(part "Stackpole RMCA0805FT4K70-HP")
+			(description "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+			(docs "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "4.7kR")
+				(field
+					(name "Footprint") "mr-stuff:Stackpole RMCA0805")
+				(field
+					(name "Datasheet") "https://www.seielect.com/catalog/SEI-RMCA.pdf")
+				(field
+					(name "Description") "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
+				(field
+					(name "Part") "Stackpole RMCA0805FT4K70-HP")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "mr-parts")
 			(part "Stackpole RNCP0805FTD10K0")
 			(description "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film")
 			(docs "https://www.seielect.com/catalog/SEI-RNCP.pdf")
@@ -6495,41 +6565,6 @@
 		)
 		(libpart
 			(lib "mr-parts")
-			(part "Vishay RCA08050000ZSEASR")
-			(description "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
-			(docs "https://www.vishay.com/docs/20132/rca-sre3.pdf")
-			(footprints
-				(fp "R_*")
-			)
-			(fields
-				(field
-					(name "Reference") "R")
-				(field
-					(name "Value") "RCA08050000ZSEASR")
-				(field
-					(name "Footprint") "mr-stuff:Vishay RCA-SR e3")
-				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20132/rca-sre3.pdf")
-				(field
-					(name "Description") "0 Ohms Jumper Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film")
-				(field
-					(name "Part") "Vishay RCA08050000ZSEASR")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "mr-parts")
 			(part "Vishay TLMS1101-GS15")
 			(description "Light emitting diode")
 			(docs "https://www.vishay.com/docs/83173/tlmx1100.pdf")
@@ -6540,7 +6575,7 @@
 			)
 			(fields
 				(field
-					(name "Reference") "D")
+					(name "Reference") "LED")
 				(field
 					(name "Value") "TLMS1101-GS15")
 				(field
@@ -7369,12 +7404,12 @@
 			)
 			(node
 				(ref "C64")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "C65")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7558,6 +7593,30 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "SW3")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "4")
+				(pinfunction "B_4")
+				(pintype "passive")
+			)
+			(node
 				(ref "TB1")
 				(pin "5")
 				(pintype "passive")
@@ -7647,45 +7706,65 @@
 		)
 		(net
 			(code "25")
-			(name "Net-(C64-Pad1)")
+			(name "Net-(C64-Pad2)")
 			(class "Default")
 			(node
 				(ref "C64")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "SW3")
-				(pin "3")
-				(pinfunction "B_3")
+				(ref "R52")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "SW3")
-				(pin "4")
-				(pinfunction "B_4")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "26")
-			(name "Net-(C65-Pad1)")
+			(name "Net-(C65-Pad2)")
 			(class "Default")
 			(node
 				(ref "C65")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R53")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R54")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
 				(pin "1")
+				(pinfunction "A_1")
 				(pintype "passive")
 			)
 			(node
 				(ref "SW4")
-				(pin "3")
-				(pinfunction "B_3")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW4")
-				(pin "4")
-				(pinfunction "B_4")
+				(pin "2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 		)
@@ -8115,60 +8194,6 @@
 		)
 		(net
 			(code "48")
-			(name "Net-(R24-Pad1)")
-			(class "Default")
-			(node
-				(ref "R24")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R52")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW3")
-				(pin "1")
-				(pinfunction "A_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW3")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "49")
-			(name "Net-(R53-Pad2)")
-			(class "Default")
-			(node
-				(ref "R53")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R54")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW4")
-				(pin "1")
-				(pinfunction "A_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW4")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "50")
 			(name "Net-(SD1-A)")
 			(class "Default")
 			(node
@@ -8190,7 +8215,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "49")
 			(name "Net-(USBRV1-CC1)")
 			(class "Default")
 			(node
@@ -8206,7 +8231,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "50")
 			(name "Net-(USBRV1-CC2)")
 			(class "Default")
 			(node
@@ -8222,7 +8247,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "51")
 			(name "Net-(VR1-EN)")
 			(class "Default")
 			(node
@@ -8243,7 +8268,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "52")
 			(name "Net-(VR1-MODE{slash}SYNC)")
 			(class "Default")
 			(node
@@ -8264,7 +8289,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "53")
 			(name "Net-(VR1-VCC)")
 			(class "Default")
 			(node
@@ -8280,7 +8305,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "54")
 			(name "Net-(VR1-VIN)")
 			(class "Default")
 			(node
@@ -8316,7 +8341,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "55")
 			(name "V_RAW")
 			(class "Default")
 			(node
@@ -8337,7 +8362,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "56")
 			(name "unconnected-(MCU1-IO13-Pad21)")
 			(class "Default")
 			(node
@@ -8348,7 +8373,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "57")
 			(name "unconnected-(MCU1-IO35-Pad28)")
 			(class "Default")
 			(node
@@ -8359,7 +8384,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "58")
 			(name "unconnected-(MCU1-IO36-Pad29)")
 			(class "Default")
 			(node
@@ -8370,7 +8395,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "59")
 			(name "unconnected-(MCU1-IO37-Pad30)")
 			(class "Default")
 			(node
@@ -8381,7 +8406,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "60")
 			(name "unconnected-(MCU1-IO38-Pad31)")
 			(class "Default")
 			(node
@@ -8392,7 +8417,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "61")
 			(name "unconnected-(MCU1-IO45-Pad26)")
 			(class "Default")
 			(node
@@ -8403,7 +8428,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "62")
 			(name "unconnected-(MCU1-IO46-Pad16)")
 			(class "Default")
 			(node
@@ -8414,7 +8439,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "63")
 			(name "unconnected-(TB1-Pad1)")
 			(class "Default")
 			(node
@@ -8424,7 +8449,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "64")
 			(name "unconnected-(TB1-Pad2)")
 			(class "Default")
 			(node
@@ -8434,7 +8459,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "65")
 			(name "unconnected-(USBRV1-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -8445,7 +8470,7 @@
 			)
 		)
 		(net
-			(code "68")
+			(code "66")
 			(name "unconnected-(USBRV1-SBU2-PadB8)")
 			(class "Default")
 			(node
@@ -8456,7 +8481,7 @@
 			)
 		)
 		(net
-			(code "69")
+			(code "67")
 			(name "unconnected-(VR1-BOOT-Pad7)")
 			(class "Default")
 			(node
@@ -8467,7 +8492,7 @@
 			)
 		)
 		(net
-			(code "70")
+			(code "68")
 			(name "unconnected-(VR1-PGOOD-Pad1)")
 			(class "Default")
 			(node
@@ -8478,7 +8503,7 @@
 			)
 		)
 		(net
-			(code "71")
+			(code "69")
 			(name "unconnected-(VR1-SW-Pad5)")
 			(class "Default")
 			(node
@@ -8489,7 +8514,7 @@
 			)
 		)
 		(net
-			(code "72")
+			(code "70")
 			(name "unconnected-(VR1-SW-Pad6)")
 			(class "Default")
 			(node
