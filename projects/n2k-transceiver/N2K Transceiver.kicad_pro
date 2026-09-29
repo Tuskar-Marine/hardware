@@ -602,16 +602,16 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -630,6 +630,24 @@
           "label": "Part",
           "name": "Part",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alternate",
+          "name": "Alternate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -688,7 +706,7 @@
         "uuid": "2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R19-20",
     "variants": []
   },
   "sheets": [

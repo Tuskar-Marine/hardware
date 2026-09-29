@@ -1,0 +1,264 @@
+(footprint "Vishay TLMS1101"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "TLMS1101-GS15 ")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9cb89fda-277c-4078-96e3-25bebed6f416")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TLMS1101"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "554d9a83-edcd-4c42-b13c-c9062d2757e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdb4e26d-f71f-427c-b66a-65ec3fe13454")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Vishay TLMS1101 family of LEDs"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ec399c4-7515-43c9-b828-15b7e94489cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 0.5715)
+		(end 0.8 0.5715)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "169dbb03-288d-4140-bcd7-7f3c9a453612")
+	)
+	(fp_line
+		(start -0.15 -0.3)
+		(end -0.15 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "b312a18d-f58f-463e-bf95-82e24e3355df")
+	)
+	(fp_line
+		(start -0.15 0)
+		(end -0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "0392ca3a-83c5-4bb2-85c8-8cebd02d865a")
+	)
+	(fp_line
+		(start -0.15 0)
+		(end 0.15 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "db1ab7b4-2428-49ca-b7a8-aeb8ce098806")
+	)
+	(fp_line
+		(start -0.15 0)
+		(end 0.15 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "b8055fa4-718b-45e2-85d7-c1e5161ac7da")
+	)
+	(fp_line
+		(start 0.15 -0.3)
+		(end 0.15 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "b3b28a93-fde3-4e9d-a758-cc11cc612f34")
+	)
+	(fp_line
+		(start 0.15 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "5a6e0457-30e0-46b8-b8ea-65f08332a684")
+	)
+	(fp_line
+		(start 0.8 -0.5715)
+		(end -0.8 -0.5715)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdad13d8-25e9-4dfa-80fb-a286ac5f1cfc")
+	)
+	(fp_rect
+		(start -2 -1.25)
+		(end 2 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(net "")
+		(uuid "ef6c913d-89ba-4c1e-b78e-94984e3b2406")
+	)
+	(fp_line
+		(start -0.8509 -0.4445)
+		(end -0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d8c9858-af67-4a6e-90c7-426f114a6fc1")
+	)
+	(fp_line
+		(start -0.8509 0.4445)
+		(end 0.8509 0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7730f43a-fa90-43ee-bc88-19245ec1fede")
+	)
+	(fp_line
+		(start 0.8509 -0.4445)
+		(end -0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f20d4e3-afdc-4d85-a00f-60a5375ef7d2")
+	)
+	(fp_line
+		(start 0.8509 0.4445)
+		(end 0.8509 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6419ef55-14f5-47d0-bef0-308f43240336")
+	)
+	(fp_arc
+		(start 0.3048 -0.4445)
+		(mid 0 -0.1397)
+		(end -0.3048 -0.4445)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e90a4c1-a0fb-4d9d-b4da-747a72efc3a7")
+	)
+	(fp_circle
+		(center -0.5461 0)
+		(end -0.4699 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ca992018-c193-4001-a434-65dec411aa05")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0fcc7c3-8849-4b57-bd10-b73556aa1a03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8509 0)
+		(size 0.6096 0.8382)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f3668f8-f725-4cfe-9f9a-5866fe620f6a")
+	)
+	(pad "2" smd rect
+		(at 0.8509 0)
+		(size 0.6096 0.8382)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d24d7bc4-dcb5-448d-9fe1-cf9cc8887e06")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Vishay TLMS1101/80480LED_SMD0603.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "/Users/digimer/github/hardware/KiCAD/3D Models/Vishay TLMS1101/LS_Q976.01-N1Q2-1.stp"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
