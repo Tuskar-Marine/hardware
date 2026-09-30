@@ -9,9 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "USB-C PD 2x 100W")
-		(date "2026-08-13")
+		(date "2026-09-30")
 		(rev "v1.3.3")
-		(company "The Digital Mermaid")
+		(company "Tuskar Marine")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -54348,28 +54348,28 @@
 		(layer "Edge.Cuts")
 		(uuid "fdd67906-d155-4b4d-b4ac-0156b0db6a29")
 	)
-	(gr_text "USB-C PD Dual Channel 100w\nv1.3.3 - Prototype - 01\n© The Digital Mermaid - 2026"
-		(at 88.4 63.4 0)
+	(gr_text "USB-C PD 2x 100w\nv1.3.3 - 2026\nMRGN-0011 Rev. A"
+		(at 100 52 0)
 		(layer "F.SilkS")
-		(uuid "05d83c38-4a3f-444e-9b1d-9f2e763463ed")
+		(uuid "06d58c2c-70b1-4343-9ac2-8b40fb2628b1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
+			(justify top)
 		)
 	)
-	(gr_text "-=] License\nCERN Open Hardware Licence\nWeakly Reciprocal\nVersion 2"
-		(at 88.6 56 0)
+	(gr_text "© Tuskar Marine - CERN-OHL-W-2.0\n"
+		(at 100 58 0)
 		(layer "F.SilkS")
-		(uuid "a79134a8-0e52-49fb-bc0c-63530a086b33")
+		(uuid "c90b4de9-9467-4f49-a395-4ced7b422493")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
+			(justify top)
 		)
 	)
 	(gr_text "Ch0 On"
@@ -54465,6 +54465,18 @@
 			)
 			(justify left top mirror)
 		)
+	)
+	(barcode
+		(at 100 66 0)
+		(layer "F.SilkS")
+		(size 10 10)
+		(text "HTTPS://TSUKAR.CA/S/MRGN-0011-A")
+		(text_height 1.5)
+		(type qr)
+		(ecc_level M)
+		(hide yes)
+		(knockout no)
+		(uuid "f3a53dd8-97b5-46fd-a22b-18c240bc9fd7")
 	)
 	(segment
 		(start 99.65 103.45)
