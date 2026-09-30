@@ -17937,7 +17937,7 @@
 			)
 		)
 		(property "Value" "1500pF"
-			(at 169.418 62.23 0)
+			(at 167.386 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20791,7 +20791,7 @@
 			)
 		)
 		(property "Value" "0.22uF"
-			(at 28.194 67.31 0)
+			(at 28.702 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23170,7 +23170,7 @@
 			)
 		)
 		(property "Value" "0.470uF"
-			(at 157.48 62.23 0)
+			(at 155.702 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24674,7 +24674,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 115.316 62.23 0)
+			(at 113.792 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27182,7 +27182,7 @@
 		(dnp no)
 		(uuid "7903d339-2c75-4fbd-9a30-28a022d77e6d")
 		(property "Reference" "C2"
-			(at 56.642 77.724 0)
+			(at 59.944 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27193,7 +27193,7 @@
 			)
 		)
 		(property "Value" "3300pF"
-			(at 53.594 82.55 0)
+			(at 60.198 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
