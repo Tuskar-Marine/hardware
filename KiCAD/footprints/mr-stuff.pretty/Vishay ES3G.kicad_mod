@@ -1,0 +1,221 @@
+(footprint "Vishay ES3G"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "f18f5302-8b93-4255-9f65-5c623810efa9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Vishay ES3G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc6a6abd-6bf9-480d-9431-924b3a57f073")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d04d0fc-2378-4b06-be27-8e4d465349e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3938e13e-c445-4025-81cc-d046964f94a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4 -2.952)
+		(end -4 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20685a8f-f252-4988-be4c-9f4bc7629a99")
+	)
+	(fp_line
+		(start -3.97 2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7eb21ab6-eb38-47b2-ab70-a079dd36d81d")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end -4 -2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aafb33df-84cb-44f5-95d1-b516ee98477b")
+	)
+	(fp_rect
+		(start -2 -2.9)
+		(end -1.5 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "96aa6134-94d8-429a-a7bd-2d59a4d668c3")
+	)
+	(fp_line
+		(start -4.85 -3.36)
+		(end 4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0be7f7d9-b94a-478f-b262-a76033aaa988")
+	)
+	(fp_line
+		(start -4.85 3.36)
+		(end -4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "397360c4-9341-4fe3-8167-3d7cacf9db80")
+	)
+	(fp_line
+		(start 4.85 -3.36)
+		(end 4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01386863-f474-4a67-9b33-f801d6ab8e5d")
+	)
+	(fp_line
+		(start 4.85 3.36)
+		(end -4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d8898dc-9c73-4272-882f-ebe6391ca05f")
+	)
+	(fp_line
+		(start -3.97 -2.952)
+		(end 3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3028bee-d8c2-4784-989a-c2ff55c95e78")
+	)
+	(fp_line
+		(start -3.97 -1.852)
+		(end -2.87 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6408a1ef-6264-4641-b670-04680a308d19")
+	)
+	(fp_line
+		(start -3.97 2.952)
+		(end -3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86cd36b0-29b1-4cc9-8161-83a857a11bc7")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "549bfc40-593a-47ce-a478-78e7c3c3bdbc")
+	)
+	(fp_line
+		(start 3.97 2.952)
+		(end -3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "851b9c30-a966-4935-9493-8648bf5f993a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "b62d2e04-4750-4e4d-9228-c329ba2f50af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.3 0)
+		(size 2.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0edd2331-7fce-45aa-bfa9-0671fa09f752")
+	)
+	(pad "2" smd rect
+		(at 3.3 0)
+		(size 2.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3fefb6e5-6889-4ea9-87d4-ebae1400a5a1")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Vishay ES3G/ES3G-E3_57T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

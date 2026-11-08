@@ -4,20 +4,21 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.7 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
-		(uuid "20167489-1510-4306-a4cf-fcce69a773db")
+		(uuid "2b2112ae-727d-40b9-b471-5626497b7cbe")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
 	(property "Value" "C1206C"
 		(at 0 1.8 0)
 		(layer "F.Fab")
-		(uuid "d86ba30b-2f2f-4144-a3a8-99baf2d1285f")
+		(uuid "2bcb1eb7-be8b-403f-88b2-16d8862896e1")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e15f133-d846-4d5a-9e32-f95956cd8441")
+		(uuid "624dcbad-f04b-4afa-83fa-94ddfe9e0062")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f4523365-f56e-4885-ba1e-45bd170b9c24")
+		(uuid "f97ab4e8-0bac-4be9-a2eb-27f75f49f170")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bc7001a6-49aa-41b7-bbf9-af85fa6cc229")
+		(uuid "1f0d07d3-4bba-4150-867a-1a0942bcaba2")
 	)
 	(fp_line
 		(start -0.57 0.9)
@@ -67,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34d3bd7d-ee97-4bcb-a1d3-103980005ebe")
+		(uuid "863291a0-c793-4a09-a304-37632e330dab")
 	)
 	(fp_line
 		(start -2.308 -1.15)
@@ -77,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0bdf62e0-2940-4af4-b8c8-d64d395aca81")
+		(uuid "54bd41bb-8911-4942-8621-802a30f488e5")
 	)
 	(fp_line
 		(start -2.308 1.15)
@@ -87,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e92a3ff9-e4b8-4ed5-8bd3-6bb8158bc5c6")
+		(uuid "3b4e2330-ab33-40f3-856d-7a5953613bc7")
 	)
 	(fp_line
 		(start -2.308 1.15)
@@ -97,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fc1d3271-4e17-4e53-94a4-fe2bc7c6238c")
+		(uuid "1ce82506-3c90-43c6-89f5-1f2a4d360f9a")
 	)
 	(fp_line
 		(start 2.308 1.15)
@@ -107,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9edd2086-c15b-44de-867c-86c808c8bab2")
+		(uuid "2935b175-cfed-4ede-9daf-83e809f108a6")
 	)
 	(fp_line
 		(start -1.7 0.9)
@@ -117,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9ad59d15-f202-40f6-ab17-ff0974391c3f")
+		(uuid "0b438ce1-0a84-4460-97b5-a4c0298d2f52")
 	)
 	(fp_line
 		(start 1.7 -0.9)
@@ -127,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "62933740-4a25-4366-8dbd-9af8347d2a36")
+		(uuid "bf1200f8-e2fc-4ae6-b525-9a1416587964")
 	)
 	(fp_line
 		(start 1.7 0.9)
@@ -137,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "991212f7-c112-4dc0-a167-168e55a4b365")
+		(uuid "d7c015a3-82ac-4c1d-b058-f5265941d10d")
 	)
 	(fp_line
 		(start 1.7 0.9)
@@ -147,21 +148,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "08433c3d-c24f-4ea0-aba3-8824bf9b5a2d")
+		(uuid "db92332a-e6a9-4601-bf04-930e8ba1a34d")
 	)
 	(pad "1" smd rect
 		(at -1.475 0)
 		(size 1.16 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "8f5b41ab-2ba7-4c75-ac03-2dfc49593ba6")
+		(uuid "fbadbe66-7f69-4387-8424-98d662662612")
 	)
 	(pad "2" smd rect
 		(at 1.475 0)
 		(size 1.16 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "25689414-a1ba-4f4f-ba91-a1581432ca00")
+		(uuid "a2ebd7a2-a12a-473b-afeb-fc835d78cd47")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Kemet C1206C/C1206C103K1RACAUTO.step"
