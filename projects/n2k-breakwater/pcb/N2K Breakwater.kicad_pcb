@@ -7325,7 +7325,7 @@
 	(footprint "mr-stuff:Mermaid Silkscreen - 10mm"
 		(layer "F.Cu")
 		(uuid "9fbfdf6e-fec6-43a8-a2aa-230d0f74dee9")
-		(at 110.838629 116.47252 90)
+		(at 111.338629 110.37252 90)
 		(property "Reference" "REF**"
 			(at 0 -0.5 90)
 			(unlocked yes)
