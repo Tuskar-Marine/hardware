@@ -1,0 +1,202 @@
+(footprint "Onsemi SZMMSZ4689"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "eb3feb1a-ea87-4f2c-a6a5-c9fca0b61e15")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Onsemi SZMMSZ4689"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "892651ae-ba76-470b-beae-a8de4a564d02")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c288c843-93f8-4856-b78d-4289ae110e79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b94faf4-e936-4f3b-9053-3e7a7a05eccf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.86 -0.8)
+		(end 0.86 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7b8f162-e20f-477d-87a6-0d702fed5d3b")
+	)
+	(fp_line
+		(start -0.86 0.8)
+		(end 0.86 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9bab622-0c5d-4eea-a036-7eb9171e66fb")
+	)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "30f482ac-131a-4f5b-ba78-009aaf1a1ab5")
+	)
+	(fp_line
+		(start -2.34 -1.05)
+		(end 2.34 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afd8e1aa-7873-4bc8-9b4e-66774ccc3d91")
+	)
+	(fp_line
+		(start -2.34 1.05)
+		(end -2.34 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6d95c14-7f42-411d-9958-5f5dd0ea533f")
+	)
+	(fp_line
+		(start 2.34 -1.05)
+		(end 2.34 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6beb8ae-fc04-4598-8ec6-67a2b60cb531")
+	)
+	(fp_line
+		(start 2.34 1.05)
+		(end -2.34 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f11258a-402d-46b7-955e-57c849bd0a67")
+	)
+	(fp_line
+		(start -1.345 -0.8)
+		(end 1.345 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3504947-4881-48ac-82d0-00de08af83c1")
+	)
+	(fp_line
+		(start -1.345 0.8)
+		(end -1.345 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9330ee4-65a4-4d26-9d05-8cfdf0b68bf7")
+	)
+	(fp_line
+		(start 1.345 -0.8)
+		(end 1.345 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5224ea5a-b2ce-4fda-8579-eda84e057c97")
+	)
+	(fp_line
+		(start 1.345 0.8)
+		(end -1.345 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f53ecc5-e299-471d-a50a-313cd60a68f8")
+	)
+	(fp_circle
+		(center -2.6 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4163046-3ad9-44fa-a870-3a207823b03e")
+	)
+	(pad "1" smd rect
+		(at -1.635 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ddd9856b-a9d6-40ab-8959-fd928af44ab6")
+	)
+	(pad "2" smd rect
+		(at 1.635 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9c2b05c8-b448-4fb5-a4b6-a81d100c2e61")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Onsemi SZMMSZ4689/SZMMSZ4689T1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
