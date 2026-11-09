@@ -1,0 +1,256 @@
+(footprint "Onsemi NSVUMZ1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SC−88 2.00x1.25x0.90, 0.65P")
+	(tags "Transistor")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "c32708ec-3e1e-40a1-9734-3d5b1145f545")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Onsemi NSVUMZ1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7a2e34c-fea5-421d-882b-72c489d5d5ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23865d7d-bc97-42fa-9a5e-8ff7ed4fa43a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abbbd768-7494-45a6-9db6-91e9f7f340b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.45 -1.2)
+		(end -0.45 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e708747-6769-481d-9c40-0e6e4b1ffad7")
+	)
+	(fp_line
+		(start -0.1 -1)
+		(end 0.1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36d3af20-22a5-4e31-851c-32c7e8054f71")
+	)
+	(fp_line
+		(start -0.1 1)
+		(end -0.1 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3e52b25-973c-4d30-8c0a-5fa581c203a8")
+	)
+	(fp_line
+		(start 0.1 -1)
+		(end 0.1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ace5e19a-0a01-4db2-8ce9-8c3c9b1a28e2")
+	)
+	(fp_line
+		(start 0.1 1)
+		(end -0.1 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aabd4928-ca94-4fbb-b321-e8ca4678105c")
+	)
+	(fp_line
+		(start -1.7 -1.25)
+		(end 1.7 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46629684-f88d-4e37-9c2f-ff6f7427bd73")
+	)
+	(fp_line
+		(start -1.7 1.25)
+		(end -1.7 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27991638-b4ff-452c-b52d-03e090659db4")
+	)
+	(fp_line
+		(start 1.7 -1.25)
+		(end 1.7 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89d7ca87-93f1-4bb4-8659-5b83e35d9579")
+	)
+	(fp_line
+		(start 1.7 1.25)
+		(end -1.7 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "927dbb10-fbf3-4cc8-a377-548a8c5c1452")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5eae7ee-a953-45c8-badf-a9a3b956cd9d")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29ffa530-297f-4c70-9cdb-f74f1f4cc62b")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91c55ce9-c48a-447f-98e3-5e04201f175b")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1125065-b0a7-470f-b2a5-f62571c7d9dd")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ede61d6b-8945-48fc-8372-f2d0a6cfb225")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "b7bd603d-17dd-4178-a5a4-f32966f1b7e5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "867e5154-a982-48b3-8d43-f7ee66969fd8")
+	)
+	(pad "2" smd rect
+		(at -0.95 0 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb43c64b-067f-443d-bdff-6f611604f1ee")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2477a01-4c1d-4fe0-b459-bdad7c72f581")
+	)
+	(pad "4" smd rect
+		(at 0.95 0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b580d38-292d-418e-b9e9-f5efcb5593e0")
+	)
+	(pad "5" smd rect
+		(at 0.95 0 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "139125a3-64ef-4bfa-a954-72ceb16a032b")
+	)
+	(pad "6" smd rect
+		(at 0.95 -0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88647aca-2994-4c91-9a07-d1919d4cbfb0")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Onsemi NSVUMZ1/NSVUMZ1NT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
