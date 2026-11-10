@@ -1,0 +1,257 @@
+(footprint "Nexperia BAS416-QF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOD-323-")
+	(tags "Schottky Diode")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "8786915c-91ec-40d7-a370-b51f1e87420b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Nexperia BAS416-QF"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e1a2961f-d56b-4d8e-8a24-be217031f994")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb8ff28f-143e-4b0d-bc2d-01774827a5e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5137fe38-505c-4854-9f90-77282a05ab48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5586b2ef-a536-4475-808b-599025abffaf")
+	)
+	(fp_line
+		(start -0.9 -0.4)
+		(end -0.9 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "295ba61a-c0f5-48f8-9a2d-ca66d80aaa8d")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d271b41b-0359-47f1-b0b6-47db7f21f154")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f40b785-02ff-4de6-80ce-40d141665eb7")
+	)
+	(fp_line
+		(start -0.181168 -0.35)
+		(end -0.181168 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "4e118635-9bfe-4eaa-9387-97c270a84801")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "72a8fb64-beb7-4fb4-8860-65742c6c746a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 0) (xy 0.15 -0.3) (xy 0.15 0.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(net "")
+		(uuid "d71bccaa-44e8-46ec-a7ea-44df72d567d5")
+	)
+	(fp_line
+		(start -1.975 -1.15)
+		(end 1.975 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a934b3f-b63e-46eb-ae56-43745c4692b1")
+	)
+	(fp_line
+		(start -1.975 1.15)
+		(end -1.975 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39e620a0-85a7-437c-acb0-ebef1452e62c")
+	)
+	(fp_line
+		(start 1.975 -1.15)
+		(end 1.975 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9a6aed2-3467-457d-895a-ff7c9ac9559e")
+	)
+	(fp_line
+		(start 1.975 1.15)
+		(end -1.975 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c42c19c3-79a1-4e4a-a1b8-001c7ad57c2f")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5933b24-c11c-4685-8ef4-17c7f8c5bc17")
+	)
+	(fp_line
+		(start -0.85 -0.075)
+		(end -0.3 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92dcc973-bfb2-4449-ada6-f445875d6390")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9f95f0f-bb83-4859-952c-27ed869125e2")
+	)
+	(fp_line
+		(start 0.85 -0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54be6443-a5b7-4963-9bf6-07bb8268484f")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end -0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d26b9996-180e-43e4-bc52-644361df9035")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(uuid "bf148b91-7447-41b8-a6fa-13908b8dd1f9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0 90)
+		(size 0.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5cd0d317-49ce-49a4-8fa9-f8053dfce88a")
+	)
+	(pad "2" smd rect
+		(at 1.15 0 90)
+		(size 0.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "260e6fc7-e602-420f-857a-3ae2d8dcb334")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Nexperia BAS416-QF/BAS416-QF.stp"
+		(offset
+			(xyz -0.7900000096 1.359999994 -0.7200000178)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

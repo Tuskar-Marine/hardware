@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "N2K Breakwater")
-		(date "2026-10-22")
+		(date "2026-11-09")
 		(rev "1.0.0")
 		(company "Tuskar Marine")
 	)
@@ -791,7 +791,7 @@
 			(symbol "Diodes Inc FMMT597TA_0_1"
 				(polyline
 					(pts
-						(xy -3.81 0) (xy -0.635 0)
+						(xy -2.54 0) (xy -0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -863,7 +863,7 @@
 					)
 				)
 				(pin input line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2243,6 +2243,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Murata GCJ21BR72A473KA01L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.047uF"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "mr-stuff:Murata GCJ 0805"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCJ21BR72A473KA01-02D-EN_PDF_CERAMICCAPACITORSMD"
+				(at 0 -18.796 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.047 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+				(at 0 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Murata GCJ21BR72A473KA01L"
+				(at 0 -11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Murata GCJ21BR72A473KA01L_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Murata GCJ21BR72A473KA01L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mr-parts:Murata GCJ31BR73A472KXJ1L"
 			(pin_numbers
 				(hide yes)
@@ -2558,6 +2724,183 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Nexperia BAS416-QF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAS416-QF"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Nexperia BAS416-QF"
+				(at 0 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS416-Q.pdf"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode 75 V 200mA Surface Mount SOD-323"
+				(at 0 -5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Nexperia BAS416-QF"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Nexperia BAS416-QF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Nexperia BAS416-QF_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3159,7 +3502,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 2.286 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3169,7 +3512,7 @@
 				)
 			)
 			(property "Value" "SZMMSZ4689T1G"
-				(at 0 -2.286 0)
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3247,7 +3590,7 @@
 			(symbol "Onsemi SZMMSZ4689T1G_0_1"
 				(polyline
 					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3259,19 +3602,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -3281,11 +3612,23 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
 			(symbol "Onsemi SZMMSZ4689T1G_1_1"
 				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
+					(at -3.81 0 0)
+					(length 2.54)
 					(name "K"
 						(effects
 							(font
@@ -3302,8 +3645,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -3434,6 +3777,308 @@
 				)
 			)
 			(symbol "Panasonic ERA-6KEB8203V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Panasonic ERJ-PC6D2203V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "220k"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Panasonic ERJ-PC6"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+				(at 0 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "220 kOhms ±0.5% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Panasonic ERJ-PC6D2203V"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Panasonic ERJ-PC6D2203V_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Panasonic ERJ-PC6D2203V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Stackpole RMCA0603FT10M0-HP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10MR"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Stackpole RMCA0603"
+				(at 0 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 MOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Stackpole RMCA0603FT10M0-HP"
+				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0603FT10M0-HP_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0603FT10M0-HP_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -4189,6 +4834,157 @@
 				)
 			)
 			(symbol "Stackpole RNCP0805FTD10K0_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Stackpole RNCP0805FTD1K00"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1kR"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+				(at 0 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Stackpole RNCP0805FTD1K00"
+				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stackpole RNCP0805FTD1K00_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stackpole RNCP0805FTD1K00_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -6139,9 +6935,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "mr-parts:Vishay SMC5K16CAHM3/I"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(hide yes)
 			)
@@ -8242,6 +9035,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Wurth 560112120009"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470kR"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Wurth WRIS-RSKS"
+				(at 0 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120009.pdf"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "470 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thick Film"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Wurth 560112120009"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Wurth 560112120009_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Wurth 560112120009_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -8752,8 +9696,8 @@
 		)
 	)
 	(rectangle
-		(start 147.955 82.55)
-		(end 187.325 108.585)
+		(start 130.175 154.94)
+		(end 169.545 180.975)
 		(stroke
 			(width 0)
 			(type default)
@@ -8764,8 +9708,8 @@
 		(uuid "01c11fdc-26b1-4ac0-b0da-d094bd46f04a")
 	)
 	(rectangle
-		(start 168.275 112.395)
-		(end 239.395 139.065)
+		(start 249.555 15.875)
+		(end 274.955 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -8800,8 +9744,8 @@
 		(uuid "8ba69080-914e-4907-b5eb-8edcdcfd0a85")
 	)
 	(rectangle
-		(start 113.665 111.76)
-		(end 163.83 141.605)
+		(start 76.835 153.67)
+		(end 127 183.515)
 		(stroke
 			(width 0)
 			(type default)
@@ -8836,6 +9780,18 @@
 		(uuid "9867cc7d-15cc-46e2-bb2d-8ccb7311f060")
 	)
 	(rectangle
+		(start 113.665 82.55)
+		(end 245.745 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d9ae4fc7-209e-4972-a28f-1cce52eeffef")
+	)
+	(rectangle
 		(start 14.605 54.61)
 		(end 110.49 90.17)
 		(stroke
@@ -8848,8 +9804,8 @@
 		(uuid "e99ebda1-9dda-410c-94be-187e6d9ac648")
 	)
 	(rectangle
-		(start 113.665 82.55)
-		(end 144.78 104.775)
+		(start 14.605 172.72)
+		(end 45.72 194.945)
 		(stroke
 			(width 0)
 			(type default)
@@ -8861,7 +9817,7 @@
 	)
 	(text "Remote Power Cycle"
 		(exclude_from_sim no)
-		(at 148.082 82.296 0)
+		(at 130.302 154.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8894,7 +9850,7 @@
 	)
 	(text "PMIC VIN Pre-regulator"
 		(exclude_from_sim no)
-		(at 113.792 111.506 0)
+		(at 76.962 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8905,7 +9861,7 @@
 	)
 	(text "Output"
 		(exclude_from_sim no)
-		(at 113.792 82.296 0)
+		(at 14.732 172.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9002,9 +9958,20 @@
 		)
 		(uuid "ad759aa7-60d4-4c2f-abe1-65931a597427")
 	)
+	(text "Breakwater Diode Failure Test"
+		(exclude_from_sim no)
+		(at 113.792 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6410ac-51a7-46d5-95d4-72ddf11ae76b")
+	)
 	(text "Mechanical"
 		(exclude_from_sim no)
-		(at 168.402 112.014 0)
+		(at 249.682 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9037,7 +10004,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 129.032 122.936 0)
+		(at 92.202 164.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9053,10 +10020,22 @@
 		(uuid "0003d4a9-6ae3-4786-83b6-cceaf461c630")
 	)
 	(junction
+		(at 120.65 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08589a5d-a9a5-44d0-aa74-2454fc1c1a2a")
+	)
+	(junction
 		(at 33.02 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09c46c20-4f26-447a-8f28-f14486c333b7")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd2e5bd-602e-40df-819a-a86d81e5a85c")
 	)
 	(junction
 		(at 19.05 106.68)
@@ -9065,7 +10044,7 @@
 		(uuid "0e60bc73-e209-46d9-94d4-903012bbd396")
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 31.75 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f5713ea-042d-44e8-a119-8b7ad8c4dd16")
@@ -9089,16 +10068,28 @@
 		(uuid "20cbbf2d-9c86-46d8-aa89-7ff806e016d2")
 	)
 	(junction
+		(at 156.21 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "216613ba-a319-40b4-99b4-62b7969340d4")
+	)
+	(junction
 		(at 55.88 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a62cf62-3ca7-42c2-9c9d-947e055d1853")
 	)
 	(junction
-		(at 163.83 39.37)
+		(at 144.78 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2df9bbd4-879c-42ad-a9d1-24c502a1d92e")
+		(uuid "2ac6e076-77f1-4bb5-ac74-f9755ebe12b4")
+	)
+	(junction
+		(at 166.37 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bd2bcbf-277d-4721-9917-b1dc4c080125")
 	)
 	(junction
 		(at 127 27.94)
@@ -9107,7 +10098,19 @@
 		(uuid "2e727e22-8eb1-4b3f-ae85-68773bc8c891")
 	)
 	(junction
-		(at 138.43 90.17)
+		(at 133.35 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe786b0-3d76-46a1-9fdc-e1278eef4fce")
+	)
+	(junction
+		(at 170.18 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3576b713-2d70-4555-9f49-ca54667226f6")
+	)
+	(junction
+		(at 39.37 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "369cc820-1d65-4db4-935f-f6188d6eedaa")
@@ -9137,10 +10140,22 @@
 		(uuid "4b337257-c835-4db4-b8fd-a2b69d8d07b6")
 	)
 	(junction
-		(at 167.64 39.37)
+		(at 138.43 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "524b4f61-820c-4431-bd97-8f37230627f2")
+		(uuid "4fcc7bbf-0f68-4bc6-9cb6-7bc3b3663d86")
+	)
+	(junction
+		(at 180.34 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c99efd-8063-41a8-9f7b-d1b1ab5bb6e5")
+	)
+	(junction
+		(at 138.43 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56041af7-0fbe-4420-b888-c924d0474663")
 	)
 	(junction
 		(at 72.39 109.22)
@@ -9161,16 +10176,22 @@
 		(uuid "6cc026b9-7a8f-4408-91c0-deaa586eb588")
 	)
 	(junction
-		(at 130.81 125.73)
+		(at 93.98 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c6fc688-ad4a-49c4-9d1f-f123cebeb8a9")
 	)
 	(junction
-		(at 162.56 100.33)
+		(at 144.78 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d84fadb-5ed7-482a-8108-8ddfe650f394")
+	)
+	(junction
+		(at 234.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8255f4e8-8a02-4d98-aca4-a36df8de9914")
 	)
 	(junction
 		(at 152.4 24.13)
@@ -9191,13 +10212,19 @@
 		(uuid "8e0def9d-74a0-4996-9112-97db5b9a93ef")
 	)
 	(junction
+		(at 133.35 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8efc84f6-20e1-44e7-856c-319eb3f39792")
+	)
+	(junction
 		(at 26.67 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f99cb50-702c-4279-aa21-c19399f7dd5f")
 	)
 	(junction
-		(at 127 90.17)
+		(at 27.94 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d7c5795-ea0c-4dc8-9393-3d340870a994")
@@ -9209,13 +10236,25 @@
 		(uuid "9e926928-d005-43c1-ba9f-45abb9732c56")
 	)
 	(junction
+		(at 133.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b0b2e0-9c0b-4634-a240-3fd777dbeeef")
+	)
+	(junction
 		(at 17.78 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a14f2a37-f490-4028-9d67-17c6a1865140")
 	)
 	(junction
-		(at 138.43 97.79)
+		(at 151.13 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a196453e-fbff-4642-81b1-538544993fec")
+	)
+	(junction
+		(at 39.37 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af01e067-42fa-452f-878d-d62ad35fdba7")
@@ -9227,22 +10266,34 @@
 		(uuid "b77e2450-0cd5-456f-beb4-099b7a1f2148")
 	)
 	(junction
-		(at 180.34 30.48)
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bccc4482-d8af-4ea8-80ed-11426f771a87")
+	)
+	(junction
+		(at 191.77 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8de8090-1ecf-4658-ae56-2b1c41bbb026")
 	)
 	(junction
-		(at 172.72 93.98)
+		(at 139.7 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb1e6ff8-fe7a-4fd1-91bd-3d54f42debaf")
+		(uuid "c9c4375f-0ac5-4b65-83cb-bff074a236c0")
 	)
 	(junction
 		(at 160.02 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cca7b3f5-31df-4f04-84de-8263c4b4022d")
+	)
+	(junction
+		(at 166.37 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d41d23c3-cf60-482e-bcc2-bcaa1260ea68")
 	)
 	(junction
 		(at 77.47 64.77)
@@ -9263,30 +10314,32 @@
 		(uuid "d9d89eb7-1b65-49ff-af7e-6ca95fe1dfcc")
 	)
 	(junction
-		(at 127 97.79)
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7f03e0-c1e7-4600-8839-cf8963fa867b")
+	)
+	(junction
+		(at 193.04 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6613496-dced-4119-abd1-c755e9d1095e")
+	)
+	(junction
+		(at 27.94 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7c2f525-dc66-4317-a29f-a956d52799af")
 	)
 	(junction
-		(at 130.81 90.17)
+		(at 31.75 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7c79ae4-8d4d-456e-bdbe-8c08ac6e83bf")
 	)
-	(junction
-		(at 157.48 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdcc971d-5901-4590-b55a-2dc827488733")
-	)
-	(no_connect
-		(at 25.4 69.85)
-		(uuid "24bf5def-ce5f-433c-92ae-b36e2a84bbc4")
-	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 128.27 125.73)
+			(xy 93.98 167.64) (xy 91.44 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9303,6 +10356,26 @@
 			(type default)
 		)
 		(uuid "007e8605-35d6-46ed-b7bc-b6ea8adf1c19")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f2358a-de64-449d-83e3-5c7f82136e1d")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021f10f0-51d7-440b-b199-7d1189c52a80")
 	)
 	(wire
 		(pts
@@ -9356,17 +10429,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 30.48) (xy 154.94 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b157a6-fbab-4e79-94f7-ed07f03e5cb0")
-	)
-	(wire
-		(pts
-			(xy 123.19 87.63) (xy 127 87.63)
+			(xy 24.13 177.8) (xy 27.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9376,13 +10439,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 120.65 125.73)
+			(xy 224.79 95.25) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e24070-92e7-4ade-b4a8-1c9976bcdec5")
+	)
+	(wire
+		(pts
+			(xy 81.28 167.64) (xy 83.82 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08af8b8c-de03-4ef8-87ff-723b48f390d5")
+	)
+	(wire
+		(pts
+			(xy 234.95 101.6) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099492eb-237c-4ef8-b5a6-508ecada7068")
 	)
 	(wire
 		(pts
@@ -9393,6 +10476,16 @@
 			(type default)
 		)
 		(uuid "0ad9ca3f-6145-4f44-b519-bb1888afba6d")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae9d78f-4632-4d7b-8122-e3dc3547f725")
 	)
 	(wire
 		(pts
@@ -9426,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 130.81 118.11)
+			(xy 96.52 160.02) (xy 93.98 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9446,7 +10539,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 157.48 133.35)
+			(xy 167.64 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11277f8a-5915-4e93-a644-b398e093d25f")
+	)
+	(wire
+		(pts
+			(xy 120.65 172.72) (xy 120.65 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9456,7 +10559,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 88.9) (xy 172.72 88.9)
+			(xy 115.57 104.14) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cbc1b6-c4a5-40a0-b782-92f2b3ef204a")
+	)
+	(wire
+		(pts
+			(xy 222.25 91.44) (xy 224.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b2c39d-16cb-472b-b066-e71094298e35")
+	)
+	(wire
+		(pts
+			(xy 153.67 161.29) (xy 156.21 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9476,6 +10599,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 101.6) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163db0bc-0811-4847-ae39-3eb2a6c5c59e")
+	)
+	(wire
+		(pts
 			(xy 213.36 59.69) (xy 213.36 60.96)
 		)
 		(stroke
@@ -9486,6 +10619,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 120.65) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1985268f-260a-4b1e-86c2-7c373f1fa938")
+	)
+	(wire
+		(pts
 			(xy 77.47 69.85) (xy 82.55 69.85)
 		)
 		(stroke
@@ -9493,6 +10636,16 @@
 			(type default)
 		)
 		(uuid "19dd5202-a5ee-4190-886c-56327ed99818")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4a1e7f-6ff5-49e0-8a3d-1a620bca6ed2")
 	)
 	(wire
 		(pts
@@ -9516,13 +10669,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 157.48 139.7)
+			(xy 120.65 175.26) (xy 120.65 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c42a341-3338-4c7b-be67-e616dfa9bcf8")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cea6e2b-1615-4eba-afe9-ba3047715ba5")
 	)
 	(wire
 		(pts
@@ -9536,7 +10699,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 181.61 102.87)
+			(xy 187.96 87.63) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d28fc01-c1ac-4af0-9f52-6c1dc686688e")
+	)
+	(wire
+		(pts
+			(xy 163.83 171.45) (xy 163.83 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9556,6 +10729,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2129fd12-c191-4115-b3c1-467d82f133f5")
+	)
+	(wire
+		(pts
 			(xy 118.11 71.12) (xy 139.7 71.12)
 		)
 		(stroke
@@ -9566,7 +10749,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 48.26) (xy 167.64 49.53)
+			(xy 173.99 38.1) (xy 173.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9606,6 +10789,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 30.48) (xy 173.99 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26af0b07-cc98-4054-9d2e-e797509e44e8")
+	)
+	(wire
+		(pts
+			(xy 158.75 44.45) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ef2bfb-a11b-4079-8a6a-e51578636b39")
+	)
+	(wire
+		(pts
 			(xy 224.79 31.75) (xy 232.41 31.75)
 		)
 		(stroke
@@ -9636,6 +10839,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb89bea-5b0d-4bc7-ba4b-014be62eb7cf")
+	)
+	(wire
+		(pts
+			(xy 135.89 124.46) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d05ebae-7f7e-4171-9f53-31004990f3d7")
+	)
+	(wire
+		(pts
 			(xy 189.23 21.59) (xy 191.77 21.59)
 		)
 		(stroke
@@ -9643,6 +10866,36 @@
 			(type default)
 		)
 		(uuid "2d3d3230-b4d9-4fc8-b0f5-ea5504c25916")
+	)
+	(wire
+		(pts
+			(xy 151.13 130.81) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2faaed14-6318-45f5-ba2f-c471b5e1fba0")
+	)
+	(wire
+		(pts
+			(xy 212.09 97.79) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32af5d28-789c-4220-9f08-49fb6b3ac321")
+	)
+	(wire
+		(pts
+			(xy 220.98 110.49) (xy 227.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b5b2d1-b124-4df5-af01-468c2510c890")
 	)
 	(wire
 		(pts
@@ -9656,13 +10909,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 123.19 90.17)
+			(xy 27.94 180.34) (xy 24.13 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33e6e574-b763-4df0-b3fe-dc99f5c4005d")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3416e34a-438b-47a1-a594-ba728c6ef454")
 	)
 	(wire
 		(pts
@@ -9673,6 +10936,26 @@
 			(type default)
 		)
 		(uuid "36337ee9-1b8d-49b6-bb52-b2367c572f1f")
+	)
+	(wire
+		(pts
+			(xy 154.94 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ab61ec-6756-4f1d-ae6c-9662915d440d")
+	)
+	(wire
+		(pts
+			(xy 157.48 44.45) (xy 157.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37310c17-0571-4e1b-b44a-942235b66944")
 	)
 	(wire
 		(pts
@@ -9696,6 +10979,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 120.65) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f11d4e-171a-4041-a995-60bf60b84b7b")
+	)
+	(wire
+		(pts
 			(xy 152.4 24.13) (xy 149.86 24.13)
 		)
 		(stroke
@@ -9703,6 +10996,26 @@
 			(type default)
 		)
 		(uuid "3810db6f-e606-4516-b53d-680c77f2639d")
+	)
+	(wire
+		(pts
+			(xy 191.77 97.79) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384a0771-987d-496a-b5b2-2b86a17d846f")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385e3cce-18ef-450c-9521-f8fe60928817")
 	)
 	(wire
 		(pts
@@ -9726,13 +11039,33 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 97.79) (xy 138.43 99.06)
+			(xy 166.37 97.79) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dd21c4-9c90-423d-957b-49f1d8e87731")
+	)
+	(wire
+		(pts
+			(xy 39.37 187.96) (xy 39.37 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a737339-e82b-4bd9-8c7a-97a30f4d0cdc")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac05422-8271-4a28-8212-4f52de278e1e")
 	)
 	(wire
 		(pts
@@ -9746,6 +11079,46 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bee2010-ddaf-45c8-8ad2-33a23ebbfa2d")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c104794-a2d7-4106-b0cc-7e1d80613ee5")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f86cab8-284c-4ea4-8ec5-9f922829a3d5")
+	)
+	(wire
+		(pts
+			(xy 193.04 97.79) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404b3e20-cc6d-4301-a75f-6e90bf140d24")
+	)
+	(wire
+		(pts
 			(xy 55.88 158.75) (xy 55.88 156.21)
 		)
 		(stroke
@@ -9753,6 +11126,26 @@
 			(type default)
 		)
 		(uuid "40aec261-30d1-49ba-add3-757b74e0cb79")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b5d515-f3d6-4f82-8c91-b428f2967839")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43431cd8-c665-4ea8-9fc7-8df581d19ef8")
 	)
 	(wire
 		(pts
@@ -9766,6 +11159,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 124.46) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4539e910-3b3f-479f-9b43-266a6de89f93")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46710073-ce1b-4a2a-9feb-108e7d699b7d")
+	)
+	(wire
+		(pts
 			(xy 45.72 106.68) (xy 45.72 114.3)
 		)
 		(stroke
@@ -9773,6 +11186,16 @@
 			(type default)
 		)
 		(uuid "4708c5cd-0535-46e8-bc5a-48484242067c")
+	)
+	(wire
+		(pts
+			(xy 93.98 167.64) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4931d19c-2b11-4ec4-980c-6f0ceaca6bda")
 	)
 	(wire
 		(pts
@@ -9786,6 +11209,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 97.79) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4998fe5f-71c8-455f-ba73-9cff3d9ab120")
+	)
+	(wire
+		(pts
 			(xy 205.74 59.69) (xy 205.74 60.96)
 		)
 		(stroke
@@ -9796,7 +11229,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 163.83 93.98)
+			(xy 144.78 166.37) (xy 146.05 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9816,7 +11249,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 172.72 93.98)
+			(xy 156.21 161.29) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9836,6 +11269,36 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 87.63) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dbdb2e-aa83-4c6c-852d-ada9623b7f6b")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 140.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54818905-4def-4fc2-952f-10c9536a010a")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5535ee08-aa8e-4cff-b2da-6e6340c95a01")
+	)
+	(wire
+		(pts
 			(xy 54.61 69.85) (xy 57.15 69.85)
 		)
 		(stroke
@@ -9846,7 +11309,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 127 100.33)
+			(xy 24.13 190.5) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9863,6 +11326,16 @@
 			(type default)
 		)
 		(uuid "57db1ace-c054-4a2d-9b41-8dcc5b3cb2ba")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f95214-e49d-4b0a-be93-2609110090de")
 	)
 	(wire
 		(pts
@@ -9896,6 +11369,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 166.37) (xy 157.48 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4248fb-44b1-41b6-9289-cd2c7f01628f")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 181.61 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c122a2d-bde1-41f6-ac0d-d8e78fc42b4a")
+	)
+	(wire
+		(pts
 			(xy 30.48 158.75) (xy 29.21 158.75)
 		)
 		(stroke
@@ -9906,7 +11399,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 130.81 90.17)
+			(xy 203.2 110.49) (xy 210.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cde8201-95d3-4b0c-9d4f-3581161230d1")
+	)
+	(wire
+		(pts
+			(xy 27.94 180.34) (xy 31.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9946,6 +11449,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4d7e4f-1a72-439c-a296-000968b4adba")
+	)
+	(wire
+		(pts
 			(xy 43.18 158.75) (xy 46.99 158.75)
 		)
 		(stroke
@@ -9953,6 +11466,16 @@
 			(type default)
 		)
 		(uuid "5f687193-dc43-47b1-887a-e993d7cd74fd")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 191.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60927888-5a97-4c52-86ce-3992dfb22160")
 	)
 	(wire
 		(pts
@@ -9976,7 +11499,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 138.43 90.17)
+			(xy 39.37 179.07) (xy 39.37 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9996,13 +11519,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 163.83 100.33)
+			(xy 144.78 172.72) (xy 146.05 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "622c5cbe-55ff-444e-8dac-3e2a365d6dda")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62938daa-eb38-4579-96f2-9f3631c548ae")
 	)
 	(wire
 		(pts
@@ -10026,7 +11559,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 127 97.79)
+			(xy 215.9 104.14) (xy 215.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6735ed97-1cc9-42f5-8fe0-b4deb2f506f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690ae3c7-f439-4b0e-bcf5-f5c245e65ac9")
+	)
+	(wire
+		(pts
+			(xy 27.94 190.5) (xy 27.94 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10036,23 +11589,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 40.64) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b8c2d12-17c6-4e79-a631-47b7183509e7")
-	)
-	(wire
-		(pts
-			(xy 157.48 118.11) (xy 157.48 120.65)
+			(xy 120.65 160.02) (xy 120.65 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70ad1cd5-0157-4f0a-a5d0-b470b79886ef")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71616e2d-c0f5-4610-9f6f-ce1c59c37f6b")
 	)
 	(wire
 		(pts
@@ -10086,6 +11639,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 92.71) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7678c416-ea8c-4406-8fbb-ca7879420206")
+	)
+	(wire
+		(pts
 			(xy 26.67 25.4) (xy 26.67 27.94)
 		)
 		(stroke
@@ -10106,6 +11669,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 110.49) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777aafbb-77f8-429c-8170-d60630475e31")
+	)
+	(wire
+		(pts
 			(xy 151.13 39.37) (xy 151.13 43.18)
 		)
 		(stroke
@@ -10116,7 +11689,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 30.48) (xy 180.34 33.02)
+			(xy 191.77 31.75) (xy 191.77 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10133,6 +11706,26 @@
 			(type default)
 		)
 		(uuid "784333d2-f00b-4dc4-95e7-a7660a259386")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a011ffb-2681-4e1c-8a27-914166b4c824")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a67f2cd-46a2-48e4-84ef-12845d4a775c")
 	)
 	(wire
 		(pts
@@ -10166,7 +11759,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 30.48) (xy 180.34 30.48)
+			(xy 189.23 31.75) (xy 191.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10176,7 +11769,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 97.79) (xy 127 97.79)
+			(xy 24.13 187.96) (xy 27.94 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10186,7 +11779,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 34.29 78.74)
+			(xy 35.56 67.31) (xy 35.56 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10216,13 +11809,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 30.48) (xy 154.94 36.83)
+			(xy 25.4 69.85) (xy 27.94 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86529b10-e056-4252-9ef1-8b7de348e8e7")
+		(uuid "85c23fe8-ae5a-47b7-837d-e5c56dd92a1d")
 	)
 	(wire
 		(pts
@@ -10246,6 +11839,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 118.11) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888f709a-33d2-4823-8650-9f7b00d766ea")
+	)
+	(wire
+		(pts
 			(xy 80.01 58.42) (xy 77.47 58.42)
 		)
 		(stroke
@@ -10256,13 +11859,43 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 64.77) (xy 38.1 64.77)
+			(xy 135.89 118.11) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1721bf-92f2-42aa-becf-6560e2df86ee")
+	)
+	(wire
+		(pts
+			(xy 25.4 64.77) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8aa22dc7-3994-4f1b-a95f-1cee0bb72f2f")
+	)
+	(wire
+		(pts
+			(xy 234.95 95.25) (xy 237.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af9cd61-a425-454a-bc26-57c7abe6ccad")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdad785-50dd-4052-8732-c104925c76e6")
 	)
 	(wire
 		(pts
@@ -10276,7 +11909,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 172.72 93.98)
+			(xy 156.21 172.72) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10306,7 +11939,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 154.94 139.7)
+			(xy 120.65 181.61) (xy 118.11 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10336,6 +11969,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a86473-e1b7-4e5f-8250-0e869efc610e")
+	)
+	(wire
+		(pts
 			(xy 116.84 30.48) (xy 116.84 35.56)
 		)
 		(stroke
@@ -10356,7 +11999,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 45.72) (xy 152.4 45.72)
+			(xy 151.13 49.53) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10366,7 +12009,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 163.83 88.9)
+			(xy 144.78 161.29) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10406,7 +12049,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 90.17)
+			(xy 27.94 177.8) (xy 27.94 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10416,7 +12059,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 172.72 93.98)
+			(xy 153.67 166.37) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -10426,7 +12069,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 44.45) (xy 180.34 44.45)
+			(xy 194.31 45.72) (xy 191.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10436,7 +12079,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 143.51 118.11)
+			(xy 138.43 133.35) (xy 138.43 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9949633f-bb70-41c0-a5ca-38a9b1c42211")
+	)
+	(wire
+		(pts
+			(xy 110.49 160.02) (xy 106.68 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10506,6 +12159,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 45.72) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc78105-6785-4389-b9e1-0c98f5dcd357")
+	)
+	(wire
+		(pts
 			(xy 209.55 71.12) (xy 209.55 69.85)
 		)
 		(stroke
@@ -10526,7 +12189,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 138.43 90.17)
+			(xy 31.75 180.34) (xy 39.37 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10536,13 +12199,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 39.37) (xy 167.64 39.37)
+			(xy 93.98 175.26) (xy 96.52 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a468081a-2b5a-46d9-bccc-3fe6f13fe777")
+		(uuid "a26c73dc-6c43-4d91-adb7-426c30345f68")
+	)
+	(wire
+		(pts
+			(xy 177.8 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a447e467-f01a-47b5-8ef0-a4b3cf002695")
 	)
 	(wire
 		(pts
@@ -10566,13 +12239,63 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 119.38) (xy 147.32 118.11)
+			(xy 151.13 118.11) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b5229b-6d9d-47bc-a791-fe89f9746023")
+	)
+	(wire
+		(pts
+			(xy 110.49 161.29) (xy 110.49 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a72798ac-d76b-4c85-bcd9-b8167c143577")
+	)
+	(wire
+		(pts
+			(xy 232.41 95.25) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75f5dca-0947-415b-b500-a0f05becaab6")
+	)
+	(wire
+		(pts
+			(xy 160.02 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8410cab-dc25-4239-aaaa-a5a9eb518b0d")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8459067-23ae-4551-ac40-df27d7bd9313")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95f7443-790e-44bc-9f3e-821526194c11")
 	)
 	(wire
 		(pts
@@ -10616,13 +12339,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 73.66) (xy 38.1 64.77)
+			(xy 39.37 72.39) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad9753f1-fe87-4498-935b-161f2a57897c")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1293f3-d260-4669-adef-882f98eabdaa")
 	)
 	(wire
 		(pts
@@ -10646,13 +12379,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 130.81 125.73)
+			(xy 93.98 160.02) (xy 93.98 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afed2758-23d7-4fd6-b44a-b72247abe6f8")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02f6323-76a4-444f-8056-72ea2672c119")
 	)
 	(wire
 		(pts
@@ -10676,7 +12419,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 130.81 97.79)
+			(xy 27.94 187.96) (xy 31.75 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10696,7 +12439,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 30.48) (xy 182.88 30.48)
+			(xy 191.77 31.75) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10726,6 +12469,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 101.6) (xy 234.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb17d979-143b-46e0-811a-8cb5c1387ef7")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd14b15f-c24f-43b4-a367-60ed591ed146")
+	)
+	(wire
+		(pts
 			(xy 54.61 64.77) (xy 57.15 64.77)
 		)
 		(stroke
@@ -10746,7 +12509,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 100.33) (xy 172.72 100.33)
+			(xy 153.67 172.72) (xy 156.21 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10763,16 +12526,6 @@
 			(type default)
 		)
 		(uuid "bfd4100d-8797-41af-93f2-0501ba227183")
-	)
-	(wire
-		(pts
-			(xy 157.48 34.29) (xy 157.48 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53974b5-0272-46a6-a042-0453809e636c")
 	)
 	(wire
 		(pts
@@ -10796,6 +12549,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 110.49) (xy 237.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64283dc-8ab8-41fa-8960-a066bf12a2e7")
+	)
+	(wire
+		(pts
 			(xy 193.04 68.58) (xy 193.04 69.85)
 		)
 		(stroke
@@ -10803,6 +12566,16 @@
 			(type default)
 		)
 		(uuid "c6d778e9-cf69-4605-9ab7-4060d057d331")
+	)
+	(wire
+		(pts
+			(xy 170.18 30.48) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c783f499-d2ae-4b4f-8e48-a9b8aa1f5334")
 	)
 	(wire
 		(pts
@@ -10816,6 +12589,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 129.54) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e6e7b7-bfb5-492c-8299-25823921fe49")
+	)
+	(wire
+		(pts
 			(xy 213.36 68.58) (xy 213.36 69.85)
 		)
 		(stroke
@@ -10823,16 +12606,6 @@
 			(type default)
 		)
 		(uuid "c9fb04ef-9843-4f0c-803f-14aa7feed590")
-	)
-	(wire
-		(pts
-			(xy 160.02 39.37) (xy 163.83 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8a3ac0-0095-4be1-aa15-ad4c7f58f083")
 	)
 	(wire
 		(pts
@@ -10846,6 +12619,56 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cd631d-9777-4bec-9141-0047a2f37804")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 151.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10b31ba-9963-4a2b-b678-22b0675772a4")
+	)
+	(wire
+		(pts
+			(xy 151.13 120.65) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d353b2ea-98ab-499b-8222-26189d892a63")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a7b686-8c68-4341-91e1-8389b6638fff")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d5d598-1692-4970-b2d3-f9a4bd5d991e")
+	)
+	(wire
+		(pts
 			(xy 33.02 127) (xy 33.02 128.27)
 		)
 		(stroke
@@ -10853,6 +12676,16 @@
 			(type default)
 		)
 		(uuid "d691b34f-5c39-4828-8420-7a03ef5b38f2")
+	)
+	(wire
+		(pts
+			(xy 213.36 92.71) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a6cb89-aeab-4a14-aff9-abba338227c8")
 	)
 	(wire
 		(pts
@@ -10866,6 +12699,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86b1483-da0b-4a76-abea-c0dcbc5d09bd")
+	)
+	(wire
+		(pts
 			(xy 160.02 71.12) (xy 162.56 71.12)
 		)
 		(stroke
@@ -10873,6 +12716,16 @@
 			(type default)
 		)
 		(uuid "d92f4705-91c1-42ca-843d-7d74eee80463")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0d5d0a-2f9a-4b31-839c-e73bc9d11e35")
 	)
 	(wire
 		(pts
@@ -10886,7 +12739,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 67.31) (xy 34.29 67.31)
+			(xy 25.4 67.31) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10896,7 +12749,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 88.9)
+			(xy 163.83 158.75) (xy 163.83 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10936,6 +12789,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 95.25) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decefc0a-08a5-440c-80d7-fd2a8553153d")
+	)
+	(wire
+		(pts
 			(xy 127 27.94) (xy 129.54 27.94)
 		)
 		(stroke
@@ -10946,13 +12809,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 175.26 93.98)
+			(xy 166.37 97.79) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e143d4cc-12a8-429d-9b22-0977b38fee1a")
+		(uuid "e0836a1a-4afd-4c4b-84d4-daf42bb1af1b")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23c9efd-c618-448c-acad-4eaa94bd0e9e")
 	)
 	(wire
 		(pts
@@ -10966,6 +12839,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ad5825-34e8-4e77-87a0-ec3561fd7578")
+	)
+	(wire
+		(pts
 			(xy 19.05 101.6) (xy 21.59 101.6)
 		)
 		(stroke
@@ -10976,17 +12859,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 151.13 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5d2b7a5-b73b-43df-8112-f472bf7ab93a")
-	)
-	(wire
-		(pts
-			(xy 162.56 100.33) (xy 162.56 93.98)
+			(xy 144.78 172.72) (xy 144.78 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11016,7 +12889,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 138.43 97.79)
+			(xy 31.75 187.96) (xy 39.37 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11026,23 +12899,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 130.81 125.73)
+			(xy 127 111.76) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaa0d97-ec42-4eee-a709-284f7211662b")
+	)
+	(wire
+		(pts
+			(xy 33.02 74.93) (xy 35.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece0ad93-9231-40da-adb9-9f389511e47a")
+	)
+	(wire
+		(pts
+			(xy 93.98 175.26) (xy 93.98 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eebef562-76ec-4e4a-8068-ed7f1d910771")
-	)
-	(wire
-		(pts
-			(xy 29.21 78.74) (xy 34.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efc3c19c-3e0f-438c-975d-9e008622e55c")
 	)
 	(wire
 		(pts
@@ -11056,17 +12939,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 39.37) (xy 172.72 39.37)
+			(xy 154.94 41.91) (xy 154.94 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4e8fb9f-9dd8-4086-b75f-23feae3b0c79")
+		(uuid "f5ce1229-33c7-403b-81aa-5141af96e9e4")
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 162.56 100.33)
+			(xy 144.78 175.26) (xy 144.78 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11076,13 +12959,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 140.97 133.35)
+			(xy 139.7 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68fe8df-58a6-419e-99ea-e5d0b971adff")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 106.68 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6c62a04-9b06-4cf0-a5d9-332c4898b26e")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a22cf0-3826-4152-8202-b3d069e76dc7")
 	)
 	(wire
 		(pts
@@ -11136,13 +13039,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 44.45) (xy 180.34 40.64)
+			(xy 191.77 45.72) (xy 191.77 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff818bb0-7dc9-4a88-950f-6ef123875afb")
+	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 170.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa3d2d0-3f73-4c10-ba0b-334e274225db")
 	)
 	(wire
 		(pts
@@ -11155,7 +13068,7 @@
 		(uuid "ffa45649-ae05-4623-98aa-0521fd965afe")
 	)
 	(label "POWER_CYCLE"
-		(at 162.56 88.9 180)
+		(at 144.78 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11173,6 +13086,16 @@
 			(justify left bottom)
 		)
 		(uuid "128b5c7e-6864-4882-9fd7-244e932d2a66")
+	)
+	(label "PMIC_CS"
+		(at 125.73 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13280290-d4f6-4a71-8a47-129ba562a95a")
 	)
 	(label "SAFE_CAN_H"
 		(at 54.61 69.85 180)
@@ -11205,7 +13128,7 @@
 		(uuid "23411988-461f-4f44-9cd1-f0b65f381930")
 	)
 	(label "POWER_CYCLE"
-		(at 29.21 78.74 180)
+		(at 33.02 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11224,6 +13147,36 @@
 		)
 		(uuid "2c884740-0267-4d68-a99f-7c83873d1b8f")
 	)
+	(label "PMIC_VOUT"
+		(at 158.75 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "332cb844-7b3a-4d06-9a52-ba8eaf2810b6")
+	)
+	(label "DET_VDET"
+		(at 177.8 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35d12f7e-ef4d-437b-b843-e28f6ab5e3e3")
+	)
+	(label "BW_OK"
+		(at 27.94 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39bf6abd-2e7b-4452-a858-3269482eb492")
+	)
 	(label "PMIC_FAULT"
 		(at 232.41 29.21 0)
 		(effects
@@ -11235,7 +13188,7 @@
 		(uuid "3ee7b98f-247c-496f-8bd1-cb4f6542076d")
 	)
 	(label "PMIC_SHDN"
-		(at 181.61 86.36 180)
+		(at 163.83 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11243,6 +13196,16 @@
 			(justify right bottom)
 		)
 		(uuid "45aefefa-7598-4f95-bc97-3d0abcbea457")
+	)
+	(label "PMIC_CS"
+		(at 152.4 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49b50d7e-0f79-4cf0-9257-7db89b7efeb6")
 	)
 	(label "PMIC_VIN"
 		(at 179.07 21.59 180)
@@ -11254,6 +13217,16 @@
 		)
 		(uuid "580525f1-60ca-4361-8984-0f2a7c1c6519")
 	)
+	(label "DET_B"
+		(at 130.81 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d83fc6c-2613-4293-98dc-a8374f020625")
+	)
 	(label "PMIC_SHDN"
 		(at 232.41 31.75 0)
 		(effects
@@ -11264,6 +13237,26 @@
 		)
 		(uuid "669a0f10-c0ae-4f64-8d58-bfe455768628")
 	)
+	(label "DET_VDET"
+		(at 214.63 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d4b1341-05d3-4be7-91c2-984ae3707f31")
+	)
+	(label "BW_OK"
+		(at 237.49 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728f3fc9-bdd6-4e63-bd62-24f4f1c0e297")
+	)
 	(label "PMIC_GATE"
 		(at 116.84 20.32 0)
 		(effects
@@ -11273,6 +13266,16 @@
 			(justify left bottom)
 		)
 		(uuid "751194a7-44e4-47b4-bd89-87834ffbf661")
+	)
+	(label "DET_BG"
+		(at 142.24 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7856b7da-9288-428f-adcf-01907cbaa4a4")
 	)
 	(label "M12_CAN_L"
 		(at 39.37 40.64 180)
@@ -11294,15 +13297,35 @@
 		)
 		(uuid "7aadefe2-4d1b-429d-8750-d13c71b98cd5")
 	)
-	(label "PMIC_VOUT"
-		(at 157.48 34.29 0)
+	(label "DET_TRIG"
+		(at 191.77 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ef93289-9be0-4f1d-80f4-832e0769d0ac")
+	)
+	(label "DET_G"
+		(at 237.49 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "835e2569-8ff7-4e42-9823-4c222e761e71")
+		(uuid "8524ac23-8c77-4914-ab43-7a5ade7365a6")
+	)
+	(label "DET_TRIG"
+		(at 224.79 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "878a78ad-a8f6-4c43-a737-1e30c618e3a3")
 	)
 	(label "SAFE_CAN_H"
 		(at 27.94 59.69 0)
@@ -11345,7 +13368,7 @@
 		(uuid "8cf21a49-ef06-4fd0-b68d-ea419d6c99a4")
 	)
 	(label "PMIC_VIN"
-		(at 154.94 139.7 180)
+		(at 118.11 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11363,6 +13386,16 @@
 			(justify left bottom)
 		)
 		(uuid "93a528c1-bb36-42a9-bd74-f5876e7ec7df")
+	)
+	(label "PMIC_GATE"
+		(at 160.02 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93de5800-db32-4dd0-bce7-3e02bc116f86")
 	)
 	(label "PMIC_RETRY"
 		(at 137.16 68.58 180)
@@ -11394,8 +13427,18 @@
 		)
 		(uuid "a0609450-4f8b-49cd-8510-2584bd55ea7a")
 	)
+	(label "DET_TRIG"
+		(at 135.89 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a77f880e-c129-4705-9d5f-4e4d3c53a509")
+	)
 	(label "PMIC_GATE"
-		(at 152.4 45.72 0)
+		(at 152.4 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11484,6 +13527,16 @@
 		)
 		(uuid "cd844752-b941-4843-b970-2b63830f0a1c")
 	)
+	(label "DET_G"
+		(at 190.5 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2c4cb7b-9783-49c9-bf2f-6bd711652de3")
+	)
 	(label "PMIC_VIN"
 		(at 118.11 59.69 0)
 		(effects
@@ -11495,7 +13548,7 @@
 		(uuid "d5411840-b860-4321-b783-2d80181ac3bf")
 	)
 	(label "PMIC_VOUT"
-		(at 182.88 44.45 0)
+		(at 194.31 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11503,6 +13556,16 @@
 			(justify left bottom)
 		)
 		(uuid "d817b23b-5e02-4d6e-8cb3-7d5e90b63155")
+	)
+	(label "DET_C"
+		(at 140.97 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d968b2ca-edfb-47f4-b13a-749171dba878")
 	)
 	(label "PMIC_CS"
 		(at 118.11 39.37 0)
@@ -11545,7 +13608,7 @@
 		(uuid "f0e828f6-fa40-4bc8-8f06-a3baebf6a16c")
 	)
 	(label "PMIC_SENSE"
-		(at 182.88 30.48 0)
+		(at 194.31 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11585,8 +13648,174 @@
 		(uuid "ff3f80a2-b381-4f1a-9e76-dc1add8d77a7")
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 187.96 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "041bb0ac-66ea-4658-a411-33f7e0d0e198")
+		(property "Reference" "R16"
+			(at 187.96 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 187.96 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 187.96 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 187.96 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 187.96 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 187.96 102.616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b0aaaae7-87b6-4987-a567-9bfda2e13a8c")
+		)
+		(pin "1"
+			(uuid "0fbee8ba-c9de-4d52-ad70-4545c4758f92")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 252.73 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a73aae-31ca-429a-9c21-9bee23647e2f")
+		(property "Reference" "H2"
+			(at 255.27 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.27 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:MountingHole_5mm_M4_with_Keepout"
+			(at 252.73 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Onsemi NSVUMZ1NT1G")
-		(at 320.04 95.25 0)
+		(at 203.2 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11596,7 +13825,7 @@
 		(dnp no)
 		(uuid "0ad54a61-02fa-4fd8-91f7-08cdb3f919fb")
 		(property "Reference" "Q6"
-			(at 320.04 89.662 0)
+			(at 203.2 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11606,7 +13835,7 @@
 			)
 		)
 		(property "Value" "NSVUMZ1NT1G"
-			(at 320.04 100.838 0)
+			(at 203.2 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11616,7 +13845,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Onsemi NSVUMZ1"
-			(at 320.04 105.156 0)
+			(at 203.2 105.156 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11628,7 +13857,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/UMZ1NT1-D.PDF"
-			(at 339.09 290.17 0)
+			(at 222.25 290.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +13869,7 @@
 			)
 		)
 		(property "Description" "Bipolar (BJT) Transistor Array 1 NPN, 1 PNP Complementary 50V 200mA 114MHz, 142MHz 250mW Surface Mount SC-88/SC70-6/SOT-363"
-			(at 320.04 103.632 0)
+			(at 203.2 103.632 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11651,7 +13880,7 @@
 			)
 		)
 		(property "Part" "Onsemi NSVUMZ1NT1G"
-			(at 339.09 590.17 0)
+			(at 222.25 590.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11691,7 +13920,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 233.68 116.84 0)
+		(at 254 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11701,7 +13930,7 @@
 		(dnp no)
 		(uuid "0dbc36cf-985e-4147-911e-9559eb3f648e")
 		(property "Reference" "ZT5"
-			(at 232.156 114.3 0)
+			(at 252.476 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11712,7 +13941,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 233.68 116.84 0)
+			(at 254 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11722,7 +13951,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 233.68 119.38 0)
+			(at 254 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,7 +13962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 116.84 0)
+			(at 254 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +13973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 116.84 0)
+			(at 254 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,6 +14086,180 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 125.73 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "144efac3-2c99-4ab2-96f3-1ec9a5537cf2")
+		(property "Reference" "#PWR023"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51ed50d1-4509-4c64-affc-774f496b363a")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Infineon BSS123NH6327XTSA1")
+		(at 215.9 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "152efddf-a3e5-400c-bcf2-59985d3d7c1f")
+		(property "Reference" "Q8"
+			(at 216.408 105.664 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123NH6327XTSA1"
+			(at 215.9 113.792 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Infineon BSS123"
+			(at 117.17 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS123N-DS-v02_03-en.pdf?fileId=db3a304335f1f4b6013639adfaaa1631"
+			(at 17.17 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N-Channel 100 V 190mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
+			(at 198.882 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Infineon BSS123NH6327XTSA1"
+			(at -282.83 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "618b4869-2dce-48bd-aaac-53806551ad12")
+		)
+		(pin "1"
+			(uuid "0a6ee981-f7a3-4b2a-81b3-40e6a52bf5c4")
+		)
+		(pin "3"
+			(uuid "766bac10-1f72-4e52-92fb-2623b7f5e5d0")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 33.02 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -11933,8 +14336,272 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Nexperia BAS416-QF")
+		(at 153.67 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16b85831-c08f-460d-8b1a-76dad145be38")
+		(property "Reference" "D2"
+			(at 153.67 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS416-QF"
+			(at 153.67 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Nexperia BAS416-QF"
+			(at 153.67 99.314 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS416-Q.pdf"
+			(at 153.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode 75 V 200mA Surface Mount SOD-323"
+			(at 153.67 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Nexperia BAS416-QF"
+			(at 153.67 97.282 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "641ef15f-c67d-4b8c-ae77-f6c006c2939e")
+		)
+		(pin "1"
+			(uuid "48eab4ca-1fd2-49e6-aec8-5c346b85f6b5")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Infineon BSS123NH6327XTSA1")
+		(at 144.78 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a7d822a-4db9-425a-8d94-b452df8b129d")
+		(property "Reference" "Q4"
+			(at 145.288 92.964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123NH6327XTSA1"
+			(at 144.78 101.092 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Infineon BSS123"
+			(at 46.05 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS123N-DS-v02_03-en.pdf?fileId=db3a304335f1f4b6013639adfaaa1631"
+			(at -53.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N-Channel 100 V 190mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
+			(at 127.762 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Infineon BSS123NH6327XTSA1"
+			(at -353.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "921e3130-07d6-47ea-adee-92dde8b55c10")
+		)
+		(pin "1"
+			(uuid "e798c3ce-af11-41ef-a7a4-be0820c6965b")
+		)
+		(pin "3"
+			(uuid "80a6734c-38fc-4b3c-8b04-b99924c3e7f3")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d52c5ef-f320-491f-81f4-f7876c947eea")
+		(property "Reference" "#PWR025"
+			(at 203.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "636749f3-e2f8-400b-aaad-7e79e5c10523")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:MCC ESDSB5V0D3BHE3-TP")
-		(at 135.89 133.35 0)
+		(at 101.6 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11943,8 +14610,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "202b72ba-af9f-4e0a-9dbd-867884c4c50f")
-		(property "Reference" "TVS4"
-			(at 135.89 131.064 0)
+		(property "Reference" "TVS6"
+			(at 101.6 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11954,7 +14621,7 @@
 			)
 		)
 		(property "Value" "ESDSB5V0D3BHE3-TP"
-			(at 135.89 135.89 0)
+			(at 101.6 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11964,7 +14631,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:MCC ESDSB5V0D3"
-			(at 135.89 145.034 0)
+			(at 101.6 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +14642,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/ESDSB5V0D3BHE3(SOD-323).pdf"
-			(at 135.89 140.716 0)
+			(at 101.6 182.626 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11986,7 +14653,7 @@
 			)
 		)
 		(property "Description" "17V Clamp 24A (8/20µs) Ipp Tvs Diode Surface Mount SOD-323"
-			(at 135.89 138.43 0)
+			(at 101.6 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11997,7 +14664,7 @@
 			)
 		)
 		(property "Part" "MCC ESDSB5V0D3BHE3-TP"
-			(at 135.89 143.002 0)
+			(at 101.6 184.912 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12016,7 +14683,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "TVS4")
+					(reference "TVS6")
 					(unit 1)
 				)
 			)
@@ -12024,7 +14691,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:TDK CGA5L1X7R1H106K160AE")
-		(at 180.34 36.83 180)
+		(at 191.77 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12033,8 +14700,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "226377f4-9834-43ed-b860-464443e4c6d9")
-		(property "Reference" "C13"
-			(at 180.594 34.544 0)
+		(property "Reference" "C7"
+			(at 192.024 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12045,7 +14712,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 180.848 39.37 0)
+			(at 192.278 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12056,7 +14723,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:TDK CGA5"
-			(at 180.34 23.368 0)
+			(at 191.77 24.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12067,7 +14734,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_en.pdf"
-			(at 180.34 19.05 0)
+			(at 191.77 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,7 +14745,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
-			(at 180.34 21.336 0)
+			(at 191.77 22.606 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12089,7 +14756,7 @@
 			)
 		)
 		(property "Part" "TDK CGA5L1X7R1H106K160AE"
-			(at 180.34 25.4 0)
+			(at 191.77 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +14775,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12116,7 +14783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 119.38 0)
+		(at 110.49 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12126,7 +14793,7 @@
 		(dnp no)
 		(uuid "226c85e4-2370-4701-9419-e02d2583e30f")
 		(property "Reference" "#PWR017"
-			(at 147.32 125.73 0)
+			(at 110.49 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12137,7 +14804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 123.19 0)
+			(at 110.49 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12147,7 +14814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 119.38 0)
+			(at 110.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12158,7 +14825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 119.38 0)
+			(at 110.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12169,7 +14836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 119.38 0)
+			(at 110.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12186,6 +14853,173 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Panasonic ERJ-PC6D2203V")
+		(at 132.08 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23cdcaf5-1cb2-4eb6-8d27-62c9cfde5f74")
+		(property "Reference" "R13"
+			(at 132.08 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220k"
+			(at 132.08 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Panasonic ERJ-PC6"
+			(at 132.08 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 132.08 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220 kOhms ±0.5% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 132.08 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Panasonic ERJ-PC6D2203V"
+			(at 132.08 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "690f7952-d830-42d4-b002-af1690491a4e")
+		)
+		(pin "2"
+			(uuid "c3269e37-f867-4046-814a-b8064f88e995")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "240d2d90-2d52-483b-92b0-a9470a998a00")
+		(property "Reference" "#PWR072"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_OUT"
+			(at 160.02 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f631935-6108-45ad-8927-06a413e34bb2")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -12447,7 +15281,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 224.79 116.84 0)
+		(at 254 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12457,7 +15291,7 @@
 		(dnp no)
 		(uuid "281b0ab5-6c6d-4043-82ec-a8f9150dad56")
 		(property "Reference" "ZT3"
-			(at 223.266 114.3 0)
+			(at 252.476 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12468,7 +15302,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 224.79 116.84 0)
+			(at 254 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12478,7 +15312,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 224.79 119.38 0)
+			(at 254 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12489,7 +15323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 116.84 0)
+			(at 254 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12500,7 +15334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 116.84 0)
+			(at 254 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12607,7 +15441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bc9b701-331d-403e-99a1-9e0c81e88520")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 205.994 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12682,7 +15516,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12767,7 +15601,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 224.79 123.19 0)
+		(at 254 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12777,7 +15611,7 @@
 		(dnp no)
 		(uuid "30fdbfa7-6992-4d67-a8b9-843f0cf35e5d")
 		(property "Reference" "ZT4"
-			(at 223.266 120.65 0)
+			(at 252.476 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12788,7 +15622,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 224.79 123.19 0)
+			(at 254 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12798,7 +15632,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 224.79 125.73 0)
+			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12809,7 +15643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 123.19 0)
+			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12820,7 +15654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 123.19 0)
+			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12841,7 +15675,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
-		(at 167.64 93.98 0)
+		(at 149.86 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12850,8 +15684,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "352525a3-79fb-4937-a8b4-9561325784f3")
-		(property "Reference" "R10"
-			(at 167.64 93.98 0)
+		(property "Reference" "R21"
+			(at 149.86 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12861,7 +15695,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 167.64 96.266 0)
+			(at 149.86 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12871,7 +15705,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 167.64 103.378 0)
+			(at 149.86 175.768 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12882,7 +15716,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 167.64 105.664 0)
+			(at 149.86 178.054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12893,7 +15727,7 @@
 			)
 		)
 		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 167.64 101.092 0)
+			(at 149.86 173.482 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12904,7 +15738,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT100K-HP"
-			(at 167.64 98.806 0)
+			(at 149.86 171.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +15757,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R10")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12931,7 +15765,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Infineon BSS123NH6327XTSA1")
-		(at 180.34 93.98 0)
+		(at 162.56 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12940,8 +15774,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3970c9ce-9931-4b28-85df-6dd7d692acec")
-		(property "Reference" "Q4"
-			(at 176.784 90.17 0)
+		(property "Reference" "Q7"
+			(at 159.004 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12952,7 +15786,7 @@
 			)
 		)
 		(property "Value" "BSS123NH6327XTSA1"
-			(at 184.912 93.98 90)
+			(at 167.132 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12962,7 +15796,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Infineon BSS123"
-			(at 191.77 192.71 0)
+			(at 173.99 265.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12974,7 +15808,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS123N-DS-v02_03-en.pdf?fileId=db3a304335f1f4b6013639adfaaa1631"
-			(at 191.77 292.71 0)
+			(at 173.99 365.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12986,7 +15820,7 @@
 			)
 		)
 		(property "Description" "N-Channel 100 V 190mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
-			(at 180.34 110.998 0)
+			(at 162.56 183.388 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12997,7 +15831,7 @@
 			)
 		)
 		(property "Part" "Infineon BSS123NH6327XTSA1"
-			(at 191.77 592.71 0)
+			(at 173.99 665.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,7 +15854,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -13098,6 +15932,96 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 218.44 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3caf9923-6f0c-433f-8089-af1390af6a1e")
+		(property "Reference" "R17"
+			(at 218.44 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 218.44 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 218.44 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 218.44 103.124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 218.44 98.552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 218.44 96.266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b4f3bcb-560d-410c-b513-fa068ec33c74")
+		)
+		(pin "1"
+			(uuid "bf009936-f0f7-428f-86a6-386d1cc9363c")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13350,6 +16274,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 144.78 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "442e1bc0-6966-4ada-920a-a105e9fc45fc")
+		(property "Reference" "R11"
+			(at 144.78 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 144.78 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 144.78 113.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 144.78 115.824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 144.78 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 144.78 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66dcd5f3-0c2f-46ce-8b1e-0f1575c5fa5d")
+		)
+		(pin "1"
+			(uuid "ca1f9a89-96dc-4925-b818-c9eb545cad9c")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 67.31 0)
 		(unit 1)
@@ -13437,7 +16451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "497052cf-f47e-4f52-8b4f-20d9a24cb2af")
-		(property "Reference" "TVS5"
+		(property "Reference" "TVS2"
 			(at 33.02 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,7 +16524,97 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "TVS5")
+					(reference "TVS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0603FT10M0-HP")
+		(at 128.27 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d73577c-f1b1-4e1b-adf7-34a8d725878a")
+		(property "Reference" "R10"
+			(at 128.27 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10MR"
+			(at 128.27 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0603"
+			(at 128.27 105.156 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 128.27 107.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 MOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0603FT10M0-HP"
+			(at 128.27 109.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "812d51e2-61c5-4798-92ba-9fdb7a6364a4")
+		)
+		(pin "2"
+			(uuid "b9b59a6a-1c27-46bf-8a26-adb9a602d229")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13518,7 +16622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 99.06 0)
+		(at 39.37 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13528,7 +16632,7 @@
 		(dnp no)
 		(uuid "529896f7-e151-48f0-b4b8-3a9cb5606e82")
 		(property "Reference" "#PWR015"
-			(at 138.43 105.41 0)
+			(at 39.37 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +16643,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 102.87 0)
+			(at 39.37 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13549,7 +16653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 99.06 0)
+			(at 39.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13560,7 +16664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 99.06 0)
+			(at 39.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +16675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 99.06 0)
+			(at 39.37 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13594,8 +16698,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52a19d53-e94c-4bba-beab-0b6a8c96be4a")
+		(property "Reference" "#PWR021"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d0db0fa-eabb-47fb-ad7c-9addd953e5e6")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 167.64 100.33 90)
+		(at 149.86 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13604,8 +16785,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5361b56e-0ba7-4818-a1fd-503248fcd6d4")
-		(property "Reference" "C9"
-			(at 169.164 99.06 90)
+		(property "Reference" "C15"
+			(at 151.384 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13616,7 +16797,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 169.164 101.854 90)
+			(at 151.384 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13627,7 +16808,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 181.356 100.33 0)
+			(at 163.576 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13638,7 +16819,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 185.42 100.33 0)
+			(at 167.64 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13649,7 +16830,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 183.388 100.33 0)
+			(at 165.608 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13660,7 +16841,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 179.07 100.33 0)
+			(at 161.29 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,7 +16852,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 187.706 100.33 0)
+			(at 169.926 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13690,7 +16871,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13787,41 +16968,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 171.45 135.89 0)
+		(lib_id "mr-parts:Nexperia BAS416-QF")
+		(at 160.02 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "561d3537-f911-4285-a8f0-2a02d0198a2b")
-		(property "Reference" "H4"
-			(at 173.99 133.3499 0)
+		(uuid "56554ab6-ddbb-4308-a3b4-a15a1f73a936")
+		(property "Reference" "D4"
+			(at 160.02 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 173.99 135.8899 0)
+		(property "Value" "BAS416-QF"
+			(at 160.02 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
-			(at 171.45 135.89 0)
+		(property "Footprint" "mr-stuff:Nexperia BAS416-QF"
+			(at 160.02 100.076 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13831,8 +17009,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 135.89 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS416-Q.pdf"
+			(at 160.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13842,8 +17020,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 171.45 135.89 0)
+		(property "Description" "Diode 75 V 200mA Surface Mount SOD-323"
+			(at 160.02 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13852,11 +17030,28 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Part" "Nexperia BAS416-QF"
+			(at 160.02 102.108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6cbb8fd8-faa9-4ceb-8ac2-9767f1847ac3")
+		)
+		(pin "1"
+			(uuid "362aa56d-1ccd-454e-9d67-f90fb6465350")
 		)
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "H4")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13864,7 +17059,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 196.85 123.19 0)
+		(at 262.89 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13875,7 +17070,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f0d16e9-8a34-45e2-9a7c-184fdf5500c8")
 		(property "Reference" "FID2"
-			(at 199.39 121.9199 0)
+			(at 265.43 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13886,7 +17081,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 199.39 124.4599 0)
+			(at 265.43 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13897,7 +17092,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 196.85 123.19 0)
+			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +17103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 123.19 0)
+			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13919,7 +17114,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 196.85 123.19 0)
+			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13949,7 +17144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6001ff45-3a32-4ad3-8b6c-1161a634210b")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 180.848 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14035,7 +17230,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14120,7 +17315,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 196.85 116.84 0)
+		(at 262.89 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14131,7 +17326,7 @@
 		(fields_autoplaced yes)
 		(uuid "61d4867a-2cbc-46b3-9386-3afb82d09383")
 		(property "Reference" "FID1"
-			(at 199.39 115.5699 0)
+			(at 265.43 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14142,7 +17337,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 199.39 118.1099 0)
+			(at 265.43 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14153,7 +17348,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 196.85 116.84 0)
+			(at 262.89 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14164,7 +17359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 116.84 0)
+			(at 262.89 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14175,7 +17370,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 196.85 116.84 0)
+			(at 262.89 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14195,8 +17390,174 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Wurth 560112120009")
+		(at 144.78 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "634664e8-f86c-4139-afc9-62da87838f4e")
+		(property "Reference" "R14"
+			(at 144.78 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470kR"
+			(at 144.78 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Wurth WRIS-RSKS"
+			(at 144.78 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120009.pdf"
+			(at 144.78 122.682 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "470 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thick Film"
+			(at 144.78 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Wurth 560112120009"
+			(at 144.78 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad603587-e78d-4291-954c-58be3dbec274")
+		)
+		(pin "1"
+			(uuid "c09b32a6-4415-4294-b67a-86d2c41009a4")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 252.73 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6573b9fb-9da2-4d86-90ff-13151a8bf893")
+		(property "Reference" "H4"
+			(at 255.27 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.27 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:MountingHole_5mm_M4_with_Keepout"
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Onsemi SZMMSZ4689T1G")
-		(at 320.04 78.74 0)
+		(at 160.02 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14205,8 +17566,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c2864ed-a7dd-4d93-bdce-23a0077a34ac")
-		(property "Reference" "D2"
-			(at 320.04 76.454 0)
+		(property "Reference" "D5"
+			(at 160.02 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14216,7 +17577,7 @@
 			)
 		)
 		(property "Value" "SZMMSZ4689T1G"
-			(at 320.04 81.28 0)
+			(at 160.02 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14226,7 +17587,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Onsemi SZMMSZ4689"
-			(at 320.04 91.44 0)
+			(at 160.02 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +17598,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz4678t1-d.pdf"
-			(at 320.04 86.868 0)
+			(at 160.02 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +17609,7 @@
 			)
 		)
 		(property "Description" "Zener Diode 5.1 V 500 mW ±5% Surface Mount SOD-123"
-			(at 320.04 84.582 0)
+			(at 160.02 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14259,7 +17620,7 @@
 			)
 		)
 		(property "Part" "Onsemi SZMMSZ4689T1G"
-			(at 320.04 89.408 0)
+			(at 160.02 109.982 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14278,7 +17639,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14295,7 +17656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7150dc40-4e4f-407b-87d1-4bd0a9708c8e")
-		(property "Reference" "TVS2"
+		(property "Reference" "TVS4"
 			(at 81.28 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14368,7 +17729,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "TVS2")
+					(reference "TVS4")
 					(unit 1)
 				)
 			)
@@ -14376,7 +17737,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Infineon BSS126H6327XTSA2")
-		(at 156.21 125.73 0)
+		(at 119.38 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14386,7 +17747,7 @@
 		(dnp no)
 		(uuid "721eb70e-42b5-4a99-a8a2-3c6dfd8c18b0")
 		(property "Reference" "Q1"
-			(at 152.4 122.174 0)
+			(at 115.57 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14397,7 +17758,7 @@
 			)
 		)
 		(property "Value" "BSS126H6327XTSA2"
-			(at 160.782 125.73 90)
+			(at 123.952 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14407,7 +17768,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Infineon BSS126"
-			(at 167.64 224.46 0)
+			(at 130.81 266.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14419,7 +17780,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS126-DS-v02_01-en.pdf?fileId=db3a304330f6860601310483af163eba"
-			(at 167.64 324.46 0)
+			(at 130.81 366.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,7 +17792,7 @@
 			)
 		)
 		(property "Description" "N-Channel, Depletion Mode 600 V 21mA (Ta) 500mW (Ta) Surface Mount PG-SOT23"
-			(at 156.21 142.748 0)
+			(at 119.38 184.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +17803,7 @@
 			)
 		)
 		(property "Part" "Infineon BSS126H6327XTSA2"
-			(at 167.64 624.46 0)
+			(at 130.81 666.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,6 +17923,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7404f6b9-7850-4025-9915-d8fec5e2be74")
+		(property "Reference" "#PWR013"
+			(at 151.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb2c2887-a3a8-4272-a990-89d0d18c2f64")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:TDK ACT1210-101-2P-TL00")
 		(at 64.77 67.31 0)
 		(unit 1)
@@ -14659,7 +18097,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 171.45 116.84 0)
+		(at 252.73 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14670,7 +18108,7 @@
 		(fields_autoplaced yes)
 		(uuid "7adf6c9b-08c0-439a-9044-cc6d1f000eec")
 		(property "Reference" "H1"
-			(at 173.99 114.2999 0)
+			(at 255.27 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14681,7 +18119,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 173.99 116.8399 0)
+			(at 255.27 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14691,8 +18129,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
-			(at 171.45 116.84 0)
+		(property "Footprint" "mr-stuff:MountingHole_5mm_M4_with_Keepout"
+			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14703,7 +18141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 116.84 0)
+			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14714,7 +18152,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 171.45 116.84 0)
+			(at 252.73 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14734,41 +18172,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 171.45 123.19 0)
+		(lib_id "mr-parts:Stackpole RNCP0805FTD1K00")
+		(at 231.14 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "817b0a2a-48cc-409c-a44c-1224ba746564")
-		(property "Reference" "H2"
-			(at 173.99 120.6499 0)
+		(uuid "7c547b84-238b-4a62-906c-168f9438f315")
+		(property "Reference" "R19"
+			(at 231.14 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 173.99 123.1899 0)
+		(property "Value" "1kR"
+			(at 231.14 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
-			(at 171.45 123.19 0)
+		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+			(at 231.14 117.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,8 +18213,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 123.19 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+			(at 231.14 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,8 +18224,8 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 171.45 123.19 0)
+		(property "Description" "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+			(at 231.14 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14799,11 +18234,118 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Part" "Stackpole RNCP0805FTD1K00"
+			(at 231.14 122.682 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1567d892-1fe2-42fc-8b49-46468f10099a")
+		)
+		(pin "2"
+			(uuid "33acd26f-ceb3-45e9-85bf-9d86a718c161")
 		)
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "H2")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 171.45 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ff29770-1199-473c-9c73-02de8a72e556")
+		(property "Reference" "R15"
+			(at 171.45 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 171.45 114.046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 171.45 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 171.45 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 171.45 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 171.45 116.586 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8c8dd387-6223-4e7e-a062-95f642fbf6f4")
+		)
+		(pin "1"
+			(uuid "b087d249-b9ae-4ba2-b0a9-015a9299c3e8")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14811,7 +18353,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C105K4Z2A")
-		(at 130.81 93.98 0)
+		(at 31.75 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14820,8 +18362,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84082060-ff15-41be-82c2-2919e669c55a")
-		(property "Reference" "C12"
-			(at 131.064 91.694 0)
+		(property "Reference" "C3"
+			(at 32.004 181.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14832,7 +18374,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 131.318 96.266 0)
+			(at 32.258 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14843,7 +18385,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 130.81 110.49 0)
+			(at 31.75 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14854,7 +18396,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 130.81 112.776 0)
+			(at 31.75 202.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14865,7 +18407,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 130.81 108.204 0)
+			(at 31.75 198.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14876,7 +18418,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C105K4Z2A"
-			(at 130.81 105.918 0)
+			(at 31.75 196.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14887,7 +18429,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C105K4Z2A"
-			(at 130.81 115.062 0)
+			(at 31.75 205.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14906,7 +18448,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -14991,7 +18533,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C105K4Z2A")
-		(at 167.64 44.45 0)
+		(at 173.99 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15000,8 +18542,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a8f82a3-81d5-45f8-be33-46fa36316bdb")
-		(property "Reference" "C7"
-			(at 167.894 42.164 0)
+		(property "Reference" "C6"
+			(at 174.244 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15012,7 +18554,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 168.148 46.736 0)
+			(at 174.498 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15023,7 +18565,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 167.64 60.96 0)
+			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15034,7 +18576,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 167.64 63.246 0)
+			(at 173.99 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15045,7 +18587,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 167.64 58.674 0)
+			(at 173.99 48.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +18598,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C105K4Z2A"
-			(at 167.64 56.388 0)
+			(at 173.99 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15067,7 +18609,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C105K4Z2A"
-			(at 167.64 65.532 0)
+			(at 173.99 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15086,7 +18628,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15260,8 +18802,100 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Murata GCJ21BR72A473KA01L")
+		(at 138.43 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95f7ec1e-eaa7-4a58-980e-5d6792a03d0a")
+		(property "Reference" "C13"
+			(at 138.938 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047uF"
+			(at 138.938 131.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:Murata GCJ 0805"
+			(at 138.43 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCJ21BR72A473KA01-02D-EN_PDF_CERAMICCAPACITORSMD"
+			(at 138.43 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.047 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 138.43 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Murata GCJ21BR72A473KA01L"
+			(at 138.43 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e4d2096-6196-4b32-b4d1-c58c67a86f92")
+		)
+		(pin "1"
+			(uuid "54d55db4-29b4-49ec-8a77-8e49fc856877")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter")
-		(at 119.38 88.9 0)
+		(at 20.32 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15272,7 +18906,7 @@
 		(dnp no)
 		(uuid "995a2072-e7bb-4ca8-9322-5337bcb8cd23")
 		(property "Reference" "E3"
-			(at 119.38 85.09 0)
+			(at 20.32 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15282,7 +18916,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 119.38 93.98 0)
+			(at 20.32 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15292,7 +18926,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter"
-			(at 119.38 88.9 0)
+			(at 20.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15303,7 +18937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 88.9 0)
+			(at 20.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15314,7 +18948,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 88.9 0)
+			(at 20.32 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15325,7 +18959,7 @@
 			)
 		)
 		(property "Part" "n/a"
-			(at 119.38 97.282 0)
+			(at 20.32 187.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +18986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 102.87 0)
+		(at 144.78 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15362,7 +18996,7 @@
 		(dnp no)
 		(uuid "99e0f494-2564-40a9-96d7-96e382fddb1e")
 		(property "Reference" "#PWR09"
-			(at 162.56 109.22 0)
+			(at 144.78 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +19007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 106.68 0)
+			(at 144.78 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15383,7 +19017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 102.87 0)
+			(at 144.78 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15394,7 +19028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 102.87 0)
+			(at 144.78 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15405,7 +19039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 102.87 0)
+			(at 144.78 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15429,7 +19063,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Vishay RCWE120627L0FMEA")
-		(at 156.21 39.37 0)
+		(at 156.21 39.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15449,7 +19083,7 @@
 			)
 		)
 		(property "Value" "0.027R"
-			(at 156.21 41.656 0)
+			(at 156.21 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15459,7 +19093,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Vishay RCWE 1206 4-wire Kelvin"
-			(at 156.21 48.768 0)
+			(at 156.21 29.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +19104,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20019/rcwe.pdf"
-			(at 156.21 51.054 0)
+			(at 156.21 27.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15481,7 +19115,7 @@
 			)
 		)
 		(property "Description" "27 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
-			(at 156.21 46.482 0)
+			(at 156.21 32.258 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +19126,7 @@
 			)
 		)
 		(property "Part" "Vishay RCWE120627L0FMEA"
-			(at 156.21 44.196 0)
+			(at 156.21 34.544 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +19159,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter")
-		(at 119.38 99.06 0)
+		(at 20.32 189.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15536,7 +19170,7 @@
 		(dnp no)
 		(uuid "9ba3f9ef-f8e8-45fd-a5b6-d99d1efe522f")
 		(property "Reference" "E4"
-			(at 119.38 95.504 0)
+			(at 20.32 185.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15546,7 +19180,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 119.38 104.14 0)
+			(at 20.32 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15556,7 +19190,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter"
-			(at 119.38 99.06 0)
+			(at 20.32 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15567,7 +19201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 99.06 0)
+			(at 20.32 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15578,7 +19212,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 99.06 0)
+			(at 20.32 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15589,7 +19223,7 @@
 			)
 		)
 		(property "Part" "n/a"
-			(at 119.38 107.442 0)
+			(at 20.32 197.612 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15625,7 +19259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0339c2b-eb5c-40c2-aa43-38a385f6ffa5")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 213.614 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15700,7 +19334,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15708,7 +19342,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 233.68 123.19 0)
+		(at 254 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15718,7 +19352,7 @@
 		(dnp no)
 		(uuid "a1708446-7232-4310-9a39-95453c65fc79")
 		(property "Reference" "ZT6"
-			(at 232.156 120.65 0)
+			(at 252.476 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15729,7 +19363,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 233.68 123.19 0)
+			(at 254 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15739,7 +19373,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 233.68 125.73 0)
+			(at 254 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15750,7 +19384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 123.19 0)
+			(at 254 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15761,7 +19395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 123.19 0)
+			(at 254 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15791,7 +19425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a878a27a-712c-4c3d-b4b6-5fadabd24bde")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 118.364 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15877,7 +19511,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15885,7 +19519,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 172.72 39.37 0)
+		(at 170.18 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15895,7 +19529,7 @@
 		(dnp no)
 		(uuid "a8f3910a-f527-41a7-9fbe-1bfc09d83c6f")
 		(property "Reference" "#PWR070"
-			(at 172.72 43.18 0)
+			(at 170.18 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +19540,7 @@
 			)
 		)
 		(property "Value" "V_OUT"
-			(at 172.72 35.56 0)
+			(at 170.18 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15916,7 +19550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 39.37 0)
+			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15927,7 +19561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 39.37 0)
+			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15938,7 +19572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 172.72 39.37 0)
+			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15962,7 +19596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 49.53 0)
+		(at 173.99 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15972,7 +19606,7 @@
 		(dnp no)
 		(uuid "ad94e16d-024b-4d66-97b8-89f6c77b846a")
 		(property "Reference" "#PWR020"
-			(at 167.64 55.88 0)
+			(at 173.99 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15983,7 +19617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 53.34 0)
+			(at 173.99 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15993,7 +19627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 49.53 0)
+			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16004,7 +19638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 49.53 0)
+			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16015,7 +19649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 49.53 0)
+			(at 173.99 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +19673,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Diodes Inc FMMT597TA")
-		(at 317.5 62.23 0)
+		(at 133.35 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16047,32 +19681,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0595de7-ba1c-4f49-aa1e-d8fb4750cdc6")
 		(property "Reference" "Q5"
-			(at 321.31 60.9599 0)
+			(at 135.128 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "FMMT597TA"
-			(at 321.31 63.4999 0)
+			(at 133.35 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "mr-stuff:Diodes Inc FMMT597TA"
-			(at 317.5 84.328 0)
+			(at 111.252 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16083,7 +19714,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/FMMT597.pdf"
-			(at 317.246 82.042 0)
+			(at 113.538 110.236 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +19725,7 @@
 			)
 		)
 		(property "Description" "Bipolar (BJT) Transistor PNP 300 V 200 mA 75MHz 500 mW Surface Mount SOT-23-3"
-			(at 317.5 77.724 0)
+			(at 117.856 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16105,7 +19736,7 @@
 			)
 		)
 		(property "Part" "Diodes Inc FMMT597TA"
-			(at 317.5 80.01 0)
+			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,7 +19775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b092317c-b4c4-4596-b9cf-2613f3f40875")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 193.294 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16230,7 +19861,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16238,7 +19869,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 118.11 0)
+		(at 120.65 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16248,7 +19879,7 @@
 		(dnp no)
 		(uuid "b12a454a-3545-42f5-ba11-7cc2a35bd9b8")
 		(property "Reference" "#PWR054"
-			(at 157.48 121.92 0)
+			(at 120.65 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16259,7 +19890,7 @@
 			)
 		)
 		(property "Value" "V_RAW"
-			(at 157.48 114.3 0)
+			(at 120.65 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16269,7 +19900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 118.11 0)
+			(at 120.65 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16280,7 +19911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 118.11 0)
+			(at 120.65 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16291,7 +19922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 118.11 0)
+			(at 120.65 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16314,8 +19945,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
-		(at 173.99 30.48 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 228.6 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16323,9 +19954,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b473b8cb-93d1-4328-86bc-4222ea921992")
-		(property "Reference" "R11"
-			(at 173.99 30.48 0)
+		(uuid "b29d2286-8152-43cb-a885-dc2f3d1b8744")
+		(property "Reference" "R18"
+			(at 228.6 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16334,8 +19965,8 @@
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 173.99 32.766 0)
+		(property "Value" "100kR"
+			(at 228.6 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16345,7 +19976,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 173.99 37.846 0)
+			(at 228.6 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16356,7 +19987,97 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 173.99 40.132 0)
+			(at 228.6 106.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 228.6 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 228.6 100.076 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67b17571-0ecb-4e8e-bcf5-c125142decbc")
+		)
+		(pin "1"
+			(uuid "b5cada9c-e444-4026-bed7-7c7032b93daa")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 185.42 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b473b8cb-93d1-4328-86bc-4222ea921992")
+		(property "Reference" "R7"
+			(at 185.42 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 185.42 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 185.42 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 185.42 41.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16367,7 +20088,7 @@
 			)
 		)
 		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 173.99 35.56 0)
+			(at 185.42 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16378,7 +20099,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT100R-HP"
-			(at 173.99 42.672 0)
+			(at 185.42 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +20118,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16584,7 +20305,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:TSC SMF4L30CAH")
-		(at 138.43 118.11 0)
+		(at 101.6 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16593,8 +20314,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8bbd179-4eb8-4731-bc7c-b692b7c2c54d")
-		(property "Reference" "TVS3"
-			(at 138.43 115.824 0)
+		(property "Reference" "TVS5"
+			(at 101.6 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16604,7 +20325,7 @@
 			)
 		)
 		(property "Value" "SMF4L30CAH"
-			(at 138.43 120.65 0)
+			(at 101.6 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16614,7 +20335,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:TSC SMF4L30CAH"
-			(at 138.43 130.048 0)
+			(at 101.6 171.958 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16625,7 +20346,7 @@
 			)
 		)
 		(property "Datasheet" "https://services.taiwansemi.com/storage/resources/datasheet/SMF4L5.0(C)AH%20SERIES_B2511.pdf"
-			(at 138.43 125.476 0)
+			(at 101.6 167.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16636,7 +20357,7 @@
 			)
 		)
 		(property "Description" "48.4V Clamp 8.3A Ipp Tvs Diode Surface Mount SOD-123W"
-			(at 138.43 123.19 0)
+			(at 101.6 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16647,7 +20368,7 @@
 			)
 		)
 		(property "Part" "TSC SMF4L30CAH"
-			(at 138.43 127.762 0)
+			(at 101.6 169.672 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16666,7 +20387,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "TVS3")
+					(reference "TVS5")
 					(unit 1)
 				)
 			)
@@ -16683,7 +20404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb21716d-ad97-434a-8d7f-b435ee4bcd07")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 166.37 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16756,7 +20477,84 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R8")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf764fbd-1121-40e8-a041-0a1ac2b73358")
+		(property "Reference" "#PWR022"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e789e93a-c5f0-4e05-9d48-806f5c813976")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16889,7 +20687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0ba0059-17dc-4d16-bddb-fc7d381b5ea7")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 185.42 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16962,7 +20760,97 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R7")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
+		(at 144.78 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1ab7ddc-7f83-42d6-a6f7-abbbcb00a5f8")
+		(property "Reference" "R12"
+			(at 144.78 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 144.78 114.046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 144.78 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 144.78 123.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 144.78 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100K-HP"
+			(at 144.78 116.586 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf3751f3-fcea-40d8-a4d9-e2e297419fff")
+		)
+		(pin "1"
+			(uuid "b37b9485-f13e-4feb-98a9-82e80e180402")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17047,7 +20935,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 215.9 116.84 0)
+		(at 254 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17057,7 +20945,7 @@
 		(dnp no)
 		(uuid "c72a5323-fff1-453b-89a9-bf87150eafa5")
 		(property "Reference" "ZT1"
-			(at 214.376 114.3 0)
+			(at 252.476 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17068,7 +20956,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.9 116.84 0)
+			(at 254 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17078,7 +20966,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 215.9 119.38 0)
+			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17089,7 +20977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 116.84 0)
+			(at 254 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17100,7 +20988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 116.84 0)
+			(at 254 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17121,7 +21009,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
-		(at 215.9 123.19 0)
+		(at 254 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17131,7 +21019,7 @@
 		(dnp no)
 		(uuid "cb1de569-4fe6-4e3c-85e4-57d7180cda17")
 		(property "Reference" "ZT2"
-			(at 214.376 120.65 0)
+			(at 252.476 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17142,7 +21030,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 215.9 123.19 0)
+			(at 254 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17152,7 +21040,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
-			(at 215.9 125.73 0)
+			(at 254 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17163,7 +21051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 123.19 0)
+			(at 254 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17174,7 +21062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 123.19 0)
+			(at 254 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17194,6 +21082,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cba7679e-56fe-4197-a595-733f8679a778")
+		(property "Reference" "#PWR073"
+			(at 177.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_OUT"
+			(at 177.8 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "300b6e3f-9229-4689-be8d-8a9256a3c136")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Murata GCJ31BR73A472KXJ1L")
 		(at 116.84 26.67 180)
 		(unit 1)
@@ -17204,7 +21169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce1a772f-cb09-401d-9942-24df3b134037")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 117.094 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17279,7 +21244,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17459,6 +21424,109 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
+		(at 172.72 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d34217d7-7548-4cd4-aaff-5635292481f6")
+		(property "Reference" "C14"
+			(at 173.228 123.444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 173.228 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
+			(at 172.72 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
+			(at 172.72 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 172.72 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Kyocera 08051C104K4Z2A"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
+			(at 172.72 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9be89bb-c011-4bda-8237-fa2f6f3fcf0e")
+		)
+		(pin "2"
+			(uuid "b1fbdba4-7a29-46a6-a81e-8d9f4e829bbf")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 71.12 0)
 		(unit 1)
@@ -17614,7 +21682,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
-		(at 124.46 125.73 0)
+		(at 87.63 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17624,7 +21692,7 @@
 		(dnp no)
 		(uuid "dc34d261-1532-4501-8f77-cbb501e7287d")
 		(property "Reference" "R5"
-			(at 124.46 125.73 0)
+			(at 87.63 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17634,7 +21702,7 @@
 			)
 		)
 		(property "Value" "100kR"
-			(at 124.46 128.016 0)
+			(at 87.63 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17644,7 +21712,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
-			(at 124.46 135.128 0)
+			(at 87.63 177.038 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17655,7 +21723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
-			(at 124.46 137.414 0)
+			(at 87.63 179.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17666,7 +21734,7 @@
 			)
 		)
 		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-			(at 124.46 132.842 0)
+			(at 87.63 174.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17677,7 +21745,7 @@
 			)
 		)
 		(property "Part" "Stackpole RMCA0805FT100K-HP"
-			(at 124.46 130.556 0)
+			(at 87.63 172.466 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17734,7 +21802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:WireSolderPoint - 1x04 - 2.5mm pitch x 1.0mm diameter"
+		(property "Footprint" "mr-stuff:WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter"
 			(at 21.59 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17756,7 +21824,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x05"
 			(at 21.59 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17804,7 +21872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 73.66 0)
+		(at 39.37 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17814,7 +21882,7 @@
 		(dnp no)
 		(uuid "de43cc16-19ce-4a4b-aec4-426a258d9ccf")
 		(property "Reference" "#PWR0125"
-			(at 38.1 80.01 0)
+			(at 39.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17825,7 +21893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 77.47 0)
+			(at 39.37 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17835,7 +21903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 73.66 0)
+			(at 39.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17846,7 +21914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 73.66 0)
+			(at 39.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17857,7 +21925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 73.66 0)
+			(at 39.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,7 +22050,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
-		(at 167.64 88.9 0)
+		(at 149.86 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17991,8 +22059,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df76ebc1-f775-4108-8fef-ec8d9367c5b6")
-		(property "Reference" "R9"
-			(at 167.64 88.9 0)
+		(property "Reference" "R20"
+			(at 149.86 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18002,7 +22070,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 167.64 91.186 0)
+			(at 149.86 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18012,7 +22080,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 167.64 98.298 0)
+			(at 149.86 170.688 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18023,7 +22091,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 167.64 100.584 0)
+			(at 149.86 172.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18034,7 +22102,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 167.64 96.012 0)
+			(at 149.86 168.402 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,7 +22113,7 @@
 			)
 		)
 		(property "Part" "Stackpole RNCP0805FTD10K0"
-			(at 167.64 93.726 0)
+			(at 149.86 166.116 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18064,7 +22132,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -18165,7 +22233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 102.87 0)
+		(at 163.83 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18175,7 +22243,7 @@
 		(dnp no)
 		(uuid "e0178ca9-066f-4a0d-85b4-d05d29c09535")
 		(property "Reference" "#PWR010"
-			(at 181.61 109.22 0)
+			(at 163.83 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18186,7 +22254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 106.68 0)
+			(at 163.83 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18196,7 +22264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 102.87 0)
+			(at 163.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18207,7 +22275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 102.87 0)
+			(at 163.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18218,7 +22286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 102.87 0)
+			(at 163.83 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18235,82 +22303,6 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 171.45 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7397146-f788-44ca-9350-9eaeb42525ff")
-		(property "Reference" "H3"
-			(at 173.99 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 173.99 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4mm"
-			(at 171.45 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 171.45 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "N2K Breakwater"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -18418,6 +22410,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 252.73 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e6fe72-106c-4783-8eb5-a6777037f948")
+		(property "Reference" "H3"
+			(at 255.27 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 255.27 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:MountingHole_5mm_M4_with_Keepout"
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Bel Fuse 0679L3000-05")
 		(at 25.4 101.6 0)
 		(unit 1)
@@ -18509,7 +22577,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 118.11 125.73 0)
+		(at 81.28 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18519,7 +22587,7 @@
 		(dnp no)
 		(uuid "f0ef7e1a-0e37-4f15-871c-12b3c502ab83")
 		(property "Reference" "#PWR053"
-			(at 118.11 129.54 0)
+			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18530,7 +22598,7 @@
 			)
 		)
 		(property "Value" "V_RAW"
-			(at 118.11 121.92 0)
+			(at 81.28 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18540,7 +22608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 125.73 0)
+			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18551,7 +22619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 125.73 0)
+			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18562,7 +22630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 125.73 0)
+			(at 81.28 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18595,7 +22663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2c5246c-6459-4b31-89cd-de8595f2aa80")
-		(property "Reference" "TVS6"
+		(property "Reference" "TVS3"
 			(at 33.02 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18668,7 +22736,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "TVS6")
+					(reference "TVS3")
 					(unit 1)
 				)
 			)
@@ -18676,7 +22744,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 196.85 129.54 0)
+		(at 262.89 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18687,7 +22755,7 @@
 		(fields_autoplaced yes)
 		(uuid "f30e8925-a382-499c-b6c8-a9233e6a98c0")
 		(property "Reference" "FID3"
-			(at 199.39 128.2699 0)
+			(at 265.43 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18698,7 +22766,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 199.39 130.8099 0)
+			(at 265.43 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18709,7 +22777,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 196.85 129.54 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18720,7 +22788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 129.54 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18731,7 +22799,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 196.85 129.54 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18745,6 +22813,83 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6ebf0be-6f9a-41a0-8bb3-81bc641968f6")
+		(property "Reference" "#PWR024"
+			(at 187.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "445b30e6-7266-42fd-8578-15ab65060cd8")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18919,7 +23064,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Nichicon PCM1V470MCL1GS")
-		(at 138.43 92.71 270)
+		(at 39.37 182.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18928,8 +23073,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8700559-93ca-4c28-a065-ca0846458921")
-		(property "Reference" "C8"
-			(at 138.938 91.948 90)
+		(property "Reference" "C4"
+			(at 39.878 182.118 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18940,7 +23085,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 138.938 96.52 90)
+			(at 39.878 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18951,7 +23096,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Nichicon PCM"
-			(at 131.064 92.71 0)
+			(at 32.004 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18963,7 +23108,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-pcm.pdf"
-			(at 124.968 92.71 0)
+			(at 25.908 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18974,7 +23119,7 @@
 			)
 		)
 		(property "Description" "47 µF 35 V Aluminum - Polymer Capacitors Radial, Can - SMD 48mOhm 6000 Hrs @ 125°C"
-			(at 127.254 92.71 0)
+			(at 28.194 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18985,7 +23130,7 @@
 			)
 		)
 		(property "Part" "Nichicon PCM1V470MCL1GS"
-			(at 128.778 92.71 0)
+			(at 29.718 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19005,7 +23150,7 @@
 		(instances
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -19013,7 +23158,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 88.9 0)
+		(at 39.37 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19023,7 +23168,7 @@
 		(dnp no)
 		(uuid "faef29d5-619d-4f7e-91b2-2361f8e9a2a9")
 		(property "Reference" "#PWR071"
-			(at 138.43 92.71 0)
+			(at 39.37 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19034,7 +23179,7 @@
 			)
 		)
 		(property "Value" "V_OUT"
-			(at 138.43 85.09 0)
+			(at 39.37 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19044,7 +23189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 88.9 0)
+			(at 39.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19055,7 +23200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 88.9 0)
+			(at 39.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19066,7 +23211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 88.9 0)
+			(at 39.37 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19160,6 +23305,96 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Nexperia BAS416-QF")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb36f036-6c83-4d60-87d0-19ba03ca8565")
+		(property "Reference" "D3"
+			(at 123.19 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS416-QF"
+			(at 123.19 106.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Nexperia BAS416-QF"
+			(at 123.19 115.824 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS416-Q.pdf"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode 75 V 200mA Surface Mount SOD-323"
+			(at 123.19 109.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Nexperia BAS416-QF"
+			(at 123.19 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08cc388d-0eaf-4913-952b-b189c0fca60a")
+		)
+		(pin "1"
+			(uuid "a8e510c2-9d56-4a80-b33f-980d7c53b239")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "D3")
 					(unit 1)
 				)
 			)

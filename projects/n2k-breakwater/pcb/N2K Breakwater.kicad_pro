@@ -202,6 +202,7 @@
         0.508,
         0.6,
         0.762,
+        1.0,
         2.0,
         3.0
       ],
@@ -723,7 +724,7 @@
         "uuid": "2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
       }
     ],
-    "used_designators": "Q5-6,D2,R12-13,C10-11,TVS6-7",
+    "used_designators": "H2-4,#PWR13,#PWR21-25,#PWR72-73,C10-11,C14-15,Q5-8,D2-5,R12-21,TVS6-7",
     "variants": []
   },
   "sheets": [
