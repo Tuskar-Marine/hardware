@@ -5,14 +5,15 @@
 	(layer "F.Cu")
 	(descr "Ceramic Capacitor X7R Radial 2.5mm Lead")
 	(property "Reference" "C**"
-		(at 0 -2.4 0)
+		(at 0 -2.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "caa1ddcb-1891-46c3-84e4-d563963f819d")
+		(uuid "579e864a-6338-44e2-bed9-546240ab752a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
@@ -20,7 +21,7 @@
 		(at 0 2.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ab73d4d2-0c7c-4348-8c05-5c46f698bc92")
+		(uuid "293c6008-bf2d-41d4-86c7-440b4d9b1032")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0c592d5-f9b0-486f-8b33-ff7d462345ae")
+		(uuid "d4a0ff93-a53e-46f9-bb00-341941dba656")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e606f95f-9417-40ef-bdd6-75a412fc4206")
+		(uuid "3f88e9de-9e36-4a53-8fd5-87c5b0040551")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7063728e-3289-481a-8c4c-239955f82332")
+		(uuid "061a5d14-c56b-4b2d-95d3-3db4e5903aef")
 	)
 	(fp_rect
 		(start -2.8 -1.6)
@@ -76,13 +77,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e7ae2a27-4892-479e-8794-77ef8fc93e82")
+		(uuid "4fff89c1-32d3-4476-a687-07b24e81a397")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e3f950f6-cc5b-4f3a-8ef0-fa7e20184eea")
+		(uuid "e1d28b2c-89fd-46b4-a687-231515c4afbd")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +97,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "af545e29-771b-449b-bb99-c895f0d4af58")
+		(uuid "f8c1e223-f1f3-418c-9e45-f65d7e1ec29c")
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 0)
@@ -104,7 +105,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0764a816-ead6-4186-b10e-3ddce55c2e3c")
+		(uuid "060aebfa-d23d-4a09-a1df-17bb1a4ffd20")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Murata RCER71E475K2A2H03B/RCER71E475K2A2H03B.step"

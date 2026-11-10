@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "N2K Breakwater")
-		(date "2026-11-09")
+		(date "2026-11-10")
 		(rev "1.0.0")
 		(company "Tuskar Marine")
 	)
@@ -10529,6 +10529,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 69.85) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f73d0bf-0c03-4476-a9dd-2a3e8198b7f5")
+	)
+	(wire
+		(pts
 			(xy 50.8 48.26) (xy 50.8 25.4)
 		)
 		(stroke
@@ -11049,6 +11059,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 59.69) (xy 25.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3cc70f-2bff-40c5-b88a-4ae09188766f")
+	)
+	(wire
+		(pts
 			(xy 39.37 187.96) (xy 39.37 189.23)
 		)
 		(stroke
@@ -11259,6 +11279,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 62.23) (xy 22.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e55efee-67a9-4d9e-830f-2452b0f9ef7a")
+	)
+	(wire
+		(pts
 			(xy 157.48 66.04) (xy 162.56 66.04)
 		)
 		(stroke
@@ -11346,6 +11376,16 @@
 			(type default)
 		)
 		(uuid "59009284-8e84-43cd-83c2-094b9a5aaf39")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 40.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599d8f8e-80ea-494e-98e1-de0c933557c7")
 	)
 	(wire
 		(pts
@@ -11619,16 +11659,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 62.23) (xy 27.94 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "741ee194-1711-413e-8860-a145200cce63")
-	)
-	(wire
-		(pts
 			(xy 127 25.4) (xy 129.54 25.4)
 		)
 		(stroke
@@ -11749,16 +11779,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 59.69) (xy 27.94 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcf33f8-c39b-4cc8-a798-f6533c4ce99f")
-	)
-	(wire
-		(pts
 			(xy 189.23 31.75) (xy 191.77 31.75)
 		)
 		(stroke
@@ -11779,16 +11799,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 67.31) (xy 35.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836b3338-d670-499e-9377-d38c2a64a3e6")
-	)
-	(wire
-		(pts
 			(xy 50.8 25.4) (xy 26.67 25.4)
 		)
 		(stroke
@@ -11806,16 +11816,6 @@
 			(type default)
 		)
 		(uuid "8538b6c1-9a5e-408f-85ed-1d7eb3356779")
-	)
-	(wire
-		(pts
-			(xy 25.4 69.85) (xy 27.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c23fe8-ae5a-47b7-837d-e5c56dd92a1d")
 	)
 	(wire
 		(pts
@@ -11866,16 +11866,6 @@
 			(type default)
 		)
 		(uuid "8a1721bf-92f2-42aa-becf-6560e2df86ee")
-	)
-	(wire
-		(pts
-			(xy 25.4 64.77) (xy 39.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa22dc7-3994-4f1b-a95f-1cee0bb72f2f")
 	)
 	(wire
 		(pts
@@ -12339,16 +12329,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 72.39) (xy 39.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9753f1-fe87-4498-935b-161f2a57897c")
-	)
-	(wire
-		(pts
 			(xy 144.78 87.63) (xy 149.86 87.63)
 		)
 		(stroke
@@ -12669,6 +12649,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 64.77) (xy 25.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58f95ca-a6b9-4d3f-aab4-091f745aed3b")
+	)
+	(wire
+		(pts
 			(xy 33.02 127) (xy 33.02 128.27)
 		)
 		(stroke
@@ -12736,16 +12726,6 @@
 			(type default)
 		)
 		(uuid "db3f5b7a-daf7-45e1-84fe-eae6c8f0b6fa")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 35.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc375dd6-0055-4d97-88d2-a66c7b41ff80")
 	)
 	(wire
 		(pts
@@ -12909,16 +12889,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 74.93) (xy 35.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ece0ad93-9231-40da-adb9-9f389511e47a")
-	)
-	(wire
-		(pts
 			(xy 93.98 175.26) (xy 93.98 167.64)
 		)
 		(stroke
@@ -12976,6 +12946,16 @@
 			(type default)
 		)
 		(uuid "f6c62a04-9b06-4cf0-a5d9-332c4898b26e")
+	)
+	(wire
+		(pts
+			(xy 22.86 67.31) (xy 25.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6de5a8f-6f24-417e-892c-a502e15a2174")
 	)
 	(wire
 		(pts
@@ -13127,16 +13107,6 @@
 		)
 		(uuid "23411988-461f-4f44-9cd1-f0b65f381930")
 	)
-	(label "POWER_CYCLE"
-		(at 33.02 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b01af9f-fc21-4bc6-a1f3-f4ad4d0d4491")
-	)
 	(label "PMIC_UV"
 		(at 137.16 63.5 180)
 		(effects
@@ -13166,16 +13136,6 @@
 			(justify right bottom)
 		)
 		(uuid "35d12f7e-ef4d-437b-b843-e28f6ab5e3e3")
-	)
-	(label "BW_OK"
-		(at 27.94 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39bf6abd-2e7b-4452-a858-3269482eb492")
 	)
 	(label "PMIC_FAULT"
 		(at 232.41 29.21 0)
@@ -13297,6 +13257,26 @@
 		)
 		(uuid "7aadefe2-4d1b-429d-8750-d13c71b98cd5")
 	)
+	(label "BW_OK"
+		(at 25.4 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c20a6b3-3eef-4225-bc81-fa0bc0bbf910")
+	)
+	(label "POWER_CYCLE"
+		(at 25.4 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ce57223-9013-4b4d-87f8-4eac04ee8080")
+	)
 	(label "DET_TRIG"
 		(at 191.77 95.25 180)
 		(effects
@@ -13326,16 +13306,6 @@
 			(justify left bottom)
 		)
 		(uuid "878a78ad-a8f6-4c43-a737-1e30c618e3a3")
-	)
-	(label "SAFE_CAN_H"
-		(at 27.94 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87ddf6c0-1fb2-4a94-a327-747a82956244")
 	)
 	(label "PMIC_OV"
 		(at 55.88 156.21 0)
@@ -13376,6 +13346,16 @@
 			(justify right bottom)
 		)
 		(uuid "8ec9061d-5cba-4c49-9a96-e1fe24f3cf00")
+	)
+	(label "SAFE_CAN_H"
+		(at 25.4 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9128f2c9-141f-443d-93e2-b0a2aaad0359")
 	)
 	(label "M12_CAN_L"
 		(at 80.01 58.42 0)
@@ -13517,16 +13497,6 @@
 		)
 		(uuid "cd19db07-6ddd-42b9-841a-af45ee486a28")
 	)
-	(label "SAFE_CAN_L"
-		(at 27.94 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd844752-b941-4843-b970-2b63830f0a1c")
-	)
 	(label "DET_G"
 		(at 190.5 104.14 180)
 		(effects
@@ -13576,6 +13546,16 @@
 			(justify left bottom)
 		)
 		(uuid "e25b0b6c-346b-4ecb-be46-5d3ea377f4b3")
+	)
+	(label "SAFE_CAN_L"
+		(at 25.4 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4dd95fa-9c29-4076-a3d6-7d5f14622404")
 	)
 	(label "M12_V_RAW"
 		(at 39.37 33.02 180)
@@ -20304,6 +20284,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7a45e89-f4df-4b96-8160-a904ede98e59")
+		(property "Reference" "#PWR0125"
+			(at 40.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ddc30e2-ae4c-4ccc-8bd6-e07ca1686f6b")
+		)
+		(instances
+			(project "N2K Breakwater"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:TSC SMF4L30CAH")
 		(at 101.6 160.02 0)
 		(unit 1)
@@ -21772,7 +21829,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter")
-		(at 21.59 64.77 0)
+		(at 19.05 64.77 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21783,7 +21840,7 @@
 		(dnp no)
 		(uuid "dd22b9fa-0f33-4cca-85fb-a0a867d4fe1b")
 		(property "Reference" "E2"
-			(at 21.59 57.404 0)
+			(at 19.05 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21793,7 +21850,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 21.59 59.69 0)
+			(at 19.05 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21803,7 +21860,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter"
-			(at 21.59 64.77 0)
+			(at 19.05 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21814,7 +21871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 64.77 0)
+			(at 19.05 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21825,7 +21882,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05"
-			(at 21.59 64.77 0)
+			(at 19.05 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21836,7 +21893,7 @@
 			)
 		)
 		(property "Part" "n/a"
-			(at 21.59 75.692 0)
+			(at 19.05 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21865,83 +21922,6 @@
 			(project "N2K Breakwater"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "E2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de43cc16-19ce-4a4b-aec4-426a258d9ccf")
-		(property "Reference" "#PWR0125"
-			(at 39.37 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "351acc99-e7de-4469-9fcd-8ffdbd41703e")
-		)
-		(instances
-			(project "N2K Breakwater"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
