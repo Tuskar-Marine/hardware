@@ -954,6 +954,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Bel Fuse 0679L0750-05"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "750mA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Bel Fuse 0679L"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0679l-series.pdf"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "750 mA 125 V 125 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Bel Fuse 0679L0750-05"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt-Part" "Bel Fuse 0679L0750-01"
+				(at 0 -13.716 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Bel Fuse 0679L0750-05_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -0.635)
+					(mid -1.084 -0.449)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.186 -0.449)
+					(end -0.635 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.186 0.449)
+					(end 0.635 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 0.635)
+					(mid 1.084 0.449)
+					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Bel Fuse 0679L0750-05_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mr-parts:Espressif ESP32-S3-WROOM-1-N16R2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8968,7 +9203,7 @@
 		(uuid "225aab93-c1cc-40f5-9268-cfc8d4876ee3")
 	)
 	(junction
-		(at 26.67 36.83)
+		(at 25.4 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24ca4ff0-68e4-4d05-98a8-ae911dc00774")
@@ -9034,12 +9269,6 @@
 		(uuid "441051a4-d45a-4bbd-8b87-2316007d6ec9")
 	)
 	(junction
-		(at 30.48 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4570e587-fc77-4a60-bced-2a14c15d01e3")
-	)
-	(junction
 		(at 50.8 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9100,6 +9329,12 @@
 		(uuid "543d661a-a9d2-4966-a37e-f7486667858a")
 	)
 	(junction
+		(at 25.4 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550bfa3d-cc20-4f4d-a5fc-0d0cf44ca32a")
+	)
+	(junction
 		(at 77.47 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9110,12 +9345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac7a44d-5b84-43dd-b1d3-e9e52fced94c")
-	)
-	(junction
-		(at 26.67 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ca9bf10-2ad5-4b7f-82ec-92fbaf9fd54d")
 	)
 	(junction
 		(at 313.69 40.64)
@@ -9182,6 +9411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a8b04d5-ca2b-4573-a9b7-4e2c72d63763")
+	)
+	(junction
+		(at 29.21 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0b1891-75e4-4441-abe9-f8851c47d6c2")
 	)
 	(junction
 		(at 313.69 180.34)
@@ -9274,6 +9509,12 @@
 		(uuid "a41d1375-98bb-42a9-be7f-22f7a6397370")
 	)
 	(junction
+		(at 34.29 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa65f55-fedc-4f01-a26e-576c9d507df0")
+	)
+	(junction
 		(at 207.01 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9308,6 +9549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c4666d-b475-4f9f-bf58-df21e5820a9a")
+	)
+	(junction
+		(at 45.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b59f20a0-7b38-4a20-8739-0ad1b587cac5")
 	)
 	(junction
 		(at 129.54 46.99)
@@ -9380,12 +9627,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f28ad5e3-1d17-4b5a-87e1-544881fbd946")
-	)
-	(junction
-		(at 30.48 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f609747b-dc4f-4049-8f99-a59163d9bce6")
 	)
 	(junction
 		(at 135.89 46.99)
@@ -9466,10 +9707,6 @@
 	(no_connect
 		(at 156.21 143.51)
 		(uuid "b4321d71-a439-40d4-907b-3d6b8765a7ef")
-	)
-	(no_connect
-		(at 154.94 41.91)
-		(uuid "bb09bcf7-1bf2-4c3a-bbd7-4a6bcb80b505")
 	)
 	(no_connect
 		(at 35.56 207.01)
@@ -9577,23 +9814,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 25.4) (xy 30.48 25.4)
+			(xy 25.4 27.94) (xy 26.67 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "023413c4-1c03-4455-a4b9-a9b7b7988a09")
-	)
-	(wire
-		(pts
-			(xy 30.48 25.4) (xy 36.83 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e45d5d-fe8a-4014-a65a-17a2446ea03d")
 	)
 	(wire
 		(pts
@@ -9967,6 +10194,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 41.91) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1390d4-d221-496a-9b93-19b07708c4fd")
+	)
+	(wire
+		(pts
 			(xy 149.86 35.56) (xy 149.86 44.45)
 		)
 		(stroke
@@ -10267,7 +10504,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 25.4) (xy 26.67 22.86)
+			(xy 25.4 27.94) (xy 25.4 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10344,6 +10581,16 @@
 			(type default)
 		)
 		(uuid "2d1c94b6-e14c-4384-b707-608a76360b56")
+	)
+	(wire
+		(pts
+			(xy 39.37 25.4) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8bb7fe-36ca-46f0-a35d-6a0a5300974d")
 	)
 	(wire
 		(pts
@@ -11007,6 +11254,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 27.94) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5441f115-0930-4fcb-9bea-3999cb3a42e2")
+	)
+	(wire
+		(pts
 			(xy 204.47 87.63) (xy 210.82 87.63)
 		)
 		(stroke
@@ -11137,7 +11394,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 34.29) (xy 26.67 34.29)
+			(xy 22.86 38.1) (xy 25.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11237,7 +11494,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 30.48 36.83)
+			(xy 29.21 38.1) (xy 29.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11277,7 +11534,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 25.4) (xy 26.67 25.4)
+			(xy 22.86 27.94) (xy 25.4 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11344,6 +11601,16 @@
 			(type default)
 		)
 		(uuid "6316e604-ef4f-418b-ac8c-ae7b10cefea5")
+	)
+	(wire
+		(pts
+			(xy 45.72 93.98) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632df8ab-e6db-488c-9105-b4d86a74e6b5")
 	)
 	(wire
 		(pts
@@ -12127,7 +12394,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 30.48 36.83)
+			(xy 25.4 40.64) (xy 29.21 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12147,7 +12414,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 22.86) (xy 26.67 22.86)
+			(xy 22.86 25.4) (xy 25.4 25.4)
 		)
 		(stroke
 			(width 0)
@@ -12417,16 +12684,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 30.48 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b9dde9e-bd4d-43bd-b4da-02655e345584")
-	)
-	(wire
-		(pts
 			(xy 252.73 134.62) (xy 255.27 134.62)
 		)
 		(stroke
@@ -12667,7 +12924,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 36.83 34.29)
+			(xy 29.21 38.1) (xy 33.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12947,6 +13204,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 87.63) (xy 45.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd765aec-0a68-4d87-bb38-897b2825bfd9")
+	)
+	(wire
+		(pts
 			(xy 148.59 33.02) (xy 148.59 35.56)
 		)
 		(stroke
@@ -12987,7 +13254,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 50.8 93.98)
+			(xy 41.91 93.98) (xy 45.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -13004,6 +13271,16 @@
 			(type default)
 		)
 		(uuid "c058ba4b-5e1a-42c8-bf17-a54aaf0e9c3b")
+	)
+	(wire
+		(pts
+			(xy 34.29 21.59) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0749482-e72c-4105-bdd5-15e26dabafc6")
 	)
 	(wire
 		(pts
@@ -13317,7 +13594,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 26.67 34.29)
+			(xy 25.4 40.64) (xy 25.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -13457,7 +13734,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 36.83) (xy 26.67 36.83)
+			(xy 22.86 40.64) (xy 25.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13884,6 +14161,16 @@
 			(type default)
 		)
 		(uuid "ed035b83-755d-42f6-86b6-4eb3594dacad")
+	)
+	(wire
+		(pts
+			(xy 152.4 41.91) (xy 152.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2af139-e8cb-406b-b9dc-56ba989c9ad3")
 	)
 	(wire
 		(pts
@@ -15065,6 +15352,16 @@
 		)
 		(uuid "cc172650-4bf5-4afa-b335-856a7e6435f5")
 	)
+	(label "MCU_EN"
+		(at 152.4 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd7c8910-4767-4666-9507-bc7d7b836fba")
+	)
 	(label "POWER_LED"
 		(at 54.61 124.46 180)
 		(effects
@@ -15174,6 +15471,16 @@
 			(justify right bottom)
 		)
 		(uuid "e0d06c26-3692-4184-ac0d-3d410d14c3e2")
+	)
+	(label "MCU_EN"
+		(at 45.72 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2bd68cb-e1ef-4934-8f32-f964075276f5")
 	)
 	(label "SMI_RESET"
 		(at 90.17 127 0)
@@ -15324,6 +15631,83 @@
 			(justify left bottom)
 		)
 		(uuid "fe9f840d-085f-4115-b7b9-91e73387a04f")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 34.29 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "000fcaec-9cc7-4f5f-810e-5b58801c0990")
+		(property "Reference" "#FLG02"
+			(at 34.29 19.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 34.29 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65164a53-3267-4013-9fbb-c66f2fb24c49")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -16800,7 +17184,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30.48 34.29 0)
+		(at 29.21 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16810,7 +17194,7 @@
 		(dnp no)
 		(uuid "17cdd417-939b-4b66-be55-bedd4d6f222c")
 		(property "Reference" "#FLG03"
-			(at 30.48 32.385 0)
+			(at 29.21 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16821,7 +17205,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30.48 30.48 0)
+			(at 29.21 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16831,7 +17215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 34.29 0)
+			(at 29.21 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16842,7 +17226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 34.29 0)
+			(at 29.21 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16853,7 +17237,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 34.29 0)
+			(at 29.21 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17160,7 +17544,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 36.83 25.4 0)
+		(at 39.37 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17170,7 +17554,7 @@
 		(dnp no)
 		(uuid "1b0f0a09-56c8-4a4f-86d9-27d13a9ca836")
 		(property "Reference" "#PWR069"
-			(at 36.83 29.21 0)
+			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17181,7 +17565,7 @@
 			)
 		)
 		(property "Value" "V_OUT"
-			(at 36.83 21.336 0)
+			(at 39.37 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17191,7 +17575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 25.4 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17202,7 +17586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 25.4 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17213,7 +17597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 25.4 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20548,6 +20932,107 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Bel Fuse 0679L0750-05")
+		(at 30.48 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "522b48c7-716d-4536-adae-c970345d50c7")
+		(property "Reference" "F1"
+			(at 30.48 25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "750mA"
+			(at 30.48 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Bel Fuse 0679L"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0679l-series.pdf"
+			(at 30.48 32.766 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "750 mA 125 V 125 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block"
+			(at 30.48 35.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Bel Fuse 0679L0750-05"
+			(at 30.48 37.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt-Part" "Bel Fuse 0679L0750-01"
+			(at 30.48 41.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "670d0d98-9360-440a-9cbb-ba2db356d15e")
+		)
+		(pin "1"
+			(uuid "0a46bab7-fa0d-46e5-acc2-e53f7fb54d70")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Vishay TLMS1101-GS15")
 		(at 259.08 147.32 0)
 		(unit 1)
@@ -23144,7 +23629,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter")
-		(at 20.32 35.56 0)
+		(at 19.05 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23155,7 +23640,7 @@
 		(dnp no)
 		(uuid "7b8fd66d-4e21-4825-baf1-5b393fcad5c4")
 		(property "Reference" "E2"
-			(at 20.32 32.004 0)
+			(at 19.05 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23165,7 +23650,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 20.32 40.64 0)
+			(at 19.05 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23175,7 +23660,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter"
-			(at 20.32 35.56 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23186,7 +23671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 35.56 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23197,7 +23682,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 35.56 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23208,7 +23693,7 @@
 			)
 		)
 		(property "Part" "n/a"
-			(at 20.32 43.942 0)
+			(at 19.05 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24151,7 +24636,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 34.29 0)
+		(at 33.02 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24161,7 +24646,7 @@
 		(dnp no)
 		(uuid "89af898a-2a7c-478e-ba32-f1ebf3edcde9")
 		(property "Reference" "#PWR0126"
-			(at 36.83 40.64 0)
+			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24172,7 +24657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 38.1 0)
+			(at 33.02 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24182,7 +24667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 34.29 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24193,7 +24678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 34.29 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24204,7 +24689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 34.29 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27782,7 +28267,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter")
-		(at 20.32 24.13 0)
+		(at 19.05 26.67 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27793,7 +28278,7 @@
 		(dnp no)
 		(uuid "b0bb3f61-3f0a-42c1-9e24-e5e0ac71e832")
 		(property "Reference" "E1"
-			(at 20.32 20.32 0)
+			(at 19.05 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27803,7 +28288,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 20.32 29.21 0)
+			(at 19.05 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27813,7 +28298,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:WireSolderPoint - 1x02 - 2.5mm pitch x 1.0mm diameter"
-			(at 20.32 24.13 0)
+			(at 19.05 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27824,7 +28309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 24.13 0)
+			(at 19.05 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27835,7 +28320,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 24.13 0)
+			(at 19.05 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27846,7 +28331,7 @@
 			)
 		)
 		(property "Part" "n/a"
-			(at 20.32 32.512 0)
+			(at 19.05 35.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32065,83 +32550,6 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 30.48 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f813ef9b-51b0-4d6c-8ae2-bb09219aa867")
-		(property "Reference" "#FLG02"
-			(at 30.48 20.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 30.48 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7aad67ed-5a8a-43b4-bb1e-14e4e5cf0904")
-		)
-		(instances
-			(project "N2K Transceiver"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
