@@ -11099,6 +11099,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 62.23) (xy 25.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba02510-db6b-4cb2-a892-60bd3f954b01")
+	)
+	(wire
+		(pts
 			(xy 175.26 111.76) (xy 177.8 111.76)
 		)
 		(stroke
@@ -11279,16 +11289,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 22.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e55efee-67a9-4d9e-830f-2452b0f9ef7a")
-	)
-	(wire
-		(pts
 			(xy 157.48 66.04) (xy 162.56 66.04)
 		)
 		(stroke
@@ -11379,7 +11379,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 72.39) (xy 40.64 62.23)
+			(xy 40.64 72.39) (xy 40.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -12949,7 +12949,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 67.31) (xy 25.4 67.31)
+			(xy 22.86 67.31) (xy 40.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -13207,6 +13207,16 @@
 		)
 		(uuid "6d4b1341-05d3-4be7-91c2-984ae3707f31")
 	)
+	(label "SAFE_CAN_L"
+		(at 25.4 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70685e5c-a6b4-4ada-b7e2-3c5e34b0d398")
+	)
 	(label "BW_OK"
 		(at 237.49 110.49 0)
 		(effects
@@ -13346,16 +13356,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ec9061d-5cba-4c49-9a96-e1fe24f3cf00")
-	)
-	(label "SAFE_CAN_H"
-		(at 25.4 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9128f2c9-141f-443d-93e2-b0a2aaad0359")
 	)
 	(label "M12_CAN_L"
 		(at 80.01 58.42 0)
@@ -13547,16 +13547,6 @@
 		)
 		(uuid "e25b0b6c-346b-4ecb-be46-5d3ea377f4b3")
 	)
-	(label "SAFE_CAN_L"
-		(at 25.4 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4dd95fa-9c29-4076-a3d6-7d5f14622404")
-	)
 	(label "M12_V_RAW"
 		(at 39.37 33.02 180)
 		(effects
@@ -13586,6 +13576,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0e828f6-fa40-4bc8-8f06-a3baebf6a16c")
+	)
+	(label "SAFE_CAN_H"
+		(at 25.4 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f147142f-0732-410b-9617-667c31539da7")
 	)
 	(label "PMIC_SENSE"
 		(at 194.31 31.75 0)
