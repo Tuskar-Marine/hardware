@@ -5729,6 +5729,180 @@
 			)
 		)
 	)
+	(footprint "mr-stuff:WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter"
+		(layer "F.Cu")
+		(uuid "1bdff86a-613f-443c-96ff-e82a4a4bed1e")
+		(at 79.095856 61.6 -90)
+		(descr "Wire to board solder points")
+		(property "Reference" "E2"
+			(at 6.9 0 0)
+			(layer "F.SilkS")
+			(uuid "f034dade-6834-47ed-a562-5f120ac88f52")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 1.25 4.1 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81922b17-8461-4c04-821f-f75fb90845e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "186fc554-ecd1-41fa-9058-2bd21a6bbc19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "817b61c6-eceb-4824-bff8-823a2aa99dea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "n/a"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "689a160e-6329-4cad-90d4-cb3e82356583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/")
+		(sheetfile "N2K Breakwater.kicad_sch")
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.75 -1.1)
+			(end -3.75 1.1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a22674c8-6858-4f69-9d85-5c10cec36840")
+		)
+		(fp_rect
+			(start -6.15 -1.15)
+			(end 6.15 1.15)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4325a059-d4e7-43b8-8e9d-91a8e13eb7a4")
+		)
+		(fp_rect
+			(start -6.25 -1.25)
+			(end 6.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cf63df4f-7e2c-4153-99e3-044193b02bd6")
+		)
+		(fp_rect
+			(start -6.05 -1.1)
+			(end 6.05 1.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "051e19d0-71cf-4b9d-8b08-d291515855ea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.2 90)
+			(layer "F.Fab")
+			(uuid "86046936-183e-4342-8445-43bb58fc0690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -5 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/BW_OK")
+			(pintype "passive")
+			(uuid "e5965ddd-de64-4b5f-bed4-188228626dc0")
+		)
+		(pad "2" thru_hole circle
+			(at -2.5 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pintype "passive")
+			(uuid "9b2f5149-6ce5-45bc-b31a-a0f7e7af889e")
+		)
+		(pad "3" thru_hole circle
+			(at 0 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/SAFE_CAN_H")
+			(pintype "passive")
+			(uuid "c56e0c31-c83e-4689-aaaf-3ca4db484ec0")
+		)
+		(pad "4" thru_hole circle
+			(at 2.5 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/SAFE_CAN_L")
+			(pintype "passive")
+			(uuid "986659e1-948c-44d7-8e5d-cfde3844369e")
+		)
+		(pad "5" thru_hole circle
+			(at 5 0 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/POWER_CYCLE")
+			(pintype "passive")
+			(uuid "b151def9-44fa-4c05-bd54-d67178ca519b")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "1d9adcf7-7abd-44e0-a3a6-ed0ea786839e")
@@ -10057,6 +10231,121 @@
 			)
 		)
 	)
+	(footprint "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
+		(layer "F.Cu")
+		(uuid "39e4fa8b-1970-46f2-ae12-08731be2f367")
+		(at 86.5 59.7)
+		(property "Reference" "ZT5"
+			(at 0 -1.6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8f9c23e1-0395-468b-b2f4-480d2620580b")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 4.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b647e08a-6d98-4666-93d6-e97ead0cd4db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c73daa4-7f7d-489e-8028-97f196aff3c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "045b2f6b-7989-4e88-a72c-b34745290cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/")
+		(sheetfile "N2K Breakwater.kicad_sch")
+		(attr board_only)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.25 -1)
+			(end 1.25 -1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b7169ad3-35c1-424f-93e9-92f0a590f862")
+		)
+		(fp_line
+			(start -1.25 1)
+			(end 1.25 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98a78059-e3c8-42d3-8284-43a2ac4bf747")
+		)
+		(fp_arc
+			(start -1.25 1)
+			(mid -2.25 0)
+			(end -1.25 -1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a4b79222-477f-4927-824e-16e0c2678865")
+		)
+		(fp_arc
+			(start 1.25 -1)
+			(mid 2.25 0)
+			(end 1.25 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e9c933f3-6a21-4a1f-838d-d0a7d061ee5a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c6b07916-4098-4b01-a73a-f301680771a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "mr-stuff:Vishay VCAN33A2-03S"
 		(layer "F.Cu")
 		(uuid "3bf566f8-deda-499b-b716-d19bd10ef63c")
@@ -13781,6 +14070,121 @@
 				(xyz -90 -0 -0)
 			)
 		)
+	)
+	(footprint "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
+		(layer "F.Cu")
+		(uuid "58629e49-71d2-4f15-9e3d-4777f6f7c100")
+		(at 86.5 63.7)
+		(property "Reference" "ZT6"
+			(at 0 -1.6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fff6df91-665f-4ab1-a85b-98821ba756d9")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 4.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "870a5c97-ef9c-44f9-8c13-ad8c53d37011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "380b5f17-ba59-40a2-85f7-6049dc9fa7d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fae32af-e84f-4027-a351-6eee86472f15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(sheetname "/")
+		(sheetfile "N2K Breakwater.kicad_sch")
+		(attr board_only)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.25 -1)
+			(end 1.25 -1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5a4052fe-f19f-40ab-94bc-17bebda794bf")
+		)
+		(fp_line
+			(start -1.25 1)
+			(end 1.25 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d650dede-e3fc-4af1-bc05-318faee1cc5d")
+		)
+		(fp_arc
+			(start -1.25 1)
+			(mid -2.25 0)
+			(end -1.25 -1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "52353118-ffab-49c6-b67f-f028344b7f35")
+		)
+		(fp_arc
+			(start 1.25 -1)
+			(mid 2.25 0)
+			(end 1.25 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b736cc18-06ef-4f80-8652-86f8d5f2dd07")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3070dfff-7327-40ce-9b78-8f09a59512c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "mr-stuff:Kyocera AVX 0805"
 		(layer "F.Cu")
@@ -33282,6 +33686,249 @@
 			)
 		)
 	)
+	(gr_line
+		(start 81.05 51.3)
+		(end 84.95 51.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d36db146-5e89-4d8b-81c9-2c717a67c117")
+	)
+	(gr_line
+		(start 81.25 51.3)
+		(end 81.05 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33a401ec-d564-46e5-8344-4c53e2f69940")
+	)
+	(gr_line
+		(start 81.55 51.3)
+		(end 81.35 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8822135a-453f-4045-b3e4-b108129ddf43")
+	)
+	(gr_line
+		(start 81.85 51.3)
+		(end 81.65 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f189b32-fcc9-4d64-9846-c674e475c1aa")
+	)
+	(gr_arc
+		(start 81.922813 51.1)
+		(mid 82.267575 50.68084)
+		(end 82.745379 50.938247)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d08735d-a2c3-4482-8236-405fe65bf0c2")
+	)
+	(gr_line
+		(start 81.923444 51.299591)
+		(end 81.922813 51.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5dcf0b54-386f-4873-8ee9-1f15f9928d08")
+	)
+	(gr_line
+		(start 81.923444 51.5)
+		(end 81.923444 51.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "723a3623-e9e7-46d3-9e99-65721a5d7394")
+	)
+	(gr_line
+		(start 82.15 51.3)
+		(end 81.95 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87d6a31f-00f3-43e5-b4c7-4ab4d32b1b05")
+	)
+	(gr_line
+		(start 82.45 51.3)
+		(end 82.25 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b26799b3-45a1-42af-8885-4ee13edfe98d")
+	)
+	(gr_line
+		(start 82.75 51.3)
+		(end 82.55 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d43a38c0-4b79-4428-8fd9-e8aeef627156")
+	)
+	(gr_line
+		(start 83.05 51.3)
+		(end 82.85 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0875ffd-e43f-462e-bda9-71fee6ab792e")
+	)
+	(gr_arc
+		(start 83.10125 51.107963)
+		(mid 82.904129 51.063345)
+		(end 82.745379 50.938247)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bedfe280-ba9f-4250-a834-4de70fda6448")
+	)
+	(gr_line
+		(start 83.10125 51.107963)
+		(end 85.35 51.107963)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8235f4-5756-4dd3-a352-6d4a03bfe9bd")
+	)
+	(gr_rect
+		(start 83.25 50.9)
+		(end 83.65 51.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3952747a-20bb-42b6-811c-65590026f80d")
+	)
+	(gr_line
+		(start 83.35 51.3)
+		(end 83.15 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "996abbb1-f7cb-4a92-97b1-d8469a3e7fd9")
+	)
+	(gr_line
+		(start 83.65 51.3)
+		(end 83.45 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21bb2f58-388e-495e-b947-a76d583ef743")
+	)
+	(gr_line
+		(start 83.95 51.3)
+		(end 83.75 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9eb80a3-ef4b-42bd-8890-7283eb693899")
+	)
+	(gr_line
+		(start 84.25 51.3)
+		(end 84.05 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72bcc4ab-a64e-4dfd-9ee7-9eb48be8ef82")
+	)
+	(gr_line
+		(start 84.35 51.3)
+		(end 84.25 51.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "92e9bd33-25ed-40e9-9af0-a91c0d60df1a")
+	)
+	(gr_line
+		(start 84.55 51.3)
+		(end 84.35 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd1559e9-7edc-4c17-bf43-8b7cb1212303")
+	)
+	(gr_line
+		(start 84.85 51.3)
+		(end 84.65 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "57173927-6eb0-4448-b7db-2a902bff95d6")
+	)
+	(gr_line
+		(start 84.95 51.3)
+		(end 81.95 51.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a504a7f-db0d-463f-b2a0-281ac53261f6")
+	)
+	(gr_line
+		(start 84.95 51.3)
+		(end 84.95 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec9e98e9-4e4a-4a1d-a8fe-446679227a8d")
+	)
+	(gr_line
+		(start 84.95 51.5)
+		(end 81.05 51.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43d34e7c-f5f5-41a9-bfa6-795ef4c56a45")
+	)
 	(gr_rect
 		(start 131.855228 81.309129)
 		(end 137.155228 86.509129)
@@ -33303,6 +33950,89 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "052ac06a-a997-4ab4-a798-10019356ab2e")
+	)
+	(gr_text "BW OK"
+		(at 80.387144 56.645255 0)
+		(layer "F.SilkS")
+		(uuid "4feea7a9-df24-4097-b259-e4be06c365c3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "CAN H"
+		(at 80.395856 61.7 0)
+		(layer "F.SilkS")
+		(uuid "7e910de3-641c-449b-90a2-d00200450893")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "CAN L"
+		(at 80.395856 64.2 0)
+		(layer "F.SilkS")
+		(uuid "e2272b12-e11f-481c-8d2f-829aea48b523")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Power Cycle"
+		(at 80.395856 66.6 0)
+		(layer "F.SilkS")
+		(uuid "b5e3856f-13a9-44e7-8007-69d6ebdf286c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "GND"
+		(at 80.4 59.1 0)
+		(layer "F.SilkS")
+		(uuid "ed0032fd-63f0-47c7-801b-5be6e48b2278")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Ziptie"
+		(at 86.5 61.7 0)
+		(layer "F.SilkS")
+		(uuid "1d719a4e-0aaf-4489-9f52-88367314ba3c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "4mm bend radius\nsolder to zip tie"
+		(at 83.65 54.2 0)
+		(layer "F.SilkS")
+		(uuid "ecfe8991-6523-4b39-b998-41e182bcd005")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
 	)
 	(gr_text "N2K Transceiver\nv1.0.0 - 2026\nMRGN-0019 Rev. A"
 		(at 105.8 53.7 0)
