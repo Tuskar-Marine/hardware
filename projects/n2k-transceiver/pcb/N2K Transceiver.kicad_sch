@@ -3593,7 +3593,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mr-parts:STM M24C64-RMN6P"
+		(symbol "mr-parts:STM M24512-DRMN8TP/K"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3612,7 +3612,7 @@
 					)
 				)
 			)
-			(property "Value" "M24C64"
+			(property "Value" "M24512"
 				(at 0 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3622,7 +3622,7 @@
 					)
 				)
 			)
-			(property "Footprint" "mr-stuff:STM M24C64-RMN6P"
+			(property "Footprint" "mr-stuff:STM M24512"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3634,7 +3634,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5c/df/52/a5/15/f2/48/bd/CD00259166.pdf/files/CD00259166.pdf/jcr:content/translations/en.CD00259166.pdf"
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/9f/b1/6f/6d/89/91/4b/b5/DM00149697.pdf/files/DM00149697.pdf/jcr:content/translations/en.DM00149697.pdf"
 				(at 0 -17.018 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3645,7 +3645,7 @@
 					)
 				)
 			)
-			(property "Description" "EEPROM Memory IC 64Kbit I2C 1 MHz 450 ns 8-SOIC"
+			(property "Description" "EEPROM Memory IC 512Kbit I2C 1 MHz 450 ns 8-SOIC"
 				(at 0 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3656,7 +3656,7 @@
 					)
 				)
 			)
-			(property "Part" "STM M24C64-RMN6P"
+			(property "Part" "STM M24512-DRMN8TP/K"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3667,7 +3667,7 @@
 					)
 				)
 			)
-			(symbol "STM M24C64-RMN6P_0_0"
+			(symbol "STM M24512-DRMN8TP/K_0_0"
 				(rectangle
 					(start -5.08 6.35)
 					(end 5.08 -6.35)
@@ -3680,7 +3680,7 @@
 					)
 				)
 			)
-			(symbol "STM M24C64-RMN6P_1_0"
+			(symbol "STM M24512-DRMN8TP/K_1_0"
 				(pin input line
 					(at -7.62 3.81 0)
 					(length 2.54)
@@ -4204,6 +4204,459 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Stackpole RMCA0805FT100R-HP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100R"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+				(at 0 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Stackpole RMCA0805FT100R-HP"
+				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT100R-HP_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT100R-HP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Stackpole RMCA0805FT10K0-HP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10kR"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+				(at 0 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Stackpole RMCA0805FT10K0-HP"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT10K0-HP_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT10K0-HP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mr-parts:Stackpole RMCA0805FT470R-HP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470R"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+				(at 0 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+				(at 0 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Stackpole RMCA0805FT470R-HP"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT470R-HP_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Stackpole RMCA0805FT470R-HP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mr-parts:Stackpole RMCA0805FT4K70-HP"
 			(pin_numbers
 				(hide yes)
@@ -4316,610 +4769,6 @@
 				)
 			)
 			(symbol "Stackpole RMCA0805FT4K70-HP_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Stackpole RNCP0805FTD100R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-				(at 0 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-				(at 0 -9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Stackpole RNCP0805FTD100R"
-				(at 0 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD100R_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD100R_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Stackpole RNCP0805FTD10K0"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10kR"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-				(at 0 -9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-				(at 0 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-				(at 0 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Stackpole RNCP0805FTD10K0"
-				(at 0 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD10K0_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD10K0_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Stackpole RNCP0805FTD475R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "475R"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-				(at 0 -9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-				(at 0 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-				(at 0 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Stackpole RNCP0805FTD475R"
-				(at 0 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD475R_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD475R_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Stackpole RNCP0805FTD5K11"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5.11kR"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-				(at 0 -9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-				(at 0 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "5.11 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-				(at 0 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Stackpole RNCP0805FTD5K11"
-				(at 0 -4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD5K11_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stackpole RNCP0805FTD5K11_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -7472,6 +7321,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mr-parts:Vishay RCA08055K10FKEA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.1kR"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mr-stuff:Vishay RCA e3"
+				(at 0 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
+				(at 0 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "Vishay RCA08055K10FKEA"
+				(at 0 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Vishay RCA08055K10FKEA_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vishay RCA08055K10FKEA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mr-parts:Vishay TLMS1101-GS15"
 			(pin_numbers
 				(hide yes)
@@ -8907,7 +8907,7 @@
 	)
 	(rectangle
 		(start 279.4 16.51)
-		(end 340.36 215.9)
+		(end 400.685 140.335)
 		(stroke
 			(width 0)
 			(type default)
@@ -8962,7 +8962,7 @@
 		)
 		(uuid "14b9d166-0716-47f0-8f51-49af9c866c38")
 	)
-	(text "Silver switches allowed, TI's TIC12400QDCPRQ1 is\nspecifically designed to address silver oxide buildup. \n\nSwitches:\n* on-off-on: Carlingtech 2M1-SP3-T6-B1-M1QE\n * Anchor Light\n * Tricolour Light\n * Steaming Light\n * Deck Light\n* on-on: Carlingtech 2M1-SP1-T6-B1-M1QE\n * Beacon Mode\n * Locate Mode\n* on-mom: Carlingtech 2M1-SP2-T6-B1-M1QE\n * Status LEDs (possibly on-on, TBD)\n\nCables:\n* Molex 0022013037 housing\n* Molex 0008550102 contact pins\n\nWire:\n* Alpha Wire AZ221934 family\n* TE Connectivity 55A0111-22 family\nIf Substituting - ETFE jacket, 22AWG, 19/34+ fine strand, tinned\n"
+	(text "Silver switches allowed, TI's TIC12400QDCPRQ1 is\nspecifically designed to address silver oxide buildup. \n\nSwitches:\n* on-off-on: Carlingtech 2M1-SP3-T6-B1-M1QE\n * Anchor Light\n * Tricolour Light\n * Steaming Light\n * Deck Light\n * Beacon Mode\n * Locate Mode\n  * Tie 2x 475 Ohm resistors (KOA Speer MF1/4CCT52R4750F)\n    between common and each leg at the switch body. This \n    allows the MCU to determine 'auto' (center) from a \n    broken wire.\n\n* on-on: Carlingtech 2M1-SP1-T6-B1-M1QE\n * Status LEDs\n  * Do not use resistors, 'on' and 'off' each go to a pin\n\nCables:\n* Molex 0022013037 housing\n* Molex 0008550102 contact pins\n\nWire:\n* Alpha Wire AZ221934 family\n* TE Connectivity 55A0111-22 family\nIf Substituting - ETFE jacket, 22AWG, 19/34+ fine strand, tinned"
 		(exclude_from_sim no)
 		(at 140.97 185.42 0)
 		(effects
@@ -9050,7 +9050,7 @@
 	)
 	(text "I2C Address (Ax = Ex)\n+----+----+----++------+\n| E2 | E1 | E0 || Hex  |\n+----+----+----++------+\n|  0 |  0 |  0 || 0x50 |\n|  0 |  0 |  1 || 0x51 |\n|  0 |  1 |  0 || 0x52 |\n|  0 |  1 |  1 || 0x53 |\n|  1 |  0 |  0 || 0x54 |\n|  1 |  0 |  1 || 0x55 |\n|  1 |  1 |  0 || 0x56 |\n|  1 |  1 |  1 || 0x57 |\n+----+----+----++------+"
 		(exclude_from_sim no)
-		(at 247.904 81.28 0)
+		(at 251.714 81.28 0)
 		(effects
 			(font
 				(face "DejaVu Sans Mono")
@@ -9113,7 +9113,7 @@
 		)
 		(uuid "fa99fca7-ae2b-4d7e-bc6c-52245ab3d1f5")
 	)
-	(text "8KiB EEPROM - Redundant (at 0x55 and 0x57)"
+	(text "64KiB EEPROM - Redundant (at 0x55 and 0x57)"
 		(exclude_from_sim no)
 		(at 189.23 77.47 0)
 		(effects
@@ -9125,7 +9125,7 @@
 		(uuid "fce5477e-7379-4a0b-a3fe-33524193efd5")
 	)
 	(junction
-		(at 313.69 109.22)
+		(at 313.69 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "011ed68c-c68c-4d2f-8a99-0eafe25b9169")
@@ -9215,6 +9215,12 @@
 		(uuid "2e246c0c-8022-4199-b6b4-d9a7832e8508")
 	)
 	(junction
+		(at 210.82 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f6f6d0b-9f28-46ec-b6bf-fdb587bc036c")
+	)
+	(junction
 		(at 46.99 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9227,7 +9233,13 @@
 		(uuid "2ffe2aa7-b71f-4559-91a8-8faab7e56fb3")
 	)
 	(junction
-		(at 313.69 58.42)
+		(at 373.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30356737-b888-475d-a4af-ef22fd590297")
+	)
+	(junction
+		(at 313.69 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a54205-569a-4a20-b45c-c81d83d40676")
@@ -9299,7 +9311,7 @@
 		(uuid "4bbfc737-6faa-40c9-b11b-898eb7aa9bfc")
 	)
 	(junction
-		(at 313.69 199.39)
+		(at 313.69 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c06f8fd-2faa-41ab-9c94-d512ca0ec160")
@@ -9311,7 +9323,13 @@
 		(uuid "4fd58d30-da2d-43e0-b162-02ac7a727937")
 	)
 	(junction
-		(at 313.69 162.56)
+		(at 210.82 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5014a19b-9b33-4786-b18a-0f0780f45ec8")
+	)
+	(junction
+		(at 373.38 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510b1ff0-a46b-44cb-ba70-17e9f2f5dc37")
@@ -9347,7 +9365,7 @@
 		(uuid "5ac7a44d-5b84-43dd-b1d3-e9e52fced94c")
 	)
 	(junction
-		(at 313.69 40.64)
+		(at 313.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f884d36-0c36-4f72-b274-2e17232769b9")
@@ -9419,7 +9437,7 @@
 		(uuid "7b0b1891-75e4-4441-abe9-f8851c47d6c2")
 	)
 	(junction
-		(at 313.69 180.34)
+		(at 373.38 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f80bdd1-b629-4e3f-8ef5-748c1a015962")
@@ -9467,7 +9485,7 @@
 		(uuid "90e0eb30-4b62-4b7e-9056-1b2108d3a2e0")
 	)
 	(junction
-		(at 313.69 127)
+		(at 373.38 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90e29077-f2df-4b1c-abf7-355166c19761")
@@ -9533,22 +9551,16 @@
 		(uuid "ad1a2d8c-31ae-49a1-b990-cc962a2f70fd")
 	)
 	(junction
-		(at 210.82 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad756a5f-6525-4067-bf65-55b31432fcf5")
-	)
-	(junction
 		(at 132.08 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef8fa61-9c47-466e-a350-1e4c50fc27f8")
 	)
 	(junction
-		(at 210.82 115.57)
+		(at 373.38 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3c4666d-b475-4f9f-bf58-df21e5820a9a")
+		(uuid "b3b659dd-550c-4dae-bbf4-c96c1f93a518")
 	)
 	(junction
 		(at 45.72 93.98)
@@ -9587,7 +9599,7 @@
 		(uuid "cd872c05-41ba-4999-9f67-984fa8f267fc")
 	)
 	(junction
-		(at 313.69 92.71)
+		(at 313.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d11c09ec-0949-44f3-9724-b37c2694e933")
@@ -9597,6 +9609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74de94e-7cc0-4066-be9a-9eb1593fe714")
+	)
+	(junction
+		(at 373.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc520c4b-d463-4f8e-9597-474881a40384")
 	)
 	(junction
 		(at 132.08 104.14)
@@ -9623,7 +9641,7 @@
 		(uuid "e2382695-d27d-4785-afbd-d88127d1ad35")
 	)
 	(junction
-		(at 313.69 144.78)
+		(at 373.38 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f28ad5e3-1d17-4b5a-87e1-544881fbd946")
@@ -9635,7 +9653,7 @@
 		(uuid "f6eef219-d767-4d79-8fff-8dab36e9f63d")
 	)
 	(junction
-		(at 313.69 74.93)
+		(at 313.69 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fafcdcb5-c9e4-4c85-83e5-eb9270e4819e")
@@ -9647,38 +9665,26 @@
 		(uuid "fb58468d-77ac-4a0c-ad89-decbdd50e778")
 	)
 	(junction
-		(at 313.69 22.86)
+		(at 313.69 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff8e3139-fe61-4a26-873a-3beded61e5b3")
-	)
-	(no_connect
-		(at 35.56 204.47)
-		(uuid "093864bd-2ce2-4071-a80f-80d120e53e05")
 	)
 	(no_connect
 		(at 35.56 179.07)
 		(uuid "2208131c-29b2-48cc-a634-1926aaab21c1")
 	)
 	(no_connect
+		(at 55.88 209.55)
+		(uuid "29654ed7-8403-4371-a861-3e68f6201c9e")
+	)
+	(no_connect
 		(at 35.56 181.61)
 		(uuid "2b8c1fa6-9133-4315-9a30-514d812d99aa")
 	)
 	(no_connect
-		(at 35.56 209.55)
-		(uuid "458ef7cd-b972-4eaa-a49a-2f88eb0b1962")
-	)
-	(no_connect
 		(at 87.63 144.78)
 		(uuid "4cafa6c4-9a45-4862-b596-15655fa4d876")
-	)
-	(no_connect
-		(at 125.73 273.05)
-		(uuid "53ab5b1d-4e30-43b1-9edf-1870445c61b1")
-	)
-	(no_connect
-		(at 125.73 256.54)
-		(uuid "5fe9adc7-3044-4975-9b98-d811bb312321")
 	)
 	(no_connect
 		(at 35.56 176.53)
@@ -9687,10 +9693,6 @@
 	(no_connect
 		(at 35.56 184.15)
 		(uuid "95b095c6-b62b-4462-af8f-6e7adbd73bd5")
-	)
-	(no_connect
-		(at 35.56 201.93)
-		(uuid "a0ad3347-c08a-4fa1-a791-8b315a5600ea")
 	)
 	(no_connect
 		(at 35.56 186.69)
@@ -9707,14 +9709,6 @@
 	(no_connect
 		(at 156.21 143.51)
 		(uuid "b4321d71-a439-40d4-907b-3d6b8765a7ef")
-	)
-	(no_connect
-		(at 35.56 207.01)
-		(uuid "c7063b62-031e-45cc-a168-3f3f71023753")
-	)
-	(no_connect
-		(at 125.73 240.03)
-		(uuid "d9abe017-035c-4dba-982e-2a0094c16d22")
 	)
 	(no_connect
 		(at 35.56 191.77)
@@ -9854,7 +9848,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 153.67) (xy 313.69 152.4)
+			(xy 373.38 46.99) (xy 373.38 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10001,6 +9995,16 @@
 			(type default)
 		)
 		(uuid "0c62a961-0b90-4b07-b336-058a56a683f7")
+	)
+	(wire
+		(pts
+			(xy 373.38 115.57) (xy 373.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf528c4-ad25-468b-a8f9-f0fe44ba6578")
 	)
 	(wire
 		(pts
@@ -10314,7 +10318,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 74.93) (xy 320.04 74.93)
+			(xy 313.69 72.39) (xy 320.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10604,6 +10608,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 73.66) (xy 379.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f09fc2a-6472-4689-99cb-7f02b3be4127")
+	)
+	(wire
+		(pts
 			(xy 226.06 87.63) (xy 227.33 87.63)
 		)
 		(stroke
@@ -10624,7 +10638,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 199.39) (xy 313.69 199.39)
+			(xy 311.15 124.46) (xy 313.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10654,7 +10668,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 162.56) (xy 313.69 162.56)
+			(xy 370.84 55.88) (xy 373.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10934,7 +10948,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 162.56) (xy 320.04 162.56)
+			(xy 373.38 55.88) (xy 379.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10951,6 +10965,16 @@
 			(type default)
 		)
 		(uuid "437ee3c1-394b-4834-b48f-f5cc247a9001")
+	)
+	(wire
+		(pts
+			(xy 123.19 256.54) (xy 125.73 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44217171-dc2f-467c-ba34-e8415caf574f")
 	)
 	(wire
 		(pts
@@ -10991,6 +11015,16 @@
 			(type default)
 		)
 		(uuid "4512a090-ab42-45d5-b02b-ddc22bb1b6fb")
+	)
+	(wire
+		(pts
+			(xy 123.19 273.05) (xy 125.73 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45be42f2-bc46-4558-a399-28f04ba84220")
 	)
 	(wire
 		(pts
@@ -11084,6 +11118,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 204.47) (xy 35.56 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a488979-3048-450f-9799-8c9045be894c")
+	)
+	(wire
+		(pts
 			(xy 123.19 36.83) (xy 123.19 38.1)
 		)
 		(stroke
@@ -11154,7 +11198,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 196.85) (xy 35.56 196.85)
+			(xy 27.94 193.04) (xy 31.75 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11194,7 +11238,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 40.64) (xy 320.04 40.64)
+			(xy 313.69 38.1) (xy 320.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11204,7 +11248,17 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 22.86) (xy 303.53 22.86)
+			(xy 373.38 133.35) (xy 373.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513eda8c-9a3f-477d-812d-acac3ada4b0e")
+	)
+	(wire
+		(pts
+			(xy 302.26 20.32) (xy 303.53 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11251,6 +11305,16 @@
 			(type default)
 		)
 		(uuid "5396e1f5-73df-49ad-b7bc-d403fe111a63")
+	)
+	(wire
+		(pts
+			(xy 373.38 106.68) (xy 379.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539bbd7c-9686-4da5-b8a7-34377ed4f44e")
 	)
 	(wire
 		(pts
@@ -11454,7 +11518,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 199.39) (xy 303.53 199.39)
+			(xy 302.26 124.46) (xy 303.53 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11584,7 +11648,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 49.53) (xy 313.69 48.26)
+			(xy 313.69 46.99) (xy 313.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11614,7 +11678,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 40.64) (xy 313.69 40.64)
+			(xy 311.15 38.1) (xy 313.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11774,7 +11838,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 22.86) (xy 313.69 22.86)
+			(xy 311.15 20.32) (xy 313.69 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11784,7 +11848,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 135.89) (xy 313.69 134.62)
+			(xy 373.38 29.21) (xy 373.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11794,7 +11858,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 127) (xy 320.04 127)
+			(xy 373.38 20.32) (xy 379.73 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11814,7 +11878,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 127) (xy 313.69 127)
+			(xy 370.84 20.32) (xy 373.38 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11904,7 +11968,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 180.34) (xy 320.04 180.34)
+			(xy 373.38 90.17) (xy 379.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11984,6 +12048,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 73.66) (xy 373.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f167cd-c442-429a-b436-51df1a00a47f")
+	)
+	(wire
+		(pts
 			(xy 30.48 100.33) (xy 31.75 100.33)
 		)
 		(stroke
@@ -12014,7 +12088,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 83.82) (xy 313.69 82.55)
+			(xy 313.69 81.28) (xy 313.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12094,7 +12168,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 171.45) (xy 313.69 170.18)
+			(xy 373.38 64.77) (xy 373.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -12154,13 +12228,23 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 92.71) (xy 303.53 92.71)
+			(xy 302.26 90.17) (xy 303.53 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "800ac1f7-0c97-4fc2-a84f-ab04d9253075")
+	)
+	(wire
+		(pts
+			(xy 31.75 193.04) (xy 31.75 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8042ec57-e708-4998-8743-62f888252fe4")
 	)
 	(wire
 		(pts
@@ -12184,7 +12268,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 144.78) (xy 320.04 144.78)
+			(xy 373.38 38.1) (xy 379.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12454,6 +12538,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 240.03) (xy 125.73 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5aa9b3-5bce-431c-8379-f2f3b324fdd2")
+	)
+	(wire
+		(pts
 			(xy 55.88 189.23) (xy 58.42 189.23)
 		)
 		(stroke
@@ -12474,7 +12568,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 58.42) (xy 320.04 58.42)
+			(xy 313.69 55.88) (xy 320.04 55.88)
 		)
 		(stroke
 			(width 0)
@@ -12514,7 +12608,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 109.22) (xy 320.04 109.22)
+			(xy 313.69 106.68) (xy 320.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -12634,7 +12728,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 127) (xy 303.53 127)
+			(xy 361.95 20.32) (xy 363.22 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12674,7 +12768,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 101.6) (xy 313.69 100.33)
+			(xy 313.69 99.06) (xy 313.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -12704,7 +12798,27 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 74.93) (xy 303.53 74.93)
+			(xy 31.75 196.85) (xy 35.56 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0bebe3-0330-4ccd-8923-81700d8c91c0")
+	)
+	(wire
+		(pts
+			(xy 361.95 124.46) (xy 363.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5e3536-cba6-428c-afa6-40096dbe7ade")
+	)
+	(wire
+		(pts
+			(xy 302.26 72.39) (xy 303.53 72.39)
 		)
 		(stroke
 			(width 0)
@@ -12734,7 +12848,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 144.78) (xy 303.53 144.78)
+			(xy 361.95 38.1) (xy 363.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12864,7 +12978,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 58.42) (xy 303.53 58.42)
+			(xy 302.26 55.88) (xy 303.53 55.88)
 		)
 		(stroke
 			(width 0)
@@ -12954,7 +13068,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 92.71) (xy 320.04 92.71)
+			(xy 313.69 90.17) (xy 320.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13061,6 +13175,16 @@
 			(type default)
 		)
 		(uuid "b2c29ec8-9a6c-463a-b263-a6846bc0fc41")
+	)
+	(wire
+		(pts
+			(xy 370.84 124.46) (xy 373.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30d9bd6-b45b-4c65-af31-d2173f2681e2")
 	)
 	(wire
 		(pts
@@ -13184,6 +13308,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 106.68) (xy 363.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc166039-6f5b-41df-b117-c337ba233b8b")
+	)
+	(wire
+		(pts
 			(xy 158.75 95.25) (xy 134.62 95.25)
 		)
 		(stroke
@@ -13234,7 +13368,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 189.23) (xy 313.69 187.96)
+			(xy 373.38 99.06) (xy 373.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -13314,7 +13448,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 118.11) (xy 313.69 116.84)
+			(xy 313.69 115.57) (xy 313.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -13354,6 +13488,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 207.01) (xy 35.56 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5539985-d0d5-4775-9147-be4016045b6e")
+	)
+	(wire
+		(pts
 			(xy 54.61 109.22) (xy 57.15 109.22)
 		)
 		(stroke
@@ -13374,7 +13518,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 109.22) (xy 303.53 109.22)
+			(xy 302.26 106.68) (xy 303.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13514,7 +13658,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 74.93) (xy 313.69 74.93)
+			(xy 311.15 72.39) (xy 313.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -13544,7 +13688,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 58.42) (xy 313.69 58.42)
+			(xy 311.15 55.88) (xy 313.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -13581,6 +13725,16 @@
 			(type default)
 		)
 		(uuid "d11db13c-529f-4ee6-87cc-f8bfc135a5e6")
+	)
+	(wire
+		(pts
+			(xy 33.02 209.55) (xy 35.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d138ddde-0741-4095-89da-daa407a5fcdc")
 	)
 	(wire
 		(pts
@@ -13644,13 +13798,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 209.55) (xy 58.42 209.55)
+			(xy 373.38 82.55) (xy 373.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4557f78-b48a-46fc-a5d4-e68128e5666b")
+		(uuid "d48ed428-4c7e-4ce1-80ef-35af9ccc1cf6")
 	)
 	(wire
 		(pts
@@ -13664,7 +13818,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 109.22) (xy 313.69 109.22)
+			(xy 311.15 106.68) (xy 313.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13694,7 +13848,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 180.34) (xy 303.53 180.34)
+			(xy 361.95 90.17) (xy 363.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13704,7 +13858,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 22.86) (xy 320.04 22.86)
+			(xy 313.69 20.32) (xy 320.04 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13804,7 +13958,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 162.56) (xy 303.53 162.56)
+			(xy 361.95 55.88) (xy 363.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -13814,7 +13968,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 31.75) (xy 313.69 30.48)
+			(xy 313.69 29.21) (xy 313.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13854,7 +14008,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 180.34) (xy 313.69 180.34)
+			(xy 370.84 90.17) (xy 373.38 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13874,7 +14028,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 92.71) (xy 313.69 92.71)
+			(xy 311.15 90.17) (xy 313.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13951,6 +14105,16 @@
 			(type default)
 		)
 		(uuid "decbd1b8-d135-4845-b9dc-ca22b456ad81")
+	)
+	(wire
+		(pts
+			(xy 370.84 106.68) (xy 373.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def38ab8-1cff-482b-8f92-20637c5ed225")
 	)
 	(wire
 		(pts
@@ -14054,7 +14218,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 199.39) (xy 320.04 199.39)
+			(xy 313.69 124.46) (xy 320.04 124.46)
 		)
 		(stroke
 			(width 0)
@@ -14101,6 +14265,16 @@
 			(type default)
 		)
 		(uuid "e8b93556-8bfa-43c2-9d88-4b2e5c8751b5")
+	)
+	(wire
+		(pts
+			(xy 373.38 124.46) (xy 379.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dc883a-62bc-433c-b61e-f014a064e574")
 	)
 	(wire
 		(pts
@@ -14154,7 +14328,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 208.28) (xy 313.69 207.01)
+			(xy 313.69 133.35) (xy 313.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -14204,7 +14378,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 144.78) (xy 313.69 144.78)
+			(xy 370.84 38.1) (xy 373.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14334,6 +14508,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 73.66) (xy 363.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f836d8df-87e8-46d4-bde2-a1f7525188d5")
+	)
+	(wire
+		(pts
 			(xy 33.02 214.63) (xy 35.56 214.63)
 		)
 		(stroke
@@ -14384,7 +14568,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 40.64) (xy 303.53 40.64)
+			(xy 302.26 38.1) (xy 303.53 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14434,7 +14618,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 67.31) (xy 313.69 66.04)
+			(xy 33.02 201.93) (xy 35.56 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff12be63-2f73-48e6-9c45-934e986d5d9b")
+	)
+	(wire
+		(pts
+			(xy 313.69 64.77) (xy 313.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -14472,8 +14666,18 @@
 		)
 		(uuid "053490d4-4c0c-441e-a0d2-fc851ece655d")
 	)
+	(label "LOCATE_ON_IN"
+		(at 33.02 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0759b2be-120d-4b89-a402-bdb2e2e24cb2")
+	)
 	(label "BEACON_ON_IN"
-		(at 320.04 162.56 0)
+		(at 379.73 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14603,7 +14807,7 @@
 		(uuid "2ce64b27-3101-4345-92ed-abb02b27fadd")
 	)
 	(label "DECK_OFF_IN"
-		(at 320.04 144.78 0)
+		(at 379.73 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14662,8 +14866,18 @@
 		)
 		(uuid "36fbd6aa-088c-4949-95fc-da9f6b68bbab")
 	)
+	(label "LOCATE_OFF_PLUG"
+		(at 123.19 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38d14b3b-7229-4df2-a489-fb23ee6ba51d")
+	)
 	(label "BEACON_ON_PLUG"
-		(at 302.26 162.56 180)
+		(at 361.95 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14713,7 +14927,7 @@
 		(uuid "3de024ac-49fc-4860-95e1-dfa38fa33dc9")
 	)
 	(label "STEAMING_ON_IN"
-		(at 320.04 92.71 0)
+		(at 320.04 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14731,16 +14945,6 @@
 			(justify right bottom)
 		)
 		(uuid "41fd7ad4-7134-4b1f-afaa-b8cd15133259")
-	)
-	(label "LED_ENABLE_IN"
-		(at 58.42 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "430cab02-b1bb-44c6-b87d-8c20063ee3c3")
 	)
 	(label "N2K_RX_LED"
 		(at 54.61 129.54 180)
@@ -14773,7 +14977,7 @@
 		(uuid "49c61140-97f0-460f-b4e0-93a00f364fa0")
 	)
 	(label "TRICOLOUR_OFF_PLUG"
-		(at 302.26 74.93 180)
+		(at 302.26 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14842,8 +15046,18 @@
 		)
 		(uuid "5040d01f-8c85-4291-8946-8cd13c8a85ca")
 	)
-	(label "LED_ENABLE_PLUG"
-		(at 302.26 199.39 180)
+	(label "LED_OFF_IN"
+		(at 33.02 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "509a7930-2c6d-4e66-8267-46d8037a5612")
+	)
+	(label "LED_ON_PLUG"
+		(at 302.26 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14932,6 +15146,16 @@
 		)
 		(uuid "5fa82be6-a690-4476-b9a7-d783443d37e5")
 	)
+	(label "BEACON_OFF_IN"
+		(at 379.73 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63abd92e-36ab-453e-bc05-3ee7943ba7e8")
+	)
 	(label "N2K_RX_LED"
 		(at 242.57 153.67 180)
 		(effects
@@ -14942,7 +15166,7 @@
 		)
 		(uuid "648dbead-aa66-405e-8fcb-f54a18da75d2")
 	)
-	(label "LED_ENABLE_PLUG"
+	(label "LED_ON_PLUG"
 		(at 123.19 267.97 180)
 		(effects
 			(font
@@ -14993,7 +15217,7 @@
 		(uuid "6ba46936-2dd5-40eb-bfde-94e7fb981772")
 	)
 	(label "TRICOLOUR_ON_IN"
-		(at 320.04 58.42 0)
+		(at 320.04 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15002,8 +15226,8 @@
 		)
 		(uuid "6be2f9af-7cfa-4db3-95e4-eed9273d2e41")
 	)
-	(label "LED_ENABLE_IN"
-		(at 320.04 199.39 0)
+	(label "LED_ON_IN"
+		(at 320.04 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15023,7 +15247,7 @@
 		(uuid "7486320b-95ed-4d5d-9daa-6fffc49f127e")
 	)
 	(label "LOCATE_ON_IN"
-		(at 320.04 180.34 0)
+		(at 379.73 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15043,7 +15267,7 @@
 		(uuid "7741d141-6761-4320-9cab-ef9156687bae")
 	)
 	(label "ANCHOR_OFF_IN"
-		(at 320.04 40.64 0)
+		(at 320.04 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15092,6 +15316,16 @@
 		)
 		(uuid "844082dd-3e20-423d-b804-3469df5b5be9")
 	)
+	(label "LED_OFF_IN"
+		(at 379.73 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8956bcdb-3e27-45be-bf60-dd0ea23434d6")
+	)
 	(label "CONFIG_SW"
 		(at 54.61 139.7 180)
 		(effects
@@ -15121,16 +15355,6 @@
 			(justify right bottom)
 		)
 		(uuid "8be04c55-4982-43cc-b220-c5aee5a8c45b")
-	)
-	(label "LOCATE_ON_IN"
-		(at 58.42 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c75a22c-7c49-496f-a55f-4d93a3d7a9fb")
 	)
 	(label "ANCHOR_ON_PLUG"
 		(at 123.19 171.45 180)
@@ -15222,6 +15446,16 @@
 		)
 		(uuid "9d93804c-738b-46a1-b4bf-34993935d175")
 	)
+	(label "LED_OFF_PLUG"
+		(at 361.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a35a349b-3832-4664-bc47-f95a88cc2129")
+	)
 	(label "WIFI_UP_LED"
 		(at 203.2 140.97 180)
 		(effects
@@ -15233,7 +15467,7 @@
 		(uuid "a7ad4cc6-fada-4db6-81db-656eaf64d991")
 	)
 	(label "DECK_ON_PLUG"
-		(at 302.26 127 180)
+		(at 361.95 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15241,6 +15475,16 @@
 			(justify right bottom)
 		)
 		(uuid "a7e394f5-459a-4852-9e7b-89046a220956")
+	)
+	(label "LED_ON_IN"
+		(at 33.02 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8ed0d16-8c91-4e1c-8b08-d9a50ae8fb29")
 	)
 	(label "ROM1_WP"
 		(at 199.39 92.71 180)
@@ -15283,7 +15527,7 @@
 		(uuid "ad09fb26-5ddc-4843-8879-fa7d1f258c59")
 	)
 	(label "LOCATE_ON_PLUG"
-		(at 302.26 180.34 180)
+		(at 361.95 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15292,8 +15536,18 @@
 		)
 		(uuid "aef13f35-f672-4d1e-b512-7ff83f9b8c01")
 	)
+	(label "LOCATE_OFF_IN"
+		(at 379.73 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af22deb5-57cd-4354-830c-31a037cd6cfc")
+	)
 	(label "ANCHOR_ON_IN"
-		(at 320.04 22.86 0)
+		(at 320.04 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15323,7 +15577,7 @@
 		(uuid "c043eb18-8b59-41eb-b415-ea3e31b12554")
 	)
 	(label "STEAMING_ON_PLUG"
-		(at 302.26 92.71 180)
+		(at 302.26 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15343,7 +15597,7 @@
 		(uuid "c4eb2ae3-18ed-40c4-871d-b51254f4c2b6")
 	)
 	(label "TRICOLOUR_ON_PLUG"
-		(at 302.26 58.42 180)
+		(at 302.26 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15382,8 +15636,18 @@
 		)
 		(uuid "d1c59c3f-8b0c-45bd-bca0-683341e171fd")
 	)
+	(label "LOCATE_OFF_PLUG"
+		(at 361.95 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2474d86-1fb7-423d-8065-ff213613e743")
+	)
 	(label "ANCHOR_ON_PLUG"
-		(at 302.26 22.86 180)
+		(at 302.26 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15393,7 +15657,7 @@
 		(uuid "d4ae2176-6cfd-4e32-b64c-7268f68eecfc")
 	)
 	(label "STEAMING_OFF_IN"
-		(at 320.04 109.22 0)
+		(at 320.04 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15423,7 +15687,7 @@
 		(uuid "d77aa372-74ab-4539-9a2e-53767ae3923a")
 	)
 	(label "DECK_OFF_PLUG"
-		(at 302.26 144.78 180)
+		(at 361.95 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15522,8 +15786,18 @@
 		)
 		(uuid "ec559881-95ea-4372-b195-bd2ffc2764bf")
 	)
+	(label "LED_OFF_PLUG"
+		(at 123.19 273.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec9fabde-2267-4458-8130-bc61e4e2c50c")
+	)
 	(label "DECK_ON_IN"
-		(at 320.04 127 0)
+		(at 379.73 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15563,7 +15837,7 @@
 		(uuid "f2af9cc5-b597-45ce-be47-b7186e7687de")
 	)
 	(label "TRICOLOUR_OFF_IN"
-		(at 320.04 74.93 0)
+		(at 320.04 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15572,8 +15846,18 @@
 		)
 		(uuid "f3dfbffe-0a52-4e46-b32f-20fd5b90270a")
 	)
+	(label "BEACON_OFF_PLUG"
+		(at 123.19 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4b08c53-0450-464d-90a0-03688e9b32df")
+	)
 	(label "ANCHOR_OFF_PLUG"
-		(at 302.26 40.64 180)
+		(at 302.26 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15592,8 +15876,18 @@
 		)
 		(uuid "f6e9d9a1-37a0-4d09-bfbf-4ce04d2a20de")
 	)
+	(label "LOCATE_OFF_IN"
+		(at 33.02 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9e26adc-7646-4ebe-a2d4-44ab16a26155")
+	)
 	(label "STEAMING_OFF_PLUG"
-		(at 302.26 109.22 180)
+		(at 302.26 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15621,6 +15915,26 @@
 			(justify left bottom)
 		)
 		(uuid "fcbbf089-4d95-43e7-8ba5-354a39cdc981")
+	)
+	(label "BEACON_OFF_IN"
+		(at 58.42 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdc40c92-90b5-40ef-ae3c-16c0bc88953b")
+	)
+	(label "BEACON_OFF_PLUG"
+		(at 361.95 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdd6ce04-c452-4338-809e-a5115b2d046f")
 	)
 	(label "CAN_RX_LOCAL"
 		(at 90.17 149.86 0)
@@ -15787,6 +16101,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01671e11-6bec-4418-ae1c-90e0df575ad4")
+		(property "Reference" "R46"
+			(at 367.03 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 367.03 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 83.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fed8a35-87cb-4084-ba23-0de70c4dea07")
+		)
+		(pin "2"
+			(uuid "14d1c134-4fea-4e28-a804-3da5665cb674")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 59.69 0)
 		(unit 1)
@@ -15864,7 +16268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 209.55 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -15884,7 +16288,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 209.55 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15894,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 209.55 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -15905,7 +16309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 209.55 152.654 0)
 			(hide yes)
 			(show_name no)
@@ -15916,7 +16320,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 209.55 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -15927,7 +16331,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 209.55 145.796 0)
 			(hide yes)
 			(show_name no)
@@ -16040,6 +16444,83 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "075b1610-366a-4faa-89fd-bc36ead65ac0")
+		(property "Reference" "#PWR0273"
+			(at 373.38 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52bb9e1f-ba48-4ad0-8af1-cf7388f499c3")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -16242,7 +16723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 248.92 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -16262,7 +16743,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 248.92 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16272,7 +16753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 248.92 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -16283,7 +16764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 248.92 165.354 0)
 			(hide yes)
 			(show_name no)
@@ -16294,7 +16775,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 248.92 160.782 0)
 			(hide yes)
 			(show_name no)
@@ -16305,7 +16786,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 248.92 158.496 0)
 			(hide yes)
 			(show_name no)
@@ -16409,7 +16890,97 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a54ae91-0189-4868-bc36-75a0621a2f60")
+		(property "Reference" "R47"
+			(at 367.03 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 367.03 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 114.046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27d19a88-4aaa-4b8c-bf57-bc42846cbe9e")
+		)
+		(pin "2"
+			(uuid "0b85e1f7-314e-4eef-be53-e3d4382a7f28")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 161.29 179.07 0)
 		(unit 1)
 		(body_style 1)
@@ -16439,7 +17010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 161.29 188.468 0)
 			(hide yes)
 			(show_name no)
@@ -16450,7 +17021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 161.29 190.754 0)
 			(hide yes)
 			(show_name no)
@@ -16461,7 +17032,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 161.29 186.182 0)
 			(hide yes)
 			(show_name no)
@@ -16472,7 +17043,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 161.29 183.896 0)
 			(hide yes)
 			(show_name no)
@@ -16727,7 +17298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 35.56 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -16757,7 +17328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 33.782 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -16768,7 +17339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 35.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16779,7 +17350,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 35.56 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16790,7 +17361,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 35.56 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -16984,116 +17555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:STM M24C64-RMN6P")
-		(at 218.44 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15fdc486-8baf-4d63-9043-6af2f710da01")
-		(property "Reference" "ROM2"
-			(at 218.44 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M24C64"
-			(at 218.44 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mr-stuff:STM M24C64-RMN6P"
-			(at 218.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5c/df/52/a5/15/f2/48/bd/CD00259166.pdf/files/CD00259166.pdf/jcr:content/translations/en.CD00259166.pdf"
-			(at 218.44 128.778 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "EEPROM Memory IC 64Kbit I2C 1 MHz 450 ns 8-SOIC"
-			(at 218.44 124.206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "STM M24C64-RMN6P"
-			(at 218.44 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab4dea60-0d12-4d0d-9cde-ba1ea0b54c0a")
-		)
-		(pin "8"
-			(uuid "a7876a7c-1d1d-43b4-ad23-294039f37cec")
-		)
-		(pin "4"
-			(uuid "827609ba-8f0f-4de4-afa3-b8401d93f72e")
-		)
-		(pin "7"
-			(uuid "58f82af5-ab07-4101-b0a3-384705f0e0f6")
-		)
-		(pin "2"
-			(uuid "dd35d963-ad77-48e9-813d-2d87b0f2acc9")
-		)
-		(pin "6"
-			(uuid "489c9de0-f0ce-474d-a9f8-293e344b724d")
-		)
-		(pin "5"
-			(uuid "45c28c1a-7df2-4d98-89b5-381981f942f7")
-		)
-		(pin "3"
-			(uuid "4b08cb9a-d95c-4d71-9eac-e8804c77789e")
-		)
-		(instances
-			(project "N2K Transceiver"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "ROM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 36.83 236.22 0)
 		(unit 1)
 		(body_style 1)
@@ -17123,7 +17585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 35.052 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -17134,7 +17596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 36.83 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17145,7 +17607,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 36.83 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17156,7 +17618,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 36.83 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -17260,8 +17722,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 144.78 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17271,7 +17733,7 @@
 		(dnp no)
 		(uuid "1844c777-38fe-4dd5-a891-f6287f9915a0")
 		(property "Reference" "R39"
-			(at 307.34 144.78 0)
+			(at 367.03 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17281,7 +17743,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 147.066 0)
+			(at 367.03 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17290,8 +17752,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 152.146 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 45.466 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17301,8 +17763,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 307.34 154.432 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17312,8 +17774,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 149.86 0)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17323,8 +17785,8 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 156.972 0)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 50.292 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17351,7 +17813,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 166.37 0)
+		(at 373.38 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17361,7 +17823,7 @@
 		(dnp no)
 		(uuid "18a0903d-9abf-4259-8ec7-189d3fbdde2e")
 		(property "Reference" "C31"
-			(at 314.198 164.084 0)
+			(at 373.888 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17372,7 +17834,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 168.91 0)
+			(at 373.888 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17383,7 +17845,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 180.086 0)
+			(at 373.38 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,7 +17856,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 184.15 0)
+			(at 373.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17405,7 +17867,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 182.118 0)
+			(at 373.38 75.438 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17416,7 +17878,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 177.8 0)
+			(at 373.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17889,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 186.436 0)
+			(at 373.38 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17453,7 +17915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 209.55 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -17473,7 +17935,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 209.55 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17483,7 +17945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 209.55 144.018 0)
 			(hide yes)
 			(show_name no)
@@ -17494,7 +17956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 209.55 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -17505,7 +17967,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 209.55 141.732 0)
 			(hide yes)
 			(show_name no)
@@ -17516,7 +17978,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 209.55 139.446 0)
 			(hide yes)
 			(show_name no)
@@ -17620,116 +18082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:STM M24C64-RMN6P")
-		(at 218.44 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c1b80ea-2d14-4b63-b2d8-69ffde4d91d8")
-		(property "Reference" "ROM1"
-			(at 218.44 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M24C64"
-			(at 218.44 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mr-stuff:STM M24C64-RMN6P"
-			(at 218.44 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5c/df/52/a5/15/f2/48/bd/CD00259166.pdf/files/CD00259166.pdf/jcr:content/translations/en.CD00259166.pdf"
-			(at 218.44 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "EEPROM Memory IC 64Kbit I2C 1 MHz 450 ns 8-SOIC"
-			(at 218.44 101.346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "STM M24C64-RMN6P"
-			(at 218.44 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2492c58b-fd82-4e93-8507-7e1bd9de311d")
-		)
-		(pin "8"
-			(uuid "0c8fd163-22ce-4001-8700-be8a30e6ef68")
-		)
-		(pin "4"
-			(uuid "23d5d6b7-af7a-414e-9deb-2efaff9a36e7")
-		)
-		(pin "7"
-			(uuid "346666b8-fb49-48dd-b017-c6cfa9a3da0b")
-		)
-		(pin "2"
-			(uuid "2fcd7240-cd68-465b-bb64-d8668a0858b1")
-		)
-		(pin "6"
-			(uuid "403ff5ed-e8c8-4e7e-baaa-134b6b297c53")
-		)
-		(pin "5"
-			(uuid "8e0e1bd5-de15-46b9-9329-b7d249f9bbd6")
-		)
-		(pin "3"
-			(uuid "9465753a-e58c-4a63-a86a-818198178dfa")
-		)
-		(instances
-			(project "N2K Transceiver"
-				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
-					(reference "ROM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 62.23 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -17759,7 +18112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 60.452 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -17770,7 +18123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 62.23 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -17781,7 +18134,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 62.23 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -17792,7 +18145,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 62.23 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -17897,7 +18250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 153.67 0)
+		(at 373.38 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17907,7 +18260,7 @@
 		(dnp no)
 		(uuid "1f81d8c2-8e29-426d-9e85-f2f0748b1fa0")
 		(property "Reference" "#PWR0268"
-			(at 313.69 160.02 0)
+			(at 373.38 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17918,7 +18271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 157.48 0)
+			(at 373.38 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17928,7 +18281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 153.67 0)
+			(at 373.38 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +18292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 153.67 0)
+			(at 373.38 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17950,7 +18303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 153.67 0)
+			(at 373.38 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18157,7 +18510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 248.92 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -18177,7 +18530,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 248.92 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18187,7 +18540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 248.92 144.018 0)
 			(hide yes)
 			(show_name no)
@@ -18198,7 +18551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 248.92 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -18209,7 +18562,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 248.92 141.732 0)
 			(hide yes)
 			(show_name no)
@@ -18220,7 +18573,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 248.92 139.446 0)
 			(hide yes)
 			(show_name no)
@@ -19086,7 +19439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 248.92 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -19106,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 248.92 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19116,7 +19469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 248.92 156.718 0)
 			(hide yes)
 			(show_name no)
@@ -19127,7 +19480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 248.92 159.004 0)
 			(hide yes)
 			(show_name no)
@@ -19138,7 +19491,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 248.92 154.432 0)
 			(hide yes)
 			(show_name no)
@@ -19149,7 +19502,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 248.92 152.146 0)
 			(hide yes)
 			(show_name no)
@@ -19250,8 +19603,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 74.93 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19261,7 +19614,7 @@
 		(dnp no)
 		(uuid "33c82d3c-9e28-4470-8990-34fe864b7de4")
 		(property "Reference" "R35"
-			(at 307.34 74.93 0)
+			(at 307.34 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19271,7 +19624,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 77.216 0)
+			(at 307.34 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19280,8 +19633,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 82.296 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19291,30 +19644,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 82.042 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 87.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19417,8 +19770,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 58.42 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19428,7 +19781,7 @@
 		(dnp no)
 		(uuid "33ff0471-3813-46ed-8ef1-07a4ddc33da7")
 		(property "Reference" "R34"
-			(at 307.34 58.42 0)
+			(at 307.34 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19438,7 +19791,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 60.706 0)
+			(at 307.34 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19447,8 +19800,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 65.786 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 63.246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19458,30 +19811,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 65.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 68.072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 70.612 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19610,7 +19963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 72.39 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -19640,7 +19993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 70.612 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -19651,7 +20004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 72.39 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19662,7 +20015,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 72.39 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19673,7 +20026,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 72.39 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -19700,7 +20053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 161.29 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -19720,7 +20073,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 158.75 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19731,7 +20084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 161.29 180.848 0)
 			(hide yes)
 			(show_name no)
@@ -19742,7 +20095,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 161.29 183.134 0)
 			(hide yes)
 			(show_name no)
@@ -19753,7 +20106,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 161.29 178.562 0)
 			(hide yes)
 			(show_name no)
@@ -19764,7 +20117,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 161.29 176.276 0)
 			(hide yes)
 			(show_name no)
@@ -19885,7 +20238,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 196.85 0)
+		(at 27.94 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19895,7 +20248,7 @@
 		(dnp no)
 		(uuid "39847e94-badd-466a-9137-24615878f80b")
 		(property "Reference" "#PWR0250"
-			(at 30.48 203.2 0)
+			(at 27.94 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19906,7 +20259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 200.66 0)
+			(at 27.94 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19916,7 +20269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 196.85 0)
+			(at 27.94 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19927,7 +20280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 196.85 0)
+			(at 27.94 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19938,7 +20291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 196.85 0)
+			(at 27.94 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19962,7 +20315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 171.45 0)
+		(at 373.38 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19972,7 +20325,7 @@
 		(dnp no)
 		(uuid "3b494f2d-8618-41b3-9457-c4cbf4d2c1b0")
 		(property "Reference" "#PWR0269"
-			(at 313.69 177.8 0)
+			(at 373.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19983,7 +20336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 175.26 0)
+			(at 373.38 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19993,7 +20346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 171.45 0)
+			(at 373.38 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20004,7 +20357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 171.45 0)
+			(at 373.38 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20015,7 +20368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 171.45 0)
+			(at 373.38 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20115,7 +20468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 205.74 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -20145,7 +20498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 203.962 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -20156,7 +20509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 205.74 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20167,7 +20520,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 205.74 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20178,7 +20531,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 205.74 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -20205,7 +20558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD5K11")
+		(lib_id "mr-parts:Vishay RCA08055K10FKEA")
 		(at 152.4 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -20225,7 +20578,7 @@
 				)
 			)
 		)
-		(property "Value" "5.11kR"
+		(property "Value" "5.1kR"
 			(at 152.4 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20235,7 +20588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Vishay RCA e3"
 			(at 152.4 109.728 0)
 			(hide yes)
 			(show_name no)
@@ -20246,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
 			(at 152.4 112.014 0)
 			(hide yes)
 			(show_name no)
@@ -20257,7 +20610,7 @@
 				)
 			)
 		)
-		(property "Description" "5.11 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 152.4 107.442 0)
 			(hide yes)
 			(show_name no)
@@ -20268,7 +20621,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD5K11"
+		(property "Part" "Vishay RCA08055K10FKEA"
 			(at 152.4 105.156 0)
 			(hide yes)
 			(show_name no)
@@ -20393,7 +20746,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 203.2 0)
+		(at 313.69 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20403,7 +20756,7 @@
 		(dnp no)
 		(uuid "42c54660-df9c-4f9f-8f31-3071bcae1714")
 		(property "Reference" "C33"
-			(at 314.198 200.914 0)
+			(at 314.198 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20414,7 +20767,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 205.74 0)
+			(at 314.198 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20425,7 +20778,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 216.916 0)
+			(at 313.69 141.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20436,7 +20789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 220.98 0)
+			(at 313.69 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20447,7 +20800,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 218.948 0)
+			(at 313.69 144.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20458,7 +20811,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 214.63 0)
+			(at 313.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20469,7 +20822,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 223.266 0)
+			(at 313.69 148.336 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20496,7 +20849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 31.75 0)
+		(at 313.69 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20506,7 +20859,7 @@
 		(dnp no)
 		(uuid "44857781-cd13-4215-9298-47fe41e1dc1f")
 		(property "Reference" "#PWR237"
-			(at 313.69 38.1 0)
+			(at 313.69 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20517,7 +20870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 35.56 0)
+			(at 313.69 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20527,7 +20880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 31.75 0)
+			(at 313.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20538,7 +20891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 31.75 0)
+			(at 313.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20549,7 +20902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 31.75 0)
+			(at 313.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20752,8 +21105,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 199.39 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20763,7 +21116,7 @@
 		(dnp no)
 		(uuid "4c347725-f49b-4c19-82e0-c56f07f86c6b")
 		(property "Reference" "R42"
-			(at 307.34 199.39 0)
+			(at 307.34 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20773,7 +21126,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 201.676 0)
+			(at 307.34 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20782,8 +21135,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 206.756 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 131.826 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20793,8 +21146,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 307.34 209.042 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 134.112 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20804,8 +21157,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 204.47 0)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20815,8 +21168,8 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 211.582 0)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 307.34 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21216,7 +21569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 209.55 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -21236,7 +21589,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 209.55 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21246,7 +21599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 209.55 156.718 0)
 			(hide yes)
 			(show_name no)
@@ -21257,7 +21610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 209.55 159.004 0)
 			(hide yes)
 			(show_name no)
@@ -21268,7 +21621,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 209.55 154.432 0)
 			(hide yes)
 			(show_name no)
@@ -21279,7 +21632,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 209.55 152.146 0)
 			(hide yes)
 			(show_name no)
@@ -21307,7 +21660,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 148.59 0)
+		(at 373.38 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21317,7 +21670,7 @@
 		(dnp no)
 		(uuid "54f43686-d756-4b01-ba7c-6765d8876c0e")
 		(property "Reference" "C30"
-			(at 314.198 146.304 0)
+			(at 373.888 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21328,7 +21681,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 151.13 0)
+			(at 373.888 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21339,7 +21692,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 162.306 0)
+			(at 373.38 55.626 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21350,7 +21703,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 166.37 0)
+			(at 373.38 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21361,7 +21714,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 164.338 0)
+			(at 373.38 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21372,7 +21725,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 160.02 0)
+			(at 373.38 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21383,7 +21736,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 168.656 0)
+			(at 373.38 61.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21501,7 +21854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 67.31 0)
+		(at 313.69 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21511,7 +21864,7 @@
 		(dnp no)
 		(uuid "56d31f3a-2602-40c6-8583-9084841de09e")
 		(property "Reference" "#PWR0254"
-			(at 313.69 73.66 0)
+			(at 313.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21522,7 +21875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 71.12 0)
+			(at 313.69 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21532,7 +21885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 67.31 0)
+			(at 313.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21543,7 +21896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 67.31 0)
+			(at 313.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21554,7 +21907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 67.31 0)
+			(at 313.69 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21824,7 +22177,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 96.52 0)
+		(at 313.69 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21834,7 +22187,7 @@
 		(dnp no)
 		(uuid "5b9746cc-1851-4c47-ba8c-f7d9e8b678c8")
 		(property "Reference" "C27"
-			(at 314.198 94.234 0)
+			(at 314.198 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21845,7 +22198,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 99.06 0)
+			(at 314.198 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21856,7 +22209,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 110.236 0)
+			(at 313.69 107.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21867,7 +22220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 114.3 0)
+			(at 313.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21878,7 +22231,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 112.268 0)
+			(at 313.69 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21889,7 +22242,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 107.95 0)
+			(at 313.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21900,7 +22253,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 116.586 0)
+			(at 313.69 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22106,6 +22459,109 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
+		(at 373.38 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63c83c08-72c6-4f54-9c1d-65314d02dc48")
+		(property "Reference" "C34"
+			(at 373.888 75.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 373.888 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
+			(at 373.38 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
+			(at 373.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 373.38 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Kyocera 08051C104K4Z2A"
+			(at 373.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
+			(at 373.38 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b0d9c74-4c0c-4d0f-8cc1-d49d263b04ac")
+		)
+		(pin "2"
+			(uuid "623bfb83-c2bc-46af-a306-f0bac994b23a")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:Murata GCJ32ER71C226KE01L")
 		(at 167.64 60.96 0)
 		(unit 1)
@@ -22198,7 +22654,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 41.91 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -22228,7 +22684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 40.132 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -22239,7 +22695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22250,7 +22706,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 41.91 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22261,7 +22717,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 41.91 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -22382,7 +22838,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 101.6 0)
+		(at 313.69 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22392,7 +22848,7 @@
 		(dnp no)
 		(uuid "691ba005-3d15-4f71-81c3-6b011bb131ce")
 		(property "Reference" "#PWR0265"
-			(at 313.69 107.95 0)
+			(at 313.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22403,7 +22859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 105.41 0)
+			(at 313.69 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22413,7 +22869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 101.6 0)
+			(at 313.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22424,7 +22880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 101.6 0)
+			(at 313.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22435,7 +22891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 101.6 0)
+			(at 313.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22971,7 +23427,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 44.45 0)
+		(at 313.69 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22981,7 +23437,7 @@
 		(dnp no)
 		(uuid "709471b7-d7f2-44a6-bcc3-b7394ad351d8")
 		(property "Reference" "C24"
-			(at 314.198 42.164 0)
+			(at 314.198 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22992,7 +23448,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 46.99 0)
+			(at 314.198 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23003,7 +23459,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 58.166 0)
+			(at 313.69 55.626 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23014,7 +23470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 62.23 0)
+			(at 313.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23025,7 +23481,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 60.198 0)
+			(at 313.69 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23036,7 +23492,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 55.88 0)
+			(at 313.69 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23047,7 +23503,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 64.516 0)
+			(at 313.69 61.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23905,7 +24361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 118.11 0)
+		(at 313.69 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23915,7 +24371,7 @@
 		(dnp no)
 		(uuid "7dde8b32-89be-4c9a-8ec6-b89acdd28c22")
 		(property "Reference" "#PWR0266"
-			(at 313.69 124.46 0)
+			(at 313.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23926,7 +24382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 121.92 0)
+			(at 313.69 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23936,7 +24392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 118.11 0)
+			(at 313.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23947,7 +24403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 118.11 0)
+			(at 313.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,7 +24414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 118.11 0)
+			(at 313.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24342,7 +24798,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 78.74 0)
+		(at 313.69 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24352,7 +24808,7 @@
 		(dnp no)
 		(uuid "82080f7f-92e7-41b5-81ee-d633e3a29acd")
 		(property "Reference" "C26"
-			(at 314.198 76.454 0)
+			(at 314.198 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24363,7 +24819,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 81.28 0)
+			(at 314.198 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24374,7 +24830,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 92.456 0)
+			(at 313.69 89.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24385,7 +24841,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 96.52 0)
+			(at 313.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24396,7 +24852,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 94.488 0)
+			(at 313.69 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24407,7 +24863,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 90.17 0)
+			(at 313.69 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24418,7 +24874,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 98.806 0)
+			(at 313.69 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24625,7 +25081,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 130.81 0)
+		(at 373.38 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24635,7 +25091,7 @@
 		(dnp no)
 		(uuid "83d35f6e-55d0-4813-a3d9-265a4f7c6af4")
 		(property "Reference" "C29"
-			(at 314.198 128.524 0)
+			(at 373.888 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24646,7 +25102,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 133.35 0)
+			(at 373.888 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24657,7 +25113,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 144.526 0)
+			(at 373.38 37.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24668,7 +25124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 148.59 0)
+			(at 373.38 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24679,7 +25135,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 146.558 0)
+			(at 373.38 39.878 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24690,7 +25146,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 142.24 0)
+			(at 373.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24701,7 +25157,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 150.876 0)
+			(at 373.38 44.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25071,7 +25527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 36.83 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -25101,7 +25557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 35.052 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -25112,7 +25568,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 36.83 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -25123,7 +25579,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 36.83 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -25134,7 +25590,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 36.83 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -25264,7 +25720,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 25.4 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -25294,7 +25750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 23.622 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -25305,7 +25761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25316,7 +25772,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25327,7 +25783,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 25.4 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -25430,7 +25886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 62.23 236.22 0)
 		(unit 1)
 		(body_style 1)
@@ -25460,7 +25916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 60.452 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -25471,7 +25927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 62.23 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25482,7 +25938,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 62.23 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -25493,7 +25949,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 62.23 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -25813,8 +26269,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 22.86 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25824,7 +26280,7 @@
 		(dnp no)
 		(uuid "94ebdb3e-dd98-4d7a-9545-14e2891847bc")
 		(property "Reference" "R32"
-			(at 307.34 22.86 0)
+			(at 307.34 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25834,7 +26290,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 25.146 0)
+			(at 307.34 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25843,8 +26299,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 30.226 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 27.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25854,30 +26310,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 29.972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 32.512 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 35.052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26237,8 +26693,117 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:STM M24512-DRMN8TP/K")
+		(at 218.44 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98640474-4fb6-4ace-be73-f797e3e37296")
+		(property "Reference" "ROM1"
+			(at 218.44 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M24512"
+			(at 218.44 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:STM M24512"
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/9f/b1/6f/6d/89/91/4b/b5/DM00149697.pdf/files/DM00149697.pdf/jcr:content/translations/en.DM00149697.pdf"
+			(at 218.44 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EEPROM Memory IC 512Kbit I2C 1 MHz 450 ns 8-SOIC"
+			(at 218.44 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "STM M24512-DRMN8TP/K"
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "741844b5-7a81-4364-ac38-dffffc1e7ebe")
+		)
+		(pin "2"
+			(uuid "dd9bbb89-45cc-458c-a11f-1f1930922e89")
+		)
+		(pin "5"
+			(uuid "307dc122-517f-420f-829b-2447b94c5634")
+		)
+		(pin "3"
+			(uuid "92cc129f-b9bd-49e7-b9bf-3a2b2c83957f")
+		)
+		(pin "6"
+			(uuid "3eed21c5-1d47-4165-ace5-c1a12acbf365")
+		)
+		(pin "7"
+			(uuid "78b7cfc0-c188-48ef-b14f-9f3e855b6e54")
+		)
+		(pin "4"
+			(uuid "9b0c9425-c85c-401f-bd27-03b13b311b4d")
+		)
+		(pin "1"
+			(uuid "378eb275-a9be-4fd6-82ef-cc8e973594ea")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "ROM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 313.69 135.89 0)
+		(at 373.38 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26248,7 +26813,7 @@
 		(dnp no)
 		(uuid "9a42e54d-323d-4dc8-8d64-96ce60cc0564")
 		(property "Reference" "#PWR0267"
-			(at 313.69 142.24 0)
+			(at 373.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26259,7 +26824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 139.7 0)
+			(at 373.38 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26269,7 +26834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 135.89 0)
+			(at 373.38 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26280,7 +26845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 135.89 0)
+			(at 373.38 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26291,7 +26856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 135.89 0)
+			(at 373.38 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26742,7 +27307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 36.83 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -26772,7 +27337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 35.052 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -26783,7 +27348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 36.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26794,7 +27359,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 36.83 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -26805,7 +27370,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 36.83 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -27062,8 +27627,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 109.22 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27073,7 +27638,7 @@
 		(dnp no)
 		(uuid "a8480f50-f8a0-4c8e-8a95-c5413f02b61b")
 		(property "Reference" "R37"
-			(at 307.34 109.22 0)
+			(at 307.34 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27083,7 +27648,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 111.506 0)
+			(at 307.34 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27092,8 +27657,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 116.586 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27103,30 +27668,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 118.872 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27361,7 +27926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD5K11")
+		(lib_id "mr-parts:Vishay RCA08055K10FKEA")
 		(at 167.64 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -27381,7 +27946,7 @@
 				)
 			)
 		)
-		(property "Value" "5.11kR"
+		(property "Value" "5.1kR"
 			(at 167.64 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27391,7 +27956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Vishay RCA e3"
 			(at 167.64 164.338 0)
 			(hide yes)
 			(show_name no)
@@ -27402,7 +27967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
 			(at 167.64 166.624 0)
 			(hide yes)
 			(show_name no)
@@ -27413,7 +27978,7 @@
 				)
 			)
 		)
-		(property "Description" "5.11 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 167.64 162.052 0)
 			(hide yes)
 			(show_name no)
@@ -27424,7 +27989,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD5K11"
+		(property "Part" "Vishay RCA08055K10FKEA"
 			(at 167.64 159.766 0)
 			(hide yes)
 			(show_name no)
@@ -28115,7 +28680,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 62.23 0)
+		(at 313.69 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28125,7 +28690,7 @@
 		(dnp no)
 		(uuid "ae32651e-1c59-4d04-9b15-1378bb94fac6")
 		(property "Reference" "C25"
-			(at 314.198 59.944 0)
+			(at 314.198 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28136,7 +28701,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 64.77 0)
+			(at 314.198 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28147,7 +28712,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 75.946 0)
+			(at 313.69 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28158,7 +28723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 80.01 0)
+			(at 313.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28169,7 +28734,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 77.978 0)
+			(at 313.69 75.438 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28180,7 +28745,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 73.66 0)
+			(at 313.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28191,7 +28756,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 82.296 0)
+			(at 313.69 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28539,8 +29104,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 162.56 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28550,7 +29115,7 @@
 		(dnp no)
 		(uuid "b14f6534-d3a2-48ef-868a-30db0c82f194")
 		(property "Reference" "R40"
-			(at 307.34 162.56 0)
+			(at 367.03 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28560,7 +29125,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 164.846 0)
+			(at 367.03 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28569,8 +29134,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 169.926 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 63.246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28580,8 +29145,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 307.34 172.212 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28591,8 +29156,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 167.64 0)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28602,8 +29167,8 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 174.752 0)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 68.072 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28623,6 +29188,160 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b22568b0-677f-4275-8ec2-d0e74bfdb2ed")
+		(property "Reference" "#PWR0274"
+			(at 373.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb781236-3a8b-40ab-8a7f-26157b278428")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3380cb8-22e8-4b1b-bc76-792b806b594f")
+		(property "Reference" "#PWR0272"
+			(at 373.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323398d9-b3c0-4b3d-9da8-f7349b3d5f9b")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -28716,6 +29435,115 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "TVS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:STM M24512-DRMN8TP/K")
+		(at 218.44 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b52187b7-be55-4dbc-803b-75fe36bb5dac")
+		(property "Reference" "ROM2"
+			(at 218.44 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M24512"
+			(at 218.44 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:STM M24512"
+			(at 218.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/9f/b1/6f/6d/89/91/4b/b5/DM00149697.pdf/files/DM00149697.pdf/jcr:content/translations/en.DM00149697.pdf"
+			(at 218.44 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EEPROM Memory IC 512Kbit I2C 1 MHz 450 ns 8-SOIC"
+			(at 218.44 124.206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "STM M24512-DRMN8TP/K"
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "af193ee2-f31f-464d-9fca-2485794be7bb")
+		)
+		(pin "2"
+			(uuid "01b128a1-b2bf-4841-a333-6a88ce03ef6f")
+		)
+		(pin "5"
+			(uuid "e09fc096-5976-4a0b-ae21-08bb565dabc0")
+		)
+		(pin "3"
+			(uuid "bcf9611b-8ba1-4e65-9f44-2a606163f053")
+		)
+		(pin "6"
+			(uuid "3e524516-143e-4be5-9c13-fe629a3baa75")
+		)
+		(pin "7"
+			(uuid "24ddbc01-b5c8-4f99-8ec7-9945389c7678")
+		)
+		(pin "4"
+			(uuid "6985d753-04f3-4511-8c07-a59c605060bf")
+		)
+		(pin "1"
+			(uuid "446a1b26-0adc-42a8-8dd4-b980dedeba33")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "ROM2")
 					(unit 1)
 				)
 			)
@@ -29214,6 +30042,109 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
+		(at 373.38 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2063866-1c63-4fe3-9873-b71c606c1f72")
+		(property "Reference" "C36"
+			(at 373.888 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 373.888 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
+			(at 373.38 141.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
+			(at 373.38 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 373.38 144.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Kyocera 08051C104K4Z2A"
+			(at 373.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
+			(at 373.38 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f64ebb7a-c18d-40ba-ab20-d51faf7674ff")
+		)
+		(pin "2"
+			(uuid "1a122cf3-7e61-4a5b-bf6e-5158a6abf878")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -29741,7 +30672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 49.53 0)
+		(at 313.69 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29751,7 +30682,7 @@
 		(dnp no)
 		(uuid "ce578288-8afe-4cdb-bd87-084d2df9aa89")
 		(property "Reference" "#PWR0252"
-			(at 313.69 55.88 0)
+			(at 313.69 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29762,7 +30693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 53.34 0)
+			(at 313.69 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29772,7 +30703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 49.53 0)
+			(at 313.69 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29783,7 +30714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 49.53 0)
+			(at 313.69 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29794,7 +30725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 49.53 0)
+			(at 313.69 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29817,8 +30748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 92.71 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29828,7 +30759,7 @@
 		(dnp no)
 		(uuid "d0528705-7df7-4c32-aaee-7f8d0ee3ae85")
 		(property "Reference" "R36"
-			(at 307.34 92.71 0)
+			(at 307.34 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29838,7 +30769,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 94.996 0)
+			(at 307.34 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29847,8 +30778,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 100.076 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29858,30 +30789,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 99.822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 102.362 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30000,7 +30931,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 113.03 0)
+		(at 313.69 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30010,7 +30941,7 @@
 		(dnp no)
 		(uuid "d3380a0e-5114-4cee-a504-252bf5ddd75a")
 		(property "Reference" "C28"
-			(at 314.198 110.744 0)
+			(at 314.198 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30021,7 +30952,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 115.57 0)
+			(at 314.198 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30032,7 +30963,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 126.746 0)
+			(at 313.69 124.206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30043,7 +30974,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 130.81 0)
+			(at 313.69 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30054,7 +30985,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 128.778 0)
+			(at 313.69 126.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30065,7 +30996,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 124.46 0)
+			(at 313.69 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30076,7 +31007,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 133.096 0)
+			(at 313.69 130.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30103,7 +31034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 189.23 0)
+		(at 373.38 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30113,7 +31044,7 @@
 		(dnp no)
 		(uuid "d4bb91fd-2550-471c-8918-4aad208a4e7b")
 		(property "Reference" "#PWR0270"
-			(at 313.69 195.58 0)
+			(at 373.38 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30124,7 +31055,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 193.04 0)
+			(at 373.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30134,7 +31065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 189.23 0)
+			(at 373.38 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30145,7 +31076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 189.23 0)
+			(at 373.38 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30156,7 +31087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 189.23 0)
+			(at 373.38 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30585,7 +31516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 95.25 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -30615,7 +31546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 93.472 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -30626,7 +31557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 95.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -30637,7 +31568,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 95.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -30648,7 +31579,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 95.25 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -30752,7 +31683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD10K0")
+		(lib_id "mr-parts:Stackpole RMCA0805FT10K0-HP")
 		(at 205.74 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -30782,7 +31713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 203.962 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -30793,7 +31724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 205.74 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -30804,7 +31735,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 205.74 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -30815,7 +31746,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD10K0"
+		(property "Part" "Stackpole RMCA0805FT10K0-HP"
 			(at 205.74 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -31239,6 +32170,109 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
+		(at 373.38 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1c09177-2e86-45e3-aea1-c294816e5839")
+		(property "Reference" "C35"
+			(at 373.888 108.204 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 373.888 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
+			(at 373.38 124.206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
+			(at 373.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 373.38 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Kyocera 08051C104K4Z2A"
+			(at 373.38 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
+			(at 373.38 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ed951b8-be46-461c-b2de-faa198598b44")
+		)
+		(pin "2"
+			(uuid "cb29a773-0940-4c48-a5ca-d8d137c6c1b4")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:TDK CGA5L1X7R1H106K160AE")
 		(at 129.54 52.07 0)
 		(unit 1)
@@ -31331,8 +32365,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 127 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31342,7 +32376,7 @@
 		(dnp no)
 		(uuid "e41051cf-f721-4aa7-9e58-d48ccb7233bf")
 		(property "Reference" "R38"
-			(at 307.34 127 0)
+			(at 367.03 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31352,7 +32386,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 129.286 0)
+			(at 367.03 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31361,8 +32395,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 134.366 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 27.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31372,8 +32406,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 307.34 136.652 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 29.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31383,8 +32417,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 132.08 0)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31394,8 +32428,8 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 139.192 0)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 32.512 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31512,8 +32546,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 180.34 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31523,7 +32557,7 @@
 		(dnp no)
 		(uuid "e52730d9-54a6-45f1-a4a1-7ac6d357d468")
 		(property "Reference" "R41"
-			(at 307.34 180.34 0)
+			(at 367.03 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31533,7 +32567,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 182.626 0)
+			(at 367.03 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31542,8 +32576,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 187.706 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31553,8 +32587,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
-			(at 307.34 189.992 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31564,8 +32598,8 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 185.42 0)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31575,8 +32609,8 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 192.532 0)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 102.362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31603,7 +32637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 83.82 0)
+		(at 313.69 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31613,7 +32647,7 @@
 		(dnp no)
 		(uuid "e6034385-2260-4888-8d67-0e931a29a2c8")
 		(property "Reference" "#PWR0264"
-			(at 313.69 90.17 0)
+			(at 313.69 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31624,7 +32658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 87.63 0)
+			(at 313.69 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31634,7 +32668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 83.82 0)
+			(at 313.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31645,7 +32679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 83.82 0)
+			(at 313.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31656,7 +32690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 83.82 0)
+			(at 313.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32119,6 +33153,96 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 367.03 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1da0843-724c-4c47-8784-db5616594db0")
+		(property "Reference" "R48"
+			(at 367.03 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 367.03 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 367.03 131.826 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 367.03 134.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 367.03 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
+			(at 367.03 136.652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b29243fd-9daa-443f-86ae-d4b449eea8b1")
+		)
+		(pin "2"
+			(uuid "05387885-9ce5-4522-ac69-14983f718e4e")
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 67.31 0)
 		(unit 1)
@@ -32273,8 +33397,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD100R")
-		(at 307.34 40.64 0)
+		(lib_id "mr-parts:Stackpole RMCA0805FT100R-HP")
+		(at 307.34 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32284,7 +33408,7 @@
 		(dnp no)
 		(uuid "f4472886-96a8-4273-b000-6bdf9837dd00")
 		(property "Reference" "R33"
-			(at 307.34 40.64 0)
+			(at 307.34 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32294,7 +33418,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 307.34 42.926 0)
+			(at 307.34 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32303,8 +33427,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
-			(at 307.34 48.006 0)
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
+			(at 307.34 45.466 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32314,30 +33438,30 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
+			(at 307.34 47.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
+			(at 307.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "Stackpole RMCA0805FT100R-HP"
 			(at 307.34 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
-			(at 307.34 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "Stackpole RNCP0805FTD100R"
-			(at 307.34 52.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32363,7 +33487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Stackpole RNCP0805FTD475R")
+		(lib_id "mr-parts:Stackpole RMCA0805FT470R-HP")
 		(at 248.92 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -32383,7 +33507,7 @@
 				)
 			)
 		)
-		(property "Value" "475R"
+		(property "Value" "470R"
 			(at 248.92 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32393,7 +33517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Stackpole RNCP0805"
+		(property "Footprint" "mr-stuff:Stackpole RMCA0805"
 			(at 248.92 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -32404,7 +33528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCA.pdf"
 			(at 248.92 152.654 0)
 			(hide yes)
 			(show_name no)
@@ -32415,7 +33539,7 @@
 				)
 			)
 		)
-		(property "Description" "475 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film"
+		(property "Description" "470 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
 			(at 248.92 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -32426,7 +33550,7 @@
 				)
 			)
 		)
-		(property "Part" "Stackpole RNCP0805FTD475R"
+		(property "Part" "Stackpole RMCA0805FT470R-HP"
 			(at 248.92 145.796 0)
 			(hide yes)
 			(show_name no)
@@ -32454,7 +33578,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 184.15 0)
+		(at 373.38 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32464,7 +33588,7 @@
 		(dnp no)
 		(uuid "f46807e1-4b45-4dc1-81b0-d375b54726f1")
 		(property "Reference" "C32"
-			(at 314.198 181.864 0)
+			(at 373.888 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32475,7 +33599,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 186.69 0)
+			(at 373.888 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32486,7 +33610,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 197.866 0)
+			(at 373.38 107.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32497,7 +33621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 201.93 0)
+			(at 373.38 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32508,7 +33632,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 199.898 0)
+			(at 373.38 109.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32519,7 +33643,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 195.58 0)
+			(at 373.38 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32530,7 +33654,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 204.216 0)
+			(at 373.38 114.046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32804,7 +33928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 208.28 0)
+		(at 313.69 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32814,7 +33938,7 @@
 		(dnp no)
 		(uuid "fc0db1f4-9883-42dd-8ed7-acc4283e3923")
 		(property "Reference" "#PWR0271"
-			(at 313.69 214.63 0)
+			(at 313.69 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32825,7 +33949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 212.09 0)
+			(at 313.69 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32835,7 +33959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 208.28 0)
+			(at 313.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32846,7 +33970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 208.28 0)
+			(at 313.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32857,7 +33981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 208.28 0)
+			(at 313.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32958,7 +34082,7 @@
 	)
 	(symbol
 		(lib_id "mr-parts:Kyocera 08051C104K4Z2A")
-		(at 313.69 26.67 0)
+		(at 313.69 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32968,7 +34092,7 @@
 		(dnp no)
 		(uuid "ff2d5e7d-7fd3-4890-8b28-e60e170b777f")
 		(property "Reference" "C23"
-			(at 314.198 24.384 0)
+			(at 314.198 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32979,7 +34103,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 314.198 29.21 0)
+			(at 314.198 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32990,7 +34114,7 @@
 			)
 		)
 		(property "Footprint" "mr-stuff:Kyocera AVX 0805"
-			(at 313.69 40.386 0)
+			(at 313.69 37.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33001,7 +34125,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.waldomemea.com/productfiles/mf-avx/avx-06035c331k4z2a-58994113.pdf"
-			(at 313.69 44.45 0)
+			(at 313.69 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33012,7 +34136,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 313.69 42.418 0)
+			(at 313.69 39.878 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33023,7 +34147,7 @@
 			)
 		)
 		(property "Part" "Kyocera 08051C104K4Z2A"
-			(at 313.69 38.1 0)
+			(at 313.69 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33034,7 +34158,7 @@
 			)
 		)
 		(property "Datasheet2" "https://spicat.kyocera-avx.com/datasheet/08051C104K4Z2A"
-			(at 313.69 46.736 0)
+			(at 313.69 44.196 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
