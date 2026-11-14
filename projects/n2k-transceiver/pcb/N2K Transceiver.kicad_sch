@@ -8859,7 +8859,7 @@
 	)
 	(rectangle
 		(start 203.2 166.37)
-		(end 243.205 194.31)
+		(end 243.205 204.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -14632,16 +14632,6 @@
 		)
 		(uuid "053490d4-4c0c-441e-a0d2-fc851ece655d")
 	)
-	(label "LOCATE_ON_IN"
-		(at 33.02 207.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0759b2be-120d-4b89-a402-bdb2e2e24cb2")
-	)
 	(label "BEACON_ON_IN"
 		(at 379.73 55.88 0)
 		(effects
@@ -14922,6 +14912,16 @@
 		)
 		(uuid "41fd7ad4-7134-4b1f-afaa-b8cd15133259")
 	)
+	(label "LED_OFF_IN"
+		(at 33.02 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42b1a16c-d519-4f5e-b32a-a12486219c34")
+	)
 	(label "N2K_RX_LED"
 		(at 54.61 129.54 180)
 		(effects
@@ -15021,16 +15021,6 @@
 			(justify left bottom)
 		)
 		(uuid "5040d01f-8c85-4291-8946-8cd13c8a85ca")
-	)
-	(label "LED_OFF_IN"
-		(at 33.02 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "509a7930-2c6d-4e66-8267-46d8037a5612")
 	)
 	(label "LED_ON_PLUG"
 		(at 302.26 124.46 180)
@@ -15262,6 +15252,16 @@
 		)
 		(uuid "7741d141-6761-4320-9cab-ef9156687bae")
 	)
+	(label "LOCATE_OFF_IN"
+		(at 33.02 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d88f162-7108-4db8-b97f-f47262f6fca4")
+	)
 	(label "ANCHOR_OFF_IN"
 		(at 320.04 38.1 0)
 		(effects
@@ -15472,6 +15472,16 @@
 		)
 		(uuid "a35a349b-3832-4664-bc47-f95a88cc2129")
 	)
+	(label "LED_ON_IN"
+		(at 33.02 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a79bc309-b1ac-44f2-9d13-5da6ee2a6bd8")
+	)
 	(label "WIFI_UP_LED"
 		(at 203.2 140.97 180)
 		(effects
@@ -15491,16 +15501,6 @@
 			(justify right bottom)
 		)
 		(uuid "a7e394f5-459a-4852-9e7b-89046a220956")
-	)
-	(label "LED_ON_IN"
-		(at 33.02 201.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8ed0d16-8c91-4e1c-8b08-d9a50ae8fb29")
 	)
 	(label "ROM1_WP"
 		(at 199.39 92.71 180)
@@ -15571,6 +15571,16 @@
 			(justify left bottom)
 		)
 		(uuid "af4a0323-2d9f-454e-8fd3-2df091f73d78")
+	)
+	(label "LOCATE_ON_IN"
+		(at 33.02 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2249b1f-187a-40e2-8d1c-a3a5fc579527")
 	)
 	(label "JTAG_TCK"
 		(at 90.17 132.08 0)
@@ -15911,16 +15921,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6e9d9a1-37a0-4d09-bfbf-4ce04d2a20de")
-	)
-	(label "LOCATE_OFF_IN"
-		(at 33.02 209.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f9e26adc-7646-4ebe-a2d4-44ab16a26155")
 	)
 	(label "STEAMING_OFF_PLUG"
 		(at 302.26 106.68 180)
@@ -25544,6 +25544,80 @@
 		)
 	)
 	(symbol
+		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
+		(at 231.14 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "89d4db01-75c2-4312-9fcd-e366b6e066a5")
+		(property "Reference" "ZT3"
+			(at 234.95 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 231.14 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
+			(at 231.14 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "ZT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mr-parts:WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter")
 		(at 95.25 60.96 0)
 		(unit 1)
@@ -31630,6 +31704,80 @@
 			(project "N2K Transceiver"
 				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
 					(reference "USBRV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mr-parts:Tuskar Ziptie slot 4.5x2mm")
+		(at 231.14 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "da98f6e7-ab54-40af-a474-9988e01c29de")
+		(property "Reference" "ZT4"
+			(at 235.204 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 231.14 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mr-stuff:Tuskar Ziptie Slot 4.5x2mm"
+			(at 231.14 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "N2K Transceiver"
+				(path "/2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
+					(reference "ZT4")
 					(unit 1)
 				)
 			)

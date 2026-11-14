@@ -1,1 +1,17 @@
 (version 1)
+
+(rule "HV minimum track width"
+  (condition "A.hasNetclass('HV')")
+  (constraint track_width (min 0.5mm)))
+
+(rule "HV clearance to fine-pitch IC pads"
+  (condition "A.hasNetclass('HV') && (B.memberOfFootprint('SMI1') || B.memberOfFootprint('VR1'))")
+  (constraint clearance (min 0.15mm)))
+
+(rule "HV pads of fine-pitch ICs"
+  (condition "A.hasNetclass('HV') && (A.memberOfFootprint('SMI1') || A.memberOfFootprint('VR1'))")
+  (constraint clearance (min 0.15mm)))
+
+(rule "HV fan-out beside fine-pitch neighbours"
+  (condition "(A.NetName == 'V_OUT' && B.NetName == '/ANCHOR_ON_IN') || (A.NetName == '/VR1_VIN' && (B.NetName == 'Net-(VR1-EN)' || B.NetName == '+3.3V'))")
+  (constraint clearance (min 0.15mm)))
