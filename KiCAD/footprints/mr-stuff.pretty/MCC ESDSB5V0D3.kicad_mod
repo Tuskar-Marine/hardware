@@ -6,9 +6,9 @@
 	(descr "SOD-323_2023")
 	(tags "TVS Diode (Bi-directional)")
 	(property "Reference" "REF**"
-		(at 0 -1.5 0)
+		(at 0 -1.2 0)
 		(layer "F.SilkS")
-		(uuid "badde3b0-35d9-482f-a32f-b23395f9b876")
+		(uuid "7a2b6c08-6f80-4789-a916-5361aaae2d01")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -21,7 +21,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "06f8648b-85d3-4ff0-87a0-518df1b2d271")
+		(uuid "4b1d077c-57ae-4d13-98e6-9c4a54e81e02")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "96e565d0-aacf-4360-8e1e-da14e4b058b3")
+		(uuid "d8009077-ecb6-44f8-9386-3a93944086fe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e6bed333-ceec-480f-8d44-19c94714488f")
+		(uuid "f3adf442-23ab-40a4-bfd3-1bd6875b9021")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,24 +54,34 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.9 -0.625)
-		(end 0.85 -0.625)
+		(start -0.85 -0.625)
+		(end 0.9 -0.625)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "31ee5ebb-ad00-49b8-a639-2b843e3220c7")
+		(uuid "e4af7509-0166-42b3-86d3-985a93c883b6")
+	)
+	(fp_line
+		(start -0.85 -0.35)
+		(end -0.85 -0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f007232-da91-4859-ae32-761070e0c8db")
 	)
 	(fp_line
 		(start -0.85 0.625)
 		(end 0.85 0.625)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "29d88bce-e02c-4b9f-b31c-700096f97939")
+		(uuid "3100cd10-e817-40dc-a445-ce2eb493ce9a")
 	)
 	(fp_line
 		(start -1.975 -1.15)
@@ -81,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e27ac939-93a8-48f8-8c37-a26c99b0adb0")
+		(uuid "71332e9e-9fb0-48b0-96d3-c0351e049700")
 	)
 	(fp_line
 		(start -1.975 1.15)
@@ -91,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "544e3179-27e9-4526-8cfd-2626e16cf8c1")
+		(uuid "ac0ff325-cc08-49c2-bf31-d4297a8cbb1c")
 	)
 	(fp_line
 		(start 1.975 -1.15)
@@ -101,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "064dae29-1738-4851-bd51-1bd8da669822")
+		(uuid "b6f1f053-3ad1-447d-8ef6-84b099e8b462")
 	)
 	(fp_line
 		(start 1.975 1.15)
@@ -111,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "203cc243-578a-446b-823a-11be333fe99a")
+		(uuid "ce34f599-7f58-4d5d-99c2-ab63c1f17a7d")
 	)
 	(fp_line
 		(start -0.85 -0.625)
@@ -121,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9b3cbae1-e72d-4986-9024-0f00c9442170")
+		(uuid "f27b0d63-3ac4-4db5-a9ef-43d9031ba487")
 	)
 	(fp_line
 		(start -0.85 -0.075)
@@ -131,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c818714c-1874-4c96-a4c3-e3c5207ae951")
+		(uuid "9d355d87-5b90-405b-aaec-bdf6306528d3")
 	)
 	(fp_line
 		(start -0.85 0.625)
@@ -141,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8f586d3d-2747-4a48-adbc-3adef723bc9f")
+		(uuid "cf01b739-0245-4126-89b3-8673968a7b1c")
 	)
 	(fp_line
 		(start 0.85 -0.625)
@@ -151,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "54eca48a-a4c2-4d9d-8f00-0790e6865665")
+		(uuid "74ef3ace-26bb-49d9-bc66-54448c4da1c0")
 	)
 	(fp_line
 		(start 0.85 0.625)
@@ -161,12 +171,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bec1e41c-1cef-4bf0-93f0-ca88deec921b")
+		(uuid "7e3acca4-1eeb-4524-9526-3dee3d77aa52")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.5 0)
 		(layer "F.Fab")
-		(uuid "646ad0ad-e3db-4967-bf3d-d28967deb3e8")
+		(uuid "e212a898-7876-4ae0-98ea-76796c4d6a71")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -179,13 +189,13 @@
 		(at -1.15 0 90)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9327d9f0-74c8-4421-89db-69ea838f5f37")
+		(uuid "4fb8966b-efeb-4377-baec-2ebf85db600c")
 	)
 	(pad "2" smd rect
 		(at 1.15 0 90)
 		(size 0.5 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2d26a5dd-0a48-42c9-bdfe-f9780082f72f")
+		(uuid "0cbba155-162a-44f3-a577-ed864060a4c7")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/MCC ESDSB5V0D3/ESDSB5V0D3BHE3-TP.stp"

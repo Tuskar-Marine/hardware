@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "Forward, Push-Pull Converters For For DC/DC Converters SMPS Transformer 1:1.3 turns 2500VAC Isolation 10kHz Surface Mount")
 	(property "Reference" "REF**"
-		(at 0 -4.635 0)
+		(at 0 -4.3 0)
 		(layer "F.SilkS")
-		(uuid "f9d1a123-88c3-4955-b947-b5d92fec3d57")
+		(uuid "2388642c-d4fa-46b6-81d7-d35c5f3d8511")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "Wurth 760390014"
 		(at 0 4.765 0)
 		(layer "F.Fab")
-		(uuid "cdefe065-93b5-431a-9055-2e66f99a2530")
+		(uuid "ec6ff662-48fb-4a11-8e77-9b7c3340e345")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e6950c7a-e804-4f4b-a42b-980ab8e9b14f")
+		(uuid "822ea637-29a6-4dc1-97e5-bdc24b91a3e3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aa76ac08-5ff1-4bf6-9110-13be22f66935")
+		(uuid "8d38d376-2855-4b1a-a450-50ed45f49eb6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8ac02abb-3e09-4a1e-9b91-e2c6099f04de")
+		(uuid "b3362061-27a0-4b3e-a244-d78b65c5c4bd")
 	)
 	(fp_line
 		(start -3.67 3.465)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c84507c6-279d-402e-aa53-0cbd9d728478")
+		(uuid "244857a7-3d13-4134-842a-3eacc4f5b934")
 	)
 	(fp_line
 		(start 3.67 -3.465)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "07495a99-bd41-4d49-867e-7d90348f1a43")
+		(uuid "b8c0b0d6-a238-4512-9d33-779a07e82926")
 	)
 	(fp_line
 		(start 3.67 3.465)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "38ffbf50-b294-4a2f-8137-06a1a6a5739b")
+		(uuid "05848a4b-993f-41b1-86c3-9d404c41e63b")
 	)
 	(fp_poly
 		(pts
@@ -100,7 +100,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9f139516-6a84-4422-849e-be04e1efb444")
+		(uuid "073d5ea6-b70a-4c23-9660-e15bbb958d31")
 	)
 	(fp_line
 		(start -3.57 -3.365)
@@ -110,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ad7d1372-016a-46f4-8b9e-b39974c0f1e5")
+		(uuid "0e05c067-9022-433e-93cd-26c66869cd5a")
 	)
 	(fp_line
 		(start -3.57 3.365)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c2756795-d34f-4f6d-91b6-e849e6da7450")
+		(uuid "f8eb19f8-b0c8-4b48-802a-84bedbab9067")
 	)
 	(fp_line
 		(start 3.57 -3.365)
@@ -130,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0a360fcb-5dc9-4ab9-ba0f-d4052b8017d5")
+		(uuid "55c1adf9-9f5b-4b00-b58a-2d0d87e51588")
 	)
 	(fp_line
 		(start 3.57 3.365)
@@ -140,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c8ccabc2-f852-4242-9117-e22d615b0de6")
+		(uuid "fb45326a-5758-4961-8c24-2ebb821af753")
 	)
 	(fp_circle
 		(center -2.8765 -2.5825)
@@ -151,13 +151,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ef6e9bf8-c98c-4a63-85a7-8c5442d54fe2")
+		(uuid "40986feb-de7c-4b53-9a11-1e56ff8ce11a")
 	)
 	(fp_text user "*"
 		(at -4.6 -3.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ae2f32f5-e781-4910-991e-5d08eebbdeb4")
+		(uuid "4c9767a4-e0de-4c76-b551-5d2595d300ac")
 		(effects
 			(font
 				(size 1 1)
@@ -170,42 +170,42 @@
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "fdeb4181-24d1-41cd-9ba3-04a75da46079")
+		(uuid "860f392b-be74-4667-ad9f-cb5140dc71ad")
 	)
 	(pad "2" smd rect
 		(at -4.57 0)
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "2294acfd-a078-4b7d-92b2-f85fc74b7e66")
+		(uuid "24b15f24-5fee-4e62-9ad5-82c8ef2b0680")
 	)
 	(pad "3" smd rect
 		(at -4.57 2.54)
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "b16d1f6b-9512-4b24-8ccf-755438c26c98")
+		(uuid "e2089bff-1022-4be3-89d8-003ddf14f223")
 	)
 	(pad "4" smd rect
 		(at 4.57 2.54)
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "cc9c421a-86ae-4094-8b8a-a23d3f6da4c0")
+		(uuid "2058afcb-64b7-4822-85cf-38dc7deea088")
 	)
 	(pad "5" smd rect
 		(at 4.57 0)
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "51d7bf8e-0ead-427b-a442-683a6c95c648")
+		(uuid "4ea57e8e-46d8-4a60-815b-8e2dce07a5ac")
 	)
 	(pad "6" smd rect
 		(at 4.57 -2.54)
 		(size 1.12 0.96)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "e307b390-674b-4e34-9580-3d591b2a916b")
+		(uuid "32c9dcdf-c4d8-4d45-93df-8c104bbc8ec1")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Wurth 760390014/WE-PPTI_1006.step"

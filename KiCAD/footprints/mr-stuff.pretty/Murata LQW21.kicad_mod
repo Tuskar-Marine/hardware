@@ -5,21 +5,20 @@
 	(layer "F.Cu")
 	(descr "Wire Wound Ferrite Inductor for Power Lines For Automotive")
 	(property "Reference" "REF**"
-		(at 0 -1.35 0)
+		(at 0 -1.55 0)
 		(layer "F.SilkS")
-		(uuid "b31e6fdf-385e-43ca-a240-85175f03cb1b")
+		(uuid "4eaa4e0f-8cae-4e80-9f01-c2e84542e4ba")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "Murata LQW21"
 		(at 0 1.95 0)
 		(layer "F.Fab")
-		(uuid "b5c8f500-cb56-450c-b40f-6ffdca7c0664")
+		(uuid "37126df9-4ca2-43cb-bc1c-e737060567b4")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf315568-1d2e-490b-bb6d-97646689264d")
+		(uuid "7594eb61-3b82-46d5-b361-f52df000a44b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "74290082-4120-4a92-87f4-263158097a1f")
+		(uuid "cc3e1154-cf8b-4612-a6d4-03d38b4c1768")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,24 +51,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.1 -0.85)
-		(end 1.1 -0.85)
+		(start -0.35 -0.6)
+		(end 0.35 -0.6)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "11d480c7-0472-473c-846a-c1a38c1708ad")
+		(uuid "832b7515-a481-4c68-a3f6-3e841ed0ac66")
 	)
 	(fp_line
-		(start -1.1 0.85)
-		(end 1.1 0.85)
+		(start -0.35 0.6)
+		(end 0.35 0.6)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae1409bc-69f1-4b57-92de-949d98552d84")
+		(uuid "0e2ed9d5-fdea-496a-b22a-f7172950071e")
 	)
 	(fp_line
 		(start -1.31 -0.8)
@@ -79,7 +78,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "309f8951-bedf-4ab7-9c79-74aa325ebe46")
+		(uuid "0d075ae4-6a71-40b6-9f06-d36705822dcb")
 	)
 	(fp_line
 		(start -1.31 0.8)
@@ -89,7 +88,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "1e9bca80-c22d-4a0b-baf9-cd0da34ce7d7")
+		(uuid "621f6642-70df-4e3d-88c2-ac48bf2abf95")
 	)
 	(fp_line
 		(start 1.31 -0.8)
@@ -99,7 +98,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "07cd904d-76c5-4ab2-916d-7a47c17fe63f")
+		(uuid "dba8f5e3-48f0-484a-af37-0dd30afd5adb")
 	)
 	(fp_line
 		(start 1.31 0.8)
@@ -109,7 +108,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "73086b95-32c8-4ec8-95db-45be7d365dab")
+		(uuid "383f00a4-5198-41a6-a8fe-1eced9bd6b83")
 	)
 	(fp_rect
 		(start -1.5 -1)
@@ -120,21 +119,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7a945bbd-8207-4c44-8c21-d72f9b41e49e")
+		(uuid "038662d8-2613-4015-a9ed-4fc0c5f7fe22")
 	)
 	(pad "1" smd rect
 		(at -0.88 0)
 		(size 0.66 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "7ed487b5-3ef0-43e4-aaf4-7de4cd235690")
+		(uuid "12cfbbe7-5640-41cd-8ef4-094c74e40792")
 	)
 	(pad "2" smd rect
 		(at 0.88 0)
 		(size 0.66 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "91259f0b-7064-4dc2-9d61-3bd3d0cb50a1")
+		(uuid "9994fc8b-2366-46e7-b05d-323f0494bf00")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Murata LQW21/LQW21FT1R5M0HL.STEP"

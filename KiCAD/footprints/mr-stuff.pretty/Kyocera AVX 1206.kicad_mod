@@ -4,9 +4,9 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -1.7 0)
 		(layer "F.SilkS")
-		(uuid "ab5acdfd-f6ea-4f19-8820-17a9e83714b8")
+		(uuid "25a8cc03-4df4-472f-9284-ee1cfbb7c5a2")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "Kyocera AVX 1206"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "f63e0ff4-eced-4e6e-83e5-a763c1800163")
+		(uuid "40f11813-5f0f-4bff-bab1-d8494fd6ec0d")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ecd50ae-5cba-4306-a2c0-7f340630af79")
+		(uuid "1ac6a961-c19d-4843-b128-ed932cf47d24")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bb7d1e7a-8ea0-43d9-aaaf-d698604b27e7")
+		(uuid "3e3b06a1-a731-4ce0-a651-54f290e483cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b34016ab-a455-46d4-af9f-80ce758f538c")
+		(uuid "2fcba2c3-0f44-4cd4-8e3d-2cb8cb96711f")
 	)
 	(fp_line
 		(start -0.57 0.9)
@@ -67,7 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "91535493-7b32-44b4-8638-5a2fdf99aa33")
+		(uuid "4d22ded2-75f3-4ef1-8f5b-7aac38be8968")
 	)
 	(fp_line
 		(start -2.308 -1.158)
@@ -77,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "48e0f05c-a1bb-4139-b2b0-dad275ba1266")
+		(uuid "78cf9e40-8ba1-4574-8326-04773b675402")
 	)
 	(fp_line
 		(start -2.308 1.158)
@@ -87,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "00ff97cb-9819-4188-89d4-05e1e1da902d")
+		(uuid "cb5d0e52-5748-4ffd-9d6e-7050b53979f3")
 	)
 	(fp_line
 		(start -2.308 1.158)
@@ -97,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ba99795c-fa32-423e-b756-417a6885fe06")
+		(uuid "68aef0da-7a75-4da7-8355-f32ed787cea0")
 	)
 	(fp_line
 		(start 2.308 1.158)
@@ -107,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "307396c0-b55e-46f9-9d77-e2e6d8d81f0a")
+		(uuid "9463b98a-9961-42f4-99bc-770dd38784e6")
 	)
 	(fp_line
 		(start -1.7 0.9)
@@ -117,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6194b787-c513-49a9-ab61-bc369c15293e")
+		(uuid "3579e7be-0343-4382-a264-86706f3179ac")
 	)
 	(fp_line
 		(start 1.7 -0.9)
@@ -127,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ed77330e-9086-45a0-a46d-4fede2047f58")
+		(uuid "3d57e881-9ca1-406e-b2c7-74672aa300ed")
 	)
 	(fp_line
 		(start 1.7 0.9)
@@ -137,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "105f763f-5c99-4a44-84de-40ce8d13a248")
+		(uuid "9b1016a4-fcba-4641-ba9b-136ce36284c4")
 	)
 	(fp_line
 		(start 1.7 0.9)
@@ -147,21 +147,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3b5a60d9-1576-4350-94a5-293ad79da6a3")
+		(uuid "05b4c243-12b6-4e5f-bf6a-d4e3f120b211")
 	)
 	(pad "1" smd rect
 		(at -1.475 0)
 		(size 1.16 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "cc54c0d5-52e6-49e4-b1fa-150f88ae7629")
+		(uuid "87c359a9-2b61-447a-9972-b805528770ad")
 	)
 	(pad "2" smd rect
 		(at 1.475 0)
 		(size 1.16 1.82)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "92e87093-275d-4973-89d8-9cbb67aeac5b")
+		(uuid "389725d8-ba68-4c8b-b0b4-e2562abdeaff")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Kyocera AVX 1206/12061C225K4T2A.step"

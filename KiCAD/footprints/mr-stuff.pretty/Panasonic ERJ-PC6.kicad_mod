@@ -4,21 +4,20 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.2 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
-		(uuid "730267bd-699a-44bd-88d7-1e5be546e973")
+		(uuid "bef6f532-5954-478a-be36-750524810f0d")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "Panasonic ERJ-PC6"
 		(at 0 1.3 0)
 		(layer "F.Fab")
-		(uuid "0fc12dd4-52d8-465e-88d1-2fae6e2c5841")
+		(uuid "79bf9d6a-9405-4af3-b56c-28d87c5e376a")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -31,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3de6512c-8368-41d8-bc83-414dca0f44cc")
+		(uuid "00e6ddb4-0cf1-4f46-a16a-7f96cba56d05")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7b126e1-df40-4996-a149-1c5009b07a0f")
+		(uuid "068da1d3-b9be-4a5c-8b1e-fc93433bc69a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,24 +51,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.4 -0.7)
-		(end 0.4 -0.7)
+		(start -0.3 -0.6)
+		(end 0.3 -0.6)
 		(stroke
-			(width 0.127)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "09e686e3-3209-4d7d-8ff5-eec3d7e04eda")
+		(uuid "385cbcd3-35bc-4630-b72f-cf8af24fed13")
 	)
 	(fp_line
-		(start -0.4 0.7)
-		(end 0.4 0.7)
+		(start -0.3 0.6)
+		(end 0.3 0.6)
 		(stroke
-			(width 0.127)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cee5ccd0-4eb9-46ff-8f31-824b3eb1ec6e")
+		(uuid "cfa8e2ae-3804-49c5-abd3-9d08bbcb3ec0")
 	)
 	(fp_line
 		(start -2 -0.875)
@@ -79,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1163d0b1-d3e4-4827-9d69-980c895cdd85")
+		(uuid "36ac3439-a911-4fe5-871e-32c86484d43c")
 	)
 	(fp_line
 		(start -2 0.875)
@@ -89,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a3960b4f-55ec-49fb-845c-97f69162bd9f")
+		(uuid "8c157f88-ba28-4de9-961d-a03c25b7fb8b")
 	)
 	(fp_line
 		(start 2 -0.875)
@@ -99,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "224b404f-9b7c-45b8-9d8e-305bfcf6d9fd")
+		(uuid "b8a865eb-4cd2-4769-8a60-89ab7edc0d27")
 	)
 	(fp_line
 		(start 2 0.875)
@@ -109,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e071f6b7-a82f-4122-aae7-69f4fc773d05")
+		(uuid "d2cd46d9-4f57-468b-961b-344ab5700e64")
 	)
 	(fp_line
 		(start -1 -0.625)
@@ -119,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e041abcf-f3fd-4313-b48c-22d7afbef7a1")
+		(uuid "485ec912-8eae-4bf6-afda-2b11862e3f2b")
 	)
 	(fp_line
 		(start -1 0.625)
@@ -129,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0b05a796-5d6d-4a4e-bbd0-a154b2633ad4")
+		(uuid "b16d7ad0-e688-449c-be3a-5f7fb5c33f09")
 	)
 	(fp_line
 		(start 1 -0.625)
@@ -139,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6cfbbabd-77cc-4441-9c32-bd3b1155e95c")
+		(uuid "d307422e-8923-46ad-9abc-fd4297f8b92e")
 	)
 	(fp_line
 		(start 1 0.625)
@@ -149,21 +148,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "11f2b3a5-1419-4aeb-b9a7-dac5249893b7")
+		(uuid "bee262c8-762d-4015-b3d8-f79c8708ca63")
 	)
 	(pad "1" smd rect
 		(at -1 0)
 		(size 1 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "af8cbbe2-7693-41cc-b826-1c1e5538a552")
+		(uuid "307d6b2d-ee30-4cee-8610-0ba5a7004b32")
 	)
 	(pad "2" smd rect
 		(at 1 0)
 		(size 1 1.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "b66f918f-580b-4a0f-b48e-f879daff29f9")
+		(uuid "645c96a9-9417-43ad-a491-0648f58e6dc5")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Panasonic ERJ-PC/ERJ-PC6D2203V.STEP"

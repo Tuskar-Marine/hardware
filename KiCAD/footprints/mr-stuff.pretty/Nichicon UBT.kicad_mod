@@ -5,33 +5,11 @@
 	(layer "F.Cu")
 	(descr "Radial Can aluminium polarized 8 x 13.5mm, 3.5mm lead spacing")
 	(tags "UBT1H100MPD8 ")
-	(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ubt.pdf"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52520ec2-c949-4e54-9d2b-7343e7096c64")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90379bdd-3187-4ec2-8a52-41b1917d74b9")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Reference" "REF**"
 		(at -0.001853 -5.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d4e2857f-7c00-4eae-9b29-1e63d0a4f16f")
+		(uuid "95b50782-def0-411b-ad4e-aff5d3399587")
 		(effects
 			(font
 				(size 1 1)
@@ -43,11 +21,33 @@
 		(at -0.001853 5.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c939d502-3a6d-4855-b69f-8f54347cc9d9")
+		(uuid "4f7b7c51-aca0-43fb-934f-99826c899002")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ubt.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9c8bf06-9c0d-4654-84f3-4e72417d95eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be9ae1cd-ba90-4dec-a062-d25f10ed0b29")
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
 	)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1fdfde8d-6afe-463c-8ca3-adc6a073720a")
+		(uuid "e1d3baf0-dcc7-4b5a-b871-82458248d521")
 	)
 	(fp_line
 		(start -4.891353 -0.635)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3879e6cd-f8eb-498d-aceb-23e17ee7816b")
+		(uuid "dc010818-a1b9-40d0-97cd-174db4ec73d6")
 	)
 	(fp_circle
 		(center -0.001853 0)
@@ -82,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "686d16e2-ca5c-48bb-ab31-97840f71163c")
+		(uuid "bd288452-c09b-4deb-bd16-9f192b0928bd")
 	)
 	(fp_line
 		(start -4.256353 -1.751853)
@@ -92,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d1304eff-6f03-4758-92ed-6ba5baee41fc")
+		(uuid "7e49f793-c711-4f3b-8ad8-2f0e53873065")
 	)
 	(fp_line
 		(start -4.256353 1.751853)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "21fc354c-3a6b-438d-b1b0-9c3a87c0dad7")
+		(uuid "cce6eeb9-55de-4862-a4e5-ba9562c53aa9")
 	)
 	(fp_line
 		(start -1.753706 -4.2545)
@@ -112,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "31ba2be6-ed80-4231-a59b-f2dc3d2f9103")
+		(uuid "c63f7dbc-2d8b-4f03-8433-84d83d1ac685")
 	)
 	(fp_line
 		(start -1.753706 4.2545)
@@ -122,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4b4c8da5-763b-4cee-b2e3-71c82b65a374")
+		(uuid "30ad31e7-0621-4191-98a3-b01a0a7e3150")
 	)
 	(fp_line
 		(start 1.75 -4.2545)
@@ -132,7 +132,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f2a5089c-ea36-461e-9686-49e3bb84923b")
+		(uuid "db890525-a8a3-4aff-a17a-abba2fea38a3")
 	)
 	(fp_line
 		(start 1.75 4.2545)
@@ -142,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bcc6b861-74ea-4f89-9964-4b4d4214d63e")
+		(uuid "68b65900-fc48-4ebd-acae-56dc2a49b502")
 	)
 	(fp_line
 		(start 4.252647 -1.751853)
@@ -152,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a08d7bd3-08e8-4f76-9d3b-295503bcfc63")
+		(uuid "5f23a5d8-04dd-4205-8e38-5b8340514e3c")
 	)
 	(fp_line
 		(start 4.252647 1.751853)
@@ -162,7 +162,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e708564e-c97a-45e4-9edd-146e79c68162")
+		(uuid "7ac51b0f-a561-43df-aee4-69e93a1bc979")
 	)
 	(fp_line
 		(start -5.526353 0)
@@ -172,7 +172,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ccfbc818-1649-4bff-887c-74f46d73d3aa")
+		(uuid "924144fc-0461-45ad-bdec-59f6a856a6da")
 	)
 	(fp_line
 		(start -4.891353 -0.635)
@@ -182,7 +182,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a6bb9cc1-315a-40bd-a329-1e3c9bcfdb29")
+		(uuid "9c3e6add-7101-439c-8f78-9f91a16a4c75")
 	)
 	(fp_circle
 		(center -0.001853 0)
@@ -193,13 +193,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "56087128-a361-4cb3-8bca-ec7c547dc6ae")
+		(uuid "2da4cb4e-ad4d-427b-a24c-7ccd8f30c830")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.001853 6.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "31005432-d46e-4b90-951b-b438d67e3f03")
+		(uuid "f7afb05a-37c2-412d-b36a-e3db8cc8bd52")
 		(effects
 			(font
 				(size 1 1)
@@ -213,7 +213,7 @@
 		(drill 0.8636)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f2414919-2883-4eee-9d78-41ebe61248cb")
+		(uuid "11ad1145-d166-4878-adaa-f68a6107092d")
 	)
 	(pad "2" thru_hole circle
 		(at 1.748148 0)
@@ -221,7 +221,7 @@
 		(drill 0.8636)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "89ad5948-87ff-487b-94a3-1c273a89d2be")
+		(uuid "122f824b-3dda-4c7a-a7b1-67d572e9cca7")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Nichicon UBT/UBT1H100MPD8.STEP"

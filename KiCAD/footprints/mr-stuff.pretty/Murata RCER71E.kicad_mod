@@ -4,16 +4,15 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Ceramic Capacitor X7R Radial 2.5mm Lead")
-	(property "Reference" "C**"
-		(at 0 -2.05 0)
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "579e864a-6338-44e2-bed9-546240ab752a")
+		(uuid "114674ed-7541-4ed1-b0b5-ab14f0df875a")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -21,7 +20,7 @@
 		(at 0 2.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "293c6008-bf2d-41d4-86c7-440b4d9b1032")
+		(uuid "71295a1f-9058-4047-8e83-46e890481e28")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d4a0ff93-a53e-46f9-bb00-341941dba656")
+		(uuid "075307f0-8c45-43f9-9c0e-088789476910")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f88e9de-9e36-4a53-8fd5-87c5b0040551")
+		(uuid "af218709-5eef-4308-b964-4a872817570e")
 		(effects
 			(font
 				(size 1 1)
@@ -61,12 +60,12 @@
 		(start -2.75 -1.575)
 		(end 2.75 1.575)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "061a5d14-c56b-4b2d-95d3-3db4e5903aef")
+		(uuid "18519bb4-b6eb-42ee-9f08-13f84af82ca7")
 	)
 	(fp_rect
 		(start -2.8 -1.6)
@@ -77,13 +76,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4fff89c1-32d3-4476-a687-07b24e81a397")
+		(uuid "6bf75622-3392-424c-af0f-37c9833f7ff4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e1d28b2c-89fd-46b4-a687-231515c4afbd")
+		(uuid "34a8a7a6-f0c6-487f-8bab-27ac378ea971")
 		(effects
 			(font
 				(size 1 1)
@@ -97,7 +96,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f8c1e223-f1f3-418c-9e45-f65d7e1ec29c")
+		(uuid "8b02247a-ece0-422e-9602-9f0f27f762d4")
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 0)
@@ -105,7 +104,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "060aebfa-d23d-4a09-a1df-17bb1a4ffd20")
+		(uuid "174a5fe2-0a55-49c0-ad2c-7b931b12348a")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Murata RCER71E475K2A2H03B/RCER71E475K2A2H03B.step"

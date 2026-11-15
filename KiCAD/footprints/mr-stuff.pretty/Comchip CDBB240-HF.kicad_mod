@@ -1,18 +1,18 @@
 (footprint "Comchip CDBB240-HF"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DO-214AA (SMB)")
 	(tags "Schottky Diode")
 	(property "Reference" "D**"
-		(at 0 -3.3 0)
+		(at 0 -2.7 0)
 		(layer "F.SilkS")
-		(uuid "d06deb5d-07b9-47fd-b4f1-ad94d37e0029")
+		(uuid "1bdefa4a-3fbc-44b4-8517-c60365ee6723")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "93e4abd3-8a3d-4db8-a24a-337ff6fe1375")
+		(uuid "01314350-d7b7-490d-b00f-c68924a0f388")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0aa5d7d-ea3d-4faa-82cb-684179037156")
+		(uuid "8c266e8a-192d-4889-894a-19dacdee3f20")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "90ee20a0-8853-4e49-b195-1b4ebdb52038")
+		(uuid "86e235ea-5e0b-4a84-ba53-4891854a110c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,17 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.7 -1.8)
+		(end -2.7 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e97b3d89-f330-4268-a911-df97e2b21444")
+	)
 	(fp_line
 		(start -2.65 1.825)
 		(end 2.65 1.825)
@@ -61,17 +72,17 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4c443671-7845-4e21-a6c9-124b0f7452e4")
+		(uuid "635b8b8f-f469-4732-805b-d12ef0667cb8")
 	)
 	(fp_line
 		(start 2.65 -1.825)
-		(end -3.2 -1.825)
+		(end -2.7 -1.825)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "735934de-47e8-4df7-b4e9-db50db9b7775")
+		(uuid "528db2e7-60ff-4c42-bbd4-a367f8112dd7")
 	)
 	(fp_line
 		(start -3.55 -2.25)
@@ -81,7 +92,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "dde78164-a97f-433a-8d92-2032068a305a")
+		(uuid "b068570b-2eb5-4f35-b343-074e9e94d282")
 	)
 	(fp_line
 		(start -3.55 2.25)
@@ -91,7 +102,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "faa6da33-f65e-4bc4-9ff0-aa741a954b36")
+		(uuid "0216307b-e2a5-4453-a8eb-fe2a2d82bac6")
 	)
 	(fp_line
 		(start -2.65 -1.825)
@@ -101,7 +112,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "a7b2433f-bd16-47d9-a55f-19324a177395")
+		(uuid "a61b35f4-495d-4bf6-8dbb-ed88d4493bc8")
 	)
 	(fp_line
 		(start -2.65 -0.775)
@@ -111,7 +122,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "e81001c8-3596-481d-9c47-6d7f49dd492b")
+		(uuid "4aafbb79-0292-4a12-a248-b42e57504faf")
 	)
 	(fp_line
 		(start -2.65 1.825)
@@ -121,7 +132,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "04002a9d-070c-4d35-b306-cad3811159d9")
+		(uuid "2d5f0228-28a3-479c-8c95-43feeadfc902")
 	)
 	(fp_line
 		(start 2.65 -1.825)
@@ -131,7 +142,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "75112051-9f0b-45d0-883d-b7eaf971fac9")
+		(uuid "9aed17c2-0951-4cf5-97aa-4f3953a28bce")
 	)
 	(fp_line
 		(start 2.65 1.825)
@@ -141,7 +152,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "96d8e983-a15b-4a70-aa9e-19a9167d843a")
+		(uuid "c2bfce49-fc45-401c-9e31-9541c43ac313")
 	)
 	(fp_line
 		(start 3.55 -2.25)
@@ -151,7 +162,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "2874b876-ff42-4b3f-b097-e8d33a605c1a")
+		(uuid "86e31560-bf18-40ce-b86d-2c690836c6c6")
 	)
 	(fp_line
 		(start 3.55 2.25)
@@ -161,21 +172,21 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "26f3b444-6244-416b-b43b-0c8a24426c13")
+		(uuid "fec94dc2-9ba5-4396-a76e-214618ea0a8e")
 	)
 	(pad "1" smd rect
 		(at -2.15 0 90)
 		(size 2.1 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "17254eb8-55b7-4343-94d4-b5b43477b79b")
+		(uuid "542bc699-eab4-4972-bed0-d8e43a903f44")
 	)
 	(pad "2" smd rect
 		(at 2.15 0 90)
 		(size 2.1 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "488fd19f-ab98-4e71-8add-c10e63d4ba47")
+		(uuid "890e86f6-6c49-4e1b-87b5-6eee3de00858")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Comchip CDBB240-HF/CDBB240-HF.stp"

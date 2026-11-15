@@ -5,14 +5,13 @@
 	(layer "F.Cu")
 	(descr "Wire to board solder points")
 	(property "Reference" "REF**"
-		(at 0 -1.75 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "935ecd86-888e-4922-8f01-4b28acedda9b")
+		(uuid "a782f966-cad2-49df-bd88-31de9a9bad90")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +19,7 @@
 		(at 0 4.1 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4460e43b-7017-4755-819f-8688c89e71ac")
+		(uuid "515a4937-b4d7-4270-85dd-c77f58b52d5c")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bfe4af8a-ce5e-4456-b19b-4fbeb9f08530")
+		(uuid "686c403d-6d16-479f-ab07-1a048bd75b7e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aef9ca3e-ca32-498e-bf7d-72fffb9e5b0f")
+		(uuid "1592dfd7-e2e1-451a-bccb-8b32cd2676b5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +60,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b894ad5c-ca41-41a5-9944-107ec808552f")
+		(uuid "14b41c8d-3e07-4ef1-9aa2-4fb09e857749")
 	)
 	(fp_rect
 		(start -1.25 -1.25)
@@ -72,7 +71,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ba5f70d9-6b8e-480d-8013-09ed338f34a9")
+		(uuid "061b7bec-d819-4306-b296-50156f30b259")
 	)
 	(fp_rect
 		(start -1.2 -1.1)
@@ -83,12 +82,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d039ad79-9850-4f23-9155-dd7325e4de12")
+		(uuid "7fd0b7e3-9643-4dab-bda4-4356c62e949d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.2 180)
 		(layer "F.Fab")
-		(uuid "ab766c80-8667-469e-aa3a-86b3f28c568d")
+		(uuid "3863e217-b110-4c1a-b669-a94d6cd8cb99")
 		(effects
 			(font
 				(size 1 1)
@@ -102,7 +101,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "56fc3b4b-e3c3-4447-bce1-dbce9ede9836")
+		(uuid "e9e9856d-26bb-40a2-b3b2-e7784badeb78")
 	)
 	(embedded_fonts no)
 )

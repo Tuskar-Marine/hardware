@@ -5,21 +5,20 @@
 	(layer "F.Cu")
 	(descr "Flexible Termination System (FT-CAP), C0G Dielectric, 10 – 250 VDC")
 	(property "Reference" "REF**"
-		(at 0 -1.1 0)
+		(at 0 -1.3 0)
 		(layer "F.SilkS")
-		(uuid "6cceb842-b5ee-4f70-a333-de2cdd63cee9")
+		(uuid "d9be4008-6106-4754-af8d-1cf5e9ebddf6")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "C0603X"
 		(at 0 1.5 0)
 		(layer "F.Fab")
-		(uuid "cc33841e-7aa0-4f9a-be4a-98e83bfd2be8")
+		(uuid "072a3435-f39a-4c2d-99db-cbf9c02a40c8")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75300a8d-37a1-4fdd-a9dd-069fbec5493e")
+		(uuid "0f968d33-635a-4574-97be-9d3d38628870")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86b672dd-d409-49ed-bea2-ef6f682fd31e")
+		(uuid "556ec9e0-3873-49ef-897d-93cbbdc180e4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +51,26 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
+		(start -0.1 -0.5)
+		(end 0.1 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccc85c2e-c5fa-4cd2-8a3d-0056dfca0879")
+	)
+	(fp_line
+		(start -0.1 0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6904e111-2e6b-4f71-a59d-a677481b94db")
+	)
+	(fp_line
 		(start -1.494 -0.735)
 		(end 1.494 -0.735)
 		(stroke
@@ -59,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3909c02a-81df-413e-8c67-52ec5e264f15")
+		(uuid "b9403140-fd60-4401-b1df-0e6836271613")
 	)
 	(fp_line
 		(start -1.494 0.735)
@@ -69,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7914c62d-63a3-4864-abe4-7eb884b53cd1")
+		(uuid "774e225d-67e1-4aee-9a82-664867b81557")
 	)
 	(fp_line
 		(start -1.494 0.735)
@@ -79,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "41402a73-c490-4774-9f53-61a3b93f3600")
+		(uuid "841f5ff9-f730-4d5a-a7f4-ae8c17112bdf")
 	)
 	(fp_line
 		(start 1.494 0.735)
@@ -89,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ec20f24b-1728-487b-a712-bfaba8c3f074")
+		(uuid "9ebbd266-cb16-47ed-898e-784a80971e77")
 	)
 	(fp_line
 		(start -0.89 0.48)
@@ -99,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8e81f8f9-aa52-4858-9f69-697c8a3c5eb7")
+		(uuid "7f1e1ddf-4ac6-450f-ae6d-ac135cc47941")
 	)
 	(fp_line
 		(start 0.89 -0.48)
@@ -109,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2333877d-72ea-4189-a67b-b47cd88cb9f0")
+		(uuid "bd2b5b8c-845e-4a11-b26c-7ab874ffb0e9")
 	)
 	(fp_line
 		(start 0.89 0.48)
@@ -119,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6fd44eb6-868e-4b66-b5e2-e681a0b2b06c")
+		(uuid "28124500-ec92-42c6-8c5f-2e1a07a4a0da")
 	)
 	(fp_line
 		(start 0.89 0.48)
@@ -129,21 +148,19 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1a6da183-e604-4488-871b-8cf2695beab9")
+		(uuid "047f4b5a-7f64-4961-a461-caba088c3777")
 	)
 	(pad "1" smd rect
 		(at -0.726 0)
 		(size 1.04 0.97)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "f2ca4216-4201-4f20-901a-4e02e81d5e1a")
+		(uuid "39000178-423b-4d7d-85ed-cb8305162e6f")
 	)
 	(pad "2" smd rect
 		(at 0.726 0)
 		(size 1.04 0.97)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "89e74a0e-30f4-46e5-919a-1ccf3c005335")
+		(uuid "818d7238-9778-4410-98ca-338001610cec")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Kemet C0603X/CAPC1608X95N.step"

@@ -5,15 +5,14 @@
 	(layer "F.Cu")
 	(descr "SMC (DO-214AB)")
 	(tags "TVS Diode (Bi-directional)")
-	(property "Reference" "D**"
-		(at 0 -3.7 0)
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
 		(layer "F.SilkS")
-		(uuid "c52dc792-6a9a-4d78-98f1-ee97d7b91e28")
+		(uuid "79a2e305-a031-4c4c-9e41-bed46f571581")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -21,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "891c55fe-997c-4064-8db2-f4ddd5dced0e")
+		(uuid "1935fdd6-beea-4f7a-be2b-f5fd2abdbc55")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "883ccc60-07df-4f0a-a1a6-80bad776d27f")
+		(uuid "00b86cd8-f98a-4d10-a590-86dd6eb35890")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44b52d1b-4212-466f-a4e8-a02016850c34")
+		(uuid "2596564b-e986-45f8-80d9-8e3badc26cd1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a41039f5-3de1-46c5-ac82-7930681caddd")
+		(uuid "49ad9450-f528-4bfa-aec2-b3bdb64d3252")
 	)
 	(fp_line
 		(start 3.97 -2.952)
@@ -71,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ecdc5e42-07a9-4fc2-8508-b2493a297183")
+		(uuid "0071c783-c087-41c2-baed-82250fe374af")
 	)
 	(fp_line
 		(start -4.85 -3.36)
@@ -81,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "26a62dac-35e1-4c95-bfb0-281cedc1c4db")
+		(uuid "525ad4c1-166c-41a3-bf0b-dd5db5f4935c")
 	)
 	(fp_line
 		(start -4.85 3.36)
@@ -91,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "19823884-f9ff-4e20-8e58-da6292131a6b")
+		(uuid "d46d319d-d016-4853-ba24-00a6b0eed790")
 	)
 	(fp_line
 		(start 4.85 -3.36)
@@ -101,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d3b40bb9-3100-4615-ac3f-ce228b0ef30c")
+		(uuid "14c3a2a0-8ef1-4b93-8cdc-2e904a225bc4")
 	)
 	(fp_line
 		(start 4.85 3.36)
@@ -111,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "84126093-831f-49dc-b701-6d14f0207763")
+		(uuid "ee08c050-1a65-4652-9042-3345fb648241")
 	)
 	(fp_line
 		(start -3.97 -2.952)
@@ -121,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fe259b98-efce-4df1-ba7a-402274fe6b2e")
+		(uuid "1d36f8b4-8035-42d7-9809-77f4486d2393")
 	)
 	(fp_line
 		(start -3.97 2.952)
@@ -131,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "754ff924-acc3-41a4-88ab-5497fc46e6a0")
+		(uuid "19712217-bd5d-47a1-9f71-8e049c327398")
 	)
 	(fp_line
 		(start 3.97 -2.952)
@@ -141,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "759fefc5-2887-4a1f-9d62-213a7937d931")
+		(uuid "f36ac57d-719d-4dbd-abda-fe6064318b88")
 	)
 	(fp_line
 		(start 3.97 2.952)
@@ -151,12 +150,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5cacd224-d493-4ad4-81ba-8f40ebba233c")
+		(uuid "f81920bd-9a3a-4eac-b6a0-41332d917f6e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.4 0)
 		(layer "F.Fab")
-		(uuid "ae2cdca4-91c3-4e66-830a-bd91db433671")
+		(uuid "cf24d67e-be49-40d7-b0e6-4d72dfbe23a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -168,13 +167,13 @@
 		(at -3.3 0)
 		(size 2.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6ff24b01-fc7b-468e-bfc9-c4607b633266")
+		(uuid "2c560cdc-7212-4305-93f8-c3e3a222cff9")
 	)
 	(pad "2" smd rect
 		(at 3.3 0)
 		(size 2.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c4c7cc4b-b2c3-453b-ac20-95eba829169e")
+		(uuid "3c0841f6-4ed7-4fb8-a1dc-5196c50cf599")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Vishay SMC5K16CA/SMC5K16CA-M3_H.stp"

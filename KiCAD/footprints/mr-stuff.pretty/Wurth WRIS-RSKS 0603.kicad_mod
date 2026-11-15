@@ -4,12 +4,12 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.508 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
-		(uuid "8d4c9ee6-d85c-4275-a29a-dc87c5ca6e64")
+		(uuid "41bb219c-dc43-46c0-99f4-a8086bee21ee")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -17,7 +17,7 @@
 	(property "Value" "Wurth WRIS-RSKS 0603"
 		(at 0 1.492 0)
 		(layer "F.Fab")
-		(uuid "45500043-ab5b-4865-bb74-5f3c8ca75b89")
+		(uuid "0f010a5b-bc29-43b1-8a92-f478ed1420a4")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c68da33-fc61-4ced-98c7-4afcbd8b9e08")
+		(uuid "faabab98-5084-4af8-9b1a-1a913684c5a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5793bcb5-8b8c-448a-ad67-2f2e7e947146")
+		(uuid "34b3475a-3b16-485e-8c1d-f77caaf894cf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,24 +50,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.2 -0.5)
-		(end 0.2 -0.5)
+		(start -0.3 -0.4)
+		(end 0.3 -0.4)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "548165ad-77db-4782-83a5-f69525962fba")
+		(uuid "14a565c8-cf79-48e6-bf9c-22f265b6d4c6")
 	)
 	(fp_line
-		(start -0.2 0.5)
-		(end 0.2 0.5)
+		(start -0.3 0.4)
+		(end 0.3 0.4)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3f2f3da9-2dda-49a0-bfbf-3b5b27adf8e8")
+		(uuid "9e8efae4-88f8-49ef-bb5f-f537a557cfb2")
 	)
 	(fp_rect
 		(start -1.2 -0.6)
@@ -78,7 +78,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3a53ee15-e4d7-4e55-b6a2-7433d421071a")
+		(uuid "29cf3eda-e91e-428f-86d1-677eb50b4826")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3d6b271f-9ba2-46fa-8389-18ab92a0051a")
+		(uuid "60d2a814-c60b-431a-bc7f-6eb15a619626")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a2dd9f5a-2d94-4e38-9a8f-8a9dea688984")
+		(uuid "f8c02e86-ff61-4723-818c-dd8c1064e136")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "87553d86-67fb-4fc1-abad-7d9ef4cb86c5")
+		(uuid "0cb39bab-82cf-43a5-8e21-908960329566")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -118,21 +118,19 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a410e741-9d8a-4e0b-99b9-664fbf48a872")
+		(uuid "821d1d53-9db1-4b56-8894-f0ff489e02c4")
 	)
 	(pad "1" smd rect
 		(at -0.75 0)
 		(size 0.6 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "1c2d7e68-5918-48af-8c72-ab46c82f227d")
+		(uuid "c7b3add3-ba0e-43a1-a25c-f252a3472f6c")
 	)
 	(pad "2" smd rect
 		(at 0.75 0)
 		(size 0.6 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "a92d84cd-036e-42ce-a6ee-118a841d54ed")
+		(uuid "7290ab22-c3fa-43b9-aa36-ccc5dc83ccb2")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Wurth WRIS-RSKS 0603/STP_WRIS-RSKS_0603+(rev1).stp"

@@ -6,9 +6,9 @@
 	(descr "ESD protection for in-vehicle networks TO-236A (SOT23)")
 	(tags "Diode ESD (Bi-directional)")
 	(property "Reference" "REF**"
-		(at 0 -2.85 0)
+		(at 0 -2.3 0)
 		(layer "F.SilkS")
-		(uuid "8a8d7cee-b315-4971-9666-383015770948")
+		(uuid "cddc6571-d917-466e-a8ce-65ce13012bc4")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d8f3f9c2-78e1-4f2f-9dc4-50802923df3f")
+		(uuid "3ef913de-3e31-4a69-b896-14116ed5bbf2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fc6e67db-47bc-44b5-8cc0-1e5ba9801453")
+		(uuid "943115c9-bfc6-47f4-9d34-d80a5dc43c69")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2acbeffe-4d6a-4f1d-a31f-0ac184391043")
+		(uuid "c63e38c5-b58b-499b-a6bd-249bcfa34fec")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,54 +53,54 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.625 -1.5)
-		(end -0.575 -1.5)
+		(start -1.625 -1.45)
+		(end -0.575 -1.45)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4b018b9d-6fc1-4a03-a2c2-e8618e652f18")
+		(uuid "b417b0a4-cffc-4852-abd4-50f26aaaf049")
 	)
 	(fp_line
 		(start -0.225 -1.45)
 		(end 0.225 -1.45)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d0db3b4f-5772-4df1-9a5d-c2c91fc7f2d2")
+		(uuid "da4a786e-433a-4b4e-9acb-2298020917f5")
 	)
 	(fp_line
 		(start -0.225 1.45)
 		(end -0.225 -1.45)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c91185ba-5bdd-4dec-ad26-f3f092082a7e")
+		(uuid "32fc164f-4b61-402d-a60f-923b3aa4560a")
 	)
 	(fp_line
 		(start 0.225 -1.45)
 		(end 0.225 1.45)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "04227b8c-5e91-4613-b124-a7455b1c8248")
+		(uuid "a2782c85-4a2c-44bd-9e41-59a217c5d2ba")
 	)
 	(fp_line
 		(start 0.225 1.45)
 		(end -0.225 1.45)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "522a2f07-0b87-4b6d-a2a5-65e13becb298")
+		(uuid "ba35847b-609a-4396-9454-48b33096ba93")
 	)
 	(fp_line
 		(start -1.875 -1.75)
@@ -110,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d48f731e-38b8-4801-a4f8-1708070eeab0")
+		(uuid "a8ea138c-b68a-496c-81a6-4e4d92007fdb")
 	)
 	(fp_line
 		(start -1.875 1.75)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f5ccc8b2-3dc9-4211-b628-cfef19015182")
+		(uuid "9168fb75-37da-40e4-a53b-cc2ca4a534c4")
 	)
 	(fp_line
 		(start 1.875 -1.75)
@@ -130,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "213fdfd1-e324-4534-a154-71c3c1239621")
+		(uuid "1acd1e95-b8e1-4a7d-860a-e65dd96eb794")
 	)
 	(fp_line
 		(start 1.875 1.75)
@@ -140,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dbd84d61-03a3-4c96-b0f0-25647e042827")
+		(uuid "73f6c361-cb4a-4e74-9e80-4639d369d42d")
 	)
 	(fp_line
 		(start -0.65 -1.45)
@@ -150,7 +150,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "00021122-36e7-4300-ad59-f2339c66e7dd")
+		(uuid "1641ef25-1625-4b36-a869-7143ae231fec")
 	)
 	(fp_line
 		(start -0.65 -0.5)
@@ -160,7 +160,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b2f3ba97-a7d5-44af-ba43-b1e5cc93454d")
+		(uuid "81b4d985-e187-4fea-8772-d48c8be93853")
 	)
 	(fp_line
 		(start -0.65 1.45)
@@ -170,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f9da940f-a722-43fe-9a6a-78bfe2446728")
+		(uuid "84b05d08-dc47-4481-a3ee-3669fff58792")
 	)
 	(fp_line
 		(start 0.65 -1.45)
@@ -180,7 +180,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bebbf448-9fa5-43d0-9044-564dc1312298")
+		(uuid "6c79b7b6-4532-4bc5-b285-64a738861e71")
 	)
 	(fp_line
 		(start 0.65 1.45)
@@ -190,12 +190,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1a555711-fc89-47af-a1d3-f1fc12a7c94b")
+		(uuid "295cc9ae-9bc2-4702-ad4d-6557d795bff1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.75 0)
 		(layer "F.Fab")
-		(uuid "4d553279-0193-4338-85de-9f754762f07e")
+		(uuid "d07ced23-9e84-44cf-8346-c244005fe1b9")
 		(effects
 			(font
 				(size 1 1)
@@ -207,19 +207,19 @@
 		(at -1.1 -0.95 90)
 		(size 0.6 1.05)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bd24fd14-5667-459a-af43-7fd6fe16bb8e")
+		(uuid "3940c9dc-630a-4ba9-9541-b493724dca10")
 	)
 	(pad "2" smd rect
 		(at -1.1 0.95 90)
 		(size 0.6 1.05)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cea71e3f-1083-49f9-9382-95ddbf51b7a9")
+		(uuid "3be71b44-4d30-4d25-8874-0b210275c884")
 	)
 	(pad "3" smd rect
 		(at 1.1 0 90)
 		(size 0.6 1.05)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f9a0ddf7-99ee-483c-b0cc-14d15b58e5ad")
+		(uuid "f2b33190-3d69-4957-adbc-c9f0e9c2a5ef")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Nexperia PESD2CANFD/PESD2CANFD54VT-QR.stp"

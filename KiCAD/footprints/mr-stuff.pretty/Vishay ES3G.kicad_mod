@@ -5,14 +5,13 @@
 	(layer "F.Cu")
 	(tags "Diode")
 	(property "Reference" "REF**"
-		(at 0 -3.7 0)
+		(at 0 -3.8 0)
 		(layer "F.SilkS")
-		(uuid "f18f5302-8b93-4255-9f65-5c623810efa9")
+		(uuid "6b1b29de-5b63-4de6-8d8c-cda9d7d61555")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "dc6a6abd-6bf9-480d-9431-924b3a57f073")
+		(uuid "69837049-e353-4a86-9ade-bb1a80d700be")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4d04d0fc-2378-4b06-be27-8e4d465349e4")
+		(uuid "64205305-1319-4a76-bf4f-b9bcf2d40bfb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3938e13e-c445-4025-81cc-d046964f94a4")
+		(uuid "2e5ece96-9a8d-4771-89eb-b9ead14bde5a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "20685a8f-f252-4988-be4c-9f4bc7629a99")
+		(uuid "3e822bf4-a776-4a1a-a564-19d216c19722")
 	)
 	(fp_line
 		(start -3.97 2.952)
@@ -70,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7eb21ab6-eb38-47b2-ab70-a079dd36d81d")
+		(uuid "e6757a34-c6b2-47ba-97a3-dc2825b1f816")
 	)
 	(fp_line
 		(start 3.97 -2.952)
@@ -80,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aafb33df-84cb-44f5-95d1-b516ee98477b")
+		(uuid "5252df22-b508-4945-ac38-f8e8ffbbf6dd")
 	)
 	(fp_rect
 		(start -2 -2.9)
@@ -91,7 +90,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "96aa6134-94d8-429a-a7bd-2d59a4d668c3")
+		(uuid "2607f93f-bdd3-43a9-9339-c7dc2a1c9284")
 	)
 	(fp_line
 		(start -4.85 -3.36)
@@ -101,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0be7f7d9-b94a-478f-b262-a76033aaa988")
+		(uuid "2d1c5702-0b00-4aa3-83af-ecc4938867ac")
 	)
 	(fp_line
 		(start -4.85 3.36)
@@ -111,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "397360c4-9341-4fe3-8167-3d7cacf9db80")
+		(uuid "bad645f5-a16f-4451-b434-3b0513f84480")
 	)
 	(fp_line
 		(start 4.85 -3.36)
@@ -121,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "01386863-f474-4a67-9b33-f801d6ab8e5d")
+		(uuid "b307850e-659a-4e0d-bbbe-cae166a665fd")
 	)
 	(fp_line
 		(start 4.85 3.36)
@@ -131,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1d8898dc-9c73-4272-882f-ebe6391ca05f")
+		(uuid "131cb3f0-3fb6-4d04-96a1-ed2a515dbd63")
 	)
 	(fp_line
 		(start -3.97 -2.952)
@@ -141,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c3028bee-d8c2-4784-989a-c2ff55c95e78")
+		(uuid "8797f8d1-00b9-487c-81e5-6b94858fcccc")
 	)
 	(fp_line
 		(start -3.97 -1.852)
@@ -151,7 +150,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6408a1ef-6264-4641-b670-04680a308d19")
+		(uuid "f3f8f587-d6df-4214-8680-3bfaebc8d4f4")
 	)
 	(fp_line
 		(start -3.97 2.952)
@@ -161,7 +160,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "86cd36b0-29b1-4cc9-8161-83a857a11bc7")
+		(uuid "b6a07f7b-22c3-4994-a3d4-f51dce44728c")
 	)
 	(fp_line
 		(start 3.97 -2.952)
@@ -171,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "549bfc40-593a-47ce-a478-78e7c3c3bdbc")
+		(uuid "22f4a5b5-2b26-4752-968d-67a4a69a160c")
 	)
 	(fp_line
 		(start 3.97 2.952)
@@ -181,12 +180,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "851b9c30-a966-4935-9493-8648bf5f993a")
+		(uuid "bec436e9-031d-4cac-a1e2-f89b90b5ce37")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.5 0)
 		(layer "F.Fab")
-		(uuid "b62d2e04-4750-4e4d-9228-c329ba2f50af")
+		(uuid "d2a4a38a-c266-4bed-9cb1-2320fbed995a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -198,13 +197,13 @@
 		(at -3.3 0)
 		(size 2.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0edd2331-7fce-45aa-bfa9-0671fa09f752")
+		(uuid "dca69793-f17e-497f-ab3b-d465a81b234d")
 	)
 	(pad "2" smd rect
 		(at 3.3 0)
 		(size 2.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3fefb6e5-6889-4ea9-87d4-ebae1400a5a1")
+		(uuid "0d2579b3-4cd0-4dd6-a330-4db5edc7e6dd")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Vishay ES3G/ES3G-E3_57T.stp"

@@ -3,11 +3,23 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3447565e-0ed8-4a28-9a98-07c0e2ad5e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Value" "Tuskar Ziptie Slot 4.5x2.5mm"
 		(at 0 4.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ac92fc0b-d85a-4e4b-ab9b-e6f913636ab2")
+		(uuid "9b34a76e-1ed9-4fcb-aac0-6cc3ffbb0110")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f80acd4f-13d2-43fa-ad32-ba689d867a16")
+		(uuid "dbf104c3-9497-4b95-8adc-a6d29ec5ddec")
 		(effects
 			(font
 				(size 1 1)
@@ -33,23 +45,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c9b24b3e-aede-4447-97d5-e190aed29eac")
+		(uuid "dad804d0-215f-43ba-a081-1b4f336c6bf3")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0 -1.6 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7e2a7ee8-2f81-4f4e-a5a1-8e5ca68b151a")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
 			)
 		)
 	)
@@ -63,7 +63,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6e6295bd-cbe1-4dce-a853-2744886b2905")
+		(uuid "00ddc2c7-2699-4b83-a9a5-a3ef60aa551c")
 	)
 	(fp_line
 		(start -1.25 1)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "d32c399d-06e0-4f09-9724-da0f92241f62")
+		(uuid "a8d94d62-8476-49ac-8425-4b54dc81b1fe")
 	)
 	(fp_arc
 		(start -1.25 1)
@@ -84,7 +84,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "26907b50-0cd5-479f-b828-5349ffe94986")
+		(uuid "88e5c7f1-b622-48dc-970c-dc715a1e03fb")
 	)
 	(fp_arc
 		(start 1.25 -1)
@@ -95,13 +95,13 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b2e5b11f-5d8e-40cc-afa1-3b622e97b40e")
+		(uuid "58606c96-2e4c-4c5d-9e19-80d81c33aa3e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8e84c22c-bf13-4bba-a89d-6308c9b28f96")
+		(uuid "d1721989-441e-44ee-ab00-f9781b04c8c8")
 		(effects
 			(font
 				(size 1 1)

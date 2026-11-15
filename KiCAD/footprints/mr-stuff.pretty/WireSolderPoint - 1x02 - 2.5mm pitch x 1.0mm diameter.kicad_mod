@@ -5,14 +5,13 @@
 	(layer "F.Cu")
 	(descr "Wire to board solder points")
 	(property "Reference" "REF**"
-		(at 0 -1.75 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "fb878f54-8268-4f0b-8fba-347f8b0002ca")
+		(uuid "fdb01204-bb8a-4645-80f0-abe800bae149")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,7 +19,7 @@
 		(at 0 4.1 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ee1a85b-fb96-4147-b4f5-ca13934f36ab")
+		(uuid "72354eff-5157-44c1-84d1-6c89e5f7723e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05a62db0-7825-433e-b451-217a2057da5d")
+		(uuid "615597e7-9818-42e0-abed-652a963c2839")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "62287acc-4d57-46d2-a9e9-95c284197cdf")
+		(uuid "6b323ef8-136f-4357-8bcb-30f18bbabdeb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "32cbfbe4-9842-486b-a6ba-fbaa5e98b244")
+		(uuid "efff6d8b-171e-4755-9c18-0dd65758e830")
 	)
 	(fp_rect
 		(start -2.4 -1.15)
@@ -71,7 +70,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b894ad5c-ca41-41a5-9944-107ec808552f")
+		(uuid "7e209ba3-bab4-4d74-ba1b-9e0a3549e8ad")
 	)
 	(fp_rect
 		(start -2.5 -1.25)
@@ -82,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ba5f70d9-6b8e-480d-8013-09ed338f34a9")
+		(uuid "7b81c112-e942-4414-896e-d26c82312688")
 	)
 	(fp_rect
 		(start -2.45 -1.1)
@@ -93,12 +92,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d039ad79-9850-4f23-9155-dd7325e4de12")
+		(uuid "8e4a1d6f-7cd2-44f1-a52e-4c10abdfcd1f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.2 180)
 		(layer "F.Fab")
-		(uuid "ab766c80-8667-469e-aa3a-86b3f28c568d")
+		(uuid "577ddd9b-d018-4f31-a46d-d4ec23c592d2")
 		(effects
 			(font
 				(size 1 1)
@@ -112,7 +111,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "56fc3b4b-e3c3-4447-bce1-dbce9ede9836")
+		(uuid "567138d5-a8e2-4857-aa3b-1b53e340eab3")
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 0)
@@ -120,7 +119,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7df6713f-1137-40cb-a5e9-d91602f0600f")
+		(uuid "76628acb-ffc5-432a-a0e6-a4472b457a2a")
 	)
 	(embedded_fonts no)
 )

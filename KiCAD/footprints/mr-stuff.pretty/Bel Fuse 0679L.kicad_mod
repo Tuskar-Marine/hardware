@@ -6,19 +6,18 @@
 	(property "Reference" "REF**"
 		(at 0 -2.1 0)
 		(layer "F.SilkS")
-		(uuid "c41db6a2-051a-4cf3-babe-ce815a5fb2e5")
+		(uuid "a28f408f-9a08-4c7e-974f-bb0fca978697")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "Bel Fuse 0679L"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "8500e49d-ef50-4f4c-b0e1-3f7fe5864c5b")
+		(uuid "508914cd-d7fb-4908-b4d1-353f8f5cc29a")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8fdd5e4d-d353-4789-b296-611d23c91a38")
+		(uuid "1dc7c5ec-5a23-45fe-a26f-920c7bd6b348")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f8c5cfa-1217-4467-a253-e402f017e65b")
+		(uuid "d08d2254-b5bb-49f6-89fb-c2fc91c2734f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4bfaeaec-27ba-4746-a8bb-0a4071f9544a")
+		(uuid "a242a374-897e-4275-a27d-59d3392343dd")
 	)
 	(fp_line
 		(start 1 1.6)
@@ -68,7 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ee4237f8-372d-41e4-a95a-f0523cad5c1b")
+		(uuid "74129a04-b392-4d05-9364-779673bddbe8")
 	)
 	(fp_line
 		(start -3.78 -1.72)
@@ -78,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "67e3ce5a-fab7-4cef-a1b7-a6689ab47afb")
+		(uuid "064292e9-dd5c-4074-b047-4fe1046f9a94")
 	)
 	(fp_line
 		(start -3.78 1.72)
@@ -88,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "49ff536a-bb41-40f6-aa66-f7dc5afc2a2b")
+		(uuid "7a62af73-98de-4e84-97c6-e9979490dee5")
 	)
 	(fp_line
 		(start 3.78 -1.72)
@@ -98,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9f077536-70ea-4934-a6e8-fcc93c015844")
+		(uuid "8374730f-36c9-4130-be59-60c44081fd19")
 	)
 	(fp_line
 		(start 3.78 1.72)
@@ -108,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a260911c-5c11-4474-ac5a-172beabb0b32")
+		(uuid "2c8a5b89-a5f0-48e7-b87e-c5b3bcf7348f")
 	)
 	(fp_line
 		(start -3.05 -1.6)
@@ -118,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ceccce53-bd85-4318-a608-db38501e46c2")
+		(uuid "fc817683-777d-42df-b5d5-0afee0b47d88")
 	)
 	(fp_line
 		(start -3.05 1.27)
@@ -128,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9dd22719-3b02-482a-9d9f-1885fa496615")
+		(uuid "95b0326a-8c5d-46b1-9eed-f3142ba2d8b3")
 	)
 	(fp_line
 		(start 3.05 -1.27)
@@ -138,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "41919807-356d-417a-affd-f78b7a9c19f0")
+		(uuid "9b935e61-41d5-4606-a43a-39434a3869b0")
 	)
 	(fp_line
 		(start 3.05 1.6)
@@ -148,21 +147,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6ee9cb10-ea35-4aeb-8047-8c488e700249")
+		(uuid "41124d48-ecca-47c9-80e9-fc866f7c773f")
 	)
 	(pad "1" smd rect
 		(at -2.455 0)
 		(size 1.96 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "f64ad3bc-eb84-42b1-97f0-218a4fda6ed6")
+		(uuid "b54e9d3b-30f8-4120-a358-e4bcf7bd7a7a")
 	)
 	(pad "2" smd rect
 		(at 2.455 0)
 		(size 1.96 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "2aabcaa1-f4e5-495d-b46f-7e642d3ae5e0")
+		(uuid "bb177f31-ceae-4773-b912-421a905df299")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Bel Fuse 0679L/0679L2000-05.STEP"

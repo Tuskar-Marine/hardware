@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "TDK FA Capacitors, 5.0mm lead spacing")
 	(property "Reference" "REF**"
-		(at 0 -2.2 0)
+		(at 0 -2.1 0)
 		(layer "F.SilkS")
-		(uuid "62da34ef-49e6-417a-957e-43b9f1f860c9")
+		(uuid "51774b55-7bdc-467c-b50c-f8d7306cf46b")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "FA28NP01H152JNU06"
 		(at 0 2.335 0)
 		(layer "F.Fab")
-		(uuid "3843204e-6fa7-47ea-ab20-6306c6774105")
+		(uuid "8ea36b94-9ac4-4168-b891-915cadabca72")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d31512b0-0fcb-4f73-8906-b1286a57142d")
+		(uuid "e1c7c76f-df08-4be3-87e1-101fe32bb694")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "544961db-8256-41bb-b6a8-eab27b9e4583")
+		(uuid "f862f133-8b23-4b79-81b9-cf36d87c4af7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "66a49096-7983-4be2-84c3-ea3a98ff4e63")
+		(uuid "d84c181d-f210-4d49-90f2-f7a7dbbd31c0")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cddfe7ba-cdf4-4928-a88f-e3bfc8b8a940")
+		(uuid "891708ae-db40-4b3d-9094-8a187e0e4231")
 	)
 	(fp_line
 		(start -2 1.25)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6b0d7458-6422-48a3-b057-17f110dddbaa")
+		(uuid "840f1ae8-f741-4103-8c4d-781391cc9891")
 	)
 	(fp_line
 		(start -2 1.25)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "75a1df15-7e43-462f-a5ad-a4197407b944")
+		(uuid "c30e1558-1725-485f-a919-6401a52e41fe")
 	)
 	(fp_line
 		(start 2 -1.25)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b6009cb6-2d3f-4a0d-84fd-f7ed9e444632")
+		(uuid "fc38d73a-74ce-4e97-bbf5-664b722f8157")
 	)
 	(fp_line
 		(start 2 1.25)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cd66fcd8-9464-419e-9413-e1036e48a5c4")
+		(uuid "ef28c7c9-b4af-4752-bb47-059e4cca27e9")
 	)
 	(fp_line
 		(start -3.325 -1.5)
@@ -118,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3254da5c-c63d-4bcf-99eb-aa9a11b80bd2")
+		(uuid "84cc7b8a-5277-4854-8b1e-dfe4246daec9")
 	)
 	(fp_line
 		(start -3.325 -1.5)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "73a3419e-cfca-47bd-8dc2-dbf99a738bfd")
+		(uuid "887ea7f8-fba0-4a4b-af4e-a17fec8a59db")
 	)
 	(fp_line
 		(start 3.325 -1.5)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "70a3e83a-6931-4f1a-ae52-539c865e0f17")
+		(uuid "52d9237c-4407-479a-8cb1-58a106ff409c")
 	)
 	(fp_line
 		(start 3.325 1.5)
@@ -148,7 +148,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "00daa317-8f10-4734-afdf-7e9671795b02")
+		(uuid "3c2f9c2f-b67c-4c8e-8b98-bbf7bb523ac2")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -158,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "96eae8a8-6ee7-4e56-a453-28a7124403c8")
+		(uuid "44f6643d-093b-4c97-8daa-ae11bc258588")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -168,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "858950ec-5d3d-452e-8e15-3bcd7ff4552e")
+		(uuid "1e54df56-bb0c-4abf-b238-8c4f5abcd5ae")
 	)
 	(fp_line
 		(start 2 -1.25)
@@ -178,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "574349a0-308e-40ef-ae48-a9b30ceaea4f")
+		(uuid "b52845a7-7cc0-40e9-929c-e88f35fbd088")
 	)
 	(fp_line
 		(start 2 1.25)
@@ -188,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b6da3d49-453a-434d-b8ff-c9ec4a5c2470")
+		(uuid "618f580a-657b-4e01-a3ef-f5227dc2cb3d")
 	)
 	(pad "1" thru_hole circle
 		(at -2.5 0)
@@ -197,7 +197,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "1480f839-d595-4fe7-9f17-0e9b6e9e4eae")
+		(uuid "cee12ae0-e892-440a-a779-1e618d8fbc19")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
@@ -206,7 +206,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "14ffb1fa-4af3-4df7-a50e-c4f790acf4fd")
+		(uuid "17c3d386-4da4-411c-bd25-498f97ab8a4a")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/TDK FA 5.0mm/FA28NP01H152JNU06.step"

@@ -1,12 +1,12 @@
 (footprint "TDK CAPRB500W50L400T250H550"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.15 -2.335 0)
+		(at 0 -2.2 0)
 		(layer "F.SilkS")
-		(uuid "4c6b1f81-a210-4468-b96c-fe5995aa1015")
+		(uuid "a1e6a618-d360-4444-83e0-2fc9c49d7f11")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "TDK CAPRB500W50L400T250H550"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "9aab628e-1b00-490b-b59b-75aaba8d24e7")
+		(uuid "6609a02e-b5f5-4814-8f24-a4fe38599f1a")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c5f157cf-a35a-4c8d-8e06-8419ac54e2a1")
+		(uuid "cb1ad1bb-f660-4af7-910a-9fa632a1a9ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "414902ad-b204-469d-b8b3-ff0ee00e648a")
+		(uuid "bfbbfa12-9f15-4197-abe6-e8ca5a4ed663")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2 -1.25)
 		(end -2 -0.895)
@@ -58,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ff8a35ee-2888-471e-9db4-040a82136bed")
+		(uuid "66a505df-dda4-40b7-9ec2-9d21eac95dc0")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -68,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3f8b5012-3e99-41b3-b987-a5609c6583f6")
+		(uuid "67a446a3-0702-4d64-bbb3-9ce604221c84")
 	)
 	(fp_line
 		(start -2 1.25)
@@ -78,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d74d841a-4658-4e37-b14f-86d43d596bdd")
+		(uuid "284e320b-63c6-49b7-b3e5-eff71bec88f9")
 	)
 	(fp_line
 		(start -2 1.25)
@@ -88,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bf6aa6ed-dd8f-4f3f-bfee-74141a7d9754")
+		(uuid "4c803e24-df31-457a-b64d-8b5c662a83e8")
 	)
 	(fp_line
 		(start 2 -1.25)
@@ -98,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "17dbce4c-3120-4560-9e4e-7b149dfb255c")
+		(uuid "02db005e-7694-4a11-9c49-edb86ed75c80")
 	)
 	(fp_line
 		(start 2 1.25)
@@ -108,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "91d309ea-67a6-406e-a18d-7c4669f6d5fa")
+		(uuid "9ceb802f-185f-482d-a3f5-19a8b3a156c7")
 	)
 	(fp_line
 		(start -3.325 -1.5)
@@ -118,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dec05f98-af31-4a69-867e-32ba4190f34c")
+		(uuid "9c8a04bc-b533-4edf-9eca-754740e14812")
 	)
 	(fp_line
 		(start -3.325 -1.5)
@@ -128,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6fa058ca-1267-4428-bfb1-ed2060d2e14c")
+		(uuid "ffe02010-f733-466d-bd0c-695bafd83948")
 	)
 	(fp_line
 		(start 3.325 -1.5)
@@ -138,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f66b2445-7945-41f4-b53e-253bd884f5bb")
+		(uuid "2d632ec1-0a78-4bef-a70e-d9d35f2711d4")
 	)
 	(fp_line
 		(start 3.325 1.5)
@@ -148,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "321b7a75-bc4f-4297-bdd7-0e7a1324c897")
+		(uuid "0000735a-b1da-4796-b267-5ca99fb21ed4")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -158,7 +159,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ee9cf0d2-01bd-4a3d-818c-9e81b14b3d47")
+		(uuid "ff7fee3f-dd55-41c4-9cad-cbac856d21c7")
 	)
 	(fp_line
 		(start -2 -1.25)
@@ -168,7 +169,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2935d1f5-4bba-4dc8-93a0-2c11a5fef4a6")
+		(uuid "7504f40a-e7b9-49f9-8192-7853f1629abc")
 	)
 	(fp_line
 		(start 2 -1.25)
@@ -178,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "80eb0314-d9f5-428a-b578-354d5f924cf1")
+		(uuid "eac6f108-0b52-4aae-bb28-ff33d493c5c9")
 	)
 	(fp_line
 		(start 2 1.25)
@@ -188,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4c050d15-bb4b-4b22-8f0e-92bc3bd91083")
+		(uuid "206a6276-f1ab-4b12-a069-58107ada49ba")
 	)
 	(pad "1" thru_hole circle
 		(at -2.5 0)
@@ -197,7 +198,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "3ce49263-f64d-4cd0-94c2-cc0cdb8b81b4")
+		(uuid "9a9a30c1-e0e3-4115-bcbd-a5aa394ed3e8")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
@@ -206,7 +207,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "de61047d-5f8c-4c07-adbc-a4ad4884872d")
+		(uuid "3ccc89dc-449e-455f-9afb-5110aeb38489")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/TDK FA28NP01H152JNU06/FA28NP01H152JNU06.step"

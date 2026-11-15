@@ -6,9 +6,9 @@
 	(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 	(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 	(property "Reference" "REF**"
-		(at 0 -2.85 0)
+		(at 0 -2.9 0)
 		(layer "F.SilkS")
-		(uuid "ae49e155-4184-4fa1-915c-4dba63863088")
+		(uuid "4daa7c6b-8516-463e-a755-e520ad4a77bd")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SolderWirePad_1x01_SMD_4x4mm"
 		(at 0 3 0)
 		(layer "F.Fab")
-		(uuid "f664cc51-7459-49b2-ab31-35901f8f52a6")
+		(uuid "f2f6d8af-b885-4b2c-bafb-848f3bfa36ba")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "40dfff60-b78f-42a6-a0f1-4be6321e92cd")
+		(uuid "d86c660a-f267-4d7c-8a18-e9b6ff872dd8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "471cbed6-3962-4fe6-b96d-2d49163eeeb3")
+		(uuid "4753b638-df7a-4f54-ae21-a4a1510c8d76")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8c355ca0-1899-433b-b46f-f14eb0d7411e")
+		(uuid "f5472436-fb3d-4121-b978-9884c2656998")
 	)
 	(fp_rect
 		(start -2.15 -2.15)
@@ -73,12 +73,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "0a4d9e5b-4fa3-4526-a16b-afd711bea528")
+		(uuid "8158fafa-12d6-4275-bf66-c2325ed22a62")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.5 0)
 		(layer "F.Fab")
-		(uuid "2d205ebc-e428-4f69-9fd2-f6dc65700cad")
+		(uuid "af9453a4-8a42-40a5-bcfc-4968d780c695")
 		(effects
 			(font
 				(size 1 1)
@@ -91,7 +91,7 @@
 		(size 4 4)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.0625)
-		(uuid "cae2dd41-7a60-48b7-bf40-4925596c7212")
+		(uuid "12350559-91f4-43a4-8aa5-a0f50c3cbf18")
 	)
 	(embedded_fonts no)
 )

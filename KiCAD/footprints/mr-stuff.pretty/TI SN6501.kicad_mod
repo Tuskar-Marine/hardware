@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "Transformer Driver for Isolated Power Supplies")
 	(property "Reference" "REF**"
-		(at 0 -2.508 0)
+		(at 0 -2.4 0)
 		(layer "F.SilkS")
-		(uuid "4f91e74b-9a1c-46de-bf48-fdea9213190f")
+		(uuid "1b4f8c0d-3bad-46e0-9e7b-839fc846423d")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "TI SN6501"
 		(at 0 2.7 0)
 		(layer "F.Fab")
-		(uuid "7bb987a6-882b-4638-a4da-65b52e8bc9ed")
+		(uuid "41da5969-1b25-4bc4-ac2a-40932ee3ee67")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3bd39f75-7512-47c8-92c4-71e0665e12a1")
+		(uuid "97d235f5-e9be-4b7a-900d-a6755363579e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a5536f70-e448-455c-bb14-e4e5045960af")
+		(uuid "a2e77094-57f3-42c2-a737-df12b654e52e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cab3afa6-dfb3-4fb8-b520-707f1d24dc44")
+		(uuid "e7dfcbcb-d57b-499b-8449-82d65c007651")
 	)
 	(fp_line
 		(start 0.8 1.565)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2e1e3023-fbe9-486c-9484-43a0da83d58a")
+		(uuid "8adf481c-41bf-4c75-a57c-3e7ee41fc94d")
 	)
 	(fp_line
 		(start -2.11 -1.7)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a7c053cb-90bd-4d43-98e1-c3818264bf73")
+		(uuid "2223e205-41c7-4106-8230-0e333588ccd0")
 	)
 	(fp_line
 		(start -2.11 1.7)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "15e9ff68-8d0e-4727-a1da-9cce38a12a9e")
+		(uuid "aa1a3374-54ea-431f-991c-01e65470387d")
 	)
 	(fp_line
 		(start 2.11 -1.7)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e73f5a4d-3375-483f-9f66-cabdb741fddc")
+		(uuid "1b64b49e-c52d-422a-bf69-8263eb812243")
 	)
 	(fp_line
 		(start 2.11 1.7)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8ae59daa-2d3f-41a9-a069-aadc3a8d7a8a")
+		(uuid "081c86f6-04e6-4479-bb06-c9a7f8cee838")
 	)
 	(fp_line
 		(start -0.8 -1.45)
@@ -118,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "03555077-6c2e-483d-a99b-2447b75b1044")
+		(uuid "fd5a0cd6-1b15-4cac-b769-5785fd254f3c")
 	)
 	(fp_line
 		(start -0.8 1.45)
@@ -128,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0409ce6c-f3d9-42bd-a9a5-f48157d35e49")
+		(uuid "968789b6-8b25-4a8c-9e44-0243deaf04ef")
 	)
 	(fp_line
 		(start 0.8 -1.45)
@@ -138,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "276cc727-e5c2-4ccd-a12f-10ff10798141")
+		(uuid "23b3e85a-3395-43d1-8a7a-db8f3bc32283")
 	)
 	(fp_line
 		(start 0.8 1.45)
@@ -148,17 +148,17 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d3b77f3b-695c-42a7-bf15-3303b4fb0774")
+		(uuid "5752b211-8ef7-4322-9347-24ded2aaf95a")
 	)
 	(fp_text user "*"
 		(at -2.4 -0.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b287a7bd-d44a-49fa-ba79-1af24bb6609e")
+		(uuid "2ce03b91-e138-4a80-8b0b-51aa740ad180")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -168,7 +168,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
-		(uuid "123da0b3-83d6-43d4-85a7-057a1c42643d")
+		(uuid "4e414460-8479-4840-8777-6a17174f8b8c")
 	)
 	(pad "2" smd roundrect
 		(at -1.255 0)
@@ -176,7 +176,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
-		(uuid "a8bc3665-9ed4-4a71-bd76-89100c74a869")
+		(uuid "05cc4349-279b-412b-9b17-62908f53b04b")
 	)
 	(pad "3" smd roundrect
 		(at -1.255 0.95)
@@ -184,7 +184,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
-		(uuid "523b1522-04cf-4e1a-95d9-c9a10f7b0365")
+		(uuid "16c2385e-58e6-474c-8998-74164316a5be")
 	)
 	(pad "4" smd roundrect
 		(at 1.255 0.95)
@@ -192,7 +192,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
-		(uuid "e6384825-fb72-4ad7-9115-93e5ca689e3f")
+		(uuid "7d89be1d-0891-4113-a4c0-08930c2fb50a")
 	)
 	(pad "5" smd roundrect
 		(at 1.255 -0.95)
@@ -200,7 +200,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
-		(uuid "36efc8d9-3d49-4806-ae2c-a56ddd4b1157")
+		(uuid "35947a2b-8166-4631-b3eb-32ab226bde5d")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/TI SN6501/SN6501QDBVRQ1.step"

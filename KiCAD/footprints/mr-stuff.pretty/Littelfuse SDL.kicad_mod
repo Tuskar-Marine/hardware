@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -5.9 0)
 		(layer "F.SilkS")
-		(uuid "68475173-8435-42fc-a3e7-18b2b94f4e26")
+		(uuid "bef5f17a-283b-4f64-a0c9-f93b30215722")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fd5ca027-2958-4b9a-9961-373b7086c301")
+		(uuid "6fc73720-cd0e-44dc-885a-c5b970289a1d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26d87566-83fc-4574-94ea-77a12f5226a5")
+		(uuid "b7a4e17e-6383-4256-8f41-6724e380e1f2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "851b7290-ba2b-4979-9fd5-034a147d46d7")
+		(uuid "317766d5-17dd-41d7-b868-339671cc5da5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3d5b0cb9-dd50-48cc-ac59-1bfbcbf2f889")
+		(uuid "d377b6de-343c-4b79-9cc5-107952a053c4")
 	)
 	(fp_line
 		(start -4.5 -0.1)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "90162f9e-465b-4e24-a15d-a6aecaeb6c38")
+		(uuid "e1f7817e-3889-4b29-9652-45dff404e26c")
 	)
 	(fp_line
 		(start 20.8 0)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "37a89cbc-65fa-460f-aaa5-006375729a73")
+		(uuid "8a2decb3-26b1-4cef-8ed2-d6956c8efa59")
 	)
 	(fp_rect
 		(start -23.5 -4.75)
@@ -93,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f969a336-a66b-4f48-be00-a49a5efb14f3")
+		(uuid "729ecac5-8b3c-469f-bd56-3487a8b380c1")
 	)
 	(fp_rect
 		(start -4.5 -4.5)
@@ -104,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e3b1de5e-41a5-4f56-bd17-0731bd48db19")
+		(uuid "d33ca82e-0748-4b25-a6c1-dc1648bd5cea")
 	)
 	(fp_rect
 		(start -23.7 -4.9)
@@ -115,7 +115,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cc63388e-d84d-4d25-8849-e14b59e1df54")
+		(uuid "a3308cf8-03d8-4044-b423-5425b0e05f94")
 	)
 	(pad "1" thru_hole circle
 		(at -22.175 0)
@@ -123,7 +123,7 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8f86e25d-0f51-4225-9b85-57e80f3d7229")
+		(uuid "dcd525c4-e1a0-41ed-88c3-dad866da4ca5")
 	)
 	(pad "2" thru_hole circle
 		(at 22.125 0)
@@ -131,7 +131,7 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "64c6a380-583f-4d83-84fd-52d38ed1c2c8")
+		(uuid "3528db7d-8171-4ba5-b850-1b38dfcf71f7")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/LittelFuse SLD15-018/SLD15-018.stp"
