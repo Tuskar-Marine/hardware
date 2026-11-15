@@ -4008,7 +4008,7 @@
 			(uuid "73fc1cb8-6827-4b04-a5da-e87e1c0397c6")
 		)
 		(fp_text user "*"
-			(at -3.95 -1.55 90)
+			(at -2.9 -2.4 90)
 			(layer "F.SilkS")
 			(uuid "d2b2f98e-1a9c-464d-8c92-a4aa742e3daf")
 			(effects
@@ -10316,7 +10316,7 @@
 			(uuid "93ae8a45-3a23-4d2f-9736-fcfd812056e7")
 		)
 		(fp_text user "*"
-			(at -3.95 -1.55 90)
+			(at -3 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "def12b4c-5702-4062-8def-018adfe8e984")
 			(effects
@@ -37223,14 +37223,13 @@
 			(uuid "04bd0858-8893-4af5-bbfb-f8ac7e61cfcf")
 		)
 		(fp_text user "*"
-			(at -2.3 -1.8 180)
+			(at -2.55 -2.25 180)
 			(layer "F.SilkS")
 			(uuid "087ed986-d3d9-45f6-a917-8fd00422b053")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.1)
-					(bold yes)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
