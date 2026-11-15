@@ -4,21 +4,20 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -2.3 0)
 		(layer "F.SilkS")
-		(uuid "ff8f5534-e084-4f05-8dcd-51e22c13a9ca")
+		(uuid "1faaff5c-0848-44a0-a386-4cab1a77ee7d")
 		(effects
 			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "SOP50P490X110-10N"
 		(at 0 2.635 0)
 		(layer "F.Fab")
-		(uuid "1ef2a6bc-4cbd-4016-88b7-09e7698ff8c8")
+		(uuid "9aec5f4a-a9fd-418e-a82a-8e49c49ceb53")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5261e68b-7880-4855-9c53-f9b70460d26f")
+		(uuid "88513aac-9d91-4626-a82e-583e96a1da05")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d4db7dbc-c70e-4aa3-bce0-7b54b00f7983")
+		(uuid "51d508c5-5fc4-46d4-b134-1d92a6144a2a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +57,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "18e17f8a-56d0-4287-aaaf-03d4b01983bf")
+		(uuid "2b102952-0dd1-492b-bbcc-b3111deb72c4")
 	)
 	(fp_line
 		(start -1.5 1.5)
@@ -68,18 +67,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ad1b3eff-d6f5-4ea1-923a-6edbee91b5ff")
-	)
-	(fp_circle
-		(center -3.5 -1.28)
-		(end -3.4 -1.28)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "582a9347-9f29-4ca8-9e16-1fa55bb22815")
+		(uuid "a0a81f02-4aac-431b-b118-ae79c6cef449")
 	)
 	(fp_line
 		(start -3.135 -1.75)
@@ -89,7 +77,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a76bdb5b-d0d9-4f10-97da-30ff46f61b6c")
+		(uuid "1b5c174c-509f-4fab-bb83-521880fe17f0")
 	)
 	(fp_line
 		(start -3.135 -1.75)
@@ -99,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b580e653-b06d-4d7f-9105-0a37f6791155")
+		(uuid "be4a5dfa-7ee3-4b33-a4d1-3566f575f52a")
 	)
 	(fp_line
 		(start -3.135 1.75)
@@ -109,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "119ecf70-63dd-4c75-84a0-4cd163b1b88e")
+		(uuid "2b20d36a-0702-46f2-a8db-00a5bcf16800")
 	)
 	(fp_line
 		(start 3.135 -1.75)
@@ -119,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "15caffa3-b74b-4465-a416-5968b9197877")
+		(uuid "00666dbd-8d74-421a-9e91-ceede6d66240")
 	)
 	(fp_line
 		(start -1.5 -1.5)
@@ -129,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "67517d80-c821-4cdd-88bb-8d0b4962310e")
+		(uuid "8ffc85d1-fd62-4039-aa8e-e659c97ba583")
 	)
 	(fp_line
 		(start -1.5 -1.5)
@@ -139,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "51b8e555-3ab8-40a9-bb8c-f146943bb9d1")
+		(uuid "f5a53993-eef0-4176-b410-2aad374a5cd6")
 	)
 	(fp_line
 		(start -1.5 1.5)
@@ -149,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f3e0ab80-738f-4d36-861d-5587878297c6")
+		(uuid "1453b63f-cef7-4761-855c-fdbc9578ce32")
 	)
 	(fp_line
 		(start 1.5 -1.5)
@@ -159,18 +147,19 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "46e2deec-7529-449e-b151-9ec73f2d2497")
+		(uuid "f6c335f2-9ff9-4d08-bdb2-878e1f1bfea6")
 	)
-	(fp_circle
-		(center -3.5 -1.28)
-		(end -3.4 -1.28)
-		(stroke
-			(width 0.2)
-			(type solid)
+	(fp_text user "*"
+		(at -3.4 -0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bec405bc-88b7-42f2-9684-ad2a9ba7003d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "a5e06c68-db4b-412e-8865-48ccbbf8dcbf")
 	)
 	(pad "1" smd roundrect
 		(at -2.16 -1)
@@ -178,7 +167,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "582ebea0-3b6e-4c5d-809d-c7e58d535a19")
+		(uuid "d0483b89-c968-48a0-9e47-0a2e970da14a")
 	)
 	(pad "2" smd roundrect
 		(at -2.16 -0.5)
@@ -186,7 +175,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "b00c5ba4-82be-4d46-840a-c62e5fc2f838")
+		(uuid "13d6ba31-4ea7-4af3-bb21-1a99054bc471")
 	)
 	(pad "3" smd roundrect
 		(at -2.16 0)
@@ -194,7 +183,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "cefad982-ef0a-41d9-95ec-99dffe0ed14f")
+		(uuid "ce3d95b9-cfa7-46ca-8ceb-6420965ed2da")
 	)
 	(pad "4" smd roundrect
 		(at -2.16 0.5)
@@ -202,7 +191,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "664290b5-6b74-45ec-b875-c2c703f56339")
+		(uuid "5f988076-e57a-46a4-b7e0-2cbc81fec7bc")
 	)
 	(pad "5" smd roundrect
 		(at -2.16 1)
@@ -210,7 +199,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "5564b686-ef34-491c-a230-0603846fa5e0")
+		(uuid "f319d835-1822-49a1-a97c-8c6c67ea2d69")
 	)
 	(pad "6" smd roundrect
 		(at 2.16 1)
@@ -218,7 +207,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "5cf89f56-c0fe-4a16-b079-bb10b94c2284")
+		(uuid "76845397-ef6a-4b18-bce8-72547a7d3603")
 	)
 	(pad "7" smd roundrect
 		(at 2.16 0.5)
@@ -226,7 +215,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "6e55a0f4-048a-41ee-8120-03ff146f5636")
+		(uuid "c523b26a-34e0-49fc-a19e-86e8abadc389")
 	)
 	(pad "8" smd roundrect
 		(at 2.16 0)
@@ -234,7 +223,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "e7f59cce-6f1f-41b1-85a1-8705ab08b355")
+		(uuid "d16c3983-7aa5-45d8-bf3e-cc1d8cf2f499")
 	)
 	(pad "9" smd roundrect
 		(at 2.16 -0.5)
@@ -242,7 +231,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "a4de245d-60cb-4c3d-b94a-241968c0f960")
+		(uuid "4f61fb96-1eed-4e45-923e-bb94ab0b1be6")
 	)
 	(pad "10" smd roundrect
 		(at 2.16 -1)
@@ -250,7 +239,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
-		(uuid "bc05d4c6-eca8-41c5-a8f4-ab7d7b37dfb1")
+		(uuid "11a3443e-6338-49c8-abfe-adf5a192fffd")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/ADI LTC4368/SM_LTC4368IMS-1_PBF.step"
