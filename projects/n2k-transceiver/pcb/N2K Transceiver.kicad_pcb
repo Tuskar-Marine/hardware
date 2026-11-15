@@ -8898,7 +8898,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5279cd4-7f5f-4273-b305-28742008140f")
+			(uuid "751e831c-bda9-4357-a3ce-285c858895f0")
 			(effects
 				(font
 					(size 1 1)
@@ -8957,17 +8957,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "38075b05-ab7d-4b5a-a1e3-278394aeb25c")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "a81290f6-d593-4684-b56f-685a29560f95")
 		)
 		(fp_line
 			(start -4.11 -3.3)
@@ -9048,17 +9037,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "b636e1cc-bb0c-4462-bf29-cdb3654ccf8e")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "985f8bd3-b8ee-4aff-85f3-c3779716acc8")
 		)
 		(pad "1" thru_hole rect
 			(at -3.1 -2.25)
@@ -12492,7 +12470,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4499a0e6-eee7-4ec2-9576-f0e4da4f490c")
+			(uuid "112ce336-cf0f-42f5-b5c2-873fbd32d686")
 			(effects
 				(font
 					(size 1 1)
@@ -12551,17 +12529,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4e9793c4-fa53-4836-82a5-54b153e2e2e3")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "43d769c4-cae0-4384-b255-316642e85012")
 		)
 		(fp_line
 			(start -4.11 -3.3)
@@ -12642,17 +12609,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "fcd74c61-db5a-4536-8fec-0857b31c9cb1")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "548a3207-7598-4024-b3d2-f50d3e2cb93a")
 		)
 		(pad "1" thru_hole rect
 			(at -3.1 -2.25)
@@ -17601,6 +17557,12 @@
 		(path "/0c5db0eb-37e8-4190-b9c7-2afc1a0ef5a9")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19250,7 +19212,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4e64d7c-01b7-466e-9a56-602651e776c8")
+			(uuid "a6d98cfa-8d5a-4f17-810b-61083a3c6423")
 			(effects
 				(font
 					(size 1 1)
@@ -19309,17 +19271,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e1c52890-51ca-4ba1-9894-6934ca27cb76")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f14e41bc-5ac6-4cb3-9cb1-7667a691dc66")
 		)
 		(fp_line
 			(start -4.11 -3.3)
@@ -19400,17 +19351,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "c5921b8d-388e-41d5-88ff-e94e0d8e5f42")
-		)
-		(fp_circle
-			(center -4.497 -2.337)
-			(end -4.397 -2.337)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "77abf98a-431e-4de0-9248-7d387d09edc7")
 		)
 		(pad "1" thru_hole rect
 			(at -3.1 -2.25)
@@ -19882,6 +19822,12 @@
 		(path "/32ff99b2-da3d-4c59-a009-6d6a2b12a2b8")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21199,6 +21145,12 @@
 		(path "/89d4db01-75c2-4312-9fcd-e366b6e066a5")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35910,6 +35862,12 @@
 		(path "/da98f6e7-ab54-40af-a474-9988e01c29de")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
