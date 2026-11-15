@@ -113,6 +113,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_f755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -17600,12 +17601,6 @@
 		(path "/0c5db0eb-37e8-4190-b9c7-2afc1a0ef5a9")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17649,6 +17644,48 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "97ecda6f-df6e-4895-a241-ab4216ed55ef")
+		)
+		(fp_line
+			(start 1.3 -1.1)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "923436a3-a1cc-416c-887e-4828fa3756f2")
+		)
+		(fp_line
+			(start -1.3 1.1)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ded100d-5079-4d88-9061-da4ea3747759")
+		)
+		(fp_arc
+			(start 1.3 -1.1)
+			(mid 2.4 0)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "291832cf-ba63-4a88-854d-088520a85ac0")
+		)
+		(fp_arc
+			(start -1.3 1.1)
+			(mid -2.4 0)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0d7e9fe-f7c2-4864-a32b-069324cf7627")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.3 180)
@@ -19845,12 +19882,6 @@
 		(path "/32ff99b2-da3d-4c59-a009-6d6a2b12a2b8")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19894,6 +19925,48 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "7007f18a-5db6-4e1f-9012-b92f53f44bec")
+		)
+		(fp_line
+			(start 1.3 -1.1)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "c4f4606e-2102-4725-bc50-d955de64cc81")
+		)
+		(fp_line
+			(start -1.3 1.1)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddd36cd8-a514-4ad3-aed7-3a368f8e320f")
+		)
+		(fp_arc
+			(start 1.3 -1.1)
+			(mid 2.4 0)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "96ced7ac-7594-4caf-9bd2-d068079e29af")
+		)
+		(fp_arc
+			(start -1.3 1.1)
+			(mid -2.4 0)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "594b0c4d-634f-4d4c-8954-eb1927c80c96")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.3 180)
@@ -21126,12 +21199,6 @@
 		(path "/89d4db01-75c2-4312-9fcd-e366b6e066a5")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21175,6 +21242,48 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "b0771e45-12db-4ce7-8905-9c21e733d40f")
+		)
+		(fp_line
+			(start 1.3 -1.1)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "cfc0c340-01c3-427e-aace-6220b01c4e5e")
+		)
+		(fp_line
+			(start -1.3 1.1)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "66fe09fd-0f94-4441-bbbd-7660a705173d")
+		)
+		(fp_arc
+			(start 1.3 -1.1)
+			(mid 2.4 0)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "2bf9ab53-025e-4603-a6b1-509e80225f4a")
+		)
+		(fp_arc
+			(start -1.3 1.1)
+			(mid -2.4 0)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ad5197bd-ef89-4db8-bd34-6659a6f44268")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.3 180)
@@ -35801,12 +35910,6 @@
 		(path "/da98f6e7-ab54-40af-a474-9988e01c29de")
 		(sheetname "/")
 		(sheetfile "N2K Transceiver.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35850,6 +35953,48 @@
 			)
 			(layer "Edge.Cuts")
 			(uuid "5d9d98f5-09d8-4916-b1a5-b890ab9e7d63")
+		)
+		(fp_line
+			(start 1.3 -1.1)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "1d9f6baa-3caf-4f2d-98a1-b559d8a3218a")
+		)
+		(fp_line
+			(start -1.3 1.1)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "88b216cf-9434-482e-9543-0160668319b4")
+		)
+		(fp_arc
+			(start 1.3 -1.1)
+			(mid 2.4 0)
+			(end 1.3 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "453e35f6-87d2-4782-ae29-236efe84f29b")
+		)
+		(fp_arc
+			(start -1.3 1.1)
+			(mid -2.4 0)
+			(end -1.3 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ab5e685c-8f75-4fca-be39-5e21201e4ba7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.3 180)
