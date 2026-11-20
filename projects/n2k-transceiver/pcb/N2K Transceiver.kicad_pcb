@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.659981)
+		(thickness 1.59468)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -39,13 +39,15 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(thickness 0.01)
+				(color "Green")
+				(thickness 0.01524)
 			)
 			(layer "F.Cu"
 				(type "copper")
@@ -53,31 +55,31 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.0994)
 				(material "S1000H")
-				(epsilon_r 4.2)
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.0175)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.334981)
+				(thickness 1.265)
 				(material "S1000H")
-				(epsilon_r 4.2)
+				(epsilon_r 4.43)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.0175)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.0994)
 				(material "S1000H")
-				(epsilon_r 4.2)
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
@@ -86,13 +88,15 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(thickness 0.01)
+				(color "Green")
+				(thickness 0.01524)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints no)
