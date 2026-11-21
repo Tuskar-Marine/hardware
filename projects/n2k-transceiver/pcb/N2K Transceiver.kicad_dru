@@ -15,3 +15,7 @@
 (rule "HV fan-out beside fine-pitch neighbours"
   (condition "(A.NetName == 'V_OUT' && B.NetName == '/ANCHOR_ON_IN') || (A.NetName == '/VR1_VIN' && (B.NetName == 'Net-(VR1-EN)' || B.NetName == '+3.3V'))")
   (constraint clearance (min 0.15mm)))
+
+(rule "VR1 switch node and BOOT: 40 V spacing to other copper"
+  (condition "(A.NetName == 'unconnected-(VR1-SW-Pad5)' || A.NetName == 'unconnected-(VR1-SW-Pad6)' || A.NetName == 'unconnected-(VR1-BOOT-Pad7)') && !B.memberOfFootprint('VR1') && B.NetName != 'Net-(VR1-VCC)'")
+  (constraint clearance (min 0.6mm)))
