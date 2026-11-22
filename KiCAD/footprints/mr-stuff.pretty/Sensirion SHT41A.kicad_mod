@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "Automotive SHT4xA")
 	(property "Reference" "REF**"
-		(at 0 -1.8 0)
+		(at 0 -1.6 0)
 		(layer "F.SilkS")
-		(uuid "818d2ccb-d896-4a8c-aba0-8f4f5cc9c134")
+		(uuid "be4dfad7-18e6-4d17-b51b-eec060af2fda")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "SHT41A"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "e5633658-9b88-4dff-92a9-8df7eff10d29")
+		(uuid "11529dda-eb8f-437f-8783-e2c0996b6046")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "03d2ea4e-469d-4c81-a1cb-e7c074c8769a")
+		(uuid "ebfd5737-c4d4-4faa-9424-3dd384c57e95")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5eafbc04-b5e1-451d-a8db-38621dd07187")
+		(uuid "e5c823aa-7267-4dbc-b21c-168f9916dfbd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "91df51de-35a6-4037-8fed-8bf65f43d9bb")
+		(uuid "0feba0cd-31ac-4b1b-8884-be8f63e4b691")
 	)
 	(fp_line
 		(start -0.7 0.75)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c1b947d0-490d-4bab-82a9-827cfcc451e6")
+		(uuid "5a042256-f800-442d-b75e-f8c1ba2273fe")
 	)
 	(fp_circle
 		(center -1 -0.8)
@@ -79,7 +79,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "454ea5f9-0386-45e5-940d-0e5c301a8bb9")
+		(uuid "b7d2dd6b-b472-43a2-9564-7d5879270c36")
 	)
 	(fp_line
 		(start -0.75 -0.75)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "b7d9c1cb-ee49-44c0-914b-c80999225265")
+		(uuid "d7e6b3eb-2036-47bd-a29c-631c4bc37239")
 	)
 	(fp_line
 		(start -0.75 0.75)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "f74afc96-a7a7-4811-bb0c-149bce9eec3d")
+		(uuid "17133c07-cbe3-48b7-b5f4-e9fc7844b996")
 	)
 	(fp_line
 		(start 0.75 -0.75)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "78d891fa-8259-4fad-8d04-90067c2bfde4")
+		(uuid "26504e62-cf6d-40c9-b0cd-5d2d1a97c08b")
 	)
 	(fp_line
 		(start 0.75 0.75)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "41bd911e-915f-46a2-bf08-996d05699f64")
+		(uuid "fa303841-beb2-4035-8a37-585dca3f59b7")
 	)
 	(fp_rect
 		(start -1.35 -1)
@@ -130,7 +130,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "13117e03-a75f-472a-8fe3-6d02ae43767d")
+		(uuid "9336df78-540f-445e-b0cc-2fc62c5205f2")
 	)
 	(fp_circle
 		(center 0 0)
@@ -141,35 +141,35 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "18b15710-7a99-4e13-8c42-53c8760d583e")
+		(uuid "6508d2b6-127a-4b05-8b12-0537ef3ba732")
 	)
 	(pad "1" smd rect
 		(at -0.8 -0.4)
 		(size 0.8 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "ea98e728-c760-47af-9c8e-ee93caab58b1")
+		(uuid "7846f6d6-e1bc-4369-8ffe-4221b9b20fe1")
 	)
 	(pad "2" smd rect
 		(at -0.8 0.4)
 		(size 0.8 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "6d6a1df3-b009-4430-94fd-aaf825cf1d0d")
+		(uuid "8123296b-4b6e-45f9-9996-95f5e61a80ab")
 	)
 	(pad "3" smd rect
 		(at 0.8 0.4)
 		(size 0.8 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "c3c84c9c-de70-4130-ab12-e17aa81945b4")
+		(uuid "ad1af436-7be8-43e2-8d04-e1aaebbaedcd")
 	)
 	(pad "4" smd rect
 		(at 0.8 -0.4)
 		(size 0.8 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "87fc7026-7031-4b82-8968-e3f37dcff33a")
+		(uuid "481cba69-3564-47a2-abf7-169a7d47df08")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Sensirion SHT41A/SHT4XA.step"

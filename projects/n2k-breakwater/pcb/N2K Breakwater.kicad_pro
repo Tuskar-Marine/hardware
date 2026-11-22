@@ -202,6 +202,7 @@
         0.508,
         0.6,
         0.762,
+        1.0,
         2.0,
         3.0
       ],
@@ -502,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "N2K Transceiver.kicad_pro",
+    "filename": "N2K Breakwater.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -525,6 +526,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.6,
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -532,7 +541,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HV",
+        "pattern": "V_RAW"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/M12_V_RAW"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -701,18 +719,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "N2K Transceiver.kicad_sch",
-        "name": "N2K Transceiver",
+        "filename": "N2K Breakwater.kicad_sch",
+        "name": "N2K Breakwater",
         "uuid": "2a070473-cb6e-4844-8f2a-5ea6a35ddb49"
       }
     ],
-    "used_designators": "TP1-3,H2-4,FID2-3,SW1-4,R16,R24,#PWR83-84,C3-4,C8,C10-12,C14-19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "2a070473-cb6e-4844-8f2a-5ea6a35ddb49",
-      "N2K Transceiver"
+      "N2K Breakwater"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,190 @@
+(footprint "Vishay SMC5K16CA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMC (DO-214AB)")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "79a2e305-a031-4c4c-9e41-bed46f571581")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Vishay SMC5K16CA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1935fdd6-beea-4f7a-be2b-f5fd2abdbc55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00b86cd8-f98a-4d10-a590-86dd6eb35890")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2596564b-e986-45f8-80d9-8e3badc26cd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.97 2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49ad9450-f528-4bfa-aec2-b3bdb64d3252")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end -3.97 -2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0071c783-c087-41c2-baed-82250fe374af")
+	)
+	(fp_line
+		(start -4.85 -3.36)
+		(end 4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "525ad4c1-166c-41a3-bf0b-dd5db5f4935c")
+	)
+	(fp_line
+		(start -4.85 3.36)
+		(end -4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d46d319d-d016-4853-ba24-00a6b0eed790")
+	)
+	(fp_line
+		(start 4.85 -3.36)
+		(end 4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14c3a2a0-8ef1-4b93-8cdc-2e904a225bc4")
+	)
+	(fp_line
+		(start 4.85 3.36)
+		(end -4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee08c050-1a65-4652-9042-3345fb648241")
+	)
+	(fp_line
+		(start -3.97 -2.952)
+		(end 3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d36f8b4-8035-42d7-9809-77f4486d2393")
+	)
+	(fp_line
+		(start -3.97 2.952)
+		(end -3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19712217-bd5d-47a1-9f71-8e049c327398")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f36ac57d-719d-4dbd-abda-fe6064318b88")
+	)
+	(fp_line
+		(start 3.97 2.952)
+		(end -3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f81920bd-9a3a-4eac-b6a0-41332d917f6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "cf24d67e-be49-40d7-b0e6-4d72dfbe23a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.3 0)
+		(size 2.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c560cdc-7212-4305-93f8-c3e3a222cff9")
+	)
+	(pad "2" smd rect
+		(at 3.3 0)
+		(size 2.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c0841f6-4ed7-4fb8-a1dc-5196c50cf599")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Vishay SMC5K16CA/SMC5K16CA-M3_H.stp"
+		(offset
+			(xyz 0 0 0.66)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

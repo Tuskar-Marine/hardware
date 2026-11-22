@@ -1,14 +1,14 @@
 (footprint "Omron_G5LE-1A DC5"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "G5LE-1A-E DC12 ")
 	(property "Reference" "REF**"
-		(at 0 4.8 0)
+		(at 0 -20 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a37817b7-138d-43b2-8055-ebaef040937e")
+		(uuid "ddf5ce81-7652-4356-ba99-d96d531c3f14")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 8 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7b210fb3-2a3a-4142-826e-651f1944d26b")
+		(uuid "92fca410-214b-4c34-b7f1-a51a9c4ca9e1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "83f4530e-2637-4fd4-b409-a4684e3c0f48")
+		(uuid "b4cb7e45-79bb-4d97-b48a-b50658ce885c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca0d23aa-e39d-4a69-b12a-0f33a38d31e7")
+		(uuid "5c173c87-01d4-4869-a55d-d39a53947214")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.324 -16.499998)
 		(end -8.054 -16.499998)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0233ef42-fdf6-4793-aa3c-21eca81b89f3")
+		(uuid "e5200fd2-0a40-41c5-8456-3c0a493ad157")
 	)
 	(fp_line
 		(start -8.689 -17.134998)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f9549cf2-8739-4865-b1df-693e03be41ee")
+		(uuid "80628623-4ec7-486d-951a-c84474fb1263")
 	)
 	(fp_line
 		(start -7.927 -19.176998)
@@ -81,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3be76e94-02fe-48a9-90f6-bf84ed9f21ee")
+		(uuid "53c81d4c-be0a-4fc9-851a-01011ab5f858")
 	)
 	(fp_line
 		(start 7.927 -19.176998)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "27719655-bf7b-4a5b-a0be-f3de07e2fc5f")
+		(uuid "1d3b3c32-31e1-449b-ac30-5aa2c0765594")
 	)
 	(fp_line
 		(start 7.927 -19.176998)
@@ -101,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0610a6e4-4f74-4af5-943f-9727971528ea")
+		(uuid "7da4d9c4-d6e4-4631-bec2-1d9d716c28e4")
 	)
 	(fp_line
 		(start 7.927 2.677)
@@ -111,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5d9588b8-156e-435f-8f4f-c10c2a91b5e6")
+		(uuid "402c2aea-faf4-469b-a2b9-f3e7e1623f50")
 	)
 	(fp_line
 		(start -8.054 -19.303998)
@@ -121,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "de705cc1-2820-4601-b01c-5a81fabc0906")
+		(uuid "67df4d82-37af-4b17-8aee-0099634f30ad")
 	)
 	(fp_line
 		(start -8.054 2.804)
@@ -131,7 +132,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fe7f5dc7-24ee-4442-99b0-d8053d5d014e")
+		(uuid "30ee0298-ec88-4827-8d32-ca18a52e6b25")
 	)
 	(fp_line
 		(start 8.054 -19.303998)
@@ -141,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "40571107-e16d-4090-b5a3-aebcab4238c4")
+		(uuid "11338950-0875-4990-aa73-6b968c4418a8")
 	)
 	(fp_line
 		(start 8.054 2.804)
@@ -151,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c3734fd2-991e-4126-9797-4b4736cc3d50")
+		(uuid "fbf2b7a1-43bf-4c76-aa74-b7380528e791")
 	)
 	(fp_line
 		(start -9.324 -16.499998)
@@ -161,7 +162,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4fdc4d12-b73c-4557-97a9-180d1c49067b")
+		(uuid "5f4f7080-776c-4c36-b752-3d3fdf55c86a")
 	)
 	(fp_line
 		(start -8.689 -16.499998)
@@ -171,7 +172,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "69e8b347-bc8c-4ba6-9573-3e3d6e1aa550")
+		(uuid "5f6c7b00-1868-4f3a-8e08-8af21ec515bc")
 	)
 	(fp_line
 		(start -7.8 -19.049998)
@@ -181,7 +182,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d6bddedf-3ff2-495e-9b1f-ce29a6e5b701")
+		(uuid "37efa2d5-db22-4898-8d42-9d8d1dfac44b")
 	)
 	(fp_line
 		(start -1.375833 -18.126366)
@@ -191,7 +192,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1dbb9e92-7276-4133-99ea-95cac0e12de6")
+		(uuid "805632ca-c97d-4e1a-bf53-09ecfde62a44")
 	)
 	(fp_line
 		(start 1.375833 -19.502199)
@@ -201,7 +202,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d09bb454-001d-4eaf-87c8-2209332afb55")
+		(uuid "4a3c78e9-e740-466f-abd9-bd6f2f75205f")
 	)
 	(fp_line
 		(start 1.375833 -18.126366)
@@ -211,7 +212,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "00692108-1f2d-415a-8b0d-deee54ec8d5b")
+		(uuid "b904a342-3eb1-41f9-861b-b95552d333e2")
 	)
 	(fp_line
 		(start 7.8 -19.049998)
@@ -221,7 +222,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "11d6fdc4-d48a-40c8-a5fb-dac61805bda2")
+		(uuid "5e47d12a-0368-4373-a1bc-3a0382f7c8cc")
 	)
 	(fp_line
 		(start 7.8 -19.049998)
@@ -231,7 +232,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "efb46be7-3e11-4c9a-bc84-54cdcbf9bee0")
+		(uuid "e11a033d-53b0-429e-b0d8-3026b5c65348")
 	)
 	(fp_line
 		(start 7.8 2.55)
@@ -241,13 +242,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4939de5a-d7b9-49ba-8610-a9f9370ea9d6")
+		(uuid "a440de54-42a9-4dd9-8bb4-456d750d341b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 6.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "620e9f13-ce4b-49ab-b360-101d4b326108")
+		(uuid "7403a7d8-0c49-4ca8-af84-cc397c84a466")
 		(effects
 			(font
 				(size 1 1)
@@ -261,7 +262,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e6af4e78-4b65-4699-8a6b-721b8351a457")
+		(uuid "e683e350-d9c4-4e1d-8819-966871cc650c")
 	)
 	(pad "2" thru_hole circle
 		(at -5.999999 -14.499996)
@@ -269,7 +270,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "87b5bcc6-1226-4ff5-a659-a3b453111506")
+		(uuid "a995a3bf-d607-4d9e-b5ac-6f8495f2652d")
 	)
 	(pad "3" thru_hole circle
 		(at -5.999999 -2.3)
@@ -277,7 +278,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d0860687-73da-4c0e-a550-408f34375773")
+		(uuid "2850e072-7edd-4290-80da-e6e37370b494")
 	)
 	(pad "5" thru_hole circle
 		(at 5.999999 -14.499996)
@@ -285,7 +286,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "497ccc4b-0646-42fb-82bc-81cc04e67696")
+		(uuid "73b617fe-1cc4-40d9-a3d8-bd968b68b5fc")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Omron G5LE-1A-E DC12/G5LE_1A.step"

@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "Capacitor")
-	(property "Reference" "C**"
+	(property "Reference" "REF**"
 		(at 0 -2.2 0)
 		(layer "F.SilkS")
-		(uuid "fb97e855-3cee-4d1e-ab5f-efd113cc1d67")
+		(uuid "9d327a6b-9a50-43ce-9da7-bda222faa018")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at -3.4544 -2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6add00b0-bea8-4975-81cf-cc7a8b881ff4")
+		(uuid "bf7d9ee1-d276-4831-8664-2210de3a158a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "291a86fb-1e3c-4c15-8ce8-a1d68ede77e2")
+		(uuid "3f387a15-d94e-41f6-bb3c-e6d628b326e3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6e32223b-a09d-40c7-9271-3437e26114f2")
+		(uuid "c6c93b29-bd74-4363-8806-1714d5aff72e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fa73d840-fba0-4b8b-ab61-9917fe71d564")
+		(uuid "8e68348e-bb5e-4c35-99fb-e391836abb62")
 	)
 	(fp_line
 		(start 0.6096 -1.3462)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0ef143f6-fed4-436c-968c-62f38129c71a")
+		(uuid "d22590ba-8ec0-4c0a-85ef-adfb343a4f52")
 	)
 	(fp_rect
 		(start -2.2 -1.6)
@@ -80,12 +80,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b68616b3-7610-4454-82e0-8ab000083fc8")
+		(uuid "8e94062c-9df0-4f5f-b5da-10d30268a8aa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.6 0)
 		(layer "F.Fab")
-		(uuid "afcc57ba-37ef-4d9c-b9f6-84a853b2cb4d")
+		(uuid "b10b9902-ebca-41fe-9d72-8deebda4c3d9")
 		(effects
 			(font
 				(size 1 1)
@@ -97,13 +97,13 @@
 		(at -1.397 0)
 		(size 1.1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "77ba77bc-d841-4a86-8bb8-a41e1fc6abbe")
+		(uuid "498a5ada-d6fe-428e-81f1-bc3be61f2b8a")
 	)
 	(pad "2" smd rect
 		(at 1.397 0)
 		(size 1.1 2.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d5be680d-c76c-4745-af25-281db0a8e5cb")
+		(uuid "66b6b5ad-3eb1-4d48-b0e0-4992d668fe70")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Kyocera AVX 1210/12101C225K4Z2A.stp"

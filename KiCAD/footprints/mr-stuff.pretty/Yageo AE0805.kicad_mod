@@ -5,11 +5,22 @@
 	(layer "F.Cu")
 	(descr "AE0805")
 	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "f7fd45fd-10b6-49a9-8df6-a33cb7c74ec8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Value" "Yageo AE0805"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f512af9b-b9ab-444c-b7a9-835fddf24b65")
+		(uuid "3d3ff81f-52ef-4e80-b28f-4ae1e78ef803")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c0ed2fab-ae6a-471a-af54-bc039ef3816e")
+		(uuid "e42cf464-2701-4ff1-b21f-43a992a661fd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,35 +43,34 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "353c4cc9-5a9d-4fd2-bbc3-80b6ddaa6bf7")
+		(uuid "148df589-5052-44dc-a8ab-f08a98b6a9da")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Reference" "REF**"
-		(at 0 -1.5 0)
-		(layer "F.SilkS")
-		(uuid "a2df2ba6-19d3-4d0d-a7d4-9cee4868e3cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0 -0.525)
-		(end 0 0.525)
+		(start -0.3 -0.6)
+		(end 0.3 -0.6)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a81409c6-32c1-4f2a-8c6f-6c5581daaebe")
+		(uuid "6361e788-4f85-4470-9878-baa2400ae3c8")
+	)
+	(fp_line
+		(start -0.3 0.6)
+		(end 0.3 0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a67950e-605c-4a68-a27f-5b51807a1863")
 	)
 	(fp_rect
 		(start -1.7 -0.95)
@@ -71,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "251c588b-3375-4b72-af2b-8bd10e23625f")
+		(uuid "3ba6e13a-989a-490d-b028-fcd3a1097c2e")
 	)
 	(fp_line
 		(start -1 -0.625)
@@ -81,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "915f39d8-21e9-4fe9-aba2-f70598ac0d2a")
+		(uuid "81b58420-0312-46cc-b22c-4c4d7470f626")
 	)
 	(fp_line
 		(start -1 0.625)
@@ -91,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "49f49871-0d48-4322-b96c-c0d477256196")
+		(uuid "ca1a2d5a-fa2f-4c39-90b1-1cd623568822")
 	)
 	(fp_line
 		(start 1 -0.625)
@@ -101,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "32dfc4ba-6f46-4699-9be5-9b2d40d55207")
+		(uuid "49e8b57a-92bf-4bc1-b24e-bcaddce72dec")
 	)
 	(fp_line
 		(start 1 0.625)
@@ -111,12 +121,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "eaea3479-b9e0-446c-8b51-a80ff82b129e")
+		(uuid "4275c0f0-4dbb-4bb6-8b21-85d4547f9c12")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.8 0)
 		(layer "F.Fab")
-		(uuid "b49eefe3-82ee-4649-ad39-14d4813431f0")
+		(uuid "c976e35b-a898-4af9-ad79-aa2890a5e956")
 		(effects
 			(font
 				(size 1 1)
@@ -128,13 +138,13 @@
 		(at -0.95 0)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8f12c038-2185-4914-b2d2-61f64a1e3f1a")
+		(uuid "3a23bc8f-41ca-494e-9f3b-b43807029e37")
 	)
 	(pad "2" smd rect
 		(at 0.95 0)
 		(size 1 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "452da551-a7d9-4c90-b211-ec1c86ced3b1")
+		(uuid "98e1245b-ef1f-4cac-841d-a3c82762e9ea")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Yageo AE0805/AE0805BR-071ML.stp"

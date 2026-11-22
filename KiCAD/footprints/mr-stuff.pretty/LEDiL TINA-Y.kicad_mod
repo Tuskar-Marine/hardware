@@ -4,14 +4,14 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -9.4 0)
+		(at 0 -8.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dd9d30d7-8205-4a65-b2aa-4987f052d7f6")
+		(uuid "87b918da-1c42-4133-82b0-d97f8ab0fbd7")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -19,7 +19,7 @@
 		(at 0 9.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d29d32fd-1be6-4e9f-b6b5-8e1bc247b5f6")
+		(uuid "184794fa-75bb-4882-87f0-49866df8599f")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5344463d-0e9a-46c0-8d66-02d3b89f02a9")
+		(uuid "a113aafc-c4cc-48b3-9905-4368bb00a989")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e16db602-32e9-4e23-a64b-e3800688d6e8")
+		(uuid "fdbdb151-7a1a-44ca-becb-63656b9873a8")
 		(effects
 			(font
 				(size 1 1)
@@ -56,26 +56,26 @@
 	(attr board_only exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -3.285 -3.285)
-		(end 3.285 3.285)
+		(start -3.1 -3.285)
+		(end 3.1 3.285)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "daaff33c-9c9b-404c-8afe-93634e3b4eff")
+		(uuid "2ea8ad06-9465-4089-994f-e848fda7e225")
 	)
 	(fp_circle
 		(center 0 0)
 		(end 8.05 0)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "2aa20b5c-00f3-4270-b44d-fd80cf601af4")
+		(uuid "0b4e6d2b-e0f7-47f2-a955-a3b972dbb87a")
 	)
 	(fp_line
 		(start -4.3 -1.05)
@@ -85,7 +85,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "18ba367d-26a4-4415-b278-231e651dc231")
+		(uuid "a5782012-cfc5-4dc8-8154-ab95c52e6cd2")
 	)
 	(fp_line
 		(start 4.3 1.05)
@@ -95,7 +95,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7f6d5273-e183-4e8f-92ed-026f1e1b1dfd")
+		(uuid "446f0dd3-ffa2-4c16-b52e-9df0d074b0ac")
 	)
 	(fp_arc
 		(start -4.3 -1.05)
@@ -106,7 +106,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "55f377a5-4f6f-4e8a-80a7-56075b0c38ed")
+		(uuid "26d86ac5-0bd0-40e0-b3e6-06b9cc77f8e7")
 	)
 	(fp_arc
 		(start 4.3 1.05)
@@ -117,13 +117,13 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "353e3d5e-2550-465c-9f47-8de5d9a5ba86")
+		(uuid "fb11f474-d469-4151-9275-d4e75ce0397d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 11.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "91fc32c1-4fb2-4e8b-bccb-4f8c845cd1d1")
+		(uuid "f8d5eeee-c661-4785-99e5-3d2f71b0569f")
 		(effects
 			(font
 				(size 1 1)

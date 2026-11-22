@@ -1,0 +1,226 @@
+(footprint "Onsemi NSVUMZ1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SC−88 2.00x1.25x0.90, 0.65P")
+	(tags "Transistor")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "fe5d909b-6be1-439c-8d46-3fe9a24a8e39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Onsemi NSVUMZ1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5817438-21e1-4efc-8af6-90e886820132")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcd488a3-d487-4364-8bf5-be54b1f2b276")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da60c195-67ba-4469-bb51-88a4b114d2c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.4 -1)
+		(end -0.5 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b144836a-b522-4393-b8aa-94b35bf1fead")
+	)
+	(fp_rect
+		(start -0.2 -1)
+		(end 0.2 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0e68e161-68ff-4e2e-b2b6-3056c1a28c88")
+	)
+	(fp_line
+		(start -1.7 -1.25)
+		(end 1.7 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea8fc157-9cfb-4f36-9a85-a5130f002cbd")
+	)
+	(fp_line
+		(start -1.7 1.25)
+		(end -1.7 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "714096b9-1b03-4695-a6b9-f3aec349ee16")
+	)
+	(fp_line
+		(start 1.7 -1.25)
+		(end 1.7 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2651c340-b158-4978-b57e-29f89c4f468c")
+	)
+	(fp_line
+		(start 1.7 1.25)
+		(end -1.7 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae2ea627-b2d2-428b-9d5e-5eebb7e14359")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90a69ce6-ecd2-45a4-a96f-060bec809c9d")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f01ed6bd-1658-4054-a2e4-c901bd39c0b1")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed6029f8-9b6f-4059-b76a-470b47854fde")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65f57b92-51d1-4022-a39f-5e24ac62a733")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "096d3feb-ddf9-4cb4-a7e0-7e9ed29eef30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "de00fe8e-0722-4bbd-8c85-e53cf88ff856")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "34787366-918c-47e7-b9a6-c8e9342ffaca")
+	)
+	(pad "2" smd rect
+		(at -0.95 0 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "895cac35-e53a-492c-bfd1-7e5c169e3cf4")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3de30d3b-3ab9-4c20-a542-141cd2be2ab8")
+	)
+	(pad "4" smd rect
+		(at 0.95 0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a9c5768-10dc-457c-b98e-1d75e2aa9c57")
+	)
+	(pad "5" smd rect
+		(at 0.95 0 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8629f998-2379-42a0-92de-97ece33e725b")
+	)
+	(pad "6" smd rect
+		(at 0.95 -0.65 90)
+		(size 0.325 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2cb68fc-d4a0-4aab-afa0-94d442396909")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Onsemi NSVUMZ1/NSVUMZ1NT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

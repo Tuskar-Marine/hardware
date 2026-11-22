@@ -1,0 +1,149 @@
+(footprint "WireSolderPoint - 1x05 - 2.5mm pitch x 1.0mm diameter"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire to board solder points")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "d8295523-4610-4904-859a-839af7ef1391")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 1.25 4.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cee3ce79-3b87-41ee-bc63-fedc66c62019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89984eda-2bcb-4f66-a0ef-b561b68947d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Solder point for wire up to 0.34 mm² / 22 AWG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28c55557-48a6-469c-854a-cab1bc953944")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.75 -1.1)
+		(end -3.75 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4951e038-29de-48c1-a07a-6b4ffe9063c9")
+	)
+	(fp_rect
+		(start -6.15 -1.15)
+		(end 6.15 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5b564c1c-e5d0-4895-9d3d-ec72c68bf940")
+	)
+	(fp_rect
+		(start -6.25 -1.25)
+		(end 6.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4f8bd69f-7e26-4f89-bb21-c55b36366acb")
+	)
+	(fp_rect
+		(start -6.05 -1.1)
+		(end 6.05 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "367a9195-ef8a-4201-9be6-369d5597b75a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.2 180)
+		(layer "F.Fab")
+		(uuid "d5999121-c090-4795-8c64-d34bbcca8a5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28818ce7-9778-4dac-b31a-72ee5a7167f4")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa305713-1e81-4743-9c56-837f627f9c75")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81cb3d5b-10f8-4bad-a9f7-53de43e08370")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e16c372-26fd-4d97-bedf-505a68e60fce")
+	)
+	(pad "5" thru_hole circle
+		(at 5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9c7b87a-4820-4cee-85b2-78283035988c")
+	)
+	(embedded_fonts no)
+)

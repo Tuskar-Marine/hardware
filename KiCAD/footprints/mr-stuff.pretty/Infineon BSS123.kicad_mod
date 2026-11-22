@@ -1,0 +1,237 @@
+(footprint "Infineon BSS123"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "fe2c8701-a88e-4d54-9856-df03cfc727a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Nexperia BSS123"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05d2539f-45d9-4a1d-ae96-a48cc0cce2f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cd8b2ac-433d-4477-91ef-f84e69aca798")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef48d8d6-1f09-4837-9bb5-9a74a35962cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.675 -1.5)
+		(end -0.825 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f54f49bf-355f-4e77-9621-2635ad4d76c9")
+	)
+	(fp_line
+		(start -0.475 -1.45)
+		(end 0.475 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a027e3ac-169b-4e0c-8c62-cc01d9c1145f")
+	)
+	(fp_line
+		(start -0.475 1.45)
+		(end -0.475 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b04c40cf-1e8a-4c78-af8c-9d990cf06ac5")
+	)
+	(fp_line
+		(start 0.475 -1.45)
+		(end 0.475 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e50d9938-7662-4902-9ea8-f905bd19432f")
+	)
+	(fp_line
+		(start 0.475 1.45)
+		(end -0.475 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31620996-2e94-40c1-a85a-5400b0b45ef8")
+	)
+	(fp_line
+		(start -1.925 -1.75)
+		(end 1.925 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cc59422-6527-4ba6-8467-5a0767ac7e8b")
+	)
+	(fp_line
+		(start -1.925 1.75)
+		(end -1.925 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ada30e21-0312-4b04-807a-b3ee68d9d7c3")
+	)
+	(fp_line
+		(start 1.925 -1.75)
+		(end 1.925 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30b01d0b-86e2-4264-9e6c-5808fd148fba")
+	)
+	(fp_line
+		(start 1.925 1.75)
+		(end -1.925 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "462ce388-e0fb-4638-8fa9-1729fab0ad3a")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd480c0d-36e1-4a8f-9654-78ecc4b5e3b4")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb6b74b6-476f-485d-84c3-99986e84f57e")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55ebff62-15b5-46e3-98c8-1bf2c0b491be")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4bc7eca-d5ff-46b2-97a5-b92d85ceff44")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f5b674e-e952-4c5d-95d4-ff077bde87a6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "1d8e668c-ba43-44d0-8525-1a0831dbaac8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68538979-4036-4515-a89b-9d4a8c0d1d14")
+	)
+	(pad "2" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07640112-3434-4388-8329-620b909a86a4")
+	)
+	(pad "3" smd rect
+		(at 1.25 0 90)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fabcd941-f55f-486c-b96d-73f7dcde1c64")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Infineon BSS123/BSS123NH6327XTSA1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

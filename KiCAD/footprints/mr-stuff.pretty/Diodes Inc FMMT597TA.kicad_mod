@@ -1,0 +1,237 @@
+(footprint "Diodes Inc FMMT597TA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23.,")
+	(tags "Transistor")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "5b5d76c5-48cb-49c5-babf-f522307d18f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diodes Inc FMMT597TA"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a04681ce-97dc-49e1-a6c0-53e79bfdf296")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf71d6b9-f17e-4864-8d9a-909b5ee6c458")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf02fef-e2ff-4c2f-9f91-4f1795ee664d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.6 -1.535)
+		(end -0.5 -1.535)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6c6d7dd-4bff-467d-b3f4-d53fea67593b")
+	)
+	(fp_line
+		(start -0.15 -1.45)
+		(end 0.15 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16e0bd84-ce9c-441b-ad74-5b2af6f64213")
+	)
+	(fp_line
+		(start -0.15 1.45)
+		(end -0.15 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0adb1e90-ddc8-4c15-9c44-7871d9ddd6d8")
+	)
+	(fp_line
+		(start 0.15 -1.45)
+		(end 0.15 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db88d3ea-7283-4ac5-b230-97e7246e7bfd")
+	)
+	(fp_line
+		(start 0.15 1.45)
+		(end -0.15 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2564a80b-94fa-4a22-b5e9-ed8cf33bf312")
+	)
+	(fp_line
+		(start -1.85 -1.75)
+		(end 1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67daeb2f-179d-4b76-bb5f-e54869900823")
+	)
+	(fp_line
+		(start -1.85 1.75)
+		(end -1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76150599-5d02-489b-8ade-4df029f25dbf")
+	)
+	(fp_line
+		(start 1.85 -1.75)
+		(end 1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c41b836e-3221-486d-8bd7-48b628e739fc")
+	)
+	(fp_line
+		(start 1.85 1.75)
+		(end -1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89e3251b-1302-4fe1-9d0c-b78d00ce8c3b")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30f48a87-8c79-4883-82bf-711339e58454")
+	)
+	(fp_line
+		(start -0.65 -0.49)
+		(end 0.31 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ddf591b-f409-4a08-964a-923f2bf7fd0d")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67aa36bd-7da5-45d1-8ecb-a455f8132527")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07a0bd57-776e-4815-bbab-b4df0b8ca751")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a96a0b4-4322-4c3e-84be-7006420cb0ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "055e482e-d675-4687-a7f2-bd0e27e591f5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.96 90)
+		(size 0.65 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8102706-b4c9-451a-8e76-cccd298dc52f")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.96 90)
+		(size 0.65 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "355bc449-4255-4dec-8d98-22612d8610d0")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.65 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0b00cca-a125-4d79-a195-43a279cbe5b3")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Diodes Inc FMMT597TA/FMMT597TA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

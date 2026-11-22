@@ -1,0 +1,203 @@
+(footprint "Vishay RCA e3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "RCA0603 e3")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "09c05474-9b2e-4b68-912c-fc999f23d7d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Vishay RCA e3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e112478d-439c-426c-b689-85c11f8397bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4a020a3-823e-4654-b80c-d43027e4216e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a3748c-5392-48c3-8693-fbd3c66ceb25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "128b4371-87b7-4a4c-98b1-95c29e9c70e5")
+	)
+	(fp_line
+		(start -0.2 0.4)
+		(end 0.2 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a40b8451-50d0-4110-8d46-025f616639e7")
+	)
+	(fp_line
+		(start -1.425 -0.75)
+		(end 1.425 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6801b25-9421-44e6-97bc-46358df40576")
+	)
+	(fp_line
+		(start -1.425 0.75)
+		(end -1.425 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee382083-aaf5-4d05-b0da-6588cd38d2cd")
+	)
+	(fp_line
+		(start 1.425 -0.75)
+		(end 1.425 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f4c5f16-8443-4c27-a4aa-f06e46834b3d")
+	)
+	(fp_line
+		(start 1.425 0.75)
+		(end -1.425 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3457929-4120-4749-b9a3-55fb469f648e")
+	)
+	(fp_line
+		(start -0.788 -0.425)
+		(end 0.788 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "431c04e6-0ba0-4522-98c8-fd860053dabe")
+	)
+	(fp_line
+		(start -0.788 0.425)
+		(end -0.788 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32cd836b-90a5-4b48-9e8f-6712710aed58")
+	)
+	(fp_line
+		(start 0.788 -0.425)
+		(end 0.788 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f4980a3-ffd2-453f-a3e9-207a0dc8efe2")
+	)
+	(fp_line
+		(start 0.788 0.425)
+		(end -0.788 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1494a5-b07d-49c0-afcd-eb489eae6a4a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.3 0)
+		(layer "F.Fab")
+		(uuid "7325affe-2cbb-4724-ba42-1ad8246bee79")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.85 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "603dd8af-3115-44e0-a9b9-6ac72eb07753")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.85 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0c171fb-2103-43fb-9561-cdcf36409a82")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Vishay RCA e3/RCA060310R0FKEA.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${MY_3DMODELS}/Vishay RCA e3/RCA0603 e3.stp"
+		(offset
+			(xyz 0.75 0.42 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

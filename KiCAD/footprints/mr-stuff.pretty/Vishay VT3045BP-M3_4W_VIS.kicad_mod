@@ -1,14 +1,14 @@
 (footprint "Vishay VT3045BP-M3_4W_VIS"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "VT3045BP-M3/4W ")
 	(property "Reference" "REF**"
 		(at -0.0045 -3.93 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a22f706b-a812-4909-b1cd-ecdfd6801871")
+		(uuid "97859668-79bd-42ff-a2cc-6db2af74d409")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0.01 3.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5eabee56-6fed-4eb1-bef0-4175772c8580")
+		(uuid "78feccac-b8ca-451b-9cf7-342dcad63d90")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "96c0cdc1-6f86-448d-9823-622588dacc85")
+		(uuid "70f9dd48-76e8-4162-bfca-6cfa7e935fb1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c6b1d10-8a3f-4e09-86a5-215d80dd306e")
+		(uuid "0f7893ea-19d2-4909-87d1-e0becef39429")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.402 -2.926)
 		(end -5.402 2.027)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ae485972-c8c4-4bf2-a4bd-59d7e8f9182b")
+		(uuid "d3233ea3-542c-4eed-8954-6d3fb6691a23")
 	)
 	(fp_line
 		(start -5.402 2.027)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "43f1750c-d261-45b5-b286-11331bb6f3e6")
+		(uuid "84f5d420-ef83-4494-a037-8033ffeba217")
 	)
 	(fp_line
 		(start -5.275 -1.529)
@@ -81,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "025305c1-ec20-4ca5-803c-2585ea438bf7")
+		(uuid "067b8834-1656-401d-be43-0fa8f6926ce3")
 	)
 	(fp_line
 		(start 5.393 -2.926)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9c0a2e7a-2a21-4317-be65-e692365897b2")
+		(uuid "69a53415-72c2-497b-b93c-ce2f8d9b8701")
 	)
 	(fp_line
 		(start 5.393 2.027)
@@ -101,18 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5f64d6ce-b6c9-4137-a61e-8d4e167e78cc")
-	)
-	(fp_circle
-		(center -6.36 -1.905)
-		(end -6.233 -1.905)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "861f8ca7-7235-4b66-a3f1-05830c7a99fb")
+		(uuid "34222c5d-f05b-4e10-917e-ac161e787b8d")
 	)
 	(fp_line
 		(start -5.529 -3.053)
@@ -122,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d7b67a4e-01f5-4d2e-a760-3bca660bef72")
+		(uuid "fa75db50-c316-465e-8827-0997e6763a18")
 	)
 	(fp_line
 		(start -5.529 2.154)
@@ -132,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4c8b28f8-e26e-4660-b2fa-53bac394f59f")
+		(uuid "212a9a81-ca1d-4979-8f0a-1fe88dfff3b8")
 	)
 	(fp_line
 		(start 5.52 -3.053)
@@ -142,7 +132,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "706430a4-b5eb-4547-bed7-b8d56d647f1a")
+		(uuid "3d7ccdd9-f324-4dcc-b5d6-eec1e187547a")
 	)
 	(fp_line
 		(start 5.52 2.154)
@@ -152,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4b4f7ba2-1d9f-4738-bf10-9436cce11994")
+		(uuid "d83e9223-410d-4270-bdd5-240353855354")
 	)
 	(fp_line
 		(start -5.275 -2.799)
@@ -162,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0b4e8b2a-eff2-4c88-8947-c402db088108")
+		(uuid "effca7c8-e7b6-4a48-a80d-0e7cfc258414")
 	)
 	(fp_line
 		(start -5.275 -1.402)
@@ -172,7 +162,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "be428464-730d-491d-b635-b001631d5901")
+		(uuid "3e1ec03f-6c56-4d78-9fbd-96413d729577")
 	)
 	(fp_line
 		(start -5.275 1.9)
@@ -182,7 +172,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "82cf1975-3206-483e-bd8b-0a76ab3d46b0")
+		(uuid "15454976-772d-47ec-b328-cf4d55936095")
 	)
 	(fp_line
 		(start 5.266 -2.799)
@@ -192,7 +182,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bac18f3f-e4f7-4ee5-8e0b-b3cb0af95c21")
+		(uuid "9c82f267-9b2f-4398-835c-eefe5ab3d544")
 	)
 	(fp_line
 		(start 5.266 1.9)
@@ -202,7 +192,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "82634da0-0e8e-48f0-9a4b-bcdd20fa7997")
+		(uuid "8df06bce-58d0-4f12-bc53-92cb3c0f67e7")
 	)
 	(fp_circle
 		(center -5.021 -1.8465)
@@ -213,13 +203,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c0f36f51-3b23-4729-8855-087e9748d294")
+		(uuid "345368df-394b-422f-9c4b-81ab34e2f0be")
 	)
-	(fp_text user "TAB"
-		(at -0.0045 -2.1005 0)
+	(fp_text user "*"
+		(at -6.1 0.3 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "f19f7031-0baa-4356-8886-f5a893821d2d")
+		(layer "F.SilkS")
+		(uuid "b9a72135-bd5a-4185-bc90-c8bca3abb423")
 		(effects
 			(font
 				(size 1 1)
@@ -231,7 +221,19 @@
 		(at -0.01 4.85 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f5f95bde-1f0d-449d-8681-a7d4951d4c4c")
+		(uuid "7df61233-2d6c-462a-8a55-b888a86ddafa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "TAB"
+		(at -0.0045 -2.1005 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "062ad6df-6943-4ee8-ad13-4ce1b4ee4b7f")
 		(effects
 			(font
 				(size 1 1)
@@ -245,7 +247,7 @@
 		(drill 0.9398)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ed627326-0b23-495e-8bd1-5eaf999b34e4")
+		(uuid "4b7ef27a-c0e9-4490-bd0c-bc31218d2157")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5355 -0.005)
@@ -253,7 +255,7 @@
 		(drill 0.9398)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fa491efc-b5e2-43dc-8ab7-b938f04d7358")
+		(uuid "8bdece4d-9029-4030-830e-0a12156d42b5")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Vishay VT3045BP-M3-4W/TO_P-M34W_VIS.step"

@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "F**"
-		(at 0 -2.9 0)
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "72f8bbfa-798e-45fa-a5a2-012730016504")
+		(uuid "20f3c363-b90b-4504-bc8e-90c6154303ec")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 3.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c4b73c9b-2a71-4e0a-b5f2-915855ceeded")
+		(uuid "86f572a0-d34c-4567-a9a6-d11e600594d1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "be64f161-998b-484c-a1f9-1ae04288ad3c")
+		(uuid "c5e72948-df2c-4261-8e6e-a0d59f1da4a1")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7af400ac-0483-440f-91f7-a0ba792ff356")
+		(uuid "87d06c2e-dc3c-49e9-a3bf-86aa9d0b59d9")
 		(effects
 			(font
 				(size 1 1)
@@ -59,12 +59,12 @@
 		(start -5 -2)
 		(end 5 2)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a4213dba-0f4b-4845-ac08-6156d252036a")
+		(uuid "7856f2e1-2d4b-417a-b374-74d3e65eecd2")
 	)
 	(fp_rect
 		(start -5.1 -2.1)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d98d49c2-5d21-40b8-81c2-2ad1e0139243")
+		(uuid "458d4643-eefd-412c-b32d-b8a889dba07d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4ad4039c-bae0-4e80-bdbc-4b4aea73a850")
+		(uuid "f1369455-c543-4670-89d3-3fa411960b3f")
 		(effects
 			(font
 				(size 1 1)
@@ -98,7 +98,7 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.2)
 		(chamfer top_left)
-		(uuid "48702fdc-d189-4b94-81f9-49b3c5f9e65a")
+		(uuid "bdd79edf-8f5f-49ec-8d1a-06f3985d7f1c")
 	)
 	(pad "2" thru_hole circle
 		(at 2.7 0.75)
@@ -106,7 +106,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4462a0cf-fca5-4eac-8ffa-a8b6d4b386c9")
+		(uuid "1194f38f-f9d9-4dac-8937-65c68b39997c")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Littelfuse AHEF100/AHEF100.stp"

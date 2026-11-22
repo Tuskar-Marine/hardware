@@ -1,0 +1,107 @@
+(footprint "WireSolderPoint - 1x01 - 2.5mm pitch x 1.0mm diameter"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire to board solder points")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "7d452c3d-613a-4973-ad4b-0893e7120527")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4038779a-1fcf-4f92-993f-49eeadbab360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "082f186a-9d41-4ac3-94d2-d558cc302180")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Solder point for wire up to 0.34 mm² / 22 AWG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61a47bbc-67d3-40ba-adbe-57f97c33314c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.15 -1.15)
+		(end 1.15 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4c187745-c9fd-4df2-924d-1e0ca281bce0")
+	)
+	(fp_rect
+		(start -1.25 -1.25)
+		(end 1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c5f23b4a-b804-4e1c-8f7d-98014e6b08d5")
+	)
+	(fp_rect
+		(start -1.2 -1.1)
+		(end 1.2 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8d976721-f027-4520-99d2-29e8479a28e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.2 180)
+		(layer "F.Fab")
+		(uuid "3fe0f6b9-1047-497e-af6a-7212d7b95d95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4acf332-6dcb-4225-bc69-aafd6b7c500f")
+	)
+	(embedded_fonts no)
+)

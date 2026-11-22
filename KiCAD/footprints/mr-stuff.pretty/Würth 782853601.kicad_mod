@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "600 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 500mA 300mOhm")
 	(property "Reference" "REF**"
-		(at 0 -1.835 0)
+		(at 0 -1.6 0)
 		(layer "F.SilkS")
-		(uuid "7bd768fb-8402-48af-9778-a3deff7ed2f2")
+		(uuid "c617d654-8ce3-4ca8-9cda-d280c521cca5")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "WE-CBA_0805_W3.0"
 		(at 0 1.865 0)
 		(layer "F.Fab")
-		(uuid "c76ae1ef-ed6c-46ab-9cf1-12eabb0508ef")
+		(uuid "c5b02ced-5561-44c7-b05f-57e72c56cd69")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93952dfb-9e94-4efd-8391-3994b1b4bd6a")
+		(uuid "8f8377be-fe69-4238-9aa7-575545a13e4f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8cddc4fc-ca47-4219-846b-a0371734f12c")
+		(uuid "b7dc2477-ea46-492c-9277-c9bd6ee4a432")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,24 +51,24 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.3 -0.7)
-		(end 0.3 -0.7)
+		(start -0.4 -0.5)
+		(end 0.4 -0.5)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "df7ca443-8b54-46ee-922c-7c131fbad8a3")
+		(uuid "997ab823-98e4-47b4-8bbb-184a6bc30c98")
 	)
 	(fp_line
-		(start 0.3 0.7)
-		(end -0.3 0.7)
+		(start -0.4 0.5)
+		(end 0.4 0.5)
 		(stroke
-			(width 0.2)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9385a1b3-8bae-416d-b50d-175157be5619")
+		(uuid "1d94ec4b-fd68-40c9-9ba7-487fa5a2602d")
 	)
 	(fp_poly
 		(pts
@@ -80,7 +80,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "24e1fac9-d835-48ca-a22b-88ffb3546265")
+		(uuid "0c5d2d69-d84a-475d-88f8-6dfe1dd13cf4")
 	)
 	(fp_line
 		(start -1 0.6)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "706e58ff-56fa-4f3a-952d-3db5848b1263")
+		(uuid "27bc88d1-d7c4-4db7-89a4-dec3c02dc827")
 	)
 	(fp_line
 		(start -1 0.6)
@@ -100,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "246d1903-e257-490e-ba9a-59dbc90eeeb5")
+		(uuid "9856b4f2-75bb-4f02-aa7f-ebdfecce6d6a")
 	)
 	(fp_line
 		(start 1 -0.6)
@@ -110,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "1c0c9705-e536-416e-b7e3-e0312e7409b4")
+		(uuid "7022d6d5-456b-4678-969a-3da2d605d4bf")
 	)
 	(fp_line
 		(start 1 0.6)
@@ -120,21 +120,19 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "923d3a32-c28b-4a10-8489-500109b55822")
+		(uuid "3c9f3cf7-2f58-42a1-9ec5-06466f0dc1d6")
 	)
 	(pad "1" smd rect
 		(at -1.05 0)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "3eabc4db-edcb-4456-9583-6ef855f144e3")
+		(uuid "b6d6b108-eda6-42a6-a3a7-a0a9139cb85f")
 	)
 	(pad "2" smd rect
 		(at 1.05 0)
 		(size 0.9 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "4aa0104a-de92-439c-8b1c-f600c46ede2d")
+		(uuid "d374a319-c82a-44e7-aebf-41754cced9d0")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Wurth 782853601/WE-CBA_0805_CBA+%28rev1%29.stp"

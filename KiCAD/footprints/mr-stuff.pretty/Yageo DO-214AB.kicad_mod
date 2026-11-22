@@ -1,0 +1,254 @@
+(footprint "Yageo DO-214AB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMC (DO-214AB)")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "4c82ee65-38d0-4f0e-a70d-3f695a9db887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Yageo DO-214AB"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "480c8109-7a6e-4b47-bfbe-5734efba431e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "968b9d99-0109-4998-8dc9-247839bfe5a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d093bd96-d384-41a9-8892-6c9be8ffe1b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.97 2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bba17873-5352-47f7-8527-781a9d6089f5")
+	)
+	(fp_line
+		(start -1.8 0)
+		(end 2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bd651e9-937c-4367-ba80-7ec2296973a0")
+	)
+	(fp_line
+		(start 0 -0.8)
+		(end 0 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ffda9a0-994f-481a-b22f-0c67f04e7a52")
+	)
+	(fp_line
+		(start 0 0.8)
+		(end -0.2 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "753d7514-c8e8-4f80-9664-7a64888609a2")
+	)
+	(fp_line
+		(start 0.2 -1)
+		(end 0 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe10a68c-ced4-4d01-96ac-89d7781e20ca")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end -3.97 -2.952)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa3066b8-cd95-44b9-ae37-a7eb08264f60")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1) (xy -1 1) (xy 0 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "06a94358-c1a3-4c87-8224-6a37a8f26964")
+	)
+	(fp_poly
+		(pts
+			(xy 1 1) (xy 1 -1) (xy 0 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d0c88c6d-caa8-40ab-a18a-d4c81d4e43ad")
+	)
+	(fp_line
+		(start -4.85 -3.36)
+		(end 4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bd568fa-abe8-4129-bfc4-9ef8155b02ee")
+	)
+	(fp_line
+		(start -4.85 3.36)
+		(end -4.85 -3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8edc4af3-8f23-45e9-b3c8-b92afd3de9d3")
+	)
+	(fp_line
+		(start 4.85 -3.36)
+		(end 4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24344165-b91a-41bd-acd3-5489069fe052")
+	)
+	(fp_line
+		(start 4.85 3.36)
+		(end -4.85 3.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f960afd6-ace7-4df1-aec5-ea76faa955e3")
+	)
+	(fp_line
+		(start -3.97 -2.952)
+		(end 3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32782417-0643-4bf0-bcb7-04914e4fd8cf")
+	)
+	(fp_line
+		(start -3.97 2.952)
+		(end -3.97 -2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d94e68e-43bf-4f6d-9315-cc63effb8f51")
+	)
+	(fp_line
+		(start 3.97 -2.952)
+		(end 3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f9334b4-2e70-46b5-a025-53419e43c805")
+	)
+	(fp_line
+		(start 3.97 2.952)
+		(end -3.97 2.952)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59f87045-f2af-41d7-b167-238a3379d061")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.15 0)
+		(layer "F.Fab")
+		(uuid "bb3476ba-0e1b-4335-bbde-6ce05b895f32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.5 0)
+		(size 2.2 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b41c6f5-cfcd-45d3-90b0-fb36f4a07d65")
+	)
+	(pad "2" smd rect
+		(at 3.5 0)
+		(size 2.2 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6347d249-fb9a-42a0-a3e5-d117272197f4")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Yageo DO-214AB/SMC3K110CAHM3_A.stp"
+		(offset
+			(xyz 0 0 0.6600000163)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

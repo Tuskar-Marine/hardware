@@ -30538,6 +30538,17 @@
 		)
 		(uuid "5d838dc3-aecd-4daf-9c5b-520705d21c66")
 	)
+	(text "Speaker is a Mallory \nSonalert PSR-40N08A05-JQ"
+		(exclude_from_sim no)
+		(at 334.264 204.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5e10a582-f55b-4820-822a-999f4c6b4ef9")
+	)
 	(text "5KW I2C Isolation"
 		(exclude_from_sim no)
 		(at 23.114 211.582 0)

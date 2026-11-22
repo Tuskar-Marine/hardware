@@ -4,11 +4,11 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Ceramic Capacitor X7R Radial 2.5mm Lead")
-	(property "Reference" "C**"
-		(at 0 -2.4 0)
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "caa1ddcb-1891-46c3-84e4-d563963f819d")
+		(uuid "114674ed-7541-4ed1-b0b5-ab14f0df875a")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 2.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ab73d4d2-0c7c-4348-8c05-5c46f698bc92")
+		(uuid "71295a1f-9058-4047-8e83-46e890481e28")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0c592d5-f9b0-486f-8b33-ff7d462345ae")
+		(uuid "075307f0-8c45-43f9-9c0e-088789476910")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e606f95f-9417-40ef-bdd6-75a412fc4206")
+		(uuid "af218709-5eef-4308-b964-4a872817570e")
 		(effects
 			(font
 				(size 1 1)
@@ -60,12 +60,12 @@
 		(start -2.75 -1.575)
 		(end 2.75 1.575)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7063728e-3289-481a-8c4c-239955f82332")
+		(uuid "18519bb4-b6eb-42ee-9f08-13f84af82ca7")
 	)
 	(fp_rect
 		(start -2.8 -1.6)
@@ -76,13 +76,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e7ae2a27-4892-479e-8794-77ef8fc93e82")
+		(uuid "6bf75622-3392-424c-af0f-37c9833f7ff4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e3f950f6-cc5b-4f3a-8ef0-fa7e20184eea")
+		(uuid "34a8a7a6-f0c6-487f-8bab-27ac378ea971")
 		(effects
 			(font
 				(size 1 1)
@@ -96,7 +96,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "af545e29-771b-449b-bb99-c895f0d4af58")
+		(uuid "8b02247a-ece0-422e-9602-9f0f27f762d4")
 	)
 	(pad "2" thru_hole circle
 		(at 1.25 0)
@@ -104,7 +104,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0764a816-ead6-4186-b10e-3ddce55c2e3c")
+		(uuid "174a5fe2-0a55-49c0-ad2c-7b931b12348a")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Murata RCER71E475K2A2H03B/RCER71E475K2A2H03B.step"

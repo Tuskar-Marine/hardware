@@ -5,11 +5,10 @@
 	(layer "F.Cu")
 	(tags "R82DC4100DQ60J ")
 	(property "Reference" "REF**"
-		(at 0.0035 -3.6 0)
+		(at 0 -3.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "6896fc77-6ce8-4b30-bbcc-a5b7dc59deda")
+		(uuid "60fc0d3f-e1bc-4edd-9347-4d8270e4d088")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +20,7 @@
 		(at 0.0035 5.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "721536b3-7c7d-4b27-8e7a-4a52654922c1")
+		(uuid "5e143c07-194c-41ad-ac12-531d88cfcf56")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0999c1b5-ee86-4928-82cc-9ef648358fa1")
+		(uuid "2bd97270-46bd-47de-8cee-8b8663487c80")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2e57d2e3-3ac7-4652-92b0-d441eaea1670")
+		(uuid "1dea920e-3dee-4746-86c8-9517915371be")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +61,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "73d215b7-1684-4687-a1c1-61652873d449")
+		(uuid "c3a8e622-3d0e-4862-8d4e-b88fc7815aad")
 	)
 	(fp_rect
 		(start -4 -2.8)
@@ -73,7 +72,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d4637cbc-9182-48be-a20c-ae4a8d025e5d")
+		(uuid "9f4eb030-6ffa-42d0-9c88-af62711c29d2")
 	)
 	(fp_line
 		(start -5.267 0)
@@ -83,13 +82,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9b47e080-f35e-4064-85a1-8acb26f87455")
+		(uuid "4d37d196-652a-4356-a503-b880f32adf18")
 	)
 	(fp_text user "*"
 		(at -4.4 0.3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a0ff9759-a199-44dc-b19c-dca37aeb75ce")
+		(uuid "59053cd7-3e54-48c0-ad47-51b77cd54acd")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +100,7 @@
 		(at 0.0035 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "28ca7e7a-b5da-4f0b-a6cb-560436cd3f48")
+		(uuid "4b01d077-183b-4e8f-9c17-6396490837b6")
 		(effects
 			(font
 				(size 1 1)
@@ -115,7 +114,7 @@
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7a552fa5-7118-43b3-a23d-f11077f211b1")
+		(uuid "2b8529fe-6939-4ce5-8fa6-274ec55a69ca")
 	)
 	(pad "2" thru_hole circle
 		(at 2.5 0)
@@ -123,7 +122,7 @@
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1ad1d3f7-ea80-4294-9096-7f80404a1536")
+		(uuid "f5366730-dee4-41c1-ae64-7680298313c0")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Kemet R82DC/CFR_RB3_7.2X10X5_L7.5H10.1T5.1S5H019F0.55.step"

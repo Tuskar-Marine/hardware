@@ -1,0 +1,147 @@
+(footprint "Wurth WRIS-RSKS 0603"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "41bb219c-dc43-46c0-99f4-a8086bee21ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wurth WRIS-RSKS 0603"
+		(at 0 1.492 0)
+		(layer "F.Fab")
+		(uuid "0f010a5b-bc29-43b1-8a92-f478ed1420a4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faabab98-5084-4af8-9b1a-1a913684c5a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b3475a-3b16-485e-8c1d-f77caaf894cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 -0.4)
+		(end 0.3 -0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14a565c8-cf79-48e6-bf9c-22f265b6d4c6")
+	)
+	(fp_line
+		(start -0.3 0.4)
+		(end 0.3 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e8efae4-88f8-49ef-bb5f-f537a557cfb2")
+	)
+	(fp_rect
+		(start -1.2 -0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "29cf3eda-e91e-428f-86d1-677eb50b4826")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60d2a814-c60b-431a-bc7f-6eb15a619626")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8c02e86-ff61-4723-818c-dd8c1064e136")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cb39bab-82cf-43a5-8e21-908960329566")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "821d1d53-9db1-4b56-8894-f0ff489e02c4")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7b3add3-ba0e-43a1-a25c-f252a3472f6c")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7290ab22-c3fa-43b9-aa36-ccc5dc83ccb2")
+	)
+	(embedded_fonts no)
+	(model "${MY_3DMODELS}/Wurth WRIS-RSKS 0603/STP_WRIS-RSKS_0603+(rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
