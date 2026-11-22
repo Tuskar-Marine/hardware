@@ -9,9 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "N2K Transceiver")
-		(date "2026-09-12")
+		(date "2026-11-22")
 		(rev "1.0.0")
-		(company "Mermaid's Rest")
+		(company "Tuskar Marine")
 	)
 	(layers
 		(0 "F.Cu" signal)
