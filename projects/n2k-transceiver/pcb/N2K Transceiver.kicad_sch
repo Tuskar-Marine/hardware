@@ -7276,7 +7276,7 @@
 					)
 				)
 			)
-			(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+			(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 				(at 0 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7356,308 +7356,6 @@
 				)
 			)
 			(symbol "Vishay RCA08050000ZSEASR_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Vishay RCA0805150KFKEA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "150kR"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Vishay RCA e3"
-				(at 0 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
-				(at 0 -9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "150 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Vishay RCA0805150KFKEA"
-				(at 0 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Vishay RCA0805150KFKEA_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Vishay RCA0805150KFKEA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mr-parts:Vishay RCA08055K10FKEA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5.1kR"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mr-stuff:Vishay RCA e3"
-				(at 0 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20037/rcae3.pdf"
-				(at 0 -9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Anti-Sulfur, Automotive AEC-Q200 Thick Film"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part" "Vishay RCA08055K10FKEA"
-				(at 0 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Vishay RCA08055K10FKEA_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Vishay RCA08055K10FKEA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -17361,7 +17059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 128.016 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21068,7 +20766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Vishay RCA08055K10FKEA")
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
 		(at 152.4 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -21098,7 +20796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 152.4 109.728 0)
 			(hide yes)
 			(show_name no)
@@ -21735,7 +21433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 129.54 19.304 0)
 			(hide yes)
 			(show_name no)
@@ -26763,7 +26461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Vishay RCA0805150KFKEA")
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
 		(at 33.02 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -26793,7 +26491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 33.02 152.146 0)
 			(hide yes)
 			(show_name no)
@@ -27831,7 +27529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 129.54 28.956 0)
 			(hide yes)
 			(show_name no)
@@ -28510,7 +28208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mr-parts:Vishay RCA08055K10FKEA")
+		(lib_id "mr-parts:Stackpole RMCA0805FT100K-HP")
 		(at 167.64 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -28540,7 +28238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 167.64 164.338 0)
 			(hide yes)
 			(show_name no)
@@ -33393,7 +33091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 130.556 41.91 0)
 			(hide yes)
 			(show_name no)

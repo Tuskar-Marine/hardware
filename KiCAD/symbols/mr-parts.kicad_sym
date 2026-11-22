@@ -61366,7 +61366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0603"
 			(at 0 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61517,7 +61517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 0 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61668,7 +61668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 0 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61819,7 +61819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 0 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61970,7 +61970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mr-stuff:Vishay RCA-SR e3"
+		(property "Footprint" "mr-stuff:Vishay RCA e3 0805"
 			(at 0 -7.366 0)
 			(show_name no)
 			(do_not_autoplace no)
