@@ -4,9 +4,9 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.5 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
-		(uuid "271f8a19-ef67-4b42-bdd9-35cb88a14f2d")
+		(uuid "8cd19f64-816c-4fb3-bc23-a4ee1537d428")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "Murata GCJ 0805"
 		(at 0 1.65 0)
 		(layer "F.Fab")
-		(uuid "268400f9-964e-44cb-b152-83ee2842fcd1")
+		(uuid "40d95d19-42a3-44dd-bb9b-190b03bd13c9")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f85f6ec8-0e65-4df1-8422-c6f1898682d3")
+		(uuid "77e6c640-c524-46c0-a093-b0295be19863")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "42fb63d8-7661-40da-a958-bcb255e23714")
+		(uuid "7fd88452-82aa-45a1-a97a-626cde4c3b4b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,120 +50,91 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.35 -0.75)
-		(end 0.35 -0.75)
+		(start -0.35 -0.5)
+		(end 0.35 -0.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a7f56a9d-19ea-4596-b09a-2047cc8a19eb")
+		(uuid "1d8845f4-185d-4b38-aff7-4a0db786cf56")
 	)
 	(fp_line
-		(start -0.35 0.75)
-		(end 0.35 0.75)
+		(start -0.35 0.5)
+		(end 0.35 0.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2848e1a5-7027-4e13-aec1-77d82fe895d3")
+		(uuid "3281a3f2-a20d-4c70-af7e-aa80f3e63ff6")
 	)
-	(fp_line
-		(start -1.755 -0.983)
-		(end 1.755 -0.983)
+	(fp_rect
+		(start -1.6 -0.7)
+		(end 1.6 0.7)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c4acd21a-7e0f-4c50-bd45-d6def7ed7267")
+		(uuid "0b9cf035-7cf9-4110-a4b2-7422607ec3df")
 	)
 	(fp_line
-		(start -1.755 0.983)
-		(end -1.755 -0.983)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "011bfaaa-5b28-4f2d-a0b3-3a1109bac139")
-	)
-	(fp_line
-		(start -1.755 0.983)
-		(end 1.755 0.983)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "40d1f536-671d-479a-a71b-03fbfe1a9807")
-	)
-	(fp_line
-		(start 1.755 0.983)
-		(end 1.755 -0.983)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "48bc92a1-5224-40df-bc57-92b574dbf928")
-	)
-	(fp_line
-		(start -1.15 0.72)
-		(end -1.15 -0.72)
+		(start -1.15 0.5)
+		(end -1.15 -0.5)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d6eeb923-4c59-4ec8-ba25-12a916bbfea6")
+		(uuid "8546cc7b-2f48-47a7-9e0b-69ff1c7b27c3")
 	)
 	(fp_line
-		(start 1.15 -0.72)
-		(end -1.15 -0.72)
+		(start 1.15 -0.5)
+		(end -1.15 -0.5)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b782df56-8d47-4732-a5d1-05004b34c976")
+		(uuid "bdfeea77-a7a6-41f0-a283-6d295522c1d1")
 	)
 	(fp_line
-		(start 1.15 0.72)
-		(end -1.15 0.72)
+		(start 1.15 0.5)
+		(end -1.15 0.5)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "56583914-9fd7-42bf-b4ad-ba95cfd93464")
+		(uuid "35dd2d12-86b1-43c3-a61e-f983341eafac")
 	)
 	(fp_line
-		(start 1.15 0.72)
-		(end 1.15 -0.72)
+		(start 1.15 0.5)
+		(end 1.15 -0.5)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e3f5688b-2f19-4865-b9d1-7d90fe82906c")
+		(uuid "d5ad30ba-d212-4658-8b27-5902305c1098")
 	)
 	(pad "1" smd rect
 		(at -1 0)
-		(size 1.1 1.47)
+		(size 1 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2b2f7a1b-36b3-43e6-88a6-8f4d9e4c2c4d")
+		(uuid "a49c1160-c7a5-4fc1-a57f-82a18278da7d")
 	)
 	(pad "2" smd rect
 		(at 1 0)
-		(size 1.1 1.47)
+		(size 1 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "37381269-4fd8-457e-9b86-b5e80dfd0f9a")
+		(uuid "5043286d-6268-4adc-b8d3-af5fdd968543")
 	)
 	(zone
 		(layer "F.Cu")
-		(uuid "e1e51d01-f10a-44ec-8240-0ad741b83820")
+		(uuid "5f77e90e-42db-49a5-9b9b-162dcaa15a4b")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -187,7 +158,7 @@
 		)
 		(polygon
 			(pts
-				(xy -0.4 -0.65) (xy 0.4 -0.65) (xy 0.4 0.7) (xy -0.4 0.7)
+				(xy -0.4 -0.55) (xy 0.4 -0.55) (xy 0.4 0.55) (xy -0.4 0.55)
 			)
 		)
 	)
