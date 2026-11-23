@@ -3,21 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -1.7 0)
-		(layer "F.SilkS")
-		(uuid "c19672d9-a388-48d6-a733-121d239a745a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "GCJ31BR73A"
 		(at 0 1.7 0)
 		(layer "F.Fab")
-		(uuid "b977a2fc-a1be-4e1e-a9b0-818906a8187e")
+		(uuid "97234704-c27b-4179-aae8-35bb2677473a")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -30,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c687264-6248-4845-b163-19a6ee549df1")
+		(uuid "9764cbe3-2bfe-4273-8c83-9e6288a579d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,34 +30,45 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66dd3d6a-f700-4e55-b73e-7a4a9612d1a1")
+		(uuid "1cfb8d9e-94b6-4118-b261-6dc0d29fd2cf")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "a63cb840-cf3e-49cf-a89f-4d178800e000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.5 -0.9)
-		(end 0.5 -0.9)
+		(start -0.9 -0.65)
+		(end 0.9 -0.65)
 		(stroke
-			(width 0.127)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b6692d18-b2ca-4603-9399-1746a73ef38f")
+		(uuid "4d94103d-abfc-495a-8d50-235875d00282")
 	)
 	(fp_line
-		(start -0.5 0.9)
-		(end 0.5 0.9)
+		(start -0.9 0.65)
+		(end 0.9 0.65)
 		(stroke
-			(width 0.127)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b6832bc0-fdd1-4afb-8e7f-66f211597213")
+		(uuid "6a240cb6-2548-475e-b3ab-efeeb8e4ac07")
 	)
 	(fp_line
 		(start -2.308 -1.158)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "557cd431-85bd-44ab-995e-54bc9901cf11")
+		(uuid "141332aa-d527-4a64-b8a8-682d3fb55651")
 	)
 	(fp_line
 		(start -2.308 1.158)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3593a59f-21b9-49df-a622-23f7e18cfcf5")
+		(uuid "9eb7adab-f8c2-4906-80b2-00912df7f6a0")
 	)
 	(fp_line
 		(start -2.308 1.158)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e171ace2-3ac4-41f3-98b3-880c53dcd862")
+		(uuid "1913edbf-ce19-4df0-a17f-7c69265f0733")
 	)
 	(fp_line
 		(start 2.308 1.158)
@@ -108,61 +108,59 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dec2bc23-21d4-45c4-b687-d2f2a7bc3d29")
+		(uuid "1ac409db-cd2c-45e2-817f-3b3526bc81a3")
 	)
 	(fp_line
-		(start -1.7 0.9)
-		(end -1.7 -0.9)
+		(start -1.7 0.65)
+		(end -1.7 -0.65)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5298b5d3-0dff-467e-9fac-9fb480bc56bc")
+		(uuid "9aacd4e8-67c7-4bec-bccf-2f21eb024723")
 	)
 	(fp_line
-		(start 1.7 -0.9)
-		(end -1.7 -0.9)
+		(start 1.7 -0.65)
+		(end -1.7 -0.65)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ae71eb8b-6a60-45d7-9a4e-330435d483f8")
+		(uuid "6068c4ed-59f4-4948-99f5-f31099e0eb58")
 	)
 	(fp_line
-		(start 1.7 0.9)
-		(end -1.7 0.9)
+		(start 1.7 0.65)
+		(end -1.7 0.65)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "792de9aa-d52d-4492-959d-76caf7298e82")
+		(uuid "6a5d5bf6-2165-48b0-abb1-473ff5b3afe3")
 	)
 	(fp_line
-		(start 1.7 0.9)
-		(end 1.7 -0.9)
+		(start 1.7 0.65)
+		(end 1.7 -0.65)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cc162c41-939c-48f9-9d8c-07f6a6de031f")
+		(uuid "45299b30-e015-41a6-88ec-75286bfaa49a")
 	)
 	(pad "1" smd rect
-		(at -1.369 0)
-		(size 1.38 1.82)
+		(at -1.55 0)
+		(size 0.9 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "7f0170d9-b098-441c-b40e-9f24331db305")
+		(uuid "c8050cae-1898-4a9a-815c-d1697f15252b")
 	)
 	(pad "2" smd rect
-		(at 1.369 0)
-		(size 1.38 1.82)
+		(at 1.55 0)
+		(size 0.9 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "e935b6b2-cd40-4516-a295-c3c8948f0e31")
+		(uuid "f762c6d2-8de9-48ca-94cb-8880c26c7f3a")
 	)
 	(embedded_fonts no)
 	(model "${MY_3DMODELS}/Murata GCJ31BR73A/GCJ31BR73A472KXJ1L.step"

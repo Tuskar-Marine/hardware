@@ -62038,8 +62038,8 @@
 		)
 		(symbol "Vishay RCA080560K4FKEA_0_1"
 			(rectangle
-				(start 2.54 -1.016)
-				(end -2.54 1.016)
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
 				(stroke
 					(width 0.254)
 					(type default)
